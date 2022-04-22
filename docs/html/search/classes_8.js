@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['virtual_5fobservable_0',['virtual_observable',['../structrpp_1_1virtual__observable.html',1,'rpp']]]
+  ['new_5fthread_0',['new_thread',['../classrpp_1_1schedulers_1_1new__thread.html',1,'rpp::schedulers']]]
 ];

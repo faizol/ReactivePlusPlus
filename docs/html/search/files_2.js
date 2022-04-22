@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['just_2eh_0',['just.h',['../just_8h.html',1,'']]]
+  ['from_2ehpp_0',['from.hpp',['../from_8hpp.html',1,'']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['dynamic_5fobservable_0',['dynamic_observable',['../classrpp_1_1dynamic__observable.html',1,'rpp']]],
-  ['dynamic_5fobserver_1',['dynamic_observer',['../classrpp_1_1dynamic__observer.html',1,'rpp']]],
-  ['dynamic_5fsubscriber_2',['dynamic_subscriber',['../classrpp_1_1dynamic__subscriber.html',1,'rpp']]]
+  ['base_5fsubject_0',['base_subject',['../classrpp_1_1subjects_1_1details_1_1base__subject.html',1,'rpp::subjects::details']]],
+  ['base_5fsubject_3c_20t_2c_20details_3a_3apublish_5fstrategy_3c_20t_20_3e_20_3e_1',['base_subject&lt; T, details::publish_strategy&lt; T &gt; &gt;',['../classrpp_1_1subjects_1_1details_1_1base__subject.html',1,'rpp::subjects::details']]],
+  ['blocking_5fobservable_2',['blocking_observable',['../classrpp_1_1blocking__observable.html',1,'rpp']]]
 ];

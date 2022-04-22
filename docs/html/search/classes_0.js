@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['callback_5fsubscription_0',['callback_subscription',['../classrpp_1_1callback__subscription.html',1,'rpp']]],
-  ['composite_5fsubscription_1',['composite_subscription',['../classrpp_1_1composite__subscription.html',1,'rpp']]]
+  ['active_0',['active',['../classrpp_1_1subjects_1_1details_1_1states_1_1active.html',1,'rpp::subjects::details::states']]]
 ];

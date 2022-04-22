@@ -77,7 +77,7 @@ $(function() {
 <p><a class="el" href="classrpp_1_1subscription__base.html" title="Base subscription implementation used as base class/interface and core implementation for derrived su...">rpp::subscription_base</a> with ability to add some dependent subscriptions as a part of this one: in case of initiation of unsubscribe of this subscription, then any dependent subscriptions will be unsubscribed too  
  <a href="classrpp_1_1composite__subscription.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="composite__subscription_8h_source.html">composite_subscription.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="composite__subscription_8hpp_source.html">composite_subscription.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for rpp::composite_subscription:</div>
 <div class="dyncontent">
@@ -109,6 +109,9 @@ requires (!rpp::constraint::variadic_is_same_type&lt; <a class="el" href="classr
 <a class="el" href="classrpp_1_1subscription__base.html">subscription_base</a>&#160;</td><td class="memItemRight" valign="bottom"><b>add</b> (const <a class="el" href="classrpp_1_1callback__subscription.html">callback_subscription</a> &amp;sub) const</td></tr>
 <tr class="memdesc:a9f21fbd5c5272b2d2c06a056262fa5e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add callback/function subscription to this as dependent. <br /></td></tr>
 <tr class="separator:a9f21fbd5c5272b2d2c06a056262fa5e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5ff17337d6f98aa5767897d5517f036"><td class="memItemLeft" align="right" valign="top"><a id="aa5ff17337d6f98aa5767897d5517f036" name="aa5ff17337d6f98aa5767897d5517f036"></a>
+<a class="el" href="classrpp_1_1composite__subscription.html">composite_subscription</a>&#160;</td><td class="memItemRight" valign="bottom"><b>make_child</b> () const</td></tr>
+<tr class="separator:aa5ff17337d6f98aa5767897d5517f036"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classrpp_1_1subscription__base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classrpp_1_1subscription__base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classrpp_1_1subscription__base.html">rpp::subscription_base</a></td></tr>
 <tr class="memitem:ad9c07157024e7f68ce815d971c3faaf2 inherit pub_methods_classrpp_1_1subscription__base"><td class="memItemLeft" align="right" valign="top"><a id="ad9c07157024e7f68ce815d971c3faaf2" name="ad9c07157024e7f68ce815d971c3faaf2"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_subscribed</b> () const</td></tr>
@@ -136,7 +139,7 @@ static <a class="el" href="classrpp_1_1subscription__base.html">subscription_bas
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p ><a class="el" href="classrpp_1_1subscription__base.html" title="Base subscription implementation used as base class/interface and core implementation for derrived su...">rpp::subscription_base</a> with ability to add some dependent subscriptions as a part of this one: in case of initiation of unsubscribe of this subscription, then any dependent subscriptions will be unsubscribed too </p>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>src/include/rpp/subscriptions/<a class="el" href="composite__subscription_8h_source.html">composite_subscription.h</a></li>
+<li>src/include/rpp/subscriptions/<a class="el" href="composite__subscription_8hpp_source.html">composite_subscription.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

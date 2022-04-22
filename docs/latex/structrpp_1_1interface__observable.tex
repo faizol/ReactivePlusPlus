@@ -7,12 +7,12 @@ Base part of observable. Mostly used to provide some interface functions used by
 
 
 
-{\ttfamily \#include $<$interface\+\_\+observable.\+h$>$}
+{\ttfamily \#include $<$interface\+\_\+observable.\+hpp$>$}
 
 Inheritance diagram for rpp\+::interface\+\_\+observable\texorpdfstring{$<$}{<} Type, Specific\+Observable \texorpdfstring{$>$}{>}\+:\begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[height=0.678788cm]{structrpp_1_1interface__observable}
+\includegraphics[height=0.477137cm]{structrpp_1_1interface__observable}
 \end{center}
 \end{figure}
 \doxysubsection*{Public Member Functions}
@@ -46,6 +46,12 @@ requires std\+::invocable$<$On\+Next, Type, \mbox{\hyperlink{classrpp_1_1dynamic
 \begin{DoxyCompactList}\small\item\em The apply function to observable which returns observable of another type. \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{structrpp_1_1interface__observable_a51887f2fc4620f9ab9b45a28628ed85f}\label{structrpp_1_1interface__observable_a51887f2fc4620f9ab9b45a28628ed85f}} 
 {\footnotesize template$<$details\+::op\+\_\+fn$<$ Specific\+Observable $>$ Operator\+Fn$>$ }\\auto {\bfseries op} (Operator\+Fn \&\&fn) \&\&
+\item 
+\mbox{\Hypertarget{structrpp_1_1interface__observable_a1aed1c6edd83e7091c2bdc3b15b2beee}\label{structrpp_1_1interface__observable_a1aed1c6edd83e7091c2bdc3b15b2beee}} 
+auto {\bfseries as\+\_\+blocking} () const \&
+\begin{DoxyCompactList}\small\item\em Converts existing observable to \mbox{\hyperlink{classrpp_1_1blocking__observable}{rpp\+::blocking\+\_\+observable}} which has another interface and abilities. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{structrpp_1_1interface__observable_a681ade25e93123cd624613b16c73b6dd}\label{structrpp_1_1interface__observable_a681ade25e93123cd624613b16c73b6dd}} 
+auto {\bfseries as\+\_\+blocking} () \&\&
 \end{DoxyCompactItemize}
 
 
@@ -172,4 +178,4 @@ new \mbox{\hyperlink{classrpp_1_1specific__observable}{specific\+\_\+observable}
 
 The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
 \item 
-src/include/rpp/observables/interface\+\_\+observable.\+h\end{DoxyCompactItemize}
+src/include/rpp/observables/interface\+\_\+observable.\+hpp\end{DoxyCompactItemize}
