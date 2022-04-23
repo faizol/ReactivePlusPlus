@@ -16748,7 +16748,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 16746,Observable subscribe #2,Specific observable subscribe lambda,1035.14,1023.33,1082.9,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
 16747,Observable subscribe #2,Dynamic observable subscribe lambda,1228.21,1197.79,1311.79,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
 16748,Observable subscribe #2,Specific observable subscribe lambda without subscription,1104.67,1067.48,1179.38,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
-16749,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1461.47,1369,1603.53,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
+16749,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1461.47,1369.0,1603.53,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
 16750,Observable subscribe #2,Specific observable subscribe specific subscriber,753.185,746.815,777.704,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
 16751,Observable subscribe #2,Dynamic observable subscribe specific subscriber,932.542,916.5,967.875,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
 16752,Observable subscribe #2,Specific observable subscribe dynamic observer,830.379,808.897,866.069,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
@@ -16762,14 +16762,14 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 16760,Subscriber construction,Make copy of subscriber,29.8734,28.8283,31.7419,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
 16761,Subscriber construction,Transform subsriber to dynamic,132.053,130.503,137.795,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
 16762,Observable subscribe,Specific observable subscribe specific observer,1190.68,1144.86,1261.05,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
-16763,Observable subscribe,Specific observable subscribe dynamic observer,1141.52,1095,1268.95,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
+16763,Observable subscribe,Specific observable subscribe dynamic observer,1141.52,1095.0,1268.95,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
 16764,Observable subscribe,Dynamic observable subscribe specific observer,1311.94,1256.18,1412.76,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
 16765,Observable subscribe,Dynamic observable subscribe dynamic observer,1173.55,1115.45,1364.65,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
 16766,Observable lift,Specific observable lift specific observer,1203.45,1135.85,1338.95,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
 16767,Observable lift,Specific observable lift dynamic observer,1134.85,1111.1,1180.1,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
-16768,Observable lift,Dynamic observable lift specific observer,1565.63,1489.05,1714,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
-16769,Observable lift,Dynamic observable lift dynamic observer,1612.95,1526.58,1731,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
-16770,Operators,map construction from observable via dot + subscribe,1314.28,1235,1415.04,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
+16768,Observable lift,Dynamic observable lift specific observer,1565.63,1489.05,1714.0,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
+16769,Observable lift,Dynamic observable lift dynamic observer,1612.95,1526.58,1731.0,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
+16770,Operators,map construction from observable via dot + subscribe,1314.28,1235.0,1415.04,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
 16771,Subscription,composite_subscription create,385.178,363.795,411.438,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
 16772,Subscription,composite_subscription add,57.8898,56.7231,60.336,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
 16773,Subscription,composite_subscription unsubscribe,20.6,20.2635,21.3865,0.95,Windows MSVC,Update sonar-project... (61945eb5),rxcpp
@@ -16967,3 +16967,273 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 16965,publish_subject routines,construct,210.372,197.63,241.098,0.95,Linux CLANG,Update sonar-project... (61945eb5),rxcpp
 16966,publish_subject routines,get_observable,54.1801,51.9287,62.7296,0.95,Linux CLANG,Update sonar-project... (61945eb5),rxcpp
 16967,publish_subject routines,get_subscriber,13.0749,12.9475,13.3445,0.95,Linux CLANG,Update sonar-project... (61945eb5),rxcpp
+16968,Observable construction,Specific observable construction,0.67716,0.649805,0.708717,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16969,Observable construction,Dynamic observable construction,82.1367,79.1167,85.53,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16970,Observable construction,Specific observable construction + as_dynamic,134.328,130.946,150.529,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16971,Observable subscribe #2,Specific observable subscribe lambda,129.083,124.926,133.384,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16972,Observable subscribe #2,Dynamic observable subscribe lambda,216.402,209.913,226.543,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16973,Observable subscribe #2,Specific observable subscribe lambda without subscription,99.8426,99.4815,100.838,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16974,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,245.627,244.822,247.186,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16975,Observable subscribe #2,Specific observable subscribe specific subscriber,19.7161,19.3051,20.3256,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16976,Observable subscribe #2,Dynamic observable subscribe specific subscriber,138.683,136.94,142.098,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16977,Observable subscribe #2,Specific observable subscribe dynamic observer,16.4391,15.9348,17.0198,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16978,Observable subscribe #2,Dynamic observable subscribe dynamic observer,17.8499,17.12,18.7723,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16979,Observer construction,Specific observer construction,0.692919,0.67233,0.716136,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16980,Observer construction,Dynamic observer construction,69.9519,69.2037,72.9963,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16981,Observer construction,Specific observer construction + as_dynamic,90.3119,87.6463,92.8521,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16982,OnNext,Specific observer OnNext,0.60095,0.583924,0.625281,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16983,OnNext,Dynamic observer OnNext,1.75935,1.73275,1.80067,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16984,Subscriber construction,Make subsriber,105.072,101.293,109.402,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16985,Subscriber construction,Make copy of subscriber,16.0903,15.469,16.8915,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16986,Subscriber construction,Transform subsriber to dynamic,145.545,123.26,193.209,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16987,Observable subscribe,Specific observable subscribe specific observer,99.7451,99.3873,100.696,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16988,Observable subscribe,Specific observable subscribe dynamic observer,152.896,149.604,157.28,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16989,Observable subscribe,Dynamic observable subscribe specific observer,238.785,234.207,246.777,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16990,Observable subscribe,Dynamic observable subscribe dynamic observer,119.723,116.147,126.164,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16991,Observable lift,Specific observable lift specific observer,157.166,151.231,163.893,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16992,Observable lift,Specific observable lift dynamic observer,159.485,157.09,163.709,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16993,Observable lift,Dynamic observable lift specific observer,304.784,296.639,314.825,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16994,Observable lift,Dynamic observable lift dynamic observer,206.564,199.655,216.391,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16995,Operators,map construction from observable via dot + subscribe,88.7345,85.5069,92.4207,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16996,Subscription,composite_subscription create,84.2037,81.3148,88.1963,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16997,Subscription,composite_subscription add,81.0195,78.4141,86.2031,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16998,Subscription,composite_subscription unsubscribe,8.97123,8.74721,9.31607,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+16999,foundamental sources,empty,15.3584,15.3331,15.4227,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+17000,foundamental sources,error,59.2694,57.9748,61.1977,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+17001,foundamental sources,never,17.6302,16.8973,18.6173,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+17002,just,just send int,27.1319,26.4947,27.9778,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+17003,just,just send variadic,34.5294,34.4098,34.7745,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+17004,from,from vector with int,78.1985,76.3206,81.2366,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+17005,merge,merge,529.894,512.17,553.106,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+17006,merge,merge_with,776.472,746.694,809.5,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+17007,publish_subject callbacks,on_next,29.2651,28.3711,30.5867,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+17008,publish_subject callbacks,on_error,3.16392,3.05144,3.28422,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+17009,publish_subject callbacks,on_completed,2.08882,2.06691,2.11552,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+17010,publish_subject routines,construct,373.128,360.723,394.404,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+17011,publish_subject routines,get_observable,31.8034,31.0962,33.0057,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+17012,publish_subject routines,get_subscriber,62.5976,59.9244,66.078,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rpp
+17013,Observable construction,Specific observable construction,0.69099,0.677069,0.709398,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17014,Observable construction,Dynamic observable construction,153.966,146.316,176.774,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17015,Observable construction,Specific observable construction + as_dynamic,134.025,130.472,138.447,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17016,Observable subscribe #2,Specific observable subscribe lambda,1149.05,1108.82,1199.59,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17017,Observable subscribe #2,Dynamic observable subscribe lambda,1392.58,1360.84,1440.58,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17018,Observable subscribe #2,Specific observable subscribe lambda without subscription,1242,1217.6,1281.6,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17019,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1376.37,1319.58,1442.53,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17020,Observable subscribe #2,Specific observable subscribe specific subscriber,816.452,785.419,856.097,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17021,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1047.7,1021.48,1114,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17022,Observable subscribe #2,Specific observable subscribe dynamic observer,737.548,733.065,753.484,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17023,Observable subscribe #2,Dynamic observable subscribe dynamic observer,846.414,822.207,884.103,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17024,Observer construction,Specific observer construction,1.53699,1.47457,1.61002,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17025,Observer construction,Dynamic observer construction,96.5251,96.2603,97.0183,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17026,Observer construction,Specific observer construction + as_dynamic,118.265,115.04,122.063,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17027,OnNext,Specific observer OnNext,0.723324,0.706996,0.741803,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17028,OnNext,Dynamic observer OnNext,1.64518,1.59661,1.73413,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17029,Subscriber construction,Make subsriber,414.563,408.761,427.437,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17030,Subscriber construction,Make copy of subscriber,35.9543,34.906,37.0614,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17031,Subscriber construction,Transform subsriber to dynamic,230.025,210.925,268.907,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17032,Observable subscribe,Specific observable subscribe specific observer,1386.74,1366.39,1429.78,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17033,Observable subscribe,Specific observable subscribe dynamic observer,1145.05,1102.33,1202,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17034,Observable subscribe,Dynamic observable subscribe specific observer,1361.24,1308.65,1422.18,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17035,Observable subscribe,Dynamic observable subscribe dynamic observer,1288.89,1234.21,1355.68,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17036,Observable lift,Specific observable lift specific observer,1074.1,1042.29,1146.71,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17037,Observable lift,Specific observable lift dynamic observer,1404.12,1365.18,1456.88,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17038,Observable lift,Dynamic observable lift specific observer,1491.37,1431.42,1562.68,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17039,Observable lift,Dynamic observable lift dynamic observer,1589.63,1573,1647.16,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17040,Operators,map construction from observable via dot + subscribe,834.84,831.84,842.16,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17041,Subscription,composite_subscription create,366.932,354.233,381.425,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17042,Subscription,composite_subscription add,68.2463,66.0976,70.9707,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17043,Subscription,composite_subscription unsubscribe,23.13,22.2493,24.1264,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17044,foundamental sources,empty,219.333,216.604,224.347,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17045,foundamental sources,error,203.114,201.64,207.175,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17046,foundamental sources,never,861.129,825.129,908.903,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17047,just,just send int,207.853,202.199,215.353,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17048,just,just send variadic,181.832,175.632,190.088,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17049,from,from vector with int,275.299,269.206,284.144,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17050,merge,merge,653.463,628.537,682.426,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17051,merge,merge_with,1647.65,1623.15,1701.42,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17052,publish_subject callbacks,on_next,35.9068,35.0719,36.9188,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17053,publish_subject callbacks,on_error,16.9086,16.8236,17.0706,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17054,publish_subject callbacks,on_completed,0.731246,0.710742,0.756942,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17055,publish_subject routines,construct,568.031,547.531,594.688,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17056,publish_subject routines,get_observable,150.348,144.366,158.683,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17057,publish_subject routines,get_subscriber,80.0459,77.947,83.1943,0.95,Windows MSVC,Update sonar-project... (1ed6f4bd),rxcpp
+17058,Observable construction,Specific observable construction,0.398911,0.371643,0.435386,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17059,Observable construction,Dynamic observable construction,21.0756,20.2004,22.3305,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17060,Observable construction,Specific observable construction + as_dynamic,23.0329,21.8795,24.6212,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17061,Observable subscribe #2,Specific observable subscribe lambda,25.0398,24.6102,25.8841,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17062,Observable subscribe #2,Dynamic observable subscribe lambda,50.529,47.2323,56.502,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17063,Observable subscribe #2,Specific observable subscribe lambda without subscription,44.0585,32.51,70.2418,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17064,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,52.9692,49.8666,57.0113,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17065,Observable subscribe #2,Specific observable subscribe specific subscriber,5.5843,5.16526,6.52174,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17066,Observable subscribe #2,Dynamic observable subscribe specific subscriber,22.9844,22.2586,24.1862,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17067,Observable subscribe #2,Specific observable subscribe dynamic observer,4.80578,4.62565,5.0488,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17068,Observable subscribe #2,Dynamic observable subscribe dynamic observer,4.48195,4.29732,4.9078,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17069,Observer construction,Specific observer construction,0.36811,0.353818,0.390373,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17070,Observer construction,Dynamic observer construction,22.8474,21.7244,24.3831,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17071,Observer construction,Specific observer construction + as_dynamic,24.5956,23.2148,26.3832,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17072,OnNext,Specific observer OnNext,0.307797,0.296553,0.326372,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17073,OnNext,Dynamic observer OnNext,1.81721,1.75914,1.91588,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17074,Subscriber construction,Make subsriber,34.4234,32.8136,39.0388,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17075,Subscriber construction,Make copy of subscriber,5.76698,5.4555,6.51557,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17076,Subscriber construction,Transform subsriber to dynamic,27.1293,25.4727,29.9429,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17077,Observable subscribe,Specific observable subscribe specific observer,30.7757,29.0374,33.0056,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17078,Observable subscribe,Specific observable subscribe dynamic observer,34.064,32.3248,38.7635,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17079,Observable subscribe,Dynamic observable subscribe specific observer,52.7429,51.0085,56.3246,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17080,Observable subscribe,Dynamic observable subscribe dynamic observer,41.6302,39.9348,44.0342,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17081,Observable lift,Specific observable lift specific observer,31.0134,29.7498,32.9577,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17082,Observable lift,Specific observable lift dynamic observer,38.1838,36.1288,41.5613,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17083,Observable lift,Dynamic observable lift specific observer,62.9415,59.7947,68.233,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17084,Observable lift,Dynamic observable lift dynamic observer,56.1187,54.4387,58.8028,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17085,Operators,map construction from observable via dot + subscribe,22.9142,22.0599,24.2848,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17086,Subscription,composite_subscription create,22.9226,21.6509,24.7845,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17087,Subscription,composite_subscription add,30.2188,27.788,34.3677,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17088,Subscription,composite_subscription unsubscribe,6.60155,6.2885,7.04392,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17089,foundamental sources,empty,4.86193,4.62011,5.172,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17090,foundamental sources,error,49.8039,47.0347,53.4016,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17091,foundamental sources,never,3.71108,3.56042,3.96847,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17092,just,just send int,6.427,6.13804,6.82663,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17093,just,just send variadic,17.0378,16.1834,18.4797,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17094,from,from vector with int,24.8142,23.172,29.6331,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17095,merge,merge,150.746,143.315,161.388,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17096,merge,merge_with,201.543,188.288,221.977,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17097,publish_subject callbacks,on_next,14.9941,14.2184,16.0767,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17098,publish_subject callbacks,on_error,0.770849,0.7257,0.846342,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17099,publish_subject callbacks,on_completed,0.860955,0.787629,1.01469,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17100,publish_subject routines,construct,147.137,137.209,162.867,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17101,publish_subject routines,get_observable,9.56043,9.03602,10.543,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17102,publish_subject routines,get_subscriber,17.0274,16.1592,18.3766,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rpp
+17103,Observable construction,Specific observable construction,0.34167,0.325098,0.378911,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17104,Observable construction,Dynamic observable construction,26.0637,24.6582,29.9989,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17105,Observable construction,Specific observable construction + as_dynamic,23.3111,21.8152,26.5583,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17106,Observable subscribe #2,Specific observable subscribe lambda,373.778,346.335,421.65,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17107,Observable subscribe #2,Dynamic observable subscribe lambda,425.645,402.646,469.085,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17108,Observable subscribe #2,Specific observable subscribe lambda without subscription,391.573,369.407,438.456,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17109,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,429.407,408.079,462.53,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17110,Observable subscribe #2,Specific observable subscribe specific subscriber,273.327,268.852,283.405,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17111,Observable subscribe #2,Dynamic observable subscribe specific subscriber,367.077,348.847,402.422,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17112,Observable subscribe #2,Specific observable subscribe dynamic observer,291.78,278.111,313.015,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17113,Observable subscribe #2,Dynamic observable subscribe dynamic observer,284.33,276.3,297.492,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17114,Observer construction,Specific observer construction,0.383292,0.348475,0.441391,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17115,Observer construction,Dynamic observer construction,19.437,18.5042,20.9142,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17116,Observer construction,Specific observer construction + as_dynamic,19.1636,17.9223,22.0949,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17117,OnNext,Specific observer OnNext,0.346932,0.324098,0.380171,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17118,OnNext,Dynamic observer OnNext,2.2085,2.08446,2.38002,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17119,Subscriber construction,Make subsriber,58.7544,55.9973,62.6714,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17120,Subscriber construction,Make copy of subscriber,6.6136,6.30546,7.1165,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17121,Subscriber construction,Transform subsriber to dynamic,27.9968,26.7208,29.7723,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17122,Observable subscribe,Specific observable subscribe specific observer,347.094,328.424,375.906,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17123,Observable subscribe,Specific observable subscribe dynamic observer,391.13,364.18,429.483,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17124,Observable subscribe,Dynamic observable subscribe specific observer,372.969,359.404,392.733,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17125,Observable subscribe,Dynamic observable subscribe dynamic observer,362.265,347.813,382.618,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17126,Observable lift,Specific observable lift specific observer,337.031,323.145,361.099,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17127,Observable lift,Specific observable lift dynamic observer,441.622,414.955,493.501,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17128,Observable lift,Dynamic observable lift specific observer,437.966,409.908,492.877,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17129,Observable lift,Dynamic observable lift dynamic observer,445.367,431.495,465.095,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17130,Operators,map construction from observable via dot + subscribe,394.05,374.631,419.699,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17131,Subscription,composite_subscription create,64.4541,60.142,70.4464,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17132,Subscription,composite_subscription add,17.2798,16.3684,18.5983,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17133,Subscription,composite_subscription unsubscribe,11.6955,11.114,12.7468,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17134,foundamental sources,empty,57.3561,53.5583,62.8784,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17135,foundamental sources,error,95.9904,87.2142,123.225,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17136,foundamental sources,never,338.399,320.327,361.914,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17137,just,just send int,53.3212,50.5541,57.1612,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17138,just,just send variadic,48.1847,45.6341,51.8384,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17139,from,from vector with int,79.5646,74.8191,87.2634,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17140,merge,merge,195.652,179.919,237.949,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17141,merge,merge_with,431.124,402.589,475.089,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17142,publish_subject callbacks,on_next,9.0192,8.64425,9.52308,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17143,publish_subject callbacks,on_error,19.6376,18.6316,21.0534,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17144,publish_subject callbacks,on_completed,0.805315,0.775696,0.879937,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17145,publish_subject routines,construct,188.527,175.742,210.126,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17146,publish_subject routines,get_observable,49.8666,47.8516,53.5786,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17147,publish_subject routines,get_subscriber,20.9148,20.0338,22.051,0.95,Linux GCC,Update sonar-project... (1ed6f4bd),rxcpp
+17148,Observable construction,Specific observable construction,0.559049,0.557002,0.568766,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17149,Observable construction,Dynamic observable construction,29.451,28.0262,32.3175,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17150,Observable construction,Specific observable construction + as_dynamic,38.0413,28.4027,83.1097,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17151,Observable subscribe #2,Specific observable subscribe lambda,67.2039,62.7068,74.1155,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17152,Observable subscribe #2,Dynamic observable subscribe lambda,85.8071,81.3115,92.6525,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17153,Observable subscribe #2,Specific observable subscribe lambda without subscription,56.682,54.4094,60.0977,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17154,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,87.0296,83.7042,91.8672,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17155,Observable subscribe #2,Specific observable subscribe specific subscriber,15.5301,14.9832,16.9724,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17156,Observable subscribe #2,Dynamic observable subscribe specific subscriber,65.609,62.1448,70.0354,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17157,Observable subscribe #2,Specific observable subscribe dynamic observer,15.6294,15.1359,16.4047,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17158,Observable subscribe #2,Dynamic observable subscribe dynamic observer,16.5657,15.8046,17.7334,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17159,Observer construction,Specific observer construction,0.648356,0.623435,0.68799,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17160,Observer construction,Dynamic observer construction,28.1683,27.1277,30.0891,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17161,Observer construction,Specific observer construction + as_dynamic,23.9979,23.9664,24.081,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17162,OnNext,Specific observer OnNext,0.666822,0.630474,0.727211,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17163,OnNext,Dynamic observer OnNext,2.06834,1.97335,2.20064,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17164,Subscriber construction,Make subsriber,38.8183,38.2522,40.2193,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17165,Subscriber construction,Make copy of subscriber,14.8178,14.7599,15.0919,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17166,Subscriber construction,Transform subsriber to dynamic,39.0998,38.9983,39.5255,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17167,Observable subscribe,Specific observable subscribe specific observer,62.4513,58.3908,68.6144,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17168,Observable subscribe,Specific observable subscribe dynamic observer,67.6708,65.257,72.0626,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17169,Observable subscribe,Dynamic observable subscribe specific observer,82.8608,79.6511,88.2188,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17170,Observable subscribe,Dynamic observable subscribe dynamic observer,66.2893,64.7956,69.0197,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17171,Observable lift,Specific observable lift specific observer,72.9524,71.9316,75.5601,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17172,Observable lift,Specific observable lift dynamic observer,110.585,104.65,121.853,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17173,Observable lift,Dynamic observable lift specific observer,161.908,134.279,272.206,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17174,Observable lift,Dynamic observable lift dynamic observer,140.048,139.828,140.596,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17175,Operators,map construction from observable via dot + subscribe,79.8803,77.3398,83.5837,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17176,Subscription,composite_subscription create,26.7585,26.1981,27.846,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17177,Subscription,composite_subscription add,69.3976,65.0892,78.3502,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17178,Subscription,composite_subscription unsubscribe,5.90923,5.69734,6.21326,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17179,foundamental sources,empty,17.3802,16.6572,18.6674,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17180,foundamental sources,error,45.0189,43.2185,47.8504,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17181,foundamental sources,never,15.7231,15.2913,16.5552,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17182,just,just send int,20.908,19.9892,22.1534,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17183,just,just send variadic,31.5869,30.5825,34.6175,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17184,from,from vector with int,28.2144,27.8158,29.212,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17185,merge,merge,340.884,332.959,356.112,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17186,merge,merge_with,429.773,415.79,451.98,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17187,publish_subject callbacks,on_next,40.7303,40.3287,41.8394,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17188,publish_subject callbacks,on_error,2.24421,2.16791,2.38484,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17189,publish_subject callbacks,on_completed,2.43922,2.32736,2.60592,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17190,publish_subject routines,construct,201.494,199.215,211.999,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17191,publish_subject routines,get_observable,37.1219,36.7706,37.5512,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17192,publish_subject routines,get_subscriber,65.8281,63.4542,69.3075,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rpp
+17193,Observable construction,Specific observable construction,0.316583,0.309407,0.33144,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17194,Observable construction,Dynamic observable construction,26.6723,25.0797,29.3759,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17195,Observable construction,Specific observable construction + as_dynamic,27.547,25.7273,30.0998,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17196,Observable subscribe #2,Specific observable subscribe lambda,303.234,287.819,323.807,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17197,Observable subscribe #2,Dynamic observable subscribe lambda,355.128,335.505,380.855,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17198,Observable subscribe #2,Specific observable subscribe lambda without subscription,288.515,273.109,312.064,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17199,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,302.248,301.328,305.801,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17200,Observable subscribe #2,Specific observable subscribe specific subscriber,222.122,211.401,242.662,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17201,Observable subscribe #2,Dynamic observable subscribe specific subscriber,246.181,239.805,267.999,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17202,Observable subscribe #2,Specific observable subscribe dynamic observer,281.086,258.727,338.153,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17203,Observable subscribe #2,Dynamic observable subscribe dynamic observer,376.426,301.233,675.629,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17204,Observer construction,Specific observer construction,0.309586,0.297456,0.331527,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17205,Observer construction,Dynamic observer construction,22.7703,21.5703,24.6817,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17206,Observer construction,Specific observer construction + as_dynamic,19.3655,18.4922,20.9807,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17207,OnNext,Specific observer OnNext,0.59789,0.578083,0.634256,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17208,OnNext,Dynamic observer OnNext,2.60223,2.45582,2.80115,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17209,Subscriber construction,Make subsriber,66.2436,62.9489,71.7242,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17210,Subscriber construction,Make copy of subscriber,4.53876,4.40769,4.79923,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17211,Subscriber construction,Transform subsriber to dynamic,26.7588,26.1809,27.7475,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17212,Observable subscribe,Specific observable subscribe specific observer,270.075,256.346,303.825,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17213,Observable subscribe,Specific observable subscribe dynamic observer,298.208,279.498,339.057,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17214,Observable subscribe,Dynamic observable subscribe specific observer,313.656,303.315,329.248,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17215,Observable subscribe,Dynamic observable subscribe dynamic observer,318.037,305.271,339.491,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17216,Observable lift,Specific observable lift specific observer,262.521,256.282,280.976,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17217,Observable lift,Specific observable lift dynamic observer,291.054,277.111,319.244,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17218,Observable lift,Dynamic observable lift specific observer,315.423,309.903,327.422,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17219,Observable lift,Dynamic observable lift dynamic observer,430.473,317.436,962.357,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17220,Operators,map construction from observable via dot + subscribe,255.731,247.311,267.981,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17221,Subscription,composite_subscription create,62.7128,59.1468,67.8295,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17222,Subscription,composite_subscription add,22.6507,21.6047,24.1269,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17223,Subscription,composite_subscription unsubscribe,9.80469,9.6344,10.1765,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17224,foundamental sources,empty,33.3869,31.9646,35.558,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17225,foundamental sources,error,69.4996,65.6395,79.2333,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17226,foundamental sources,never,261.317,246.388,279.467,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17227,just,just send int,31.5595,30.2487,34.0173,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17228,just,just send variadic,46.1016,43.4488,49.7483,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17229,from,from vector with int,54.6745,52.474,58.2103,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17230,merge,merge,126.317,121.698,132.491,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17231,merge,merge_with,262.172,258.672,273.641,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17232,publish_subject callbacks,on_next,10.4392,9.90381,11.2147,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17233,publish_subject callbacks,on_error,17.0409,16.2403,18.73,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17234,publish_subject callbacks,on_completed,0.419971,0.419459,0.421965,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17235,publish_subject routines,construct,199.59,182.998,226.365,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17236,publish_subject routines,get_observable,54.296,50.9794,59.2236,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
+17237,publish_subject routines,get_subscriber,11.1366,11.0854,11.2305,0.95,Linux CLANG,Update sonar-project... (1ed6f4bd),rxcpp
