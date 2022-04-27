@@ -17274,8 +17274,8 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 17272,just,just send int,26.3344,25.2481,28.3902,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rpp
 17273,just,just send variadic,40.9246,39.0122,44.7597,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rpp
 17274,from,from vector with int,93.0966,90.8445,97.5798,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rpp
-17275,merge,merge,680.308,649,765.821,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rpp
-17276,merge,merge_with,815,778.545,880.606,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rpp
+17275,merge,merge,680.308,649.0,765.821,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rpp
+17276,merge,merge_with,815.0,778.545,880.606,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rpp
 17277,publish_subject callbacks,on_next,42.086,38.8252,47.3537,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rpp
 17278,publish_subject callbacks,on_error,2.60622,2.50369,2.76856,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rpp
 17279,publish_subject callbacks,on_completed,2.71529,2.58352,2.90348,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rpp
@@ -17304,10 +17304,10 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 17302,Observable subscribe,Specific observable subscribe specific observer,1591.62,1487.81,1847.52,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rxcpp
 17303,Observable subscribe,Specific observable subscribe dynamic observer,1313.95,1272.4,1379.8,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rxcpp
 17304,Observable subscribe,Dynamic observable subscribe specific observer,1509.41,1425.59,1626.53,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rxcpp
-17305,Observable subscribe,Dynamic observable subscribe dynamic observer,1217.84,1155,1402.63,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rxcpp
+17305,Observable subscribe,Dynamic observable subscribe dynamic observer,1217.84,1155.0,1402.63,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rxcpp
 17306,Observable lift,Specific observable lift specific observer,1200.14,1157.19,1274.67,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rxcpp
 17307,Observable lift,Specific observable lift dynamic observer,1104.44,1089.72,1163.44,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rxcpp
-17308,Observable lift,Dynamic observable lift specific observer,1616.88,1522,1827.76,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rxcpp
+17308,Observable lift,Dynamic observable lift specific observer,1616.88,1522.0,1827.76,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rxcpp
 17309,Observable lift,Dynamic observable lift dynamic observer,1163.41,1138.71,1228.24,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rxcpp
 17310,Operators,map construction from observable via dot + subscribe,1012.36,972.182,1068.95,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rxcpp
 17311,Subscription,composite_subscription create,472.049,432.082,547.902,0.95,Windows MSVC,Bump submodules/Catc... (8c537404),rxcpp
@@ -17507,3 +17507,273 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 17505,publish_subject routines,construct,178.298,176.777,182.157,0.95,Linux CLANG,Bump submodules/Catc... (8c537404),rxcpp
 17506,publish_subject routines,get_observable,51.3381,51.1849,51.5084,0.95,Linux CLANG,Bump submodules/Catc... (8c537404),rxcpp
 17507,publish_subject routines,get_subscriber,14.1376,14.0744,14.2146,0.95,Linux CLANG,Bump submodules/Catc... (8c537404),rxcpp
+17508,Observable construction,Specific observable construction,0.693755,0.677638,0.723122,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17509,Observable construction,Dynamic observable construction,88.9318,85.2311,94.1856,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17510,Observable construction,Specific observable construction + as_dynamic,108.892,103.743,115.664,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17511,Observable subscribe #2,Specific observable subscribe lambda,135.589,130.017,143.489,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17512,Observable subscribe #2,Dynamic observable subscribe lambda,238.991,237.278,243.417,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17513,Observable subscribe #2,Specific observable subscribe lambda without subscription,132.306,127.47,139.601,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17514,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,249.377,237.594,270.896,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17515,Observable subscribe #2,Specific observable subscribe specific subscriber,21.1869,20.3278,22.441,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17516,Observable subscribe #2,Dynamic observable subscribe specific subscriber,386.731,146.36,986.258,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17517,Observable subscribe #2,Specific observable subscribe dynamic observer,21.5074,20.8369,22.8633,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17518,Observable subscribe #2,Dynamic observable subscribe dynamic observer,20.6648,20.1375,21.5818,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17519,Observer construction,Specific observer construction,0.831381,0.790738,0.960781,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17520,Observer construction,Dynamic observer construction,108.227,101.816,122.711,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17521,Observer construction,Specific observer construction + as_dynamic,100.845,97.49,106.992,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17522,OnNext,Specific observer OnNext,0.783136,0.765705,0.817063,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17523,OnNext,Dynamic observer OnNext,2.4695,2.36424,2.72128,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17524,Subscriber construction,Make subsriber,140.287,128.673,174.465,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17525,Subscriber construction,Make copy of subscriber,17.9266,17.3457,18.9617,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17526,Subscriber construction,Transform subsriber to dynamic,123.409,117.152,132.909,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17527,Observable subscribe,Specific observable subscribe specific observer,151.036,144.261,166.909,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17528,Observable subscribe,Specific observable subscribe dynamic observer,183.036,170.548,204.602,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17529,Observable subscribe,Dynamic observable subscribe specific observer,223.654,222.234,228.224,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17530,Observable subscribe,Dynamic observable subscribe dynamic observer,166.196,159.892,176.291,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17531,Observable lift,Specific observable lift specific observer,226.569,190.387,389.117,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17532,Observable lift,Specific observable lift dynamic observer,221.595,209.488,237.711,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17533,Observable lift,Dynamic observable lift specific observer,340.548,313.822,418.041,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17534,Observable lift,Dynamic observable lift dynamic observer,278.816,267.316,295.449,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17535,Operators,map construction from observable via dot + subscribe,160.54,103.26,438.323,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17536,Subscription,composite_subscription create,100.516,97.418,106.434,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17537,Subscription,composite_subscription add,127.894,122.187,136.4,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17538,Subscription,composite_subscription unsubscribe,8.01085,7.66099,8.51286,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17539,foundamental sources,empty,23.0896,21.3208,26.1859,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17540,foundamental sources,error,65.6119,62.2687,70.3507,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17541,foundamental sources,never,20.9719,19.6182,22.9661,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17542,just,just send int,31.5797,29.9299,33.6203,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17543,just,just send variadic,51.8607,49.1536,63.2804,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17544,from,from vector with int,109.995,106.028,121.498,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17545,merge,merge,662.5,614.214,730.357,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17546,merge,merge_with,744.406,713.625,792.969,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17547,publish_subject callbacks,on_next,38.8688,37.6109,42.6063,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17548,publish_subject callbacks,on_error,3.42462,2.10497,9.71782,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17549,publish_subject callbacks,on_completed,2.45101,2.30232,2.71747,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17550,publish_subject routines,construct,548.535,522.721,583.209,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17551,publish_subject routines,get_observable,42.3168,40.0768,45.4816,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17552,publish_subject routines,get_subscriber,105.757,61.5291,320.78,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rpp
+17553,Observable construction,Specific observable construction,0.775573,0.735299,0.832451,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17554,Observable construction,Dynamic observable construction,127.138,125.845,131.061,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17555,Observable construction,Specific observable construction + as_dynamic,126.772,123.441,132.941,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17556,Observable subscribe #2,Specific observable subscribe lambda,1381.41,1303.59,1539.88,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17557,Observable subscribe #2,Dynamic observable subscribe lambda,1627.88,1528.47,1834.06,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17558,Observable subscribe #2,Specific observable subscribe lambda without subscription,2200.58,1413.58,5969.26,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17559,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,2612.39,1525.33,7747.67,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17560,Observable subscribe #2,Specific observable subscribe specific subscriber,1046.15,1036.27,1076.92,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17561,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1067.04,1033.33,1119.83,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17562,Observable subscribe #2,Specific observable subscribe dynamic observer,1050.04,1011.13,1195,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17563,Observable subscribe #2,Dynamic observable subscribe dynamic observer,1274.88,1142.24,1858.12,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17564,Observer construction,Specific observer construction,2.15719,2.03127,2.31838,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17565,Observer construction,Dynamic observer construction,212.701,154.29,465.061,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17566,Observer construction,Specific observer construction + as_dynamic,177.685,143.67,262.843,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17567,OnNext,Specific observer OnNext,0.734218,0.715496,0.781652,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17568,OnNext,Dynamic observer OnNext,2.45932,2.37003,2.61119,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17569,Subscriber construction,Make subsriber,415.274,405.661,432.484,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17570,Subscriber construction,Make copy of subscriber,43.4377,41.4008,46.2153,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17571,Subscriber construction,Transform subsriber to dynamic,180.64,179.892,182.295,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17572,Observable subscribe,Specific observable subscribe specific observer,1483.36,1450.82,1535.55,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17573,Observable subscribe,Specific observable subscribe dynamic observer,1610.76,1491.29,1956.76,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17574,Observable subscribe,Dynamic observable subscribe specific observer,1702.5,1650.44,1870.44,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17575,Observable subscribe,Dynamic observable subscribe dynamic observer,2848.12,1597.35,8962.18,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17576,Observable lift,Specific observable lift specific observer,1659.95,1569.05,1796.95,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17577,Observable lift,Specific observable lift dynamic observer,1604.58,1539.58,1711.42,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17578,Observable lift,Dynamic observable lift specific observer,1819.72,1726.28,2112.39,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17579,Observable lift,Dynamic observable lift dynamic observer,1572.94,1519.33,1663.61,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17580,Operators,map construction from observable via dot + subscribe,1329.88,1272.21,1430.79,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17581,Subscription,composite_subscription create,447.603,427.37,503.466,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17582,Subscription,composite_subscription add,71.3155,68.7353,78.1257,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17583,Subscription,composite_subscription unsubscribe,29.202,28.1196,31.7245,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17584,foundamental sources,empty,220.923,216.176,228.923,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17585,foundamental sources,error,226.69,214.19,246.008,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17586,foundamental sources,never,924.806,912,951.581,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17587,just,just send int,213.183,206.885,223.198,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17588,just,just send variadic,234.656,225.211,248.266,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17589,from,from vector with int,341.901,328.989,362.824,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17590,merge,merge,856.472,824.132,934.075,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17591,merge,merge_with,1825.39,1753.13,1934.17,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17592,publish_subject callbacks,on_next,35.4617,34.5082,37.4399,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17593,publish_subject callbacks,on_error,22.003,20.7135,25.4383,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17594,publish_subject callbacks,on_completed,0.828324,0.784518,1.04197,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17595,publish_subject routines,construct,786.467,740.2,904.6,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17596,publish_subject routines,get_observable,207.705,195.029,236.439,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17597,publish_subject routines,get_subscriber,149.426,125.046,208.57,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17598,Observable construction,Specific observable construction,0.398114,0.392256,0.409608,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17599,Observable construction,Dynamic observable construction,24.2289,24.1951,24.2743,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17600,Observable construction,Specific observable construction + as_dynamic,24.6255,24.4707,25.0672,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17601,Observable subscribe #2,Specific observable subscribe lambda,30.5112,29.9171,31.7779,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17602,Observable subscribe #2,Dynamic observable subscribe lambda,60.0786,59.4675,61.3734,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17603,Observable subscribe #2,Specific observable subscribe lambda without subscription,30.7689,30.4734,31.2975,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17604,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,62.5495,61.6543,64.5827,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17605,Observable subscribe #2,Specific observable subscribe specific subscriber,4.25251,4.17464,4.38591,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17606,Observable subscribe #2,Dynamic observable subscribe specific subscriber,32.439,31.7776,33.1461,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17607,Observable subscribe #2,Specific observable subscribe dynamic observer,4.47517,4.35977,4.67174,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17608,Observable subscribe #2,Dynamic observable subscribe dynamic observer,4.30189,4.24641,4.44128,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17609,Observer construction,Specific observer construction,0.334457,0.329191,0.34501,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17610,Observer construction,Dynamic observer construction,22.4623,22.1294,22.8765,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17611,Observer construction,Specific observer construction + as_dynamic,25.7281,25.498,26.1446,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17612,OnNext,Specific observer OnNext,0.404336,0.396968,0.41966,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17613,OnNext,Dynamic observer OnNext,2.29917,2.26402,2.38634,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17614,Subscriber construction,Make subsriber,36.9214,36.2946,38.0347,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17615,Subscriber construction,Make copy of subscriber,4.4732,4.4653,4.50191,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17616,Subscriber construction,Transform subsriber to dynamic,26.8157,26.5045,27.4232,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17617,Observable subscribe,Specific observable subscribe specific observer,28.7531,28.6538,29.1186,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17618,Observable subscribe,Specific observable subscribe dynamic observer,32.8707,32.3423,33.9126,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17619,Observable subscribe,Dynamic observable subscribe specific observer,62.7582,61.2802,65.2513,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17620,Observable subscribe,Dynamic observable subscribe dynamic observer,41.5526,41.4322,41.9386,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17621,Observable lift,Specific observable lift specific observer,35.7337,35.3896,37.1472,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17622,Observable lift,Specific observable lift dynamic observer,42.7208,42.2207,44.2169,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17623,Observable lift,Dynamic observable lift specific observer,72.6924,72.2534,73.6481,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17624,Observable lift,Dynamic observable lift dynamic observer,73.9865,73.0307,75.5097,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17625,Operators,map construction from observable via dot + subscribe,25.8049,25.4217,26.5691,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17626,Subscription,composite_subscription create,28.2571,27.9433,28.8238,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17627,Subscription,composite_subscription add,26.0498,25.6791,27.025,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17628,Subscription,composite_subscription unsubscribe,9.58833,9.46663,9.84701,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17629,foundamental sources,empty,4.54555,4.47745,4.64067,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17630,foundamental sources,error,41.8339,41.3131,42.734,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17631,foundamental sources,never,4.01049,3.97023,4.1646,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17632,just,just send int,7.40558,7.39361,7.45853,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17633,just,just send variadic,20.581,20.5427,20.754,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17634,from,from vector with int,29.8653,29.5043,30.8689,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17635,merge,merge,183.411,178.453,192.396,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17636,merge,merge_with,233.515,231.093,237.673,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17637,publish_subject callbacks,on_next,16.768,16.4938,17.5463,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17638,publish_subject callbacks,on_error,1.21215,1.21001,1.22083,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17639,publish_subject callbacks,on_completed,1.17491,1.16124,1.19796,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17640,publish_subject routines,construct,159.77,157.995,163.958,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17641,publish_subject routines,get_observable,9.90122,9.76427,10.2461,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17642,publish_subject routines,get_subscriber,17.1534,16.8842,17.5787,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rpp
+17643,Observable construction,Specific observable construction,0.405072,0.401464,0.419514,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17644,Observable construction,Dynamic observable construction,29.139,28.7919,30.097,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17645,Observable construction,Specific observable construction + as_dynamic,29.6112,29.163,30.3266,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17646,Observable subscribe #2,Specific observable subscribe lambda,395.957,387.187,427.727,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17647,Observable subscribe #2,Dynamic observable subscribe lambda,487.097,485.924,491.418,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17648,Observable subscribe #2,Specific observable subscribe lambda without subscription,405.878,404.866,409.844,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17649,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,468.905,465.595,476.37,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17650,Observable subscribe #2,Specific observable subscribe specific subscriber,313.856,310.443,326.58,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17651,Observable subscribe #2,Dynamic observable subscribe specific subscriber,402.379,397.035,415.68,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17652,Observable subscribe #2,Specific observable subscribe dynamic observer,353.483,345.916,384.83,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17653,Observable subscribe #2,Dynamic observable subscribe dynamic observer,361.431,354.584,372.982,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17654,Observer construction,Specific observer construction,0.402523,0.39951,0.41187,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17655,Observer construction,Dynamic observer construction,26.5165,26.3117,26.9704,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17656,Observer construction,Specific observer construction + as_dynamic,25.753,25.683,25.8938,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17657,OnNext,Specific observer OnNext,0.393922,0.388399,0.406725,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17658,OnNext,Dynamic observer OnNext,2.2343,2.23053,2.24857,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17659,Subscriber construction,Make subsriber,73.9276,72.8609,76.5692,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17660,Subscriber construction,Make copy of subscriber,5.47176,5.37619,5.80594,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17661,Subscriber construction,Transform subsriber to dynamic,33.7769,33.4342,34.3759,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17662,Observable subscribe,Specific observable subscribe specific observer,381.048,376.935,395.791,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17663,Observable subscribe,Specific observable subscribe dynamic observer,404.764,398.855,415.775,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17664,Observable subscribe,Dynamic observable subscribe specific observer,442.253,441.713,443.78,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17665,Observable subscribe,Dynamic observable subscribe dynamic observer,446.927,445.332,450.813,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17666,Observable lift,Specific observable lift specific observer,422.168,418.003,432.791,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17667,Observable lift,Specific observable lift dynamic observer,436.719,431.818,444.991,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17668,Observable lift,Dynamic observable lift specific observer,456.67,451.722,469.47,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17669,Observable lift,Dynamic observable lift dynamic observer,466.043,459.214,482.201,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17670,Operators,map construction from observable via dot + subscribe,424.1,422.953,428.148,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17671,Subscription,composite_subscription create,68.849,68.7325,69.2587,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17672,Subscription,composite_subscription add,18.6994,18.5254,19.108,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17673,Subscription,composite_subscription unsubscribe,13.271,13.2464,13.3877,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17674,foundamental sources,empty,57.2271,57.047,57.5253,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17675,foundamental sources,error,95.5406,94.433,97.4195,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17676,foundamental sources,never,363.258,362.451,365.421,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17677,just,just send int,61.9919,61.7691,62.5339,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17678,just,just send variadic,56.8553,56.554,57.6692,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17679,from,from vector with int,87.9319,86.9083,90.4319,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17680,merge,merge,175.898,171.654,183.443,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17681,merge,merge_with,438.607,432.127,448.858,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17682,publish_subject callbacks,on_next,11.9852,11.9402,12.0769,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17683,publish_subject callbacks,on_error,20.2571,20.1035,20.5985,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17684,publish_subject callbacks,on_completed,1.22313,1.21023,1.25638,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17685,publish_subject routines,construct,190.88,189.796,194.447,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17686,publish_subject routines,get_observable,56.4882,55.8174,57.6617,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17687,publish_subject routines,get_subscriber,25.4343,25.1402,26.1927,0.95,Linux GCC,Update sonarcloud.ym... (c422eaed),rxcpp
+17688,Observable construction,Specific observable construction,0.66965,0.66936,0.669985,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17689,Observable construction,Dynamic observable construction,30.7915,30.77,30.8615,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17690,Observable construction,Specific observable construction + as_dynamic,30.807,30.7554,31.0446,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17691,Observable subscribe #2,Specific observable subscribe lambda,58.924,58.8355,59.3315,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17692,Observable subscribe #2,Dynamic observable subscribe lambda,89.1909,88.9892,90.0101,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17693,Observable subscribe #2,Specific observable subscribe lambda without subscription,58.9377,58.851,59.3176,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17694,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,89.1138,88.9653,89.6864,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17695,Observable subscribe #2,Specific observable subscribe specific subscriber,16.7509,16.7229,16.8786,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17696,Observable subscribe #2,Dynamic observable subscribe specific subscriber,61.513,61.4966,61.5336,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17697,Observable subscribe #2,Specific observable subscribe dynamic observer,16.7352,16.7101,16.8336,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17698,Observable subscribe #2,Dynamic observable subscribe dynamic observer,16.7319,16.7089,16.8392,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17699,Observer construction,Specific observer construction,0.670396,0.669278,0.674401,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17700,Observer construction,Dynamic observer construction,28.5227,28.4818,28.6826,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17701,Observer construction,Specific observer construction + as_dynamic,28.5108,28.4567,28.7218,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17702,OnNext,Specific observer OnNext,0.670156,0.669104,0.674809,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17703,OnNext,Dynamic observer OnNext,2.00991,2.00648,2.02574,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17704,Subscriber construction,Make subsriber,44.5343,44.469,44.7885,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17705,Subscriber construction,Make copy of subscriber,16.7613,16.7157,16.9598,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17706,Subscriber construction,Transform subsriber to dynamic,45.8845,45.8065,46.1725,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17707,Observable subscribe,Specific observable subscribe specific observer,58.6313,58.5178,58.9504,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17708,Observable subscribe,Specific observable subscribe dynamic observer,70.8681,70.8443,70.892,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17709,Observable subscribe,Dynamic observable subscribe specific observer,90.2661,90.0376,91.1761,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17710,Observable subscribe,Dynamic observable subscribe dynamic observer,75.2615,75.1215,75.8266,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17711,Observable lift,Specific observable lift specific observer,82.5834,82.4669,83.1153,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17712,Observable lift,Specific observable lift dynamic observer,114.644,114.567,114.807,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17713,Observable lift,Dynamic observable lift specific observer,155.677,155.35,156.64,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17714,Observable lift,Dynamic observable lift dynamic observer,168.593,168.476,168.88,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17715,Operators,map construction from observable via dot + subscribe,84.3115,84.1624,85.0242,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17716,Subscription,composite_subscription create,32.4974,32.4366,32.7794,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17717,Subscription,composite_subscription add,61.3215,60.9394,62.2939,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17718,Subscription,composite_subscription unsubscribe,6.01683,6.01604,6.01804,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17719,foundamental sources,empty,18.4287,18.3979,18.5739,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17720,foundamental sources,error,48.255,48.1761,48.6109,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17721,foundamental sources,never,16.7362,16.7083,16.8425,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17722,just,just send int,20.0921,20.0814,20.127,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17723,just,just send variadic,37.1011,37.0396,37.3183,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17724,from,from vector with int,32.1775,32.1218,32.4253,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17725,merge,merge,310.429,310.147,311.085,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17726,merge,merge_with,373.319,372.584,375.849,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17727,publish_subject callbacks,on_next,47.3,47.2244,47.6591,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17728,publish_subject callbacks,on_error,2.40262,2.38563,2.42815,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17729,publish_subject callbacks,on_completed,2.70377,2.70279,2.70602,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17730,publish_subject routines,construct,234.492,232.383,242.401,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17731,publish_subject routines,get_observable,40.4799,40.4298,40.7208,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17732,publish_subject routines,get_subscriber,66.1563,66.1386,66.1765,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rpp
+17733,Observable construction,Specific observable construction,0.33512,0.334613,0.337081,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17734,Observable construction,Dynamic observable construction,31.8134,31.7908,31.8425,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17735,Observable construction,Specific observable construction + as_dynamic,32.0814,31.9931,32.4887,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17736,Observable subscribe #2,Specific observable subscribe lambda,291.616,291.126,293.325,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17737,Observable subscribe #2,Dynamic observable subscribe lambda,358.407,358.032,358.97,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17738,Observable subscribe #2,Specific observable subscribe lambda without subscription,292.976,292.432,295.056,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17739,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,335.099,334.317,337.501,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17740,Observable subscribe #2,Specific observable subscribe specific subscriber,232.02,231.584,233.614,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17741,Observable subscribe #2,Dynamic observable subscribe specific subscriber,274.174,273.388,276.585,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17742,Observable subscribe #2,Specific observable subscribe dynamic observer,244.964,244.551,246.435,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17743,Observable subscribe #2,Dynamic observable subscribe dynamic observer,259.731,259.537,260.103,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17744,Observer construction,Specific observer construction,0.334704,0.334603,0.334828,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17745,Observer construction,Dynamic observer construction,23.3302,23.2119,23.5172,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17746,Observer construction,Specific observer construction + as_dynamic,22.7262,22.6295,22.8625,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17747,OnNext,Specific observer OnNext,0.669945,0.66884,0.675125,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17748,OnNext,Dynamic observer OnNext,2.34716,2.34187,2.37231,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17749,Subscriber construction,Make subsriber,64.3036,64.2044,64.6967,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17750,Subscriber construction,Make copy of subscriber,4.69413,4.6864,4.7244,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17751,Subscriber construction,Transform subsriber to dynamic,27.1265,27.103,27.15,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17752,Observable subscribe,Specific observable subscribe specific observer,294.863,294.648,295.423,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17753,Observable subscribe,Specific observable subscribe dynamic observer,304.393,303.73,306.75,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17754,Observable subscribe,Dynamic observable subscribe specific observer,333.936,333.715,334.517,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17755,Observable subscribe,Dynamic observable subscribe dynamic observer,319.199,318.597,321.254,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17756,Observable lift,Specific observable lift specific observer,295.861,295.139,297.696,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17757,Observable lift,Specific observable lift dynamic observer,311.436,311.123,312.275,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17758,Observable lift,Dynamic observable lift specific observer,339.053,338.783,339.63,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17759,Observable lift,Dynamic observable lift dynamic observer,328.117,327.507,330.516,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17760,Operators,map construction from observable via dot + subscribe,247.277,246.797,249.162,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17761,Subscription,composite_subscription create,53.6021,53.5136,53.7464,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17762,Subscription,composite_subscription add,20.9243,20.8891,21.0634,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17763,Subscription,composite_subscription unsubscribe,10.7152,10.699,10.7808,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17764,foundamental sources,empty,36.8371,36.6988,37.0415,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17765,foundamental sources,error,77.0393,76.854,77.844,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17766,foundamental sources,never,238.11,237.63,240.093,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17767,just,just send int,37.1435,36.9993,37.3973,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17768,just,just send variadic,42.7528,42.6581,42.9311,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17769,from,from vector with int,59.0029,58.8344,59.1948,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17770,merge,merge,126.494,126.119,127.389,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17771,merge,merge_with,310.814,309.187,316.251,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17772,publish_subject callbacks,on_next,10.1727,10.142,10.2289,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17773,publish_subject callbacks,on_error,19.1665,19.1344,19.3019,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17774,publish_subject callbacks,on_completed,0.67227,0.670985,0.677359,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17775,publish_subject routines,construct,191.316,189.597,198.3,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17776,publish_subject routines,get_observable,61.665,61.4618,61.9804,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17777,publish_subject routines,get_subscriber,14.3146,14.2332,14.4044,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
