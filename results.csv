@@ -17561,7 +17561,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 17559,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,2612.39,1525.33,7747.67,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
 17560,Observable subscribe #2,Specific observable subscribe specific subscriber,1046.15,1036.27,1076.92,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
 17561,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1067.04,1033.33,1119.83,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
-17562,Observable subscribe #2,Specific observable subscribe dynamic observer,1050.04,1011.13,1195,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17562,Observable subscribe #2,Specific observable subscribe dynamic observer,1050.04,1011.13,1195.0,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
 17563,Observable subscribe #2,Dynamic observable subscribe dynamic observer,1274.88,1142.24,1858.12,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
 17564,Observer construction,Specific observer construction,2.15719,2.03127,2.31838,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
 17565,Observer construction,Dynamic observer construction,212.701,154.29,465.061,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
@@ -17585,7 +17585,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 17583,Subscription,composite_subscription unsubscribe,29.202,28.1196,31.7245,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
 17584,foundamental sources,empty,220.923,216.176,228.923,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
 17585,foundamental sources,error,226.69,214.19,246.008,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
-17586,foundamental sources,never,924.806,912,951.581,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
+17586,foundamental sources,never,924.806,912.0,951.581,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
 17587,just,just send int,213.183,206.885,223.198,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
 17588,just,just send variadic,234.656,225.211,248.266,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
 17589,from,from vector with int,341.901,328.989,362.824,0.95,Windows MSVC,Update sonarcloud.ym... (c422eaed),rxcpp
@@ -17777,3 +17777,273 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 17775,publish_subject routines,construct,191.316,189.597,198.3,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
 17776,publish_subject routines,get_observable,61.665,61.4618,61.9804,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
 17777,publish_subject routines,get_subscriber,14.3146,14.2332,14.4044,0.95,Linux CLANG,Update sonarcloud.ym... (c422eaed),rxcpp
+17778,Observable construction,Specific observable construction,0.670425,0.66883,0.674373,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17779,Observable construction,Dynamic observable construction,95.342,94.9837,96.1498,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17780,Observable construction,Specific observable construction + as_dynamic,82.7574,82.4164,83.5607,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17781,Observable subscribe #2,Specific observable subscribe lambda,121.205,120.693,122.668,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17782,Observable subscribe #2,Dynamic observable subscribe lambda,204.192,202.68,207.904,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17783,Observable subscribe #2,Specific observable subscribe lambda without subscription,119.33,118.952,120.263,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17784,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,202.413,201.563,204.698,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17785,Observable subscribe #2,Specific observable subscribe specific subscriber,16.7708,16.7296,16.8565,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17786,Observable subscribe #2,Dynamic observable subscribe specific subscriber,116.306,115.858,117.461,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17787,Observable subscribe #2,Specific observable subscribe dynamic observer,16.7558,16.7168,16.8541,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17788,Observable subscribe #2,Dynamic observable subscribe dynamic observer,15.833,15.4612,17.2069,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17789,Observer construction,Specific observer construction,0.670734,0.669171,0.673784,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17790,Observer construction,Dynamic observer construction,82.0977,81.8046,82.8339,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17791,Observer construction,Specific observer construction + as_dynamic,82.1895,81.8268,82.9281,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17792,OnNext,Specific observer OnNext,0.671834,0.670037,0.676045,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17793,OnNext,Dynamic observer OnNext,2.01433,2.00869,2.02551,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17794,Subscriber construction,Make subsriber,101.04,100.683,102.076,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17795,Subscriber construction,Make copy of subscriber,16.7462,16.7155,16.8263,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17796,Subscriber construction,Transform subsriber to dynamic,107.98,106.378,109.771,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17797,Observable subscribe,Specific observable subscribe specific observer,121.975,121.393,123.93,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17798,Observable subscribe,Specific observable subscribe dynamic observer,133.846,133.293,135.154,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17799,Observable subscribe,Dynamic observable subscribe specific observer,203.282,202.266,206.863,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17800,Observable subscribe,Dynamic observable subscribe dynamic observer,136.225,135.332,137.989,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17801,Observable lift,Specific observable lift specific observer,157.551,156.652,159.69,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17802,Observable lift,Specific observable lift dynamic observer,182.169,181.362,184.692,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17803,Observable lift,Dynamic observable lift specific observer,231.52,230.082,235.602,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17804,Observable lift,Dynamic observable lift dynamic observer,198.778,197.744,201.385,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17805,Operators,map construction from observable via dot + subscribe,80.9701,80.6113,81.7708,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17806,Subscription,composite_subscription create,89.5245,88.2362,93.1135,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17807,Subscription,composite_subscription add,75.9298,74.5719,81.9614,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17808,Subscription,composite_subscription unsubscribe,7.40519,7.38307,7.45709,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17809,foundamental sources,empty,16.297,16.2508,16.4112,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17810,foundamental sources,error,51.1224,50.8394,51.5717,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17811,foundamental sources,never,14.979,14.869,15.2052,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17812,just,just send int,22.7377,22.574,23.0128,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17813,just,just send variadic,41.3339,41.2252,41.5307,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17814,from,from vector with int,94.2368,89.4211,117.599,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17815,merge,merge,472.282,468.487,483.026,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17816,merge,merge_with,733.881,726.857,759.095,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17817,publish_subject callbacks,on_next,32.3591,32.2094,32.6726,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17818,publish_subject callbacks,on_error,2.49113,2.43128,2.59251,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17819,publish_subject callbacks,on_completed,2.62879,2.59718,2.65535,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17820,publish_subject routines,construct,420.947,414.289,449.316,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17821,publish_subject routines,get_observable,36.2944,36.0592,36.6967,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17822,publish_subject routines,get_subscriber,70.3043,68.4943,73.2906,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rpp
+17823,Observable construction,Specific observable construction,0.671623,0.668893,0.678462,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17824,Observable construction,Dynamic observable construction,124.642,124.176,125.74,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17825,Observable construction,Specific observable construction + as_dynamic,125.074,124.355,126.424,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17826,Observable subscribe #2,Specific observable subscribe lambda,1175.95,1165.89,1211.05,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17827,Observable subscribe #2,Dynamic observable subscribe lambda,1384.26,1349.79,1472.58,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17828,Observable subscribe #2,Specific observable subscribe lambda without subscription,1196.86,1183.95,1247.5,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17829,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1451.05,1412,1549.16,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17830,Observable subscribe #2,Specific observable subscribe specific subscriber,852.677,846.71,875.355,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17831,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1032.12,1023.48,1060.12,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17832,Observable subscribe #2,Specific observable subscribe dynamic observer,886.793,880,913.793,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17833,Observable subscribe #2,Dynamic observable subscribe dynamic observer,922.214,913.429,954.714,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17834,Observer construction,Specific observer construction,1.51455,1.50655,1.53506,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17835,Observer construction,Dynamic observer construction,115.437,114.775,116.694,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17836,Observer construction,Specific observer construction + as_dynamic,115.2,114.468,117,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17837,OnNext,Specific observer OnNext,0.671802,0.669474,0.677732,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17838,OnNext,Dynamic observer OnNext,1.71029,1.70068,1.72882,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17839,Subscriber construction,Make subsriber,378.135,368.027,390.757,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17840,Subscriber construction,Make copy of subscriber,31.5368,31.4326,31.8468,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17841,Subscriber construction,Transform subsriber to dynamic,136.667,135.887,138.249,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17842,Observable subscribe,Specific observable subscribe specific observer,1194.18,1177.64,1250.64,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17843,Observable subscribe,Specific observable subscribe dynamic observer,1220.14,1205.24,1285.43,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17844,Observable subscribe,Dynamic observable subscribe specific observer,1361.16,1356.74,1368.95,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17845,Observable subscribe,Dynamic observable subscribe dynamic observer,1116.17,1102.13,1173.83,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17846,Observable lift,Specific observable lift specific observer,1259.12,1237.38,1305.92,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17847,Observable lift,Specific observable lift dynamic observer,1277.2,1261.95,1341,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17848,Observable lift,Dynamic observable lift specific observer,1410,1395.37,1469.53,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17849,Observable lift,Dynamic observable lift dynamic observer,1330.15,1308.95,1387.85,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17850,Operators,map construction from observable via dot + subscribe,892.038,881.192,921.615,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17851,Subscription,composite_subscription create,345.757,341.122,356.324,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17852,Subscription,composite_subscription add,63.5522,63.3756,63.9055,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17853,Subscription,composite_subscription unsubscribe,25.6643,25.5105,25.95,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17854,foundamental sources,empty,190.252,188.635,195.516,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17855,foundamental sources,error,206.552,205.154,211.566,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17856,foundamental sources,never,754.806,748.129,775.742,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17857,just,just send int,170.082,168.37,176.644,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17858,just,just send variadic,194.806,192.819,199.979,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17859,from,from vector with int,233.173,230.836,241.927,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17860,merge,merge,673.526,664.789,707.386,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17861,merge,merge_with,1463.38,1437.88,1528.38,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17862,publish_subject callbacks,on_next,35.743,34.9719,38.1355,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17863,publish_subject callbacks,on_error,18.6776,17.7425,22.559,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17864,publish_subject callbacks,on_completed,0.711209,0.692527,0.743791,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17865,publish_subject routines,construct,524.125,517.656,548.219,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17866,publish_subject routines,get_observable,160.006,158.898,162.14,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17867,publish_subject routines,get_subscriber,91.9703,91.5056,93.0186,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17868,Observable construction,Specific observable construction,0.334702,0.334511,0.335364,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17869,Observable construction,Dynamic observable construction,20.2381,20.1746,20.4218,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17870,Observable construction,Specific observable construction + as_dynamic,20.9138,20.8446,21.0284,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17871,Observable subscribe #2,Specific observable subscribe lambda,26.5723,26.5378,26.6068,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17872,Observable subscribe #2,Dynamic observable subscribe lambda,53.4478,53.3181,53.6983,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17873,Observable subscribe #2,Specific observable subscribe lambda without subscription,25.7956,25.7368,26.0637,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17874,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,52.8391,52.7434,53.1284,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17875,Observable subscribe #2,Specific observable subscribe specific subscriber,3.61656,3.61341,3.61936,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17876,Observable subscribe #2,Dynamic observable subscribe specific subscriber,29.2547,29.19,29.4202,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17877,Observable subscribe #2,Specific observable subscribe dynamic observer,3.81229,3.78971,3.83949,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17878,Observable subscribe #2,Dynamic observable subscribe dynamic observer,3.76238,3.75411,3.78558,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17879,Observer construction,Specific observer construction,0.334501,0.334411,0.334602,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17880,Observer construction,Dynamic observer construction,21.108,21.0178,21.2578,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17881,Observer construction,Specific observer construction + as_dynamic,21.1004,21.0429,21.2289,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17882,OnNext,Specific observer OnNext,0.335187,0.334614,0.337467,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17883,OnNext,Dynamic observer OnNext,2.01141,2.00696,2.03007,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17884,Subscriber construction,Make subsriber,30.3199,30.2924,30.3688,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17885,Subscriber construction,Make copy of subscriber,3.72481,3.71806,3.75178,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17886,Subscriber construction,Transform subsriber to dynamic,22.6573,22.6155,22.8464,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17887,Observable subscribe,Specific observable subscribe specific observer,25.7986,25.755,25.9602,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17888,Observable subscribe,Specific observable subscribe dynamic observer,29.4246,29.3397,29.6063,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17889,Observable subscribe,Dynamic observable subscribe specific observer,52.1749,52.0264,52.6584,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17890,Observable subscribe,Dynamic observable subscribe dynamic observer,33.5696,33.502,33.8109,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17891,Observable lift,Specific observable lift specific observer,30.8744,30.8451,30.9278,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17892,Observable lift,Specific observable lift dynamic observer,36.6324,36.5273,36.8852,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17893,Observable lift,Dynamic observable lift specific observer,65.1996,64.966,65.5838,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17894,Observable lift,Dynamic observable lift dynamic observer,57.2824,57.2155,57.4165,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17895,Operators,map construction from observable via dot + subscribe,21.8126,21.8001,21.8259,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17896,Subscription,composite_subscription create,23.7435,23.6929,23.8992,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17897,Subscription,composite_subscription add,22.6288,22.412,23.6569,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17898,Subscription,composite_subscription unsubscribe,8.29097,8.17789,8.34078,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17899,foundamental sources,empty,4.21027,4.20379,4.23791,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17900,foundamental sources,error,35.5106,35.45,35.7293,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17901,foundamental sources,never,3.58597,3.57923,3.61268,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17902,just,just send int,6.17116,6.16083,6.21229,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17903,just,just send variadic,17.1284,17.1238,17.1429,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17904,from,from vector with int,25.2113,25.1511,25.3093,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17905,merge,merge,154.172,153.994,154.355,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17906,merge,merge_with,193.636,193.281,194.579,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17907,publish_subject callbacks,on_next,13.7075,13.7039,13.719,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17908,publish_subject callbacks,on_error,1.01036,1.00847,1.01733,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17909,publish_subject callbacks,on_completed,1.00914,1.00766,1.01527,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17910,publish_subject routines,construct,134.622,133.271,140.549,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17911,publish_subject routines,get_observable,8.14554,8.13026,8.20952,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17912,publish_subject routines,get_subscriber,14.2299,14.2051,14.3198,0.95,Linux GCC,Update rpp.hpp (b80505f7),rpp
+17913,Observable construction,Specific observable construction,0.336067,0.334603,0.342884,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17914,Observable construction,Dynamic observable construction,24.7273,24.5856,24.9127,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17915,Observable construction,Specific observable construction + as_dynamic,24.5601,24.5159,24.7043,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17916,Observable subscribe #2,Specific observable subscribe lambda,336.647,336.455,336.883,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17917,Observable subscribe #2,Dynamic observable subscribe lambda,408.222,407.408,411.421,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17918,Observable subscribe #2,Specific observable subscribe lambda without subscription,337.354,336.499,340.332,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17919,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,415.883,415.188,418.216,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17920,Observable subscribe #2,Specific observable subscribe specific subscriber,280.248,279.986,280.753,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17921,Observable subscribe #2,Dynamic observable subscribe specific subscriber,331.996,331.739,332.606,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17922,Observable subscribe #2,Specific observable subscribe dynamic observer,290.804,290.199,293.035,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17923,Observable subscribe #2,Dynamic observable subscribe dynamic observer,313.68,313.039,315.533,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17924,Observer construction,Specific observer construction,0.335154,0.334569,0.337351,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17925,Observer construction,Dynamic observer construction,21.9122,21.851,22.0262,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17926,Observer construction,Specific observer construction + as_dynamic,22.1895,22.1338,22.3023,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17927,OnNext,Specific observer OnNext,0.335308,0.334774,0.337685,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17928,OnNext,Dynamic observer OnNext,2.00725,2.00704,2.00765,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17929,Subscriber construction,Make subsriber,62.3156,62.1683,62.6641,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17930,Subscriber construction,Make copy of subscriber,4.49692,4.48876,4.52154,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17931,Subscriber construction,Transform subsriber to dynamic,29.2565,29.2072,29.4725,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17932,Observable subscribe,Specific observable subscribe specific observer,337.046,336.081,340.687,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17933,Observable subscribe,Specific observable subscribe dynamic observer,346.139,345.106,349.036,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17934,Observable subscribe,Dynamic observable subscribe specific observer,389.573,388.846,392.755,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17935,Observable subscribe,Dynamic observable subscribe dynamic observer,375.93,375.182,378.055,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17936,Observable lift,Specific observable lift specific observer,353.911,353.569,355.064,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17937,Observable lift,Specific observable lift dynamic observer,367.82,367.054,370.338,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17938,Observable lift,Dynamic observable lift specific observer,406.951,405.803,410.385,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17939,Observable lift,Dynamic observable lift dynamic observer,385.851,384.98,389.44,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17940,Operators,map construction from observable via dot + subscribe,356.54,355.65,360.124,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17941,Subscription,composite_subscription create,57.7604,57.6412,58.1198,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17942,Subscription,composite_subscription add,16.4061,16.4022,16.4089,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17943,Subscription,composite_subscription unsubscribe,11.0414,11.0377,11.0511,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17944,foundamental sources,empty,47.7969,47.6182,48.0806,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17945,foundamental sources,error,82.2437,82.1198,82.7476,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17946,foundamental sources,never,299.267,298.509,300.975,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17947,just,just send int,51.3698,51.2522,51.5089,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17948,just,just send variadic,47.1426,47.0268,47.4018,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17949,from,from vector with int,72.7578,72.3409,73.8444,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17950,merge,merge,146.561,146.233,147.486,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17951,merge,merge_with,361.628,361.102,363.274,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17952,publish_subject callbacks,on_next,10.0049,9.96972,10.0951,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17953,publish_subject callbacks,on_error,16.8251,16.7964,16.9333,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17954,publish_subject callbacks,on_completed,1.00708,1.00637,1.00928,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17955,publish_subject routines,construct,173.21,172.054,177.756,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17956,publish_subject routines,get_observable,47.9187,47.8496,47.9749,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17957,publish_subject routines,get_subscriber,22.1379,22.0932,22.3089,0.95,Linux GCC,Update rpp.hpp (b80505f7),rxcpp
+17958,Observable construction,Specific observable construction,0.759358,0.731338,0.800744,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17959,Observable construction,Dynamic observable construction,34.1,32.4483,37.8879,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17960,Observable construction,Specific observable construction + as_dynamic,36.8729,34.1411,46.5347,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17961,Observable subscribe #2,Specific observable subscribe lambda,59.8525,59.094,61.2495,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17962,Observable subscribe #2,Dynamic observable subscribe lambda,102.462,98.8091,107.269,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17963,Observable subscribe #2,Specific observable subscribe lambda without subscription,66.6081,65.0334,68.6503,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17964,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,100.514,98.8574,107.891,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17965,Observable subscribe #2,Specific observable subscribe specific subscriber,18.5351,17.9321,20.0507,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17966,Observable subscribe #2,Dynamic observable subscribe specific subscriber,78.8431,71.662,108.109,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17967,Observable subscribe #2,Specific observable subscribe dynamic observer,20.2553,19.6984,20.9858,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17968,Observable subscribe #2,Dynamic observable subscribe dynamic observer,18.2864,17.8492,19.061,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17969,Observer construction,Specific observer construction,0.728467,0.702621,0.801517,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17970,Observer construction,Dynamic observer construction,29.749,29.0738,30.7285,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17971,Observer construction,Specific observer construction + as_dynamic,32.9303,32.2082,35.4567,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17972,OnNext,Specific observer OnNext,0.744506,0.714815,0.789816,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17973,OnNext,Dynamic observer OnNext,2.23534,2.22994,2.26024,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17974,Subscriber construction,Make subsriber,50.2479,50.0887,50.9415,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17975,Subscriber construction,Make copy of subscriber,29.6207,24.7852,52.8319,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17976,Subscriber construction,Transform subsriber to dynamic,69.6125,58.2648,122.821,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17977,Observable subscribe,Specific observable subscribe specific observer,72.643,70.2156,75.7328,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17978,Observable subscribe,Specific observable subscribe dynamic observer,79.8382,77.4856,83.1333,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17979,Observable subscribe,Dynamic observable subscribe specific observer,99.3553,93.6702,120.515,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17980,Observable subscribe,Dynamic observable subscribe dynamic observer,87.5663,84.7356,91.4999,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17981,Observable lift,Specific observable lift specific observer,125.27,97.8315,258.33,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17982,Observable lift,Specific observable lift dynamic observer,139.395,134.612,145.553,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17983,Observable lift,Dynamic observable lift specific observer,202.337,175.691,317.239,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17984,Observable lift,Dynamic observable lift dynamic observer,181.135,176.331,187.662,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17985,Operators,map construction from observable via dot + subscribe,123.86,101.37,224.955,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17986,Subscription,composite_subscription create,36.7151,35.4017,40.0666,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17987,Subscription,composite_subscription add,69.2307,66.7107,72.6636,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17988,Subscription,composite_subscription unsubscribe,7.14827,6.93573,7.41634,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17989,foundamental sources,empty,19.3843,19.0185,19.9393,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17990,foundamental sources,error,48.8325,47.5985,50.8439,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17991,foundamental sources,never,24.1386,19.9805,42.9768,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17992,just,just send int,24.6622,23.7264,26.7059,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17993,just,just send variadic,39.177,37.9187,40.941,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17994,from,from vector with int,36.2112,34.869,38.7896,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17995,merge,merge,345.43,336.69,360.282,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17996,merge,merge_with,417.554,407.053,431.312,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17997,publish_subject callbacks,on_next,63.9504,53.6087,112.445,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17998,publish_subject callbacks,on_error,2.33123,2.26531,2.44075,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+17999,publish_subject callbacks,on_completed,2.21113,2.12116,2.38678,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+18000,publish_subject routines,construct,270.641,260.595,283.366,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+18001,publish_subject routines,get_observable,43.5502,42.5961,44.9762,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+18002,publish_subject routines,get_subscriber,67.9615,66.3899,70.1342,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rpp
+18003,Observable construction,Specific observable construction,0.364534,0.354565,0.379952,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18004,Observable construction,Dynamic observable construction,33.2054,32.3796,34.4948,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18005,Observable construction,Specific observable construction + as_dynamic,33.9307,32.6807,37.3348,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18006,Observable subscribe #2,Specific observable subscribe lambda,371.343,347.576,457.946,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18007,Observable subscribe #2,Dynamic observable subscribe lambda,476.216,458.653,525.014,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18008,Observable subscribe #2,Specific observable subscribe lambda without subscription,353.25,344.365,368.302,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18009,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,440.655,420.668,494.413,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18010,Observable subscribe #2,Specific observable subscribe specific subscriber,287.316,283.2,302.605,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18011,Observable subscribe #2,Dynamic observable subscribe specific subscriber,406.669,386.694,444.911,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18012,Observable subscribe #2,Specific observable subscribe dynamic observer,328.476,327.249,331.564,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18013,Observable subscribe #2,Dynamic observable subscribe dynamic observer,418.499,337.271,805.522,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18014,Observer construction,Specific observer construction,0.380058,0.374624,0.390395,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18015,Observer construction,Dynamic observer construction,22.6967,21.6768,24.5879,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18016,Observer construction,Specific observer construction + as_dynamic,20.8174,20.5039,21.3932,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18017,OnNext,Specific observer OnNext,0.678867,0.664029,0.70169,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18018,OnNext,Dynamic observer OnNext,2.36921,2.28098,2.5074,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18019,Subscriber construction,Make subsriber,67.9578,66.2437,70.5962,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18020,Subscriber construction,Make copy of subscriber,5.19935,5.01971,5.6007,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18021,Subscriber construction,Transform subsriber to dynamic,46.8565,46.2259,49.8676,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18022,Observable subscribe,Specific observable subscribe specific observer,366.188,358.414,379.893,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18023,Observable subscribe,Specific observable subscribe dynamic observer,417.778,405.919,432.817,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18024,Observable subscribe,Dynamic observable subscribe specific observer,429.907,417.204,449.042,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18025,Observable subscribe,Dynamic observable subscribe dynamic observer,422.533,410.589,438.66,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18026,Observable lift,Specific observable lift specific observer,371.716,361.186,386.187,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18027,Observable lift,Specific observable lift dynamic observer,443.436,442.346,448.103,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18028,Observable lift,Dynamic observable lift specific observer,405.369,398.906,416.846,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18029,Observable lift,Dynamic observable lift dynamic observer,466.785,454.89,484.179,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18030,Operators,map construction from observable via dot + subscribe,312.445,310.753,316.924,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18031,Subscription,composite_subscription create,58.036,57.4662,60.7168,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18032,Subscription,composite_subscription add,24.3928,23.6805,25.4023,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18033,Subscription,composite_subscription unsubscribe,12.7944,12.1974,14.188,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18034,foundamental sources,empty,38.8555,37.232,42.2094,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18035,foundamental sources,error,80.6144,80.1905,81.7255,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18036,foundamental sources,never,308.618,298.178,325.549,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18037,just,just send int,36.2017,35.1352,38.7677,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18038,just,just send variadic,46.6581,45.2992,48.9624,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18039,from,from vector with int,57.8814,56.1508,62.8991,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18040,merge,merge,153.898,152.646,158.597,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18041,merge,merge_with,352.021,342.155,370.437,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18042,publish_subject callbacks,on_next,10.6815,10.3745,11.0641,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18043,publish_subject callbacks,on_error,19.3502,18.7063,20.2414,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18044,publish_subject callbacks,on_completed,0.564806,0.559769,0.576357,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18045,publish_subject routines,construct,214.789,203.922,233.14,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18046,publish_subject routines,get_observable,54.7155,53.9001,56.0827,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18047,publish_subject routines,get_subscriber,15.8618,14.3202,22.7215,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
