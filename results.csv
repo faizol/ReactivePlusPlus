@@ -17828,14 +17828,14 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 17826,Observable subscribe #2,Specific observable subscribe lambda,1175.95,1165.89,1211.05,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
 17827,Observable subscribe #2,Dynamic observable subscribe lambda,1384.26,1349.79,1472.58,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
 17828,Observable subscribe #2,Specific observable subscribe lambda without subscription,1196.86,1183.95,1247.5,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
-17829,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1451.05,1412,1549.16,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17829,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1451.05,1412.0,1549.16,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
 17830,Observable subscribe #2,Specific observable subscribe specific subscriber,852.677,846.71,875.355,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
 17831,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1032.12,1023.48,1060.12,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
-17832,Observable subscribe #2,Specific observable subscribe dynamic observer,886.793,880,913.793,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17832,Observable subscribe #2,Specific observable subscribe dynamic observer,886.793,880.0,913.793,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
 17833,Observable subscribe #2,Dynamic observable subscribe dynamic observer,922.214,913.429,954.714,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
 17834,Observer construction,Specific observer construction,1.51455,1.50655,1.53506,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
 17835,Observer construction,Dynamic observer construction,115.437,114.775,116.694,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
-17836,Observer construction,Specific observer construction + as_dynamic,115.2,114.468,117,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17836,Observer construction,Specific observer construction + as_dynamic,115.2,114.468,117.0,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
 17837,OnNext,Specific observer OnNext,0.671802,0.669474,0.677732,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
 17838,OnNext,Dynamic observer OnNext,1.71029,1.70068,1.72882,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
 17839,Subscriber construction,Make subsriber,378.135,368.027,390.757,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
@@ -17846,8 +17846,8 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 17844,Observable subscribe,Dynamic observable subscribe specific observer,1361.16,1356.74,1368.95,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
 17845,Observable subscribe,Dynamic observable subscribe dynamic observer,1116.17,1102.13,1173.83,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
 17846,Observable lift,Specific observable lift specific observer,1259.12,1237.38,1305.92,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
-17847,Observable lift,Specific observable lift dynamic observer,1277.2,1261.95,1341,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
-17848,Observable lift,Dynamic observable lift specific observer,1410,1395.37,1469.53,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17847,Observable lift,Specific observable lift dynamic observer,1277.2,1261.95,1341.0,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
+17848,Observable lift,Dynamic observable lift specific observer,1410.0,1395.37,1469.53,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
 17849,Observable lift,Dynamic observable lift dynamic observer,1330.15,1308.95,1387.85,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
 17850,Operators,map construction from observable via dot + subscribe,892.038,881.192,921.615,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
 17851,Subscription,composite_subscription create,345.757,341.122,356.324,0.95,Windows MSVC,Update rpp.hpp (b80505f7),rxcpp
@@ -18047,3 +18047,273 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 18045,publish_subject routines,construct,214.789,203.922,233.14,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
 18046,publish_subject routines,get_observable,54.7155,53.9001,56.0827,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
 18047,publish_subject routines,get_subscriber,15.8618,14.3202,22.7215,0.95,Linux CLANG,Update rpp.hpp (b80505f7),rxcpp
+18048,Observable construction,Specific observable construction,0.584798,0.577816,0.606441,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18049,Observable construction,Dynamic observable construction,87.0401,81.5786,96.2207,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18050,Observable construction,Specific observable construction + as_dynamic,95.4781,89.7306,103.31,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18051,Observable subscribe #2,Specific observable subscribe lambda,136.324,131.916,151.117,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18052,Observable subscribe #2,Dynamic observable subscribe lambda,219.009,206.447,238.342,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18053,Observable subscribe #2,Specific observable subscribe lambda without subscription,117.98,112.735,129.211,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18054,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,200.049,190.61,222.992,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18055,Observable subscribe #2,Specific observable subscribe specific subscriber,16.8266,16.6787,17.31,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18056,Observable subscribe #2,Dynamic observable subscribe specific subscriber,120.783,114.547,132.382,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18057,Observable subscribe #2,Specific observable subscribe dynamic observer,23.4574,21.3627,28.1222,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18058,Observable subscribe #2,Dynamic observable subscribe dynamic observer,22.3651,20.5913,25.2688,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18059,Observer construction,Specific observer construction,0.961261,0.779579,1.84185,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18060,Observer construction,Dynamic observer construction,97.314,94.1281,102.405,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18061,Observer construction,Specific observer construction + as_dynamic,94.695,93.3629,98.0927,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18062,OnNext,Specific observer OnNext,0.775796,0.77217,0.790234,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18063,OnNext,Dynamic observer OnNext,2.3065,2.25926,2.39541,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18064,Subscriber construction,Make subsriber,117.076,111.898,125.655,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18065,Subscriber construction,Make copy of subscriber,17.696,17.3927,19.088,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18066,Subscriber construction,Transform subsriber to dynamic,102.712,100.921,106.69,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18067,Observable subscribe,Specific observable subscribe specific observer,145.462,137.87,172.385,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18068,Observable subscribe,Specific observable subscribe dynamic observer,163.218,157.641,189.385,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18069,Observable subscribe,Dynamic observable subscribe specific observer,241.183,239.865,246.856,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18070,Observable subscribe,Dynamic observable subscribe dynamic observer,163.276,158.783,183.572,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18071,Observable lift,Specific observable lift specific observer,179.346,174.278,189.782,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18072,Observable lift,Specific observable lift dynamic observer,229.739,219.586,255.468,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18073,Observable lift,Dynamic observable lift specific observer,700.722,329.557,2521.03,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18074,Observable lift,Dynamic observable lift dynamic observer,272.554,268.5,288.37,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18075,Operators,map construction from observable via dot + subscribe,108.185,103.978,113.89,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18076,Subscription,composite_subscription create,118.004,111.567,129.165,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18077,Subscription,composite_subscription add,109.619,102.276,121.59,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18078,Subscription,composite_subscription unsubscribe,6.97589,6.69661,7.75689,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18079,foundamental sources,empty,22.9269,21.752,25.6301,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18080,foundamental sources,error,66.7337,62.3241,85.1759,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18081,foundamental sources,never,20.8408,20.065,22.5435,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18082,just,just send int,32.3381,31.3881,33.7476,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18083,just,just send variadic,43.3673,43.0212,44.1827,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18084,from,from vector with int,103.33,100.7,107.938,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18085,merge,merge,648.244,616.244,702.024,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18086,merge,merge_with,736.118,708.265,782.088,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18087,publish_subject callbacks,on_next,36.0441,34.1085,41.7424,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18088,publish_subject callbacks,on_error,2.08905,2.0097,2.29231,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18089,publish_subject callbacks,on_completed,2.5923,2.50835,2.72337,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18090,publish_subject routines,construct,499.333,470.143,554.548,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18091,publish_subject routines,get_observable,45.9826,44.3316,48.6823,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18092,publish_subject routines,get_subscriber,56.3264,54.9534,59.7047,0.95,Windows MSVC,add multicast (#109) (8618d497),rpp
+18093,Observable construction,Specific observable construction,0.763116,0.710394,0.838303,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18094,Observable construction,Dynamic observable construction,107.122,106.546,108.532,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18095,Observable construction,Specific observable construction + as_dynamic,397.136,194.611,1340.05,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18096,Observable subscribe #2,Specific observable subscribe lambda,1407.58,1349.68,1501.05,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18097,Observable subscribe #2,Dynamic observable subscribe lambda,1461.29,1371,1625.18,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18098,Observable subscribe #2,Specific observable subscribe lambda without subscription,1512.24,1403.81,1718.05,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18099,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1781.11,1664.74,1926,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18100,Observable subscribe #2,Specific observable subscribe specific subscriber,794.148,771.741,834.926,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18101,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1179.35,1112.74,1267.74,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18102,Observable subscribe #2,Specific observable subscribe dynamic observer,892.519,878.519,928.222,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18103,Observable subscribe #2,Dynamic observable subscribe dynamic observer,988.72,945.72,1098.04,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18104,Observer construction,Specific observer construction,1.669,1.58026,1.852,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18105,Observer construction,Dynamic observer construction,109.473,103.541,123.288,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18106,Observer construction,Specific observer construction + as_dynamic,140.88,130.76,158.462,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18107,OnNext,Specific observer OnNext,0.557616,0.556974,0.559131,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18108,OnNext,Dynamic observer OnNext,2.24901,2.08075,2.48823,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18109,Subscriber construction,Make subsriber,435.143,404.143,481.078,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18110,Subscriber construction,Make copy of subscriber,40.9106,37.4804,54.0433,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18111,Subscriber construction,Transform subsriber to dynamic,151.854,144.522,164.261,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18112,Observable subscribe,Specific observable subscribe specific observer,1363.43,1302.43,1481.43,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18113,Observable subscribe,Specific observable subscribe dynamic observer,1297.55,1234.73,1376.05,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18114,Observable subscribe,Dynamic observable subscribe specific observer,1507.53,1409.12,1755.76,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18115,Observable subscribe,Dynamic observable subscribe dynamic observer,1408.79,1320.05,1529.63,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18116,Observable lift,Specific observable lift specific observer,1348.24,1258.33,1487.67,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18117,Observable lift,Specific observable lift dynamic observer,1595.56,1508.06,1817.06,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18118,Observable lift,Dynamic observable lift specific observer,1664.56,1549.31,1840.06,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18119,Observable lift,Dynamic observable lift dynamic observer,1680.22,1572.67,1906.28,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18120,Operators,map construction from observable via dot + subscribe,1349.33,1250.58,1476.21,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18121,Subscription,composite_subscription create,421.486,406.6,446.929,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18122,Subscription,composite_subscription add,78.0971,73.7882,84.0265,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18123,Subscription,composite_subscription unsubscribe,26.0504,25.5222,27.5645,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18124,foundamental sources,empty,229.711,213.733,255.926,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18125,foundamental sources,error,273.683,255.492,300.183,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18126,foundamental sources,never,971.148,921.556,1040.78,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18127,just,just send int,200.565,194.939,211.542,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18128,just,just send variadic,237.024,215.102,289.921,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18129,from,from vector with int,257.612,249.255,272.622,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18130,merge,merge,732.725,704.824,772.353,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18131,merge,merge_with,1778.17,1661.13,1981.7,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18132,publish_subject callbacks,on_next,38.3931,36.5304,40.9064,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18133,publish_subject callbacks,on_error,22.7187,20.2138,29.326,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18134,publish_subject callbacks,on_completed,0.746208,0.711255,0.799015,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18135,publish_subject routines,construct,709.964,663,777.179,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18136,publish_subject routines,get_observable,194.663,185.061,207.804,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18137,publish_subject routines,get_subscriber,100.152,97.2614,105.939,0.95,Windows MSVC,add multicast (#109) (8618d497),rxcpp
+18138,Observable construction,Specific observable construction,0.335412,0.334599,0.338811,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18139,Observable construction,Dynamic observable construction,20.2351,20.1566,20.3626,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18140,Observable construction,Specific observable construction + as_dynamic,20.6179,20.5382,20.7356,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18141,Observable subscribe #2,Specific observable subscribe lambda,26.538,26.4849,26.687,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18142,Observable subscribe #2,Dynamic observable subscribe lambda,52.6076,52.4961,53.0152,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18143,Observable subscribe #2,Specific observable subscribe lambda without subscription,25.9548,25.8807,26.1904,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18144,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,52.6317,52.4781,52.992,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18145,Observable subscribe #2,Specific observable subscribe specific subscriber,3.60653,3.60287,3.6118,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18146,Observable subscribe #2,Dynamic observable subscribe specific subscriber,29.344,29.2817,29.5546,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18147,Observable subscribe #2,Specific observable subscribe dynamic observer,3.6756,3.66855,3.70666,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18148,Observable subscribe #2,Dynamic observable subscribe dynamic observer,3.7018,3.69778,3.70865,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18149,Observer construction,Specific observer construction,0.334998,0.334773,0.335599,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18150,Observer construction,Dynamic observer construction,20.7931,20.7241,21.0333,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18151,Observer construction,Specific observer construction + as_dynamic,21.278,21.1105,21.8905,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18152,OnNext,Specific observer OnNext,0.335525,0.33483,0.338693,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18153,OnNext,Dynamic observer OnNext,2.0137,2.00888,2.03363,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18154,Subscriber construction,Make subsriber,30.3083,30.2831,30.3345,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18155,Subscriber construction,Make copy of subscriber,4.67748,4.67582,4.6795,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18156,Subscriber construction,Transform subsriber to dynamic,23.0248,22.9378,23.1206,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18157,Observable subscribe,Specific observable subscribe specific observer,25.6566,25.5749,25.7585,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18158,Observable subscribe,Specific observable subscribe dynamic observer,29.956,29.8443,30.2763,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18159,Observable subscribe,Dynamic observable subscribe specific observer,52.0216,51.8823,52.492,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18160,Observable subscribe,Dynamic observable subscribe dynamic observer,33.6208,33.5501,33.8384,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18161,Observable lift,Specific observable lift specific observer,29.8345,29.7153,30.2163,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18162,Observable lift,Specific observable lift dynamic observer,37.1363,37.102,37.2179,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18163,Observable lift,Dynamic observable lift specific observer,65.0892,64.8641,65.5108,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18164,Observable lift,Dynamic observable lift dynamic observer,57.5195,57.4136,57.8371,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18165,Operators,map construction from observable via dot + subscribe,21.9565,21.8419,22.5004,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18166,Subscription,composite_subscription create,23.7878,23.71,24.0881,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18167,Subscription,composite_subscription add,23.9822,23.6375,25.63,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18168,Subscription,composite_subscription unsubscribe,8.34416,8.26053,8.40588,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18169,foundamental sources,empty,4.21143,4.2011,4.25868,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18170,foundamental sources,error,35.4968,35.4491,35.7156,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18171,foundamental sources,never,3.57318,3.57055,3.58005,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18172,just,just send int,6.17773,6.16241,6.24875,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18173,just,just send variadic,17.1333,17.0884,17.3389,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18174,from,from vector with int,25.5841,25.4826,25.6972,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18175,merge,merge,154.705,154.2,156.657,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18176,merge,merge_with,193.031,192.773,193.477,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18177,publish_subject callbacks,on_next,13.751,13.7106,13.9347,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18178,publish_subject callbacks,on_error,1.00958,1.00769,1.01847,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18179,publish_subject callbacks,on_completed,1.00896,1.00725,1.01669,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18180,publish_subject routines,construct,135.546,132.933,147.214,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18181,publish_subject routines,get_observable,8.14216,8.12706,8.20255,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18182,publish_subject routines,get_subscriber,14.2906,14.2514,14.4586,0.95,Linux GCC,add multicast (#109) (8618d497),rpp
+18183,Observable construction,Specific observable construction,0.335303,0.334568,0.338821,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18184,Observable construction,Dynamic observable construction,24.612,24.5353,24.8372,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18185,Observable construction,Specific observable construction + as_dynamic,24.6413,24.532,24.9254,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18186,Observable subscribe #2,Specific observable subscribe lambda,345.848,345.101,348.925,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18187,Observable subscribe #2,Dynamic observable subscribe lambda,407.297,407.04,407.771,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18188,Observable subscribe #2,Specific observable subscribe lambda without subscription,346.046,345.221,349.529,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18189,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,414.752,414.451,415.239,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18190,Observable subscribe #2,Specific observable subscribe specific subscriber,281.807,280.665,285.029,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18191,Observable subscribe #2,Dynamic observable subscribe specific subscriber,332.802,332.065,335.57,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18192,Observable subscribe #2,Specific observable subscribe dynamic observer,291.326,290.066,296.891,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18193,Observable subscribe #2,Dynamic observable subscribe dynamic observer,311.835,311.188,312.552,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18194,Observer construction,Specific observer construction,0.33467,0.33451,0.335182,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18195,Observer construction,Dynamic observer construction,22.3066,22.2155,22.4539,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18196,Observer construction,Specific observer construction + as_dynamic,22.0637,22.0485,22.0873,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18197,OnNext,Specific observer OnNext,0.335385,0.334746,0.338391,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18198,OnNext,Dynamic observer OnNext,2.01466,2.00775,2.04785,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18199,Subscriber construction,Make subsriber,61.7274,61.5168,62.4565,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18200,Subscriber construction,Make copy of subscriber,4.50331,4.48717,4.57235,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18201,Subscriber construction,Transform subsriber to dynamic,29.2067,29.1946,29.2281,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18202,Observable subscribe,Specific observable subscribe specific observer,343.589,342.327,346.763,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18203,Observable subscribe,Specific observable subscribe dynamic observer,344.622,344.285,345.664,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18204,Observable subscribe,Dynamic observable subscribe specific observer,389.558,389.323,389.891,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18205,Observable subscribe,Dynamic observable subscribe dynamic observer,369.7,368.991,371.525,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18206,Observable lift,Specific observable lift specific observer,354.373,353.709,356.204,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18207,Observable lift,Specific observable lift dynamic observer,369.165,366.304,382.654,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18208,Observable lift,Dynamic observable lift specific observer,407.207,406.759,408.207,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18209,Observable lift,Dynamic observable lift dynamic observer,385.356,384.16,389.77,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18210,Operators,map construction from observable via dot + subscribe,351.858,350.88,355.668,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18211,Subscription,composite_subscription create,58.349,58.1709,58.9381,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18212,Subscription,composite_subscription add,16.5694,16.5193,16.7012,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18213,Subscription,composite_subscription unsubscribe,11.0486,11.0307,11.134,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18214,foundamental sources,empty,47.7462,47.5763,47.9973,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18215,foundamental sources,error,82.3704,82.1204,83.4266,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18216,foundamental sources,never,296.824,296.525,297.319,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18217,just,just send int,51.228,51.0672,51.5703,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18218,just,just send variadic,46.99,46.8879,47.2801,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18219,from,from vector with int,72.1044,71.9097,72.4407,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18220,merge,merge,145.922,145.534,146.703,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18221,merge,merge_with,363.257,362.196,365.93,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18222,publish_subject callbacks,on_next,10.0355,10.0104,10.0603,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18223,publish_subject callbacks,on_error,16.8282,16.7893,17.0054,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18224,publish_subject callbacks,on_completed,1.00943,1.00681,1.02081,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18225,publish_subject routines,construct,172.444,171.026,178.027,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18226,publish_subject routines,get_observable,47.95,47.8753,48.017,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18227,publish_subject routines,get_subscriber,22.0923,22.0853,22.0994,0.95,Linux GCC,add multicast (#109) (8618d497),rxcpp
+18228,Observable construction,Specific observable construction,0.67017,0.668935,0.675824,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18229,Observable construction,Dynamic observable construction,30.8291,30.7661,31.0858,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18230,Observable construction,Specific observable construction + as_dynamic,30.8588,30.7794,31.186,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18231,Observable subscribe #2,Specific observable subscribe lambda,58.9902,58.8747,59.4101,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18232,Observable subscribe #2,Dynamic observable subscribe lambda,89.0918,88.9471,89.6017,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18233,Observable subscribe #2,Specific observable subscribe lambda without subscription,58.8398,58.8175,58.8623,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18234,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,88.9125,88.8781,88.9534,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18235,Observable subscribe #2,Specific observable subscribe specific subscriber,16.7536,16.7215,16.8794,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18236,Observable subscribe #2,Dynamic observable subscribe specific subscriber,61.5484,61.5114,61.6554,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18237,Observable subscribe #2,Specific observable subscribe dynamic observer,16.7374,16.7127,16.8349,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18238,Observable subscribe #2,Dynamic observable subscribe dynamic observer,16.7361,16.7131,16.8365,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18239,Observer construction,Specific observer construction,0.670063,0.669006,0.675072,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18240,Observer construction,Dynamic observer construction,28.5832,28.5174,28.8857,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18241,Observer construction,Specific observer construction + as_dynamic,28.4501,28.4377,28.4654,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18242,OnNext,Specific observer OnNext,0.671388,0.669303,0.680336,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18243,OnNext,Dynamic observer OnNext,2.01125,2.00762,2.02578,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18244,Subscriber construction,Make subsriber,44.586,44.4921,45.0138,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18245,Subscriber construction,Make copy of subscriber,16.7435,16.7171,16.8455,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18246,Subscriber construction,Transform subsriber to dynamic,49.9143,49.8251,50.3105,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18247,Observable subscribe,Specific observable subscribe specific observer,58.5259,58.5043,58.5533,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18248,Observable subscribe,Specific observable subscribe dynamic observer,71.0458,70.9048,71.602,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18249,Observable subscribe,Dynamic observable subscribe specific observer,90.1657,90.1075,90.3309,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18250,Observable subscribe,Dynamic observable subscribe dynamic observer,75.2748,75.1364,75.8903,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18251,Observable lift,Specific observable lift specific observer,82.7693,82.5689,83.6609,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18252,Observable lift,Specific observable lift dynamic observer,114.698,114.618,114.909,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18253,Observable lift,Dynamic observable lift specific observer,155.87,155.493,157.582,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18254,Observable lift,Dynamic observable lift dynamic observer,176.433,176.109,177.876,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18255,Operators,map construction from observable via dot + subscribe,85.8682,85.8484,85.8908,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18256,Subscription,composite_subscription create,32.5421,32.4605,32.8806,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18257,Subscription,composite_subscription add,60.9456,60.7629,61.7698,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18258,Subscription,composite_subscription unsubscribe,6.0398,6.02162,6.08662,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18259,foundamental sources,empty,18.4687,18.4027,18.7332,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18260,foundamental sources,error,48.2018,48.187,48.2221,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18261,foundamental sources,never,17.0781,17.0483,17.2183,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18262,just,just send int,20.1522,20.095,20.4194,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18263,just,just send variadic,36.7713,36.6995,37.0534,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18264,from,from vector with int,32.2132,32.137,32.5562,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18265,merge,merge,311.971,310.94,316.601,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18266,merge,merge_with,374.336,373.546,377.422,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18267,publish_subject callbacks,on_next,49.2326,49.1289,49.6954,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18268,publish_subject callbacks,on_error,2.37887,2.37157,2.39638,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18269,publish_subject callbacks,on_completed,2.71052,2.70532,2.72865,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18270,publish_subject routines,construct,235.577,233.674,243.002,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18271,publish_subject routines,get_observable,40.4344,40.4236,40.4467,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18272,publish_subject routines,get_subscriber,65.8607,65.8407,65.8851,0.95,Linux CLANG,add multicast (#109) (8618d497),rpp
+18273,Observable construction,Specific observable construction,0.334694,0.334582,0.334829,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18274,Observable construction,Dynamic observable construction,32.0217,31.955,32.2671,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18275,Observable construction,Specific observable construction + as_dynamic,32.1057,32.0132,32.5168,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18276,Observable subscribe #2,Specific observable subscribe lambda,292.206,292.001,292.429,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18277,Observable subscribe #2,Dynamic observable subscribe lambda,332.724,332.035,334.724,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18278,Observable subscribe #2,Specific observable subscribe lambda without subscription,294.874,294.237,297.345,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18279,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,335.013,334.407,337.328,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18280,Observable subscribe #2,Specific observable subscribe specific subscriber,235.155,234.57,237.317,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18281,Observable subscribe #2,Dynamic observable subscribe specific subscriber,276.442,275.735,278.46,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18282,Observable subscribe #2,Specific observable subscribe dynamic observer,245.208,244.745,246.812,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18283,Observable subscribe #2,Dynamic observable subscribe dynamic observer,259.915,259.732,260.132,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18284,Observer construction,Specific observer construction,0.334638,0.334537,0.334752,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18285,Observer construction,Dynamic observer construction,23.3267,23.212,23.5241,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18286,Observer construction,Specific observer construction + as_dynamic,23.0274,22.9275,23.1621,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18287,OnNext,Specific observer OnNext,0.670229,0.669193,0.674846,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18288,OnNext,Dynamic observer OnNext,2.34774,2.34238,2.37273,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18289,Subscriber construction,Make subsriber,64.387,64.2033,65.2359,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18290,Subscriber construction,Make copy of subscriber,4.69612,4.69328,4.69959,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18291,Subscriber construction,Transform subsriber to dynamic,27.0456,26.9293,27.4978,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18292,Observable subscribe,Specific observable subscribe specific observer,295.259,294.655,297.665,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18293,Observable subscribe,Specific observable subscribe dynamic observer,303.816,303.146,306.63,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18294,Observable subscribe,Dynamic observable subscribe specific observer,334.362,333.666,336.778,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18295,Observable subscribe,Dynamic observable subscribe dynamic observer,320.744,320.099,323.25,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18296,Observable lift,Specific observable lift specific observer,298.378,297.408,301.873,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18297,Observable lift,Specific observable lift dynamic observer,313.651,313.385,314.193,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18298,Observable lift,Dynamic observable lift specific observer,339.331,338.74,341.65,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18299,Observable lift,Dynamic observable lift dynamic observer,326.458,326.257,326.869,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18300,Operators,map construction from observable via dot + subscribe,250.911,250.729,251.374,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18301,Subscription,composite_subscription create,53.2072,53.0848,53.6622,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18302,Subscription,composite_subscription add,20.5454,20.5385,20.5523,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18303,Subscription,composite_subscription unsubscribe,10.7285,10.7075,10.8138,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18304,foundamental sources,empty,36.8437,36.7088,37.048,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18305,foundamental sources,error,77.2643,77.1477,77.6755,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18306,foundamental sources,never,245.993,245.291,248.929,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18307,just,just send int,37.1819,37.0586,37.4074,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18308,just,just send variadic,42.7561,42.6403,43.0657,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18309,from,from vector with int,59.0196,58.8142,59.477,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18310,merge,merge,125.917,125.538,127.273,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18311,merge,merge_with,306.983,305.592,310.164,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18312,publish_subject callbacks,on_next,10.2031,10.1593,10.3171,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18313,publish_subject callbacks,on_error,19.1772,19.1361,19.3606,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18314,publish_subject callbacks,on_completed,0.673083,0.671573,0.680154,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18315,publish_subject routines,construct,179.25,177.806,185.014,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18316,publish_subject routines,get_observable,51.1095,50.8753,51.7693,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
+18317,publish_subject routines,get_subscriber,14.2792,14.1925,14.404,0.95,Linux CLANG,add multicast (#109) (8618d497),rxcpp
