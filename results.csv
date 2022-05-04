@@ -18882,7 +18882,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 18880,Observable subscribe,Dynamic observable subscribe dynamic observer,152.382,151.455,154.871,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rpp
 18881,Observable lift,Specific observable lift specific observer,175.288,174.641,177.111,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rpp
 18882,Observable lift,Specific observable lift dynamic observer,208.114,207.106,210.28,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rpp
-18883,Observable lift,Dynamic observable lift specific observer,300.67,299,304.727,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rpp
+18883,Observable lift,Dynamic observable lift specific observer,300.67,299.0,304.727,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rpp
 18884,Observable lift,Dynamic observable lift dynamic observer,257.25,256.26,260.72,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rpp
 18885,Operators,map construction from observable via dot + subscribe,129.043,105.238,246.129,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rpp
 18886,Subscription,composite_subscription create,97.9494,97.4358,98.9339,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rpp
@@ -18921,7 +18921,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 18919,Subscriber construction,Make subsriber,394.343,392.143,402.057,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
 18920,Subscriber construction,Make copy of subscriber,36.563,36.4196,36.9008,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
 18921,Subscriber construction,Transform subsriber to dynamic,172.438,169.802,183.142,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
-18922,Observable subscribe,Specific observable subscribe specific observer,1811.67,1387,3431.38,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
+18922,Observable subscribe,Specific observable subscribe specific observer,1811.67,1387.0,3431.38,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
 18923,Observable subscribe,Specific observable subscribe dynamic observer,1394.8,1380.15,1453.55,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
 18924,Observable subscribe,Dynamic observable subscribe specific observer,1556.59,1538.35,1636.35,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
 18925,Observable subscribe,Dynamic observable subscribe dynamic observer,1696.21,1440.26,2893.68,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
@@ -18935,12 +18935,12 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 18933,Subscription,composite_subscription unsubscribe,26.6192,26.5068,26.8401,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
 18934,foundamental sources,empty,219.431,217.679,224.161,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
 18935,foundamental sources,error,257.581,245.645,278.226,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
-18936,foundamental sources,never,969.607,963.429,995,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
+18936,foundamental sources,never,969.607,963.429,995.0,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
 18937,just,just send int,219.58,217.928,224.775,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
 18938,just,just send variadic,222.153,219.511,229.825,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
 18939,from,from vector with int,302.184,299.99,310.388,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
 18940,merge,merge,848.706,797.196,1087.27,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
-18941,merge,merge_with,1756,1717.83,1850.3,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
+18941,merge,merge_with,1756.0,1717.83,1850.3,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
 18942,publish_subject callbacks,on_next,34.9195,34.8662,35.0455,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
 18943,publish_subject callbacks,on_error,21.8304,20.9198,24.0863,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
 18944,publish_subject callbacks,on_completed,0.755751,0.754012,0.75988,0.95,Windows MSVC,Bump actions/github-... (e87e11f2),rxcpp
@@ -19127,3 +19127,273 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 19125,publish_subject routines,construct,182.592,180.949,186.757,0.95,Linux CLANG,Bump actions/github-... (e87e11f2),rxcpp
 19126,publish_subject routines,get_observable,51.599,51.301,52.6023,0.95,Linux CLANG,Bump actions/github-... (e87e11f2),rxcpp
 19127,publish_subject routines,get_subscriber,15.6808,15.6496,15.7162,0.95,Linux CLANG,Bump actions/github-... (e87e11f2),rxcpp
+19128,Observable construction,Specific observable construction,0.769683,0.744385,0.833099,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19129,Observable construction,Dynamic observable construction,80.3467,79.0433,82.5913,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19130,Observable construction,Specific observable construction + as_dynamic,78.209,77.8135,78.9968,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19131,Observable subscribe #2,Specific observable subscribe lambda,126.937,124.161,131.107,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19132,Observable subscribe #2,Dynamic observable subscribe lambda,203.855,200.351,211.275,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19133,Observable subscribe #2,Specific observable subscribe lambda without subscription,118.514,118.199,119.574,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19134,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,212.908,211.675,216.258,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19135,Observable subscribe #2,Specific observable subscribe specific subscriber,17.3108,17.077,17.745,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19136,Observable subscribe #2,Dynamic observable subscribe specific subscriber,120.381,116.444,127.569,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19137,Observable subscribe #2,Specific observable subscribe dynamic observer,16.8158,16.7967,16.862,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19138,Observable subscribe #2,Dynamic observable subscribe dynamic observer,17.3572,17.2355,17.661,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19139,Observer construction,Specific observer construction,0.987125,0.716147,2.31069,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19140,Observer construction,Dynamic observer construction,89.3617,86.2158,94.1581,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19141,Observer construction,Specific observer construction + as_dynamic,79.4295,78.6538,81.2212,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19142,OnNext,Specific observer OnNext,0.671527,0.652818,0.719136,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19143,OnNext,Dynamic observer OnNext,1.99732,1.96613,2.0553,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19144,Subscriber construction,Make subsriber,108.486,105.443,114.918,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19145,Subscriber construction,Make copy of subscriber,18.5341,15.5686,32.6879,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19146,Subscriber construction,Transform subsriber to dynamic,94.7383,92.5,98.5,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19147,Observable subscribe,Specific observable subscribe specific observer,132.099,127.641,140.219,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19148,Observable subscribe,Specific observable subscribe dynamic observer,137.935,135.516,141.962,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19149,Observable subscribe,Dynamic observable subscribe specific observer,253.16,230.387,338.328,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19150,Observable subscribe,Dynamic observable subscribe dynamic observer,143.398,138.78,158.478,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19151,Observable lift,Specific observable lift specific observer,162.647,159.417,169.551,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19152,Observable lift,Specific observable lift dynamic observer,201.985,193.308,220.211,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19153,Observable lift,Dynamic observable lift specific observer,278.785,270.763,297.011,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19154,Observable lift,Dynamic observable lift dynamic observer,229.149,228.149,231.446,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19155,Operators,map construction from observable via dot + subscribe,99.9677,98.3154,102.505,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19156,Subscription,composite_subscription create,93.8242,90.5391,102.137,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19157,Subscription,composite_subscription add,102.731,97.4915,119.205,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19158,Subscription,composite_subscription unsubscribe,6.97067,6.63346,7.91913,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19159,foundamental sources,empty,19.641,19.1994,20.2843,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19160,foundamental sources,error,53.0911,51.9653,55,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19161,foundamental sources,never,21.0983,20.2481,22.3567,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19162,just,just send int,28.7712,27.4022,32.9032,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19163,just,just send variadic,44.1338,43.1232,45.6268,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19164,from,from vector with int,93.9739,91.5448,98.2612,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19165,merge,merge,553.667,541.292,572.354,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19166,merge,merge_with,869.97,841.97,933.727,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19167,publish_subject callbacks,on_next,47.8907,33.1997,119.66,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19168,publish_subject callbacks,on_error,2.1201,2.03733,2.42384,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19169,publish_subject callbacks,on_completed,2.37742,2.36796,2.39432,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19170,publish_subject routines,construct,369.163,353.592,408.755,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19171,publish_subject routines,get_observable,40.0189,38.6079,43.9701,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19172,publish_subject routines,get_subscriber,61.4483,60.1402,63.3356,0.95,Windows MSVC,Cmakes (#115) (98682f10),rpp
+19173,Observable construction,Specific observable construction,0.915833,0.746011,1.67831,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19174,Observable construction,Dynamic observable construction,153.156,126.964,279.714,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19175,Observable construction,Specific observable construction + as_dynamic,149.774,144.97,159.447,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19176,Observable subscribe #2,Specific observable subscribe lambda,1291.8,1234.9,1407.35,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19177,Observable subscribe #2,Dynamic observable subscribe lambda,1496.12,1429.06,1676.35,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19178,Observable subscribe #2,Specific observable subscribe lambda without subscription,1269.1,1215.55,1387.15,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19179,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,2326.12,1543.44,6148.12,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19180,Observable subscribe #2,Specific observable subscribe specific subscriber,989.333,979.519,1013.93,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19181,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1111.38,1064.38,1218.92,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19182,Observable subscribe #2,Specific observable subscribe dynamic observer,966.962,939.269,1004.65,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19183,Observable subscribe #2,Dynamic observable subscribe dynamic observer,994.125,965.125,1035.38,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19184,Observer construction,Specific observer construction,1.72512,1.7118,1.75924,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19185,Observer construction,Dynamic observer construction,117.074,115.77,119.98,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19186,Observer construction,Specific observer construction + as_dynamic,133.01,127.981,141.214,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19187,OnNext,Specific observer OnNext,0.742245,0.725203,0.768605,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19188,OnNext,Dynamic observer OnNext,2.07393,2.0294,2.14161,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19189,Subscriber construction,Make subsriber,403.578,388.156,456.625,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19190,Subscriber construction,Make copy of subscriber,35.5612,34.4284,38.0418,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19191,Subscriber construction,Transform subsriber to dynamic,162.972,156.876,183.248,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19192,Observable subscribe,Specific observable subscribe specific observer,1384.67,1336.67,1503.78,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19193,Observable subscribe,Specific observable subscribe dynamic observer,1297.25,1284,1349.45,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19194,Observable subscribe,Dynamic observable subscribe specific observer,1876.88,1475.71,3771.12,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19195,Observable subscribe,Dynamic observable subscribe dynamic observer,1379.8,1348.27,1450.13,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19196,Observable lift,Specific observable lift specific observer,1221.75,1208.95,1271.25,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19197,Observable lift,Specific observable lift dynamic observer,2091.63,1541.68,4747.74,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19198,Observable lift,Dynamic observable lift specific observer,1545.06,1501.71,1631.94,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19199,Observable lift,Dynamic observable lift dynamic observer,1651.75,1565.44,1854.19,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19200,Operators,map construction from observable via dot + subscribe,1163.63,1116.26,1246.32,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19201,Subscription,composite_subscription create,353.365,343.746,371.619,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19202,Subscription,composite_subscription add,74.7857,73.2919,77.0963,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19203,Subscription,composite_subscription unsubscribe,26.4245,25.2606,29.0236,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19204,foundamental sources,empty,211.232,202.864,227.664,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19205,foundamental sources,error,210.18,207.557,215.262,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19206,foundamental sources,never,3053.11,1046.81,12815.1,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19207,just,just send int,210.068,200.955,225.88,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19208,just,just send variadic,205.569,200.592,214.208,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19209,from,from vector with int,270.344,266.839,277.763,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19210,merge,merge,860.5,724.34,1494.36,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19211,merge,merge_with,1592.71,1508.46,1790.25,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19212,publish_subject callbacks,on_next,32.5181,31.8568,33.7965,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19213,publish_subject callbacks,on_error,17.9712,17.852,18.1891,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19214,publish_subject callbacks,on_completed,0.867124,0.727292,1.52703,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19215,publish_subject routines,construct,601.742,595.774,620.097,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19216,publish_subject routines,get_observable,180.616,172.541,194.031,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19217,publish_subject routines,get_subscriber,105.304,100.808,117.628,0.95,Windows MSVC,Cmakes (#115) (98682f10),rxcpp
+19218,Observable construction,Specific observable construction,0.344434,0.331482,0.360208,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19219,Observable construction,Dynamic observable construction,21.9804,21.2825,22.6594,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19220,Observable construction,Specific observable construction + as_dynamic,19.0394,18.4701,20.015,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19221,Observable subscribe #2,Specific observable subscribe lambda,25.4466,24.826,26.0843,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19222,Observable subscribe #2,Dynamic observable subscribe lambda,56.9028,54.6557,60.9337,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19223,Observable subscribe #2,Specific observable subscribe lambda without subscription,30.0697,28.7025,33.8765,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19224,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,55.1442,53.7951,57.6896,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19225,Observable subscribe #2,Specific observable subscribe specific subscriber,3.95968,3.81877,4.15209,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19226,Observable subscribe #2,Dynamic observable subscribe specific subscriber,26.2664,25.8242,26.9184,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19227,Observable subscribe #2,Specific observable subscribe dynamic observer,3.84439,3.76675,3.94175,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19228,Observable subscribe #2,Dynamic observable subscribe dynamic observer,3.08937,3.08354,3.10942,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19229,Observer construction,Specific observer construction,0.282608,0.280358,0.288156,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19230,Observer construction,Dynamic observer construction,22.5011,21.7009,23.4305,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19231,Observer construction,Specific observer construction + as_dynamic,16.9229,16.9012,16.9624,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19232,OnNext,Specific observer OnNext,0.375598,0.372272,0.38418,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19233,OnNext,Dynamic observer OnNext,1.39556,1.39356,1.40346,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19234,Subscriber construction,Make subsriber,30.1517,29.4502,31.0949,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19235,Subscriber construction,Make copy of subscriber,3.79541,3.67395,3.96528,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19236,Subscriber construction,Transform subsriber to dynamic,22.3134,21.7756,23.0548,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19237,Observable subscribe,Specific observable subscribe specific observer,27.4688,26.9285,28.0564,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19238,Observable subscribe,Specific observable subscribe dynamic observer,27.123,26.4774,28.1347,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19239,Observable subscribe,Dynamic observable subscribe specific observer,42.9756,42.5692,44.0416,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19240,Observable subscribe,Dynamic observable subscribe dynamic observer,33.1203,32.1409,34.2638,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19241,Observable lift,Specific observable lift specific observer,30.46,29.4447,31.7947,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19242,Observable lift,Specific observable lift dynamic observer,30.9652,30.9089,31.1328,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19243,Observable lift,Dynamic observable lift specific observer,63.458,61.8166,65.4382,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19244,Observable lift,Dynamic observable lift dynamic observer,52.8726,51.1445,55.1769,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19245,Operators,map construction from observable via dot + subscribe,25.6982,24.8152,26.8384,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19246,Subscription,composite_subscription create,23.3215,22.5688,24.3493,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19247,Subscription,composite_subscription add,18.6164,18.4479,19.2304,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19248,Subscription,composite_subscription unsubscribe,8.02149,7.76615,8.32354,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19249,foundamental sources,empty,5.08284,5.04027,5.14238,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19250,foundamental sources,error,29.5436,29.5289,29.5921,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19251,foundamental sources,never,3.38516,3.33964,3.43827,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19252,just,just send int,6.27439,6.12053,6.46153,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19253,just,just send variadic,13.2479,13.0127,13.7829,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19254,from,from vector with int,27.6107,26.7903,28.6065,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19255,merge,merge,134.289,132.554,137.927,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19256,merge,merge_with,216.784,211.241,225.298,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19257,publish_subject callbacks,on_next,15.2347,14.8427,15.7191,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19258,publish_subject callbacks,on_error,1.37122,1.32358,1.42912,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19259,publish_subject callbacks,on_completed,0.916874,0.900938,0.939444,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19260,publish_subject routines,construct,159.398,155.282,165.708,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19261,publish_subject routines,get_observable,6.87377,6.86431,6.91063,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19262,publish_subject routines,get_subscriber,11.5963,11.5796,11.662,0.95,Linux GCC,Cmakes (#115) (98682f10),rpp
+19263,Observable construction,Specific observable construction,0.328428,0.319338,0.338042,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19264,Observable construction,Dynamic observable construction,23.9453,23.8998,24.0831,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19265,Observable construction,Specific observable construction + as_dynamic,21.0125,20.685,21.5577,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19266,Observable subscribe #2,Specific observable subscribe lambda,306.199,300.98,313.826,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19267,Observable subscribe #2,Dynamic observable subscribe lambda,446.299,437.193,459.708,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19268,Observable subscribe #2,Specific observable subscribe lambda without subscription,282.453,282.212,282.844,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19269,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,447.711,434.821,460.191,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19270,Observable subscribe #2,Specific observable subscribe specific subscriber,332.967,324.808,360.799,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19271,Observable subscribe #2,Dynamic observable subscribe specific subscriber,356.116,343.747,382.462,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19272,Observable subscribe #2,Specific observable subscribe dynamic observer,321.96,313.217,330.851,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19273,Observable subscribe #2,Dynamic observable subscribe dynamic observer,289.106,282.328,300.729,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19274,Observer construction,Specific observer construction,0.389719,0.382696,0.400106,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19275,Observer construction,Dynamic observer construction,19.6963,19.3501,20.1882,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19276,Observer construction,Specific observer construction + as_dynamic,24.8778,24.3695,25.4328,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19277,OnNext,Specific observer OnNext,0.399771,0.395211,0.407718,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19278,OnNext,Dynamic observer OnNext,2.11673,2.04953,2.19855,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19279,Subscriber construction,Make subsriber,67.1913,65.6042,69.1669,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19280,Subscriber construction,Make copy of subscriber,3.96285,3.87522,4.1105,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19281,Subscriber construction,Transform subsriber to dynamic,24.488,24.3166,25.1401,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19282,Observable subscribe,Specific observable subscribe specific observer,364.668,352.855,377.904,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19283,Observable subscribe,Specific observable subscribe dynamic observer,366.461,355.247,381.355,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19284,Observable subscribe,Dynamic observable subscribe specific observer,418.948,405.433,433.464,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19285,Observable subscribe,Dynamic observable subscribe dynamic observer,421.366,415.38,428.572,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19286,Observable lift,Specific observable lift specific observer,345.621,336.209,357.727,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19287,Observable lift,Specific observable lift dynamic observer,338.496,329.644,349.097,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19288,Observable lift,Dynamic observable lift specific observer,474.159,461.246,490.609,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19289,Observable lift,Dynamic observable lift dynamic observer,321.305,320.669,323.383,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19290,Operators,map construction from observable via dot + subscribe,347.924,334.533,365.742,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19291,Subscription,composite_subscription create,60.2327,58.2704,62.5894,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19292,Subscription,composite_subscription add,20.7675,20.4962,21.2175,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19293,Subscription,composite_subscription unsubscribe,13.0227,12.8886,13.2828,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19294,foundamental sources,empty,56.601,55.5368,58.1772,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19295,foundamental sources,error,87.1711,84.4103,90.2196,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19296,foundamental sources,never,250.518,246.507,256.864,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19297,just,just send int,58.3344,57.6487,59.5269,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19298,just,just send variadic,48.4122,47.017,50.101,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19299,from,from vector with int,77.4992,76.1451,79.1525,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19300,merge,merge,165.214,161.635,169.126,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19301,merge,merge_with,326.869,316.924,339.625,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19302,publish_subject callbacks,on_next,12.7006,12.4341,13.106,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19303,publish_subject callbacks,on_error,16.2618,16.2478,16.2976,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19304,publish_subject callbacks,on_completed,0.838765,0.838444,0.839635,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19305,publish_subject routines,construct,145.061,144.164,148.477,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19306,publish_subject routines,get_observable,45.0899,44.1442,46.4262,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19307,publish_subject routines,get_subscriber,21.4878,20.8274,22.2163,0.95,Linux GCC,Cmakes (#115) (98682f10),rxcpp
+19308,Observable construction,Specific observable construction,0.669816,0.669524,0.670153,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19309,Observable construction,Dynamic observable construction,30.9945,30.8221,31.8139,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19310,Observable construction,Specific observable construction + as_dynamic,30.8399,30.777,31.0945,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19311,Observable subscribe #2,Specific observable subscribe lambda,58.946,58.9023,59.1041,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19312,Observable subscribe #2,Dynamic observable subscribe lambda,89.2319,89.0258,90.0527,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19313,Observable subscribe #2,Specific observable subscribe lambda without subscription,58.9333,58.8328,59.3198,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19314,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,89.1881,88.959,90.2178,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19315,Observable subscribe #2,Specific observable subscribe specific subscriber,16.7472,16.7135,16.8823,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19316,Observable subscribe #2,Dynamic observable subscribe specific subscriber,61.7468,61.5755,62.3551,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19317,Observable subscribe #2,Specific observable subscribe dynamic observer,16.7356,16.7277,16.749,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19318,Observable subscribe #2,Dynamic observable subscribe dynamic observer,16.7408,16.7127,16.8636,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19319,Observer construction,Specific observer construction,0.670976,0.669162,0.67869,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19320,Observer construction,Dynamic observer construction,28.5429,28.4848,28.7689,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19321,Observer construction,Specific observer construction + as_dynamic,28.5211,28.4648,28.7553,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19322,OnNext,Specific observer OnNext,0.671216,0.669668,0.677743,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19323,OnNext,Dynamic observer OnNext,2.01442,2.00829,2.04344,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19324,Subscriber construction,Make subsriber,44.4688,44.4583,44.4837,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19325,Subscriber construction,Make copy of subscriber,16.7456,16.7175,16.869,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19326,Subscriber construction,Transform subsriber to dynamic,49.8984,49.857,50.0459,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19327,Observable subscribe,Specific observable subscribe specific observer,58.6311,58.5213,59.0428,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19328,Observable subscribe,Specific observable subscribe dynamic observer,71.1214,70.8899,72.2217,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19329,Observable subscribe,Dynamic observable subscribe specific observer,90.1468,90.0986,90.303,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19330,Observable subscribe,Dynamic observable subscribe dynamic observer,75.3322,75.1422,76.177,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19331,Observable lift,Specific observable lift specific observer,82.8747,82.4942,84.5971,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19332,Observable lift,Specific observable lift dynamic observer,114.597,114.559,114.651,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19333,Observable lift,Dynamic observable lift specific observer,157.591,157.176,158.71,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19334,Observable lift,Dynamic observable lift dynamic observer,168.719,168.427,169.967,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19335,Operators,map construction from observable via dot + subscribe,84.2539,84.2172,84.3667,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19336,Subscription,composite_subscription create,32.4795,32.4338,32.6794,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19337,Subscription,composite_subscription add,61.2847,61.0118,62.2319,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19338,Subscription,composite_subscription unsubscribe,6.0384,6.0279,6.07737,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19339,foundamental sources,empty,18.456,18.4091,18.6731,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19340,foundamental sources,error,48.218,48.197,48.2953,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19341,foundamental sources,never,16.7366,16.7109,16.8515,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19342,just,just send int,20.091,20.0829,20.1045,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19343,just,just send variadic,36.9891,36.9127,37.2514,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19344,from,from vector with int,32.1519,32.1358,32.196,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19345,merge,merge,311.45,310.37,314.148,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19346,merge,merge_with,373.465,372.718,376.368,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19347,publish_subject callbacks,on_next,49.0405,48.9943,49.1574,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19348,publish_subject callbacks,on_error,2.59991,2.567,2.6296,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19349,publish_subject callbacks,on_completed,2.71402,2.7046,2.73957,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19350,publish_subject routines,construct,199.022,196.65,209.33,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19351,publish_subject routines,get_observable,40.5347,40.4398,40.9404,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19352,publish_subject routines,get_subscriber,65.9625,65.8272,66.61,0.95,Linux CLANG,Cmakes (#115) (98682f10),rpp
+19353,Observable construction,Specific observable construction,0.335216,0.33499,0.335892,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19354,Observable construction,Dynamic observable construction,32.1027,32.0099,32.5396,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19355,Observable construction,Specific observable construction + as_dynamic,32.0164,31.997,32.0702,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19356,Observable subscribe #2,Specific observable subscribe lambda,299.867,298.43,305.342,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19357,Observable subscribe #2,Dynamic observable subscribe lambda,339.014,338.436,341.124,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19358,Observable subscribe #2,Specific observable subscribe lambda without subscription,297.542,296.473,300.258,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19359,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,339.924,338.857,344.16,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19360,Observable subscribe #2,Specific observable subscribe specific subscriber,234.523,233.9,236.116,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19361,Observable subscribe #2,Dynamic observable subscribe specific subscriber,276.285,275.349,278.652,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19362,Observable subscribe #2,Specific observable subscribe dynamic observer,247.854,247.19,249.527,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19363,Observable subscribe #2,Dynamic observable subscribe dynamic observer,261.431,261.028,262.967,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19364,Observer construction,Specific observer construction,0.335234,0.334669,0.337389,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19365,Observer construction,Dynamic observer construction,22.9971,22.9066,23.1212,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19366,Observer construction,Specific observer construction + as_dynamic,22.7087,22.6262,22.9502,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19367,OnNext,Specific observer OnNext,0.668933,0.668707,0.66918,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19368,OnNext,Dynamic observer OnNext,2.35021,2.34453,2.37287,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19369,Subscriber construction,Make subsriber,64.3321,64.2065,64.8235,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19370,Subscriber construction,Make copy of subscriber,4.69366,4.68593,4.72773,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19371,Subscriber construction,Transform subsriber to dynamic,27.2006,27.139,27.3428,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19372,Observable subscribe,Specific observable subscribe specific observer,298.262,297.271,300.787,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19373,Observable subscribe,Specific observable subscribe dynamic observer,304.137,303.545,306.596,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19374,Observable subscribe,Dynamic observable subscribe specific observer,336.216,335.272,340.093,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19375,Observable subscribe,Dynamic observable subscribe dynamic observer,326.502,325.736,329.916,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19376,Observable lift,Specific observable lift specific observer,296.002,294.744,299.339,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19377,Observable lift,Specific observable lift dynamic observer,311.929,311.202,314.886,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19378,Observable lift,Dynamic observable lift specific observer,340.889,339.923,343.31,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19379,Observable lift,Dynamic observable lift dynamic observer,347.014,346.333,349.64,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19380,Operators,map construction from observable via dot + subscribe,247.242,246.606,248.795,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19381,Subscription,composite_subscription create,53.6491,53.5752,53.7444,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19382,Subscription,composite_subscription add,20.9282,20.8749,21.1608,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19383,Subscription,composite_subscription unsubscribe,10.7129,10.7054,10.7389,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19384,foundamental sources,empty,36.9198,36.7828,37.2515,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19385,foundamental sources,error,76.9192,76.6875,77.9446,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19386,foundamental sources,never,239.628,238.644,243.27,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19387,just,just send int,37.2451,37.0404,37.7274,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19388,just,just send variadic,42.8497,42.6251,43.4381,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19389,from,from vector with int,58.8981,58.6916,59.4019,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19390,merge,merge,126.376,125.421,130.422,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19391,merge,merge_with,308.286,305.561,319.185,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19392,publish_subject callbacks,on_next,10.2089,10.1724,10.2907,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19393,publish_subject callbacks,on_error,19.2013,19.1466,19.3728,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19394,publish_subject callbacks,on_completed,0.671868,0.671305,0.673831,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19395,publish_subject routines,construct,180.353,176.381,199.268,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19396,publish_subject routines,get_observable,51.1633,51.0312,51.3244,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
+19397,publish_subject routines,get_subscriber,14.0164,13.9383,14.1531,0.95,Linux CLANG,Cmakes (#115) (98682f10),rxcpp
