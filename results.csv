@@ -19468,7 +19468,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 19466,Observable lift,Specific observable lift specific observer,1256.67,1252.95,1268.71,0.95,Windows MSVC,From callable (#116) (1ef36215),rxcpp
 19467,Observable lift,Specific observable lift dynamic observer,1487.05,1428.4,1697.55,0.95,Windows MSVC,From callable (#116) (1ef36215),rxcpp
 19468,Observable lift,Dynamic observable lift specific observer,1439.56,1419.22,1510.83,0.95,Windows MSVC,From callable (#116) (1ef36215),rxcpp
-19469,Observable lift,Dynamic observable lift dynamic observer,1327.05,1316,1350.85,0.95,Windows MSVC,From callable (#116) (1ef36215),rxcpp
+19469,Observable lift,Dynamic observable lift dynamic observer,1327.05,1316.0,1350.85,0.95,Windows MSVC,From callable (#116) (1ef36215),rxcpp
 19470,Operators,map construction from observable via dot + subscribe,1011.92,1004.84,1039.68,0.95,Windows MSVC,From callable (#116) (1ef36215),rxcpp
 19471,Subscription,composite_subscription create,340.427,337.987,350.453,0.95,Windows MSVC,From callable (#116) (1ef36215),rxcpp
 19472,Subscription,composite_subscription add,63.3459,63.1855,63.609,0.95,Windows MSVC,From callable (#116) (1ef36215),rxcpp
@@ -19667,3 +19667,273 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 19665,publish_subject routines,construct,157.427,156.255,161.469,0.95,Linux CLANG,From callable (#116) (1ef36215),rxcpp
 19666,publish_subject routines,get_observable,46.0482,45.9345,46.4833,0.95,Linux CLANG,From callable (#116) (1ef36215),rxcpp
 19667,publish_subject routines,get_subscriber,13.0643,12.9966,13.1536,0.95,Linux CLANG,From callable (#116) (1ef36215),rxcpp
+19668,Observable construction,Specific observable construction,0.595206,0.591428,0.603572,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19669,Observable construction,Dynamic observable construction,82.7185,82.4702,83.2583,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19670,Observable construction,Specific observable construction + as_dynamic,114.384,73.2583,318.126,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19671,Observable subscribe #2,Specific observable subscribe lambda,106.62,106.259,107.512,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19672,Observable subscribe #2,Dynamic observable subscribe lambda,236.027,235.045,239.339,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19673,Observable subscribe #2,Specific observable subscribe lambda without subscription,105.682,105.281,106.581,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19674,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,207.159,206.037,210.037,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19675,Observable subscribe #2,Specific observable subscribe specific subscriber,14.8189,14.7613,14.9612,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19676,Observable subscribe #2,Dynamic observable subscribe specific subscriber,133.149,132.697,134.25,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19677,Observable subscribe #2,Specific observable subscribe dynamic observer,14.7995,14.7525,14.9167,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19678,Observable subscribe #2,Dynamic observable subscribe dynamic observer,68.634,68.5024,68.9043,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19679,Observer construction,Specific observer construction,0.670151,0.668906,0.673137,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19680,Observer construction,Dynamic observer construction,72.015,71.7635,72.5629,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19681,Observer construction,Specific observer construction + as_dynamic,81.5533,81.2939,82.1268,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19682,OnNext,Specific observer OnNext,0.670428,0.66922,0.673135,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19683,OnNext,Dynamic observer OnNext,2.01301,2.00881,2.02286,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19684,Subscriber construction,Make subsriber,102.329,102.148,102.765,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19685,Subscriber construction,Make copy of subscriber,14.8003,14.7445,14.9408,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19686,Subscriber construction,Transform subsriber to dynamic,96.6529,96.4192,97.2302,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19687,Observable subscribe,Specific observable subscribe specific observer,121.673,121.323,122.527,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19688,Observable subscribe,Specific observable subscribe dynamic observer,118.521,117.811,120.2,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19689,Observable subscribe,Dynamic observable subscribe specific observer,209.13,207.963,211.88,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19690,Observable subscribe,Dynamic observable subscribe dynamic observer,163.747,162.545,166.935,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19691,Observable lift,Specific observable lift specific observer,139.266,138.563,140.81,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19692,Observable lift,Specific observable lift dynamic observer,182.546,181.822,183.842,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19693,Observable lift,Dynamic observable lift specific observer,283.874,277.095,298.158,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19694,Observable lift,Dynamic observable lift dynamic observer,289.79,213.724,667.61,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19695,Operators,map construction from observable via dot + subscribe,91.2747,91.0989,91.6593,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19696,Subscription,composite_subscription create,77.6168,77.3053,78.3178,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19697,Subscription,composite_subscription add,86.4762,85.1978,91.8059,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19698,Subscription,composite_subscription unsubscribe,7.4283,7.39253,7.51325,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19699,foundamental sources,empty,16.2962,16.2502,16.4238,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19700,foundamental sources,error,50.7992,50.6389,51.1014,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19701,foundamental sources,never,14.816,14.7621,14.9535,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19702,just,just send int,22.4797,22.4381,22.5781,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19703,just,just send variadic,36.5134,36.405,36.7329,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19704,from,from vector with int,78.3907,78.0717,79.1183,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19705,merge,merge,519.982,517.474,527.719,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19706,merge,merge_with,731.27,726.27,751.838,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19707,publish_subject callbacks,on_next,32.0333,31.9263,32.2854,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19708,publish_subject callbacks,on_error,2.387,2.37998,2.40077,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19709,publish_subject callbacks,on_completed,2.58813,2.55567,2.6178,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19710,publish_subject routines,construct,335.771,332.146,349.937,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19711,publish_subject routines,get_observable,31.7141,31.5997,31.9822,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19712,publish_subject routines,get_subscriber,59.9309,58.8502,62.288,0.95,Windows MSVC,Refactor observables... (96eb4517),rpp
+19713,Observable construction,Specific observable construction,0.594218,0.59148,0.600597,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19714,Observable construction,Dynamic observable construction,109.399,108.909,110.596,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19715,Observable construction,Specific observable construction + as_dynamic,124.276,123.491,126.033,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19716,Observable subscribe #2,Specific observable subscribe lambda,1060.57,1042.05,1103.81,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19717,Observable subscribe #2,Dynamic observable subscribe lambda,1367.74,1352.58,1431.26,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19718,Observable subscribe #2,Specific observable subscribe lambda without subscription,1048.59,1036.09,1098,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19719,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1369.63,1354.58,1436.11,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19720,Observable subscribe #2,Specific observable subscribe specific subscriber,754.806,748.935,773.419,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19721,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1036.04,981.24,1187.52,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19722,Observable subscribe #2,Specific observable subscribe dynamic observer,789.655,783.724,803.931,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19723,Observable subscribe #2,Dynamic observable subscribe dynamic observer,929.704,921.889,962.926,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19724,Observer construction,Specific observer construction,1.33168,1.32632,1.34471,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19725,Observer construction,Dynamic observer construction,101.646,101.134,102.823,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19726,Observer construction,Specific observer construction + as_dynamic,101.852,101.281,102.976,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19727,OnNext,Specific observer OnNext,0.670793,0.669403,0.674042,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19728,OnNext,Dynamic observer OnNext,1.51109,1.50229,1.52584,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19729,Subscriber construction,Make subsriber,306.6,304.157,313.486,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19730,Subscriber construction,Make copy of subscriber,28.2023,27.8953,28.8267,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19731,Subscriber construction,Transform subsriber to dynamic,137.341,136.318,139.699,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19732,Observable subscribe,Specific observable subscribe specific observer,1198.37,1188.54,1235.79,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19733,Observable subscribe,Specific observable subscribe dynamic observer,1080.9,1066.95,1128.75,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19734,Observable subscribe,Dynamic observable subscribe specific observer,1223.94,1208.11,1285.06,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19735,Observable subscribe,Dynamic observable subscribe dynamic observer,1252.25,1245.6,1274.3,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19736,Observable lift,Specific observable lift specific observer,1228.29,1216.81,1275.33,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19737,Observable lift,Specific observable lift dynamic observer,1413.68,1382.73,1473.36,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19738,Observable lift,Dynamic observable lift specific observer,1248,1234.16,1300.84,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19739,Observable lift,Dynamic observable lift dynamic observer,1318.5,1306,1372.55,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19740,Operators,map construction from observable via dot + subscribe,893.185,884.778,913.222,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19741,Subscription,composite_subscription create,340.583,338.792,346.819,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19742,Subscription,composite_subscription add,63.6,63.3163,63.9953,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19743,Subscription,composite_subscription unsubscribe,22.677,22.545,22.991,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19744,foundamental sources,empty,192.355,191.087,196.754,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19745,foundamental sources,error,207.598,206.348,212.053,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19746,foundamental sources,never,763.966,758.552,782.207,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19747,just,just send int,192.226,191.474,194.226,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19748,just,just send variadic,194.583,193.16,199.764,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19749,from,from vector with int,265.048,263.135,272.442,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19750,merge,merge,592.333,586,619.421,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19751,merge,merge_with,1283.52,1268.36,1344.64,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19752,publish_subject callbacks,on_next,28.7544,28.6336,29.0624,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19753,publish_subject callbacks,on_error,17.3672,17.3224,17.4574,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19754,publish_subject callbacks,on_completed,0.728676,0.708905,0.747945,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19755,publish_subject routines,construct,522.452,517.29,542.129,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19756,publish_subject routines,get_observable,158.592,158.083,159.694,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19757,publish_subject routines,get_subscriber,91.6679,91.4477,92.0903,0.95,Windows MSVC,Refactor observables... (96eb4517),rxcpp
+19758,Observable construction,Specific observable construction,0.391678,0.384508,0.402364,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19759,Observable construction,Dynamic observable construction,24.0341,23.9838,24.2081,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19760,Observable construction,Specific observable construction + as_dynamic,25.3552,25.06,25.8925,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19761,Observable subscribe #2,Specific observable subscribe lambda,31.4982,31.4145,31.7438,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19762,Observable subscribe #2,Dynamic observable subscribe lambda,72.8957,71.4262,75.3107,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19763,Observable subscribe #2,Specific observable subscribe lambda without subscription,33.2001,32.9996,33.7248,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19764,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,64.7952,63.0477,66.5426,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19765,Observable subscribe #2,Specific observable subscribe specific subscriber,4.35177,4.26429,4.5016,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19766,Observable subscribe #2,Dynamic observable subscribe specific subscriber,37.1556,36.4657,38.8073,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19767,Observable subscribe #2,Specific observable subscribe dynamic observer,4.40733,4.40019,4.43677,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19768,Observable subscribe #2,Dynamic observable subscribe dynamic observer,18.2815,18.0887,18.6369,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19769,Observer construction,Specific observer construction,0.402194,0.401577,0.404631,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19770,Observer construction,Dynamic observer construction,24.439,24.3724,24.5864,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19771,Observer construction,Specific observer construction + as_dynamic,19.6007,19.1308,20.3004,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19772,OnNext,Specific observer OnNext,0.402369,0.401684,0.404732,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19773,OnNext,Dynamic observer OnNext,1.96644,1.94483,2.00781,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19774,Subscriber construction,Make subsriber,37.3908,37.3259,37.6039,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19775,Subscriber construction,Make copy of subscriber,4.44216,4.40012,4.5244,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19776,Subscriber construction,Transform subsriber to dynamic,30.0895,30.008,30.2382,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19777,Observable subscribe,Specific observable subscribe specific observer,32.5829,32.3332,32.9929,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19778,Observable subscribe,Specific observable subscribe dynamic observer,36.0208,35.6151,36.8454,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19779,Observable subscribe,Dynamic observable subscribe specific observer,73.1836,73.0415,73.6725,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19780,Observable subscribe,Dynamic observable subscribe dynamic observer,60.102,60.0026,60.4468,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19781,Observable lift,Specific observable lift specific observer,37.5429,37.3463,38.0983,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19782,Observable lift,Specific observable lift dynamic observer,47.99,47.735,48.9158,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19783,Observable lift,Dynamic observable lift specific observer,80.7174,80.5708,81.2383,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19784,Observable lift,Dynamic observable lift dynamic observer,78.4124,77.967,79.4739,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19785,Operators,map construction from observable via dot + subscribe,26.0969,26.046,26.2914,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19786,Subscription,composite_subscription create,27.7837,27.6762,28.0537,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19787,Subscription,composite_subscription add,26.8211,26.4202,27.6666,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19788,Subscription,composite_subscription unsubscribe,9.52604,9.306,9.72937,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19789,foundamental sources,empty,4.48302,4.47426,4.51609,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19790,foundamental sources,error,43.0324,42.9589,43.3106,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19791,foundamental sources,never,4.14082,4.05259,4.24641,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19792,just,just send int,7.14496,7.04155,7.31297,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19793,just,just send variadic,24.5499,24.5084,24.7428,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19794,from,from vector with int,31.3294,31.2502,31.4974,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19795,merge,merge,198.338,197.957,199.367,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19796,merge,merge_with,241.381,240.915,242.895,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19797,publish_subject callbacks,on_next,17.1768,16.9522,17.5536,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19798,publish_subject callbacks,on_error,0.783157,0.770056,0.800617,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19799,publish_subject callbacks,on_completed,1.6156,1.59857,1.64679,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19800,publish_subject routines,construct,166.626,164.836,172.107,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19801,publish_subject routines,get_observable,9.77289,9.74591,9.88155,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19802,publish_subject routines,get_subscriber,16.7568,16.5456,17.1113,0.95,Linux GCC,Refactor observables... (96eb4517),rpp
+19803,Observable construction,Specific observable construction,0.401042,0.395529,0.410345,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19804,Observable construction,Dynamic observable construction,29.4011,29.3416,29.6057,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19805,Observable construction,Specific observable construction + as_dynamic,26.9979,26.5121,27.6106,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19806,Observable subscribe #2,Specific observable subscribe lambda,397.385,392.086,405.42,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19807,Observable subscribe #2,Dynamic observable subscribe lambda,471.308,458.335,485.267,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19808,Observable subscribe #2,Specific observable subscribe lambda without subscription,407.959,407.576,408.728,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19809,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,476.103,475.239,479.158,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19810,Observable subscribe #2,Specific observable subscribe specific subscriber,321.262,313.281,331.195,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19811,Observable subscribe #2,Dynamic observable subscribe specific subscriber,401.253,397.582,407.406,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19812,Observable subscribe #2,Specific observable subscribe dynamic observer,350.122,346.189,356.976,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19813,Observable subscribe #2,Dynamic observable subscribe dynamic observer,352.564,346.199,362.081,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19814,Observer construction,Specific observer construction,0.401958,0.401334,0.404435,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19815,Observer construction,Dynamic observer construction,26.4355,26.1378,26.9164,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19816,Observer construction,Specific observer construction + as_dynamic,26.525,26.4711,26.7323,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19817,OnNext,Specific observer OnNext,0.401543,0.40145,0.401658,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19818,OnNext,Dynamic observer OnNext,2.41365,2.40783,2.43609,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19819,Subscriber construction,Make subsriber,78.3189,76.9833,80.9108,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19820,Subscriber construction,Make copy of subscriber,5.40035,5.35622,5.50302,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19821,Subscriber construction,Transform subsriber to dynamic,33.0259,32.76,33.6583,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19822,Observable subscribe,Specific observable subscribe specific observer,415.052,411.25,423.622,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19823,Observable subscribe,Specific observable subscribe dynamic observer,436.302,435.377,439.093,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19824,Observable subscribe,Dynamic observable subscribe specific observer,477.322,467.966,493.786,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19825,Observable subscribe,Dynamic observable subscribe dynamic observer,409.808,401.154,421.71,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19826,Observable lift,Specific observable lift specific observer,423.018,422.283,425.778,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19827,Observable lift,Specific observable lift dynamic observer,436.93,429.728,450.652,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19828,Observable lift,Dynamic observable lift specific observer,492.795,483.175,507.078,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19829,Observable lift,Dynamic observable lift dynamic observer,407.759,400.122,418.277,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19830,Operators,map construction from observable via dot + subscribe,429.933,424.078,439.62,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19831,Subscription,composite_subscription create,72.3873,72.284,72.5484,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19832,Subscription,composite_subscription add,20.8479,20.5637,21.3326,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19833,Subscription,composite_subscription unsubscribe,13.1616,13.0698,13.3837,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19834,foundamental sources,empty,57.8738,57.3404,58.8308,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19835,foundamental sources,error,98.8884,98.0425,100.624,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19836,foundamental sources,never,318.976,312.315,327.241,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19837,just,just send int,62.8437,62.6105,63.1545,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19838,just,just send variadic,58.0653,57.8542,58.3912,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19839,from,from vector with int,81.9183,80.9873,83.5323,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19840,merge,merge,179.509,178.812,181.64,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19841,merge,merge_with,427.952,424.145,434.737,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19842,publish_subject callbacks,on_next,12.9873,12.8296,13.2491,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19843,publish_subject callbacks,on_error,20.2168,20.1716,20.3998,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19844,publish_subject callbacks,on_completed,1.21136,1.20916,1.21992,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19845,publish_subject routines,construct,212.728,209.727,220.566,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19846,publish_subject routines,get_observable,58.6432,57.8286,59.9132,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19847,publish_subject routines,get_subscriber,26.754,26.6875,26.9825,0.95,Linux GCC,Refactor observables... (96eb4517),rxcpp
+19848,Observable construction,Specific observable construction,0.670247,0.669022,0.675878,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19849,Observable construction,Dynamic observable construction,28.9109,28.8362,29.26,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19850,Observable construction,Specific observable construction + as_dynamic,28.8594,28.7905,29.1503,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19851,Observable subscribe #2,Specific observable subscribe lambda,51.6703,51.6051,51.9211,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19852,Observable subscribe #2,Dynamic observable subscribe lambda,107.979,107.739,108.939,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19853,Observable subscribe #2,Specific observable subscribe lambda without subscription,51.7476,51.6446,52.1463,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19854,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,107.725,107.675,107.786,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19855,Observable subscribe #2,Specific observable subscribe specific subscriber,14.7694,14.7484,14.8386,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19856,Observable subscribe #2,Dynamic observable subscribe specific subscriber,69.0345,68.804,69.8382,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19857,Observable subscribe #2,Specific observable subscribe dynamic observer,14.768,14.7439,14.8759,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19858,Observable subscribe #2,Dynamic observable subscribe dynamic observer,56.1678,56.0636,56.5644,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19859,Observer construction,Specific observer construction,0.590333,0.590117,0.590549,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19860,Observer construction,Dynamic observer construction,25.0961,25.0644,25.2195,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19861,Observer construction,Specific observer construction + as_dynamic,25.1479,25.0932,25.4006,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19862,OnNext,Specific observer OnNext,0.591375,0.590296,0.595576,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19863,OnNext,Dynamic observer OnNext,1.77225,1.76995,1.78238,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19864,Subscriber construction,Make subsriber,39.3018,39.2353,39.5955,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19865,Subscriber construction,Make copy of subscriber,14.7762,14.7497,14.8965,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19866,Subscriber construction,Transform subsriber to dynamic,40.468,40.4022,40.7288,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19867,Observable subscribe,Specific observable subscribe specific observer,51.759,51.6314,52.2745,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19868,Observable subscribe,Specific observable subscribe dynamic observer,63.9792,63.856,64.5313,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19869,Observable subscribe,Dynamic observable subscribe specific observer,110.851,110.697,111.422,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19870,Observable subscribe,Dynamic observable subscribe dynamic observer,108.069,107.94,108.569,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19871,Observable lift,Specific observable lift specific observer,72.9101,72.7672,73.5615,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19872,Observable lift,Specific observable lift dynamic observer,96.2296,96.0186,97.1945,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19873,Observable lift,Dynamic observable lift specific observer,152.658,151.441,157.105,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19874,Observable lift,Dynamic observable lift dynamic observer,159.073,158.738,160.539,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19875,Operators,map construction from observable via dot + subscribe,74.3799,74.2613,74.9577,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19876,Subscription,composite_subscription create,28.6469,28.6069,28.8239,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19877,Subscription,composite_subscription add,52.0432,51.784,52.6962,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19878,Subscription,composite_subscription unsubscribe,5.31011,5.30817,5.31189,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19879,foundamental sources,empty,16.236,16.2332,16.2402,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19880,foundamental sources,error,42.5639,42.4918,42.9057,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19881,foundamental sources,never,14.7771,14.7457,14.8998,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19882,just,just send int,17.7537,17.7125,17.9474,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19883,just,just send variadic,32.6249,32.5718,32.821,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19884,from,from vector with int,28.4285,28.3605,28.7439,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19885,merge,merge,277.917,277.349,280.16,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19886,merge,merge_with,333.217,332.089,337.68,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19887,publish_subject callbacks,on_next,42.2637,42.0609,42.4524,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19888,publish_subject callbacks,on_error,2.21778,2.19785,2.23642,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19889,publish_subject callbacks,on_completed,1.52936,1.52644,1.54219,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19890,publish_subject routines,construct,176.103,174.169,183.122,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19891,publish_subject routines,get_observable,38.0257,38.013,38.0371,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19892,publish_subject routines,get_subscriber,60.4444,60.3682,60.6992,0.95,Linux CLANG,Refactor observables... (96eb4517),rpp
+19893,Observable construction,Specific observable construction,0.296174,0.295458,0.299047,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19894,Observable construction,Dynamic observable construction,28.3112,28.2278,28.6926,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19895,Observable construction,Specific observable construction + as_dynamic,28.2559,28.2345,28.3094,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19896,Observable subscribe #2,Specific observable subscribe lambda,259.762,259.368,261.175,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19897,Observable subscribe #2,Dynamic observable subscribe lambda,295.409,294.761,298.102,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19898,Observable subscribe #2,Specific observable subscribe lambda without subscription,261.77,261.051,264.682,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19899,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,300.447,300.224,300.891,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19900,Observable subscribe #2,Specific observable subscribe specific subscriber,205.478,204.678,208.74,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19901,Observable subscribe #2,Dynamic observable subscribe specific subscriber,242.456,242.31,242.692,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19902,Observable subscribe #2,Specific observable subscribe dynamic observer,218.286,218.14,218.603,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19903,Observable subscribe #2,Dynamic observable subscribe dynamic observer,230.405,229.853,232.58,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19904,Observer construction,Specific observer construction,0.295498,0.295364,0.295654,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19905,Observer construction,Dynamic observer construction,20.3601,20.2756,20.5118,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19906,Observer construction,Specific observer construction + as_dynamic,20.0911,20.0016,20.2911,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19907,OnNext,Specific observer OnNext,0.591465,0.590503,0.595333,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19908,OnNext,Dynamic observer OnNext,2.06695,2.06625,2.06781,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19909,Subscriber construction,Make subsriber,58.5957,58.5037,58.9321,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19910,Subscriber construction,Make copy of subscriber,4.146,4.13803,4.17666,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19911,Subscriber construction,Transform subsriber to dynamic,23.9759,23.8967,24.2639,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19912,Observable subscribe,Specific observable subscribe specific observer,263.022,262.352,265.462,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19913,Observable subscribe,Specific observable subscribe dynamic observer,270.032,269.447,272.578,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19914,Observable subscribe,Dynamic observable subscribe specific observer,300.396,300.183,300.71,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19915,Observable subscribe,Dynamic observable subscribe dynamic observer,281.981,281.497,283.798,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19916,Observable lift,Specific observable lift specific observer,264.378,263.853,266.18,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19917,Observable lift,Specific observable lift dynamic observer,274.665,274.403,275.223,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19918,Observable lift,Dynamic observable lift specific observer,303.359,303.071,304.014,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19919,Observable lift,Dynamic observable lift dynamic observer,291.772,291.299,293.508,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19920,Operators,map construction from observable via dot + subscribe,224.948,223.34,226.734,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19921,Subscription,composite_subscription create,46.9307,46.7682,47.5324,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19922,Subscription,composite_subscription add,18.1271,18.1222,18.134,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19923,Subscription,composite_subscription unsubscribe,9.46216,9.44104,9.5505,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19924,foundamental sources,empty,32.5824,32.4466,32.9478,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19925,foundamental sources,error,68.0183,67.8403,68.4636,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19926,foundamental sources,never,213.859,213.7,214.136,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19927,just,just send int,32.6919,32.5431,33.0584,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19928,just,just send variadic,37.779,37.6144,38.1662,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19929,from,from vector with int,52.0119,51.7533,52.583,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19930,merge,merge,113.012,110.929,121.087,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19931,merge,merge_with,281.631,279.764,289.106,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19932,publish_subject callbacks,on_next,9.03579,8.9844,9.21009,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19933,publish_subject callbacks,on_error,21.0466,21.0135,21.1472,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19934,publish_subject callbacks,on_completed,0.593441,0.592054,0.598738,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19935,publish_subject routines,construct,160.117,158.624,166.872,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19936,publish_subject routines,get_observable,45.215,45.082,45.3699,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
+19937,publish_subject routines,get_subscriber,12.3136,12.2527,12.3652,0.95,Linux CLANG,Refactor observables... (96eb4517),rxcpp
