@@ -20783,7 +20783,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 20781,foundamental sources,never,18.5112,17.7314,19.6845,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rpp
 20782,just,just send int,26.2615,25.2444,27.9342,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rpp
 20783,just,just send variadic,28.2811,26.8562,30.7339,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rpp
-20784,from,from vector with int,99,95.9392,103.787,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rpp
+20784,from,from vector with int,99.0,95.9392,103.787,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rpp
 20785,merge,merge,606.02,575.922,645.451,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rpp
 20786,merge,merge_with,776.2,749.714,823.257,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rpp
 20787,publish_subject callbacks,on_next,39.9283,38.1367,42.2774,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rpp
@@ -20799,7 +20799,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 20797,Observable subscribe #2,Dynamic observable subscribe lambda,1500.5,1450.61,1576.06,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20798,Observable subscribe #2,Specific observable subscribe lambda without subscription,1322.24,1251.62,1424.71,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20799,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1657.29,1570.06,1883.71,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
-20800,Observable subscribe #2,Specific observable subscribe specific subscriber,1041.07,1000,1103.18,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
+20800,Observable subscribe #2,Specific observable subscribe specific subscriber,1041.07,1000.0,1103.18,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20801,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1172.78,1118.7,1247.61,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20802,Observable subscribe #2,Specific observable subscribe dynamic observer,1480.07,1095.15,3292.67,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20803,Observable subscribe #2,Dynamic observable subscribe dynamic observer,1165.42,1106.77,1239.85,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
@@ -20811,12 +20811,12 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 20809,Subscriber construction,Make subsriber,423.701,388.746,535.075,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20810,Subscriber construction,Make copy of subscriber,39.7987,37.7907,42.6013,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20811,Subscriber construction,Transform subsriber to dynamic,166.791,159.468,176.12,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
-20812,Observable subscribe,Specific observable subscribe specific observer,1285.68,1263.37,1343,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
+20812,Observable subscribe,Specific observable subscribe specific observer,1285.68,1263.37,1343.0,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20813,Observable subscribe,Specific observable subscribe dynamic observer,1478.56,1410.72,1645.78,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20814,Observable subscribe,Dynamic observable subscribe specific observer,1597.65,1541.59,1687.76,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20815,Observable subscribe,Dynamic observable subscribe dynamic observer,1484.78,1456.06,1548.33,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20816,Observable lift,Specific observable lift specific observer,1982.05,1564.45,3762.2,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
-20817,Observable lift,Specific observable lift dynamic observer,1706,1599.06,1936.47,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
+20817,Observable lift,Specific observable lift dynamic observer,1706.0,1599.06,1936.47,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20818,Observable lift,Dynamic observable lift specific observer,1634.94,1553.5,1762.44,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20819,Observable lift,Dynamic observable lift dynamic observer,1553.5,1511.06,1624.33,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20820,Operators,map construction from observable via dot + subscribe,1121.83,1056.74,1311.96,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
@@ -20834,7 +20834,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 20832,publish_subject callbacks,on_next,38.8585,37.6463,40.5922,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20833,publish_subject callbacks,on_error,19.1878,18.3483,20.2636,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20834,publish_subject callbacks,on_completed,0.748091,0.71629,0.789677,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
-20835,publish_subject routines,construct,789,669.6,1290.5,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
+20835,publish_subject routines,construct,789.0,669.6,1290.5,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20836,publish_subject routines,get_observable,224.864,211.388,247.401,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20837,publish_subject routines,get_subscriber,113.042,107.31,120.381,0.95,Windows MSVC,Bump submodules/Catc... (963bd6fe),rxcpp
 20838,Observable construction,Specific observable construction,0.334691,0.334522,0.335218,0.95,Linux GCC,Bump submodules/Catc... (963bd6fe),rpp
@@ -21017,3 +21017,273 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 21015,publish_subject routines,construct,180.511,179.54,184.267,0.95,Linux CLANG,Bump submodules/Catc... (963bd6fe),rxcpp
 21016,publish_subject routines,get_observable,51.2885,51.1354,51.5518,0.95,Linux CLANG,Bump submodules/Catc... (963bd6fe),rxcpp
 21017,publish_subject routines,get_subscriber,13.9475,13.882,14.0213,0.95,Linux CLANG,Bump submodules/Catc... (963bd6fe),rxcpp
+21018,Observable construction,Specific observable construction,0.591364,0.590017,0.594859,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21019,Observable construction,Dynamic observable construction,73.373,72.815,74.8871,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21020,Observable construction,Specific observable construction + as_dynamic,82.1773,81.8511,82.9326,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21021,Observable subscribe #2,Specific observable subscribe lambda,107.289,106.835,108.464,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21022,Observable subscribe #2,Dynamic observable subscribe lambda,244.333,237.553,253.018,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21023,Observable subscribe #2,Specific observable subscribe lambda without subscription,105.323,105.12,105.765,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21024,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,207.195,206.681,208.195,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21025,Observable subscribe #2,Specific observable subscribe specific subscriber,14.7779,14.7479,14.8443,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21026,Observable subscribe #2,Dynamic observable subscribe specific subscriber,117.3,116.805,118.975,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21027,Observable subscribe #2,Specific observable subscribe dynamic observer,14.7827,14.7555,14.8484,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21028,Observable subscribe #2,Dynamic observable subscribe dynamic observer,59.2097,58.89,60.1944,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21029,Observer construction,Specific observer construction,0.59337,0.59091,0.598955,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21030,Observer construction,Dynamic observer construction,71.8246,71.68,72.1815,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21031,Observer construction,Specific observer construction + as_dynamic,82.7664,81.3707,89.028,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21032,OnNext,Specific observer OnNext,0.591592,0.590352,0.594402,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21033,OnNext,Dynamic observer OnNext,1.62613,1.62231,1.63487,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21034,Subscriber construction,Make subsriber,90.834,90.3089,91.8842,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21035,Subscriber construction,Make copy of subscriber,14.797,14.7533,14.9083,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21036,Subscriber construction,Transform subsriber to dynamic,85.1172,84.8315,85.9048,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21037,Observable subscribe,Specific observable subscribe specific observer,120.191,119.732,121.159,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21038,Observable subscribe,Specific observable subscribe dynamic observer,120.376,119.873,121.608,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21039,Observable subscribe,Dynamic observable subscribe specific observer,209.741,208.75,213.08,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21040,Observable subscribe,Dynamic observable subscribe dynamic observer,161.26,160.863,162.034,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21041,Observable lift,Specific observable lift specific observer,138.465,137.876,139.794,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21042,Observable lift,Specific observable lift dynamic observer,161.503,160.853,162.972,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21043,Observable lift,Dynamic observable lift specific observer,251.641,250.109,258,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21044,Observable lift,Dynamic observable lift dynamic observer,270.473,264.391,275.964,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21045,Operators,map construction from observable via dot + subscribe,80.5103,80.2466,80.887,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21046,Subscription,composite_subscription create,78.2433,77.99,78.8267,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21047,Subscription,composite_subscription add,85.3445,83.8235,91.4202,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21048,Subscription,composite_subscription unsubscribe,7.38717,7.372,7.42573,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21049,foundamental sources,empty,16.4454,16.3479,16.5894,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21050,foundamental sources,error,45.7996,45.3931,46.3626,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21051,foundamental sources,never,14.8932,14.8192,15.0259,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21052,just,just send int,23.3871,23.2284,23.6478,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21053,just,just send variadic,21.6491,21.4875,21.88,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21054,from,from vector with int,76.7532,76.3279,77.4773,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21055,merge,merge,454.302,452.396,460.434,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21056,merge,merge_with,645.077,643,649.205,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21057,publish_subject callbacks,on_next,28.7324,28.5109,29.0839,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21058,publish_subject callbacks,on_error,2.61882,2.59079,2.64634,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21059,publish_subject callbacks,on_completed,2.30151,2.28,2.33078,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21060,publish_subject routines,construct,317.617,308.872,341.021,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21061,publish_subject routines,get_observable,31.8469,31.6721,32.1762,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21062,publish_subject routines,get_subscriber,53.2916,53.1777,53.5535,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rpp
+21063,Observable construction,Specific observable construction,0.592521,0.590218,0.598239,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21064,Observable construction,Dynamic observable construction,110.789,110.395,111.807,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21065,Observable construction,Specific observable construction + as_dynamic,110.735,110.363,111.807,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21066,Observable subscribe #2,Specific observable subscribe lambda,1021.76,1016,1042.48,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21067,Observable subscribe #2,Dynamic observable subscribe lambda,1190.18,1177.59,1240.05,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21068,Observable subscribe #2,Specific observable subscribe lambda without subscription,1029.92,1021.5,1052.12,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21069,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1186.76,1178.71,1218.33,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21070,Observable subscribe #2,Specific observable subscribe specific subscriber,741.382,737.971,752.824,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21071,Observable subscribe #2,Dynamic observable subscribe specific subscriber,897,894.214,902.679,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21072,Observable subscribe #2,Specific observable subscribe dynamic observer,775.531,768.844,804.125,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21073,Observable subscribe #2,Dynamic observable subscribe dynamic observer,805.258,797.806,833.516,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21074,Observer construction,Specific observer construction,1.32896,1.32655,1.33496,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21075,Observer construction,Dynamic observer construction,99.244,99.044,99.68,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21076,Observer construction,Specific observer construction + as_dynamic,99.252,98.92,100.076,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21077,OnNext,Specific observer OnNext,0.670941,0.669185,0.674429,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21078,OnNext,Dynamic observer OnNext,2.01413,2.00768,2.033,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21079,Subscriber construction,Make subsriber,308.069,305.917,314.125,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21080,Subscriber construction,Make copy of subscriber,31.4955,31.4348,31.6292,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21081,Subscriber construction,Transform subsriber to dynamic,133.735,133.189,134.946,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21082,Observable subscribe,Specific observable subscribe specific observer,1171.09,1160.04,1205.78,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21083,Observable subscribe,Specific observable subscribe dynamic observer,1196.35,1186.61,1233.17,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21084,Observable subscribe,Dynamic observable subscribe specific observer,1198.32,1181.26,1273.37,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21085,Observable subscribe,Dynamic observable subscribe dynamic observer,1077.7,1075,1082.91,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21086,Observable lift,Specific observable lift specific observer,1069.7,1057.96,1110.61,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21087,Observable lift,Specific observable lift dynamic observer,1112.39,1100.17,1159.35,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21088,Observable lift,Dynamic observable lift specific observer,1402.57,1386.05,1460.14,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21089,Observable lift,Dynamic observable lift dynamic observer,1308.45,1288.85,1364.85,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21090,Operators,map construction from observable via dot + subscribe,876.63,869.704,904.148,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21091,Subscription,composite_subscription create,300.476,299.463,302.829,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21092,Subscription,composite_subscription add,56.1986,56.0226,56.5056,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21093,Subscription,composite_subscription unsubscribe,20.7002,20.5535,20.9638,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21094,foundamental sources,empty,167.625,166.006,173.544,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21095,foundamental sources,error,183.097,181.597,186.576,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21096,foundamental sources,never,833.088,804.5,878.206,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21097,just,just send int,190.975,189.419,196.719,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21098,just,just send variadic,194.887,193.184,201.525,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21099,from,from vector with int,260.962,259.904,263.337,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21100,merge,merge,578.267,573.05,599.05,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21101,merge,merge_with,1285.44,1268.92,1353.72,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21102,publish_subject callbacks,on_next,32.6957,32.5656,33.0035,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21103,publish_subject callbacks,on_error,15.5553,15.3907,15.823,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21104,publish_subject callbacks,on_completed,1.36297,1.35618,1.37698,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21105,publish_subject routines,construct,520.5,514.344,544.438,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21106,publish_subject routines,get_observable,150.186,147.023,155.819,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21107,publish_subject routines,get_subscriber,81.4641,81.1176,82.1732,0.95,Windows MSVC,Relax code (#120) (3e1fa5fc),rxcpp
+21108,Observable construction,Specific observable construction,0.322936,0.302321,0.394847,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21109,Observable construction,Dynamic observable construction,22.7213,21.2096,25.5423,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21110,Observable construction,Specific observable construction + as_dynamic,22.7444,21.9182,24.6844,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21111,Observable subscribe #2,Specific observable subscribe lambda,23.0038,22.2226,24.4465,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21112,Observable subscribe #2,Dynamic observable subscribe lambda,56.2012,53.1792,62.0763,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21113,Observable subscribe #2,Specific observable subscribe lambda without subscription,26.1547,24.9687,31.1173,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21114,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,60.2072,58.0087,65.5495,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21115,Observable subscribe #2,Specific observable subscribe specific subscriber,4.10882,4.07228,4.14352,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21116,Observable subscribe #2,Dynamic observable subscribe specific subscriber,27.2835,26.1614,29.8648,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21117,Observable subscribe #2,Specific observable subscribe dynamic observer,3.68386,3.62183,3.7456,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21118,Observable subscribe #2,Dynamic observable subscribe dynamic observer,13.2525,13.0485,13.7688,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21119,Observer construction,Specific observer construction,0.349823,0.342614,0.374663,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21120,Observer construction,Dynamic observer construction,38.4489,24.4895,86.2974,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21121,Observer construction,Specific observer construction + as_dynamic,21.369,20.1525,22.8291,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21122,OnNext,Specific observer OnNext,0.412041,0.386447,0.446423,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21123,OnNext,Dynamic observer OnNext,2.55672,2.40831,2.74879,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21124,Subscriber construction,Make subsriber,28.1045,26.8921,31.4694,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21125,Subscriber construction,Make copy of subscriber,4.76603,4.52987,5.16457,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21126,Subscriber construction,Transform subsriber to dynamic,22.5278,20.7539,28.3987,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21127,Observable subscribe,Specific observable subscribe specific observer,29.2421,27.2842,32.286,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21128,Observable subscribe,Specific observable subscribe dynamic observer,32.8134,30.6995,36.2803,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21129,Observable subscribe,Dynamic observable subscribe specific observer,62.8663,58.691,69.6357,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21130,Observable subscribe,Dynamic observable subscribe dynamic observer,56.8233,53.5589,61.3754,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21131,Observable lift,Specific observable lift specific observer,34.1769,32.1519,36.9693,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21132,Observable lift,Specific observable lift dynamic observer,38.5697,36.2083,41.9255,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21133,Observable lift,Dynamic observable lift specific observer,64.657,61.6323,69.2524,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21134,Observable lift,Dynamic observable lift dynamic observer,71.9937,69.2207,78.0714,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21135,Operators,map construction from observable via dot + subscribe,20.1113,19.4971,21.3235,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21136,Subscription,composite_subscription create,25.934,24.5938,27.6953,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21137,Subscription,composite_subscription add,31.8242,29.5892,35.0179,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21138,Subscription,composite_subscription unsubscribe,7.49423,7.05507,8.1506,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21139,foundamental sources,empty,3.88205,3.86696,3.94547,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21140,foundamental sources,error,35.6483,34.3836,37.9455,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21141,foundamental sources,never,3.97183,3.81437,4.19241,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21142,just,just send int,4.61138,4.31593,5.0528,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21143,just,just send variadic,4.05137,3.84678,4.49921,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21144,from,from vector with int,27.9226,25.9437,32.4722,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21145,merge,merge,170.185,163.691,189.92,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21146,merge,merge_with,170.158,168.956,173.26,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21147,publish_subject callbacks,on_next,11.7332,11.7222,11.7739,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21148,publish_subject callbacks,on_error,2.73857,2.61184,2.94595,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21149,publish_subject callbacks,on_completed,2.61371,2.47795,2.81508,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21150,publish_subject routines,construct,116.405,111.468,125.783,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21151,publish_subject routines,get_observable,6.86861,6.77492,7.07711,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21152,publish_subject routines,get_subscriber,15.2184,14.6401,16.2848,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rpp
+21153,Observable construction,Specific observable construction,0.374212,0.350208,0.407901,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21154,Observable construction,Dynamic observable construction,24.1011,23.1159,25.7016,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21155,Observable construction,Specific observable construction + as_dynamic,26.2943,24.8102,28.4365,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21156,Observable subscribe #2,Specific observable subscribe lambda,374.491,351.491,411.516,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21157,Observable subscribe #2,Dynamic observable subscribe lambda,341.424,339.664,346.117,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21158,Observable subscribe #2,Specific observable subscribe lambda without subscription,317.775,306.8,337.688,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21159,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,430.965,413.838,454.71,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21160,Observable subscribe #2,Specific observable subscribe specific subscriber,261.28,255.151,276.303,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21161,Observable subscribe #2,Dynamic observable subscribe specific subscriber,452.624,424.082,504.409,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21162,Observable subscribe #2,Specific observable subscribe dynamic observer,312.908,299.241,333.207,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21163,Observable subscribe #2,Dynamic observable subscribe dynamic observer,432.19,402.219,481.009,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21164,Observer construction,Specific observer construction,0.294416,0.29097,0.303782,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21165,Observer construction,Dynamic observer construction,18.0906,17.6332,19.0254,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21166,Observer construction,Specific observer construction + as_dynamic,18.5078,17.7099,20.1063,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21167,OnNext,Specific observer OnNext,0.30404,0.291314,0.330942,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21168,OnNext,Dynamic observer OnNext,2.64322,2.48685,2.88304,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21169,Subscriber construction,Make subsriber,54.7292,53.1182,57.9754,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21170,Subscriber construction,Make copy of subscriber,4.29356,4.25326,4.45042,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21171,Subscriber construction,Transform subsriber to dynamic,24.2869,24.2623,24.3764,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21172,Observable subscribe,Specific observable subscribe specific observer,365.068,351.082,414.625,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21173,Observable subscribe,Specific observable subscribe dynamic observer,373.011,371.152,377.758,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21174,Observable subscribe,Dynamic observable subscribe specific observer,428.319,413.353,478.963,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21175,Observable subscribe,Dynamic observable subscribe dynamic observer,325.185,322.356,332.449,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21176,Observable lift,Specific observable lift specific observer,330.631,318.616,349.631,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21177,Observable lift,Specific observable lift dynamic observer,359.729,357.162,366.087,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21178,Observable lift,Dynamic observable lift specific observer,513.947,486.603,556.258,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21179,Observable lift,Dynamic observable lift dynamic observer,455.606,421.592,507.949,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21180,Operators,map construction from observable via dot + subscribe,332.558,325.558,343.559,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21181,Subscription,composite_subscription create,56.4666,53.8823,60.3164,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21182,Subscription,composite_subscription add,19.763,19.1297,20.8311,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21183,Subscription,composite_subscription unsubscribe,12.9472,12.192,13.982,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21184,foundamental sources,empty,47.0573,45.3615,49.5663,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21185,foundamental sources,error,111.431,103.989,127.523,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21186,foundamental sources,never,412.416,383.911,461.429,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21187,just,just send int,70.685,66.9955,75.4842,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21188,just,just send variadic,52.5638,49.2597,58.6603,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21189,from,from vector with int,93.7724,88.7108,100.816,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21190,merge,merge,134.741,133.186,138.933,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21191,merge,merge_with,321.195,317.627,331.875,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21192,publish_subject callbacks,on_next,9.84248,9.62973,10.2177,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21193,publish_subject callbacks,on_error,22.4658,21.241,24.5733,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21194,publish_subject callbacks,on_completed,0.575749,0.568021,0.596839,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21195,publish_subject routines,construct,188.286,181.332,207.649,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21196,publish_subject routines,get_observable,41.7421,41.7066,41.8807,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21197,publish_subject routines,get_subscriber,21.6879,21.358,22.4966,0.95,Linux GCC,Relax code (#120) (3e1fa5fc),rxcpp
+21198,Observable construction,Specific observable construction,0.686592,0.669968,0.712808,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21199,Observable construction,Dynamic observable construction,30.7408,29.7692,32.1291,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21200,Observable construction,Specific observable construction + as_dynamic,31.1453,29.8217,33.0421,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21201,Observable subscribe #2,Specific observable subscribe lambda,62.9078,60.2616,67.2968,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21202,Observable subscribe #2,Dynamic observable subscribe lambda,138.942,133.036,147.925,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21203,Observable subscribe #2,Specific observable subscribe lambda without subscription,64.9231,61.8996,69.3184,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21204,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,136.577,133.921,144.225,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21205,Observable subscribe #2,Specific observable subscribe specific subscriber,18.0504,17.1144,19.7208,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21206,Observable subscribe #2,Dynamic observable subscribe specific subscriber,80.9385,77.381,87.409,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21207,Observable subscribe #2,Specific observable subscribe dynamic observer,17.5025,16.6294,18.9637,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21208,Observable subscribe #2,Dynamic observable subscribe dynamic observer,65.1962,62.6186,68.7371,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21209,Observer construction,Specific observer construction,0.740008,0.722369,0.818613,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21210,Observer construction,Dynamic observer construction,31.3694,30.2718,33.0787,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21211,Observer construction,Specific observer construction + as_dynamic,27.5858,26.4552,29.2583,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21212,OnNext,Specific observer OnNext,1.03966,0.961043,1.13982,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21213,OnNext,Dynamic observer OnNext,2.01125,1.92143,2.16267,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21214,Subscriber construction,Make subsriber,57.166,53.6147,62.4006,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21215,Subscriber construction,Make copy of subscriber,19.7483,18.8874,21.0723,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21216,Subscriber construction,Transform subsriber to dynamic,50.6576,48.7102,53.5987,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21217,Observable subscribe,Specific observable subscribe specific observer,64.5469,64.1944,65.9102,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21218,Observable subscribe,Specific observable subscribe dynamic observer,80.2084,79.7709,81.9168,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21219,Observable subscribe,Dynamic observable subscribe specific observer,146.806,146.19,148.169,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21220,Observable subscribe,Dynamic observable subscribe dynamic observer,142.177,140.699,145.823,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21221,Observable lift,Specific observable lift specific observer,99.6813,99.1406,101.597,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21222,Observable lift,Specific observable lift dynamic observer,123.057,120.207,128.642,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21223,Observable lift,Dynamic observable lift specific observer,193.553,189.876,200.218,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21224,Observable lift,Dynamic observable lift dynamic observer,197.368,196.981,198.291,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21225,Operators,map construction from observable via dot + subscribe,98.4066,95.3647,106.461,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21226,Subscription,composite_subscription create,37.9799,36.1181,43.1948,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21227,Subscription,composite_subscription add,74.9329,74.2904,78.0163,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21228,Subscription,composite_subscription unsubscribe,7.3227,7.14528,7.98193,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21229,foundamental sources,empty,20.9744,20.6963,21.5724,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21230,foundamental sources,error,55.6713,53.9846,62.4967,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21231,foundamental sources,never,20.9482,20.2105,22.8204,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21232,just,just send int,21.0679,20.3703,23.0138,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21233,just,just send variadic,22.8287,22.5697,23.4258,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21234,from,from vector with int,33.8427,33.3531,34.9945,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21235,merge,merge,370.214,359.742,409.506,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21236,merge,merge_with,411.624,407.585,425.325,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21237,publish_subject callbacks,on_next,56.0962,55.6286,58.1905,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21238,publish_subject callbacks,on_error,2.60803,2.57459,2.67945,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21239,publish_subject callbacks,on_completed,3.20271,3.10499,3.36796,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21240,publish_subject routines,construct,263.884,249.291,300.919,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21241,publish_subject routines,get_observable,44.1506,42.3613,46.5335,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21242,publish_subject routines,get_subscriber,74.642,72.7383,81.3038,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rpp
+21243,Observable construction,Specific observable construction,0.379685,0.367836,0.417825,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21244,Observable construction,Dynamic observable construction,36.3174,26.8448,80.2868,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21245,Observable construction,Specific observable construction + as_dynamic,28.1179,27.8938,28.7154,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21246,Observable subscribe #2,Specific observable subscribe lambda,337.862,330.586,353.256,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21247,Observable subscribe #2,Dynamic observable subscribe lambda,383.803,371.105,427.896,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21248,Observable subscribe #2,Specific observable subscribe lambda without subscription,344.959,333.626,372.251,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21249,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,390.012,384.036,402.142,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21250,Observable subscribe #2,Specific observable subscribe specific subscriber,267.317,261.917,283.5,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21251,Observable subscribe #2,Dynamic observable subscribe specific subscriber,324.804,310.128,382.765,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21252,Observable subscribe #2,Specific observable subscribe dynamic observer,290.402,280.018,319.045,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21253,Observable subscribe #2,Dynamic observable subscribe dynamic observer,320.289,300.491,383.904,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21254,Observer construction,Specific observer construction,0.412945,0.39708,0.443903,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21255,Observer construction,Dynamic observer construction,23.5962,23.4362,24.308,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21256,Observer construction,Specific observer construction + as_dynamic,25.1795,24.187,27.7248,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21257,OnNext,Specific observer OnNext,0.784003,0.752662,0.856835,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21258,OnNext,Dynamic observer OnNext,2.30344,2.26539,2.37532,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21259,Subscriber construction,Make subsriber,75.1426,72.3656,83.1334,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21260,Subscriber construction,Make copy of subscriber,5.26127,5.12917,5.71929,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21261,Subscriber construction,Transform subsriber to dynamic,32.9616,31.3118,36.9196,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21262,Observable subscribe,Specific observable subscribe specific observer,375.815,353.155,426.124,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21263,Observable subscribe,Specific observable subscribe dynamic observer,378.355,363.57,407.818,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21264,Observable subscribe,Dynamic observable subscribe specific observer,368.305,366.464,373.208,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21265,Observable subscribe,Dynamic observable subscribe dynamic observer,372.181,366.289,383.482,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21266,Observable lift,Specific observable lift specific observer,347.484,338.936,363.699,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21267,Observable lift,Specific observable lift dynamic observer,395.185,377.522,428.61,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21268,Observable lift,Dynamic observable lift specific observer,416.598,397.683,486.769,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21269,Observable lift,Dynamic observable lift dynamic observer,383.743,373.698,417.998,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21270,Operators,map construction from observable via dot + subscribe,296.684,290.473,313.981,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21271,Subscription,composite_subscription create,57.8675,57.3361,60.1794,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21272,Subscription,composite_subscription add,25.563,25.3438,26.4025,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21273,Subscription,composite_subscription unsubscribe,11.4903,11.2585,12.3982,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21274,foundamental sources,empty,40.4365,40.1636,41.133,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21275,foundamental sources,error,86.368,85.3877,89.41,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21276,foundamental sources,never,292.053,281.222,343.54,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21277,just,just send int,38.5533,37.37,40.264,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21278,just,just send variadic,45.6302,44.069,47.7184,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21279,from,from vector with int,62.5924,59.7931,66.7645,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21280,merge,merge,198.788,190.578,212.236,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21281,merge,merge_with,328.582,318.603,346.531,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21282,publish_subject callbacks,on_next,11.2789,11.2203,11.5617,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21283,publish_subject callbacks,on_error,20.4985,19.84,21.4966,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21284,publish_subject callbacks,on_completed,0.532207,0.505073,0.571901,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21285,publish_subject routines,construct,219.111,214.469,240.062,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21286,publish_subject routines,get_observable,56.3684,55.673,57.9643,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
+21287,publish_subject routines,get_subscriber,17.4211,16.8514,18.0856,0.95,Linux CLANG,Relax code (#120) (3e1fa5fc),rxcpp
