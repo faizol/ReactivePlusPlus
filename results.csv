@@ -21577,7 +21577,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 21575,Subscriber construction,Make copy of subscriber,16.7721,16.7353,16.8573,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rpp
 21576,Subscriber construction,Transform subsriber to dynamic,98.6038,98.0755,99.5547,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rpp
 21577,Observable subscribe,Specific observable subscribe specific observer,119.581,119.069,120.433,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rpp
-21578,Observable subscribe,Specific observable subscribe dynamic observer,138.756,137,144.012,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rpp
+21578,Observable subscribe,Specific observable subscribe dynamic observer,138.756,137.0,144.012,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rpp
 21579,Observable subscribe,Dynamic observable subscribe specific observer,238.145,237.218,240.336,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rpp
 21580,Observable subscribe,Dynamic observable subscribe dynamic observer,182.424,181.784,184.094,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rpp
 21581,Observable lift,Specific observable lift specific observer,158.854,158.177,160.707,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rpp
@@ -21621,10 +21621,10 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 21619,Subscriber construction,Make subsriber,346.877,344.918,351.562,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
 21620,Subscriber construction,Make copy of subscriber,31.5183,31.4464,31.6721,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
 21621,Subscriber construction,Transform subsriber to dynamic,157.253,156.457,159.142,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
-21622,Observable subscribe,Specific observable subscribe specific observer,1174.59,1161.14,1219,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
+21622,Observable subscribe,Specific observable subscribe specific observer,1174.59,1161.14,1219.0,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
 21623,Observable subscribe,Specific observable subscribe dynamic observer,1202.55,1190.09,1257.32,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
 21624,Observable subscribe,Dynamic observable subscribe specific observer,1348.74,1333.16,1418.84,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
-21625,Observable subscribe,Dynamic observable subscribe dynamic observer,1236.33,1222.24,1294,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
+21625,Observable subscribe,Dynamic observable subscribe dynamic observer,1236.33,1222.24,1294.0,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
 21626,Observable lift,Specific observable lift specific observer,1204.73,1194.95,1245.23,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
 21627,Observable lift,Specific observable lift dynamic observer,1253.16,1243.05,1289.42,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
 21628,Observable lift,Dynamic observable lift specific observer,1401.59,1382.12,1488.29,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
@@ -21644,7 +21644,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 21642,publish_subject callbacks,on_next,32.5871,32.5135,32.7535,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
 21643,publish_subject callbacks,on_error,17.4344,17.3552,17.668,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
 21644,publish_subject callbacks,on_completed,1.36187,1.35722,1.37096,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
-21645,publish_subject routines,construct,614.484,606.258,638,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
+21645,publish_subject routines,construct,614.484,606.258,638.0,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
 21646,publish_subject routines,get_observable,159.78,158.931,161.742,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
 21647,publish_subject routines,get_subscriber,92.3622,91.9685,93.2362,0.95,Windows MSVC,Bump submodules/Catc... (5b9836d6),rxcpp
 21648,Observable construction,Specific observable construction,0.335236,0.334674,0.337758,0.95,Linux GCC,Bump submodules/Catc... (5b9836d6),rpp
@@ -21827,3 +21827,273 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 21825,publish_subject routines,construct,232.728,207.128,326.182,0.95,Linux CLANG,Bump submodules/Catc... (5b9836d6),rxcpp
 21826,publish_subject routines,get_observable,66.6407,63.9339,70.6789,0.95,Linux CLANG,Bump submodules/Catc... (5b9836d6),rxcpp
 21827,publish_subject routines,get_subscriber,12.2383,12.0312,12.7144,0.95,Linux CLANG,Bump submodules/Catc... (5b9836d6),rxcpp
+21828,Observable construction,Specific observable construction,0.686095,0.658274,0.718673,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21829,Observable construction,Dynamic observable construction,98.9034,98.0793,100.903,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21830,Observable construction,Specific observable construction + as_dynamic,75.1168,73.0069,77.8969,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21831,Observable subscribe #2,Specific observable subscribe lambda,100.217,99.9481,100.736,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21832,Observable subscribe #2,Dynamic observable subscribe lambda,212.094,208.038,218.717,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21833,Observable subscribe #2,Specific observable subscribe lambda without subscription,113.913,109.957,118.324,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21834,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,272.789,267.064,280.128,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21835,Observable subscribe #2,Specific observable subscribe specific subscriber,15.8261,15.6111,16.1592,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21836,Observable subscribe #2,Dynamic observable subscribe specific subscriber,139.005,134.871,144.328,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21837,Observable subscribe #2,Specific observable subscribe dynamic observer,16.4965,15.8587,17.2604,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21838,Observable subscribe #2,Dynamic observable subscribe dynamic observer,65.0916,63.0524,67.4869,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21839,Observer construction,Specific observer construction,0.558167,0.556962,0.561136,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21840,Observer construction,Dynamic observer construction,84.9733,83.6333,86.6333,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21841,Observer construction,Specific observer construction + as_dynamic,67.7831,67.614,68.1691,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21842,OnNext,Specific observer OnNext,0.558232,0.557019,0.561181,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21843,OnNext,Dynamic observer OnNext,1.78815,1.77796,1.81384,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21844,Subscriber construction,Make subsriber,84.592,84.164,85.632,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21845,Subscriber construction,Make copy of subscriber,14.1542,14.0207,14.5111,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21846,Subscriber construction,Transform subsriber to dynamic,104.78,101.283,108.508,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21847,Observable subscribe,Specific observable subscribe specific observer,99.2585,98.8098,100.268,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21848,Observable subscribe,Specific observable subscribe dynamic observer,148.807,146.873,151.823,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21849,Observable subscribe,Dynamic observable subscribe specific observer,276.615,270.76,289.833,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21850,Observable subscribe,Dynamic observable subscribe dynamic observer,184.703,181.93,188.422,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21851,Observable lift,Specific observable lift specific observer,131.163,130.592,132.68,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21852,Observable lift,Specific observable lift dynamic observer,167.051,164.12,171.368,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21853,Observable lift,Dynamic observable lift specific observer,315.423,306.474,326.205,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21854,Observable lift,Dynamic observable lift dynamic observer,270.625,267.375,278.49,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21855,Operators,map construction from observable via dot + subscribe,76.1417,75.7708,76.9875,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21856,Subscription,composite_subscription create,99.145,96.958,102.118,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21857,Subscription,composite_subscription add,102.898,98.469,108.332,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21858,Subscription,composite_subscription unsubscribe,8.91328,8.65815,9.29075,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21859,foundamental sources,empty,18.4,17.8151,19.0879,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21860,foundamental sources,error,55.9649,54.8033,58.0328,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21861,foundamental sources,never,16.2063,16.171,16.2925,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21862,just,just send int,27.021,26.3906,27.9839,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21863,just,just send variadic,20.4293,20.3863,20.5277,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21864,from,from vector with int,71.8713,71.6838,72.2684,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21865,merge,merge,428.538,425.923,437.712,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21866,merge,merge_with,607.529,602.265,628.471,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21867,publish_subject callbacks,on_next,31.7544,30.9304,33.0355,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21868,publish_subject callbacks,on_error,2.39323,2.36572,2.42203,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21869,publish_subject callbacks,on_completed,2.16899,2.15327,2.19111,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21870,publish_subject routines,construct,374.787,360.277,394.043,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21871,publish_subject routines,get_observable,29.9552,29.8272,30.2685,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21872,publish_subject routines,get_subscriber,64.6613,62.4946,67.1613,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rpp
+21873,Observable construction,Specific observable construction,0.558366,0.557154,0.561187,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21874,Observable construction,Dynamic observable construction,103.979,103.386,105.63,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21875,Observable construction,Specific observable construction + as_dynamic,140.841,138.377,151.449,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21876,Observable subscribe #2,Specific observable subscribe lambda,980.955,969.864,1020.27,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21877,Observable subscribe #2,Dynamic observable subscribe lambda,1326.37,1280.26,1385.68,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21878,Observable subscribe #2,Specific observable subscribe lambda without subscription,1154.24,1116.24,1199.95,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21879,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1125.26,1117.16,1157.26,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21880,Observable subscribe #2,Specific observable subscribe specific subscriber,925.548,898.71,967.581,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21881,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1088.27,1067.92,1119.5,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21882,Observable subscribe #2,Specific observable subscribe dynamic observer,735.107,728.893,755.929,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21883,Observable subscribe #2,Dynamic observable subscribe dynamic observer,915.828,879.828,965.69,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21884,Observer construction,Specific observer construction,1.56501,1.50298,1.63531,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21885,Observer construction,Dynamic observer construction,130.996,123.681,142.192,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21886,Observer construction,Specific observer construction + as_dynamic,118.241,114.8,122.895,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21887,OnNext,Specific observer OnNext,1.0079,1.00454,1.01449,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21888,OnNext,Dynamic observer OnNext,2.1591,2.11684,2.2151,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21889,Subscriber construction,Make subsriber,341.397,331.984,354.143,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21890,Subscriber construction,Make copy of subscriber,38.7779,38.325,39.6897,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21891,Subscriber construction,Transform subsriber to dynamic,126.695,126.214,127.994,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21892,Observable subscribe,Specific observable subscribe specific observer,1295.65,1241.4,1372.4,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21893,Observable subscribe,Specific observable subscribe dynamic observer,1171.14,1159.43,1208.81,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21894,Observable subscribe,Dynamic observable subscribe specific observer,1580.61,1551.06,1637.67,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21895,Observable subscribe,Dynamic observable subscribe dynamic observer,1385.55,1348.5,1425.5,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21896,Observable lift,Specific observable lift specific observer,1456.16,1433.89,1506.11,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21897,Observable lift,Specific observable lift dynamic observer,1446.7,1407.2,1515.95,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21898,Observable lift,Dynamic observable lift specific observer,1164.56,1158.17,1186.22,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21899,Observable lift,Dynamic observable lift dynamic observer,1527.67,1499.28,1571.06,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21900,Operators,map construction from observable via dot + subscribe,822.792,819.167,833.25,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21901,Subscription,composite_subscription create,410.853,405.544,420.971,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21902,Subscription,composite_subscription add,66.0809,64.345,68.8679,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21903,Subscription,composite_subscription unsubscribe,19.3563,19.3066,19.468,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21904,foundamental sources,empty,206.131,198.477,215.946,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21905,foundamental sources,error,215.699,210.823,223.124,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21906,foundamental sources,never,1002.8,993.633,1021.83,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21907,just,just send int,203.704,199.024,209.488,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21908,just,just send variadic,168.168,165.307,173.46,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21909,from,from vector with int,260.529,255.558,268.442,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21910,merge,merge,654.694,638.592,680.429,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21911,merge,merge_with,1679.83,1645.75,1733.13,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21912,publish_subject callbacks,on_next,34.6299,34.1104,35.5836,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21913,publish_subject callbacks,on_error,18.7005,17.9808,19.5622,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21914,publish_subject callbacks,on_completed,1.45148,1.40948,1.51765,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21915,publish_subject routines,construct,663.452,650.774,692.613,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21916,publish_subject routines,get_observable,147.54,143.424,154.194,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21917,publish_subject routines,get_subscriber,107.725,105.825,110.741,0.95,Windows MSVC,Bump submodules/Catc... (5304566c),rxcpp
+21918,Observable construction,Specific observable construction,0.335149,0.334619,0.337531,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21919,Observable construction,Dynamic observable construction,19.2338,19.1843,19.3387,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21920,Observable construction,Specific observable construction + as_dynamic,19.304,19.232,19.494,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21921,Observable subscribe #2,Specific observable subscribe lambda,25.2692,25.2223,25.4444,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21922,Observable subscribe #2,Dynamic observable subscribe lambda,57.929,57.8116,58.3921,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21923,Observable subscribe #2,Specific observable subscribe lambda without subscription,24.4338,24.3412,24.702,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21924,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,58.0839,58.0243,58.2307,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21925,Observable subscribe #2,Specific observable subscribe specific subscriber,3.73264,3.72292,3.76774,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21926,Observable subscribe #2,Dynamic observable subscribe specific subscriber,29.65,29.5614,29.8394,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21927,Observable subscribe #2,Specific observable subscribe dynamic observer,3.60859,3.60316,3.61669,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21928,Observable subscribe #2,Dynamic observable subscribe dynamic observer,16.8003,16.7799,16.832,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21929,Observer construction,Specific observer construction,0.335544,0.334675,0.33903,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21930,Observer construction,Dynamic observer construction,19.3505,19.3172,19.4956,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21931,Observer construction,Specific observer construction + as_dynamic,19.6991,19.6649,19.8448,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21932,OnNext,Specific observer OnNext,0.335253,0.334611,0.337486,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21933,OnNext,Dynamic observer OnNext,1.67579,1.67303,1.68893,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21934,Subscriber construction,Make subsriber,30.7567,30.7111,30.9359,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21935,Subscriber construction,Make copy of subscriber,3.72589,3.72011,3.74885,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21936,Subscriber construction,Transform subsriber to dynamic,21.5369,21.5134,21.5633,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21937,Observable subscribe,Specific observable subscribe specific observer,23.9351,23.9221,23.9554,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21938,Observable subscribe,Specific observable subscribe dynamic observer,27.7702,27.6675,27.8909,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21939,Observable subscribe,Dynamic observable subscribe specific observer,57.4387,57.3081,57.7778,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21940,Observable subscribe,Dynamic observable subscribe dynamic observer,47.6126,47.566,47.7139,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21941,Observable lift,Specific observable lift specific observer,30.5437,30.4934,30.737,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21942,Observable lift,Specific observable lift dynamic observer,36.6876,36.5684,37.0616,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21943,Observable lift,Dynamic observable lift specific observer,66.5609,66.5159,66.6128,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21944,Observable lift,Dynamic observable lift dynamic observer,64.5267,64.3808,64.9114,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21945,Operators,map construction from observable via dot + subscribe,21.731,21.6959,21.87,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21946,Subscription,composite_subscription create,20.6317,20.6235,20.6435,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21947,Subscription,composite_subscription add,22.4097,22.2736,23.0635,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21948,Subscription,composite_subscription unsubscribe,6.95134,6.89196,7.0416,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21949,foundamental sources,empty,4.79729,4.7845,4.85608,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21950,foundamental sources,error,35.5284,35.4543,35.7649,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21951,foundamental sources,never,3.55595,3.55044,3.58108,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21952,just,just send int,3.97581,3.97299,3.98465,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21953,just,just send variadic,4.69392,4.69233,4.69566,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21954,from,from vector with int,24.4577,24.4065,24.6138,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21955,merge,merge,159.88,159.689,160.112,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21956,merge,merge_with,201.995,201.611,203.287,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21957,publish_subject callbacks,on_next,13.3795,13.3709,13.4115,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21958,publish_subject callbacks,on_error,2.70655,2.69267,2.73866,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21959,publish_subject callbacks,on_completed,2.35588,2.35035,2.38051,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21960,publish_subject routines,construct,128.06,126.705,133.123,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21961,publish_subject routines,get_observable,7.20421,7.19813,7.20761,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21962,publish_subject routines,get_subscriber,14.247,14.2359,14.284,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rpp
+21963,Observable construction,Specific observable construction,0.335119,0.334548,0.337393,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21964,Observable construction,Dynamic observable construction,23.5377,23.4825,23.7133,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21965,Observable construction,Specific observable construction + as_dynamic,22.386,22.3344,22.5575,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21966,Observable subscribe #2,Specific observable subscribe lambda,332.637,331.792,336.302,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21967,Observable subscribe #2,Dynamic observable subscribe lambda,405.477,404.546,409.465,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21968,Observable subscribe #2,Specific observable subscribe lambda without subscription,333.403,332.713,335.392,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21969,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,393.251,392.394,396.367,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21970,Observable subscribe #2,Specific observable subscribe specific subscriber,280.17,279.568,282.503,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21971,Observable subscribe #2,Dynamic observable subscribe specific subscriber,328.926,328.289,331.212,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21972,Observable subscribe #2,Specific observable subscribe dynamic observer,288.974,288.705,289.839,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21973,Observable subscribe #2,Dynamic observable subscribe dynamic observer,319.971,319.195,322.024,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21974,Observer construction,Specific observer construction,0.33457,0.334446,0.334693,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21975,Observer construction,Dynamic observer construction,20.5243,20.4754,20.6437,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21976,Observer construction,Specific observer construction + as_dynamic,20.6726,20.6224,20.8329,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21977,OnNext,Specific observer OnNext,0.335224,0.334529,0.337778,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21978,OnNext,Dynamic observer OnNext,2.0124,2.0085,2.03022,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21979,Subscriber construction,Make subsriber,60.5761,60.5536,60.6211,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21980,Subscriber construction,Make copy of subscriber,4.49029,4.48189,4.51984,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21981,Subscriber construction,Transform subsriber to dynamic,28.9877,28.9683,29.044,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21982,Observable subscribe,Specific observable subscribe specific observer,333.948,333.326,335.927,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21983,Observable subscribe,Specific observable subscribe dynamic observer,353.321,352.498,355.663,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21984,Observable subscribe,Dynamic observable subscribe specific observer,423.976,422.808,426.835,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21985,Observable subscribe,Dynamic observable subscribe dynamic observer,371.683,371.362,372.387,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21986,Observable lift,Specific observable lift specific observer,343.072,342.492,345.458,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21987,Observable lift,Specific observable lift dynamic observer,381.147,380.897,381.718,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21988,Observable lift,Dynamic observable lift specific observer,401.151,400.752,401.964,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21989,Observable lift,Dynamic observable lift dynamic observer,379.118,378.218,382.207,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21990,Operators,map construction from observable via dot + subscribe,350.62,349.887,353.12,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21991,Subscription,composite_subscription create,56.5405,56.4853,56.6166,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21992,Subscription,composite_subscription add,17.3147,17.2324,17.4701,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21993,Subscription,composite_subscription unsubscribe,10.0499,10.0294,10.1181,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21994,foundamental sources,empty,48.3775,48.2686,48.6946,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21995,foundamental sources,error,82.2697,82.103,82.8073,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21996,foundamental sources,never,281.601,280.817,285.058,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21997,just,just send int,52.4638,52.3528,52.7406,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21998,just,just send variadic,47.8254,47.715,47.9358,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+21999,from,from vector with int,66.4188,66.2744,66.574,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+22000,merge,merge,143.345,142.894,144.375,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+22001,merge,merge_with,348.011,346.816,351.031,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+22002,publish_subject callbacks,on_next,11.0256,10.9924,11.0818,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+22003,publish_subject callbacks,on_error,16.8168,16.7916,16.9373,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+22004,publish_subject callbacks,on_completed,1.00801,1.00627,1.01581,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+22005,publish_subject routines,construct,172.787,170.863,181.521,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+22006,publish_subject routines,get_observable,45.6666,45.5586,46.0477,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+22007,publish_subject routines,get_subscriber,22.3193,22.2592,22.5107,0.95,Linux GCC,Bump submodules/Catc... (5304566c),rxcpp
+22008,Observable construction,Specific observable construction,0.864592,0.800292,1.11835,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22009,Observable construction,Dynamic observable construction,34.9324,34.1672,36.0833,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22010,Observable construction,Specific observable construction + as_dynamic,32.6888,32.2868,33.4741,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22011,Observable subscribe #2,Specific observable subscribe lambda,69.8106,68.895,71.4523,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22012,Observable subscribe #2,Dynamic observable subscribe lambda,148.209,142.803,164.288,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22013,Observable subscribe #2,Specific observable subscribe lambda without subscription,66.9808,66.3868,68.3054,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22014,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,139.759,138.023,143.04,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22015,Observable subscribe #2,Specific observable subscribe specific subscriber,20.1592,19.8558,20.6403,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22016,Observable subscribe #2,Dynamic observable subscribe specific subscriber,89.6248,88.7725,91.3426,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22017,Observable subscribe #2,Specific observable subscribe dynamic observer,20.1162,20.0678,20.333,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22018,Observable subscribe #2,Dynamic observable subscribe dynamic observer,74.741,73.9935,76.1127,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22019,Observer construction,Specific observer construction,0.787146,0.772695,0.818343,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22020,Observer construction,Dynamic observer construction,32.2643,31.9596,32.9195,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22021,Observer construction,Specific observer construction + as_dynamic,40.9789,34.8496,68.9605,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22022,OnNext,Specific observer OnNext,0.744462,0.743134,0.749627,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22023,OnNext,Dynamic observer OnNext,3.00011,2.8307,3.21958,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22024,Subscriber construction,Make subsriber,58.5408,51.3673,93.5927,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22025,Subscriber construction,Make copy of subscriber,19.8265,19.315,21.3428,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22026,Subscriber construction,Transform subsriber to dynamic,55.5723,54.8163,57.1222,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22027,Observable subscribe,Specific observable subscribe specific observer,69.8058,68.1771,72.7526,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22028,Observable subscribe,Specific observable subscribe dynamic observer,73.0954,71.5154,75.3468,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22029,Observable subscribe,Dynamic observable subscribe specific observer,150.527,148.747,153.515,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22030,Observable subscribe,Dynamic observable subscribe dynamic observer,143.02,141.493,146.208,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22031,Observable lift,Specific observable lift specific observer,97.9972,96.596,100.333,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22032,Observable lift,Specific observable lift dynamic observer,131.047,130.763,132.121,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22033,Observable lift,Dynamic observable lift specific observer,207.41,203.657,219.507,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22034,Observable lift,Dynamic observable lift dynamic observer,215.29,213.199,219.394,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22035,Operators,map construction from observable via dot + subscribe,100.008,99.2812,101.109,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22036,Subscription,composite_subscription create,41.9452,39.2977,52.5053,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22037,Subscription,composite_subscription add,70.3658,68.1112,75.5428,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22038,Subscription,composite_subscription unsubscribe,7.10749,6.95429,7.58052,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22039,foundamental sources,empty,22.609,22.1929,23.7296,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22040,foundamental sources,error,58.0095,57.8523,58.7361,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22041,foundamental sources,never,19.1476,18.772,19.9707,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22042,just,just send int,20.9843,20.5715,21.6015,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22043,just,just send variadic,22.9654,22.6963,23.5373,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22044,from,from vector with int,36.5536,35.7935,40.2373,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22045,merge,merge,340.714,339.333,344.133,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22046,merge,merge_with,452.307,428.952,555.917,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22047,publish_subject callbacks,on_next,53.796,53.1407,54.9205,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22048,publish_subject callbacks,on_error,3.17173,3.10802,3.28665,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22049,publish_subject callbacks,on_completed,2.49291,2.45393,2.55561,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22050,publish_subject routines,construct,223.768,219.153,232.55,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22051,publish_subject routines,get_observable,48.215,47.5847,49.2888,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22052,publish_subject routines,get_subscriber,75.9432,75.3171,76.9214,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rpp
+22053,Observable construction,Specific observable construction,0.403566,0.386407,0.476866,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22054,Observable construction,Dynamic observable construction,28.0935,27.5495,30.2564,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22055,Observable construction,Specific observable construction + as_dynamic,29.6243,29.2024,30.4713,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22056,Observable subscribe #2,Specific observable subscribe lambda,336.39,331.478,346.127,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22057,Observable subscribe #2,Dynamic observable subscribe lambda,387.488,377.824,421.622,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22058,Observable subscribe #2,Specific observable subscribe lambda without subscription,362.891,344.843,408.33,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22059,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,375.294,367.425,385.395,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22060,Observable subscribe #2,Specific observable subscribe specific subscriber,266.292,263.766,272.571,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22061,Observable subscribe #2,Dynamic observable subscribe specific subscriber,318.405,315.017,323.906,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22062,Observable subscribe #2,Specific observable subscribe dynamic observer,389.056,380.071,397.635,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22063,Observable subscribe #2,Dynamic observable subscribe dynamic observer,309.627,305.822,316.796,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22064,Observer construction,Specific observer construction,0.402706,0.40169,0.407112,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22065,Observer construction,Dynamic observer construction,26.3522,26.2608,26.5172,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22066,Observer construction,Specific observer construction + as_dynamic,25.0679,24.7553,25.5523,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22067,OnNext,Specific observer OnNext,0.754197,0.747008,0.773025,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22068,OnNext,Dynamic observer OnNext,3.05711,3.03283,3.09361,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22069,Subscriber construction,Make subsriber,77.7025,77.233,79.7459,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22070,Subscriber construction,Make copy of subscriber,5.213,5.20494,5.23338,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22071,Subscriber construction,Transform subsriber to dynamic,33.1411,32.3262,35.0276,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22072,Observable subscribe,Specific observable subscribe specific observer,320.165,318.957,323.463,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22073,Observable subscribe,Specific observable subscribe dynamic observer,349.404,342.422,367.021,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22074,Observable subscribe,Dynamic observable subscribe specific observer,673.055,500.219,1096.42,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22075,Observable subscribe,Dynamic observable subscribe dynamic observer,357.265,353.163,373.2,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22076,Observable lift,Specific observable lift specific observer,339.288,336.105,344.683,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22077,Observable lift,Specific observable lift dynamic observer,390.745,388.974,395.365,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22078,Observable lift,Dynamic observable lift specific observer,409.795,403.306,434.865,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22079,Observable lift,Dynamic observable lift dynamic observer,366.904,363.927,375.203,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22080,Operators,map construction from observable via dot + subscribe,304.537,293.288,344.292,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22081,Subscription,composite_subscription create,64.0846,63.4828,65.2233,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22082,Subscription,composite_subscription add,25.0603,24.5564,26.4008,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22083,Subscription,composite_subscription unsubscribe,12.0084,11.6911,13.4153,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22084,foundamental sources,empty,42.6933,42.1762,43.6228,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22085,foundamental sources,error,102.351,97.3862,112.06,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22086,foundamental sources,never,285.259,278.243,315.473,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22087,just,just send int,44.4266,43.3614,47.0513,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22088,just,just send variadic,49.8317,49.1356,50.9305,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22089,from,from vector with int,107.686,69.9362,291.14,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22090,merge,merge,217.298,201.18,237.493,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22091,merge,merge_with,644.953,629.651,697.702,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22092,publish_subject callbacks,on_next,11.7119,11.5296,11.9976,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22093,publish_subject callbacks,on_error,23.0301,22.9686,23.2047,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22094,publish_subject callbacks,on_completed,0.803529,0.791607,0.82314,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22095,publish_subject routines,construct,219.932,215.294,239.281,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22096,publish_subject routines,get_observable,61.0068,59.1388,68.9125,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
+22097,publish_subject routines,get_subscriber,17.3343,17.1097,17.7374,0.95,Linux CLANG,Bump submodules/Catc... (5304566c),rxcpp
