@@ -22782,7 +22782,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 22780,Observable subscribe #2,Specific observable subscribe specific subscriber,967.964,960.5,996.821,0.95,Windows MSVC,fix multicast + chan... (dff2336e),rxcpp
 22781,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1175.5,1161.63,1211.17,0.95,Windows MSVC,fix multicast + chan... (dff2336e),rxcpp
 22782,Observable subscribe #2,Specific observable subscribe dynamic observer,1007.7,999.481,1042.7,0.95,Windows MSVC,fix multicast + chan... (dff2336e),rxcpp
-22783,Observable subscribe #2,Dynamic observable subscribe dynamic observer,1081.37,1042.22,1183,0.95,Windows MSVC,fix multicast + chan... (dff2336e),rxcpp
+22783,Observable subscribe #2,Dynamic observable subscribe dynamic observer,1081.37,1042.22,1183.0,0.95,Windows MSVC,fix multicast + chan... (dff2336e),rxcpp
 22784,Observer construction,Specific observer construction,5.48602,1.96623,22.9913,0.95,Windows MSVC,fix multicast + chan... (dff2336e),rxcpp
 22785,Observer construction,Dynamic observer construction,147.314,137.503,195.309,0.95,Windows MSVC,fix multicast + chan... (dff2336e),rxcpp
 22786,Observer construction,Specific observer construction + as_dynamic,134.985,134.538,136.342,0.95,Windows MSVC,fix multicast + chan... (dff2336e),rxcpp
@@ -22814,7 +22814,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 22812,publish_subject callbacks,on_next,39.5307,39.0348,41.504,0.95,Windows MSVC,fix multicast + chan... (dff2336e),rxcpp
 22813,publish_subject callbacks,on_error,20.7815,20.5239,21.4518,0.95,Windows MSVC,fix multicast + chan... (dff2336e),rxcpp
 22814,publish_subject callbacks,on_completed,0.777625,0.756484,0.875508,0.95,Windows MSVC,fix multicast + chan... (dff2336e),rxcpp
-22815,publish_subject routines,construct,1121.13,692.633,3244,0.95,Windows MSVC,fix multicast + chan... (dff2336e),rxcpp
+22815,publish_subject routines,construct,1121.13,692.633,3244.0,0.95,Windows MSVC,fix multicast + chan... (dff2336e),rxcpp
 22816,publish_subject routines,get_observable,178.916,176.161,191.484,0.95,Windows MSVC,fix multicast + chan... (dff2336e),rxcpp
 22817,publish_subject routines,get_subscriber,108.747,108.446,109.169,0.95,Windows MSVC,fix multicast + chan... (dff2336e),rxcpp
 22818,Observable construction,Specific observable construction,0.669031,0.668828,0.669279,0.95,Linux CLANG,fix multicast + chan... (dff2336e),rpp
@@ -22907,3 +22907,273 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 22905,publish_subject routines,construct,181.159,180.231,184.988,0.95,Linux CLANG,fix multicast + chan... (dff2336e),rxcpp
 22906,publish_subject routines,get_observable,50.4187,50.2566,50.7347,0.95,Linux CLANG,fix multicast + chan... (dff2336e),rxcpp
 22907,publish_subject routines,get_subscriber,14.3251,14.2439,14.4384,0.95,Linux CLANG,fix multicast + chan... (dff2336e),rxcpp
+22908,Observable construction,Specific observable construction,0.402422,0.401715,0.405046,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22909,Observable construction,Dynamic observable construction,22.7911,22.7279,22.9304,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22910,Observable construction,Specific observable construction + as_dynamic,23.5106,23.4626,23.6104,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22911,Observable subscribe #2,Specific observable subscribe lambda,30.9511,30.8367,31.2357,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22912,Observable subscribe #2,Dynamic observable subscribe lambda,69.096,68.9199,69.7359,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22913,Observable subscribe #2,Specific observable subscribe lambda without subscription,31.0651,30.9801,31.2377,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22914,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,68.4423,67.9296,69.6322,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22915,Observable subscribe #2,Specific observable subscribe specific subscriber,4.30415,4.2899,4.33411,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22916,Observable subscribe #2,Dynamic observable subscribe specific subscriber,39.0055,38.934,39.2441,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22917,Observable subscribe #2,Specific observable subscribe dynamic observer,4.48055,4.47588,4.48409,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22918,Observable subscribe #2,Dynamic observable subscribe dynamic observer,18.8665,18.8269,19.0112,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22919,Observer construction,Specific observer construction,0.400015,0.396878,0.407145,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22920,Observer construction,Dynamic observer construction,22.1653,21.9601,22.6567,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22921,Observer construction,Specific observer construction + as_dynamic,22.4012,22.3903,22.4397,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22922,OnNext,Specific observer OnNext,0.402121,0.40145,0.405266,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22923,OnNext,Dynamic observer OnNext,2.40636,2.39069,2.44458,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22924,Subscriber construction,Make subsriber,39.8929,39.8128,40.1796,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22925,Subscriber construction,Make copy of subscriber,4.23023,4.19685,4.29248,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22926,Subscriber construction,Transform subsriber to dynamic,25.8062,25.7486,25.9889,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22927,Observable subscribe,Specific observable subscribe specific observer,30.0569,30.0343,30.1162,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22928,Observable subscribe,Specific observable subscribe dynamic observer,30.5481,30.4926,30.7491,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22929,Observable subscribe,Dynamic observable subscribe specific observer,73.7594,73.447,74.6113,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22930,Observable subscribe,Dynamic observable subscribe dynamic observer,57.992,57.8694,58.4267,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22931,Observable lift,Specific observable lift specific observer,36.5695,36.4918,36.8365,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22932,Observable lift,Specific observable lift dynamic observer,43.0347,42.422,44.0212,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22933,Observable lift,Dynamic observable lift specific observer,79.7542,79.0467,80.936,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22934,Observable lift,Dynamic observable lift dynamic observer,72.6512,71.9852,74.0932,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22935,Operators,map construction from observable via dot + subscribe,25.4878,25.284,25.7761,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22936,Subscription,composite_subscription create,24.9436,24.624,25.4498,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22937,Subscription,composite_subscription add,26.7413,26.4706,27.6646,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22938,Subscription,composite_subscription unsubscribe,8.2737,8.19386,8.43614,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22939,foundamental sources,empty,5.81788,5.80681,5.85349,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22940,foundamental sources,error,42.6223,42.5484,42.9497,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22941,foundamental sources,never,4.22859,4.17983,4.31932,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22942,just,just send int,4.65264,4.59334,4.75511,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22943,just,just send variadic,5.76921,5.71786,5.84947,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22944,from,from vector with int,28.6109,28.3861,29.1415,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22945,merge,merge,179.619,179.1,181.418,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22946,merge,merge_with,234.975,232.332,239.287,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22947,publish_subject callbacks,on_next,11.5053,11.4063,11.6097,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22948,publish_subject callbacks,on_error,0.812162,0.806068,0.826924,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22949,publish_subject callbacks,on_completed,0.80729,0.805954,0.812636,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22950,publish_subject routines,construct,133.664,131.901,139.946,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22951,publish_subject routines,get_observable,9.85109,9.74778,10.0515,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22952,publish_subject routines,get_subscriber,15.7761,15.638,16.0717,0.95,Linux GCC,With latest from (#1... (a048c388),rpp
+22953,Observable construction,Specific observable construction,0.38626,0.382752,0.393376,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22954,Observable construction,Dynamic observable construction,28.2702,27.9331,28.8828,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22955,Observable construction,Specific observable construction + as_dynamic,26.4334,26.1743,26.922,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22956,Observable subscribe #2,Specific observable subscribe lambda,398.923,398.035,402.361,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22957,Observable subscribe #2,Dynamic observable subscribe lambda,485.522,485.247,486.043,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22958,Observable subscribe #2,Specific observable subscribe lambda without subscription,399.091,398.112,402.246,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22959,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,496.141,495.002,500.252,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22960,Observable subscribe #2,Specific observable subscribe specific subscriber,337.187,336.353,340.159,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22961,Observable subscribe #2,Dynamic observable subscribe specific subscriber,394.197,393.045,398.296,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22962,Observable subscribe #2,Specific observable subscribe dynamic observer,349.409,348.71,351.973,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22963,Observable subscribe #2,Dynamic observable subscribe dynamic observer,375.717,374.462,380.523,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22964,Observer construction,Specific observer construction,0.402298,0.401568,0.405668,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22965,Observer construction,Dynamic observer construction,24.9069,24.8457,25.1114,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22966,Observer construction,Specific observer construction + as_dynamic,24.7904,24.7369,24.9036,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22967,OnNext,Specific observer OnNext,0.402497,0.401652,0.405825,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22968,OnNext,Dynamic observer OnNext,2.41469,2.40995,2.43219,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22969,Subscriber construction,Make subsriber,72.4526,71.6652,73.8632,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22970,Subscriber construction,Make copy of subscriber,5.38575,5.37797,5.41553,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22971,Subscriber construction,Transform subsriber to dynamic,34.8623,34.8517,34.8872,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22972,Observable subscribe,Specific observable subscribe specific observer,401.837,399.639,409.178,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22973,Observable subscribe,Specific observable subscribe dynamic observer,408.07,404.564,414.772,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22974,Observable subscribe,Dynamic observable subscribe specific observer,479.548,478.653,483.263,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22975,Observable subscribe,Dynamic observable subscribe dynamic observer,419.223,414.664,428.724,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22976,Observable lift,Specific observable lift specific observer,414.002,411.024,420.924,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22977,Observable lift,Specific observable lift dynamic observer,433.192,429.823,440.824,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22978,Observable lift,Dynamic observable lift specific observer,478.507,477.535,481.859,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22979,Observable lift,Dynamic observable lift dynamic observer,440.709,434.227,451.254,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22980,Operators,map construction from observable via dot + subscribe,418.513,415.56,425.735,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22981,Subscription,composite_subscription create,67.1987,67.0531,67.6315,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22982,Subscription,composite_subscription add,21.0429,20.9631,21.1786,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22983,Subscription,composite_subscription unsubscribe,12.0635,12.0426,12.1595,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22984,foundamental sources,empty,54.2742,53.6242,55.3641,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22985,foundamental sources,error,98.0891,97.1588,99.7674,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22986,foundamental sources,never,338.815,338.058,341.572,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22987,just,just send int,60.7904,60.3805,61.7575,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22988,just,just send variadic,56.1597,56.0383,56.445,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22989,from,from vector with int,80.1146,79.351,81.5105,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22990,merge,merge,179.087,178.459,180.639,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22991,merge,merge_with,416.315,415.233,418.985,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22992,publish_subject callbacks,on_next,13.2274,13.1709,13.4152,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22993,publish_subject callbacks,on_error,19.8308,19.5852,20.2668,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22994,publish_subject callbacks,on_completed,1.21486,1.20089,1.24648,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22995,publish_subject routines,construct,209.783,207.877,214.737,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22996,publish_subject routines,get_observable,54.1938,53.864,55.2302,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22997,publish_subject routines,get_subscriber,26.7882,26.7369,26.9681,0.95,Linux GCC,With latest from (#1... (a048c388),rxcpp
+22998,Observable construction,Specific observable construction,0.898195,0.798571,1.1207,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+22999,Observable construction,Dynamic observable construction,124.907,112.318,147.604,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23000,Observable construction,Specific observable construction + as_dynamic,95.8472,90.3887,104.85,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23001,Observable subscribe #2,Specific observable subscribe lambda,134.236,127.938,143.744,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23002,Observable subscribe #2,Dynamic observable subscribe lambda,250.838,239.939,266.687,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23003,Observable subscribe #2,Specific observable subscribe lambda without subscription,138.364,129.062,175.301,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23004,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,234.552,225.257,247.648,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23005,Observable subscribe #2,Specific observable subscribe specific subscriber,18.5058,17.6861,19.5679,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23006,Observable subscribe #2,Dynamic observable subscribe specific subscriber,139.667,133.328,149.273,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23007,Observable subscribe #2,Specific observable subscribe dynamic observer,19.0336,18.3888,20.1634,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23008,Observable subscribe #2,Dynamic observable subscribe dynamic observer,79.248,74.8841,85.3801,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23009,Observer construction,Specific observer construction,0.933787,0.874425,1.02933,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23010,Observer construction,Dynamic observer construction,77.3263,75.9298,80.3649,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23011,Observer construction,Specific observer construction + as_dynamic,84.1591,81.4675,88.3961,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23012,OnNext,Specific observer OnNext,0.674109,0.64396,0.719064,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23013,OnNext,Dynamic observer OnNext,1.93696,1.87187,2.03439,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23014,Subscriber construction,Make subsriber,102.504,100.087,107.202,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23015,Subscriber construction,Make copy of subscriber,16.9406,15.9358,18.5524,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23016,Subscriber construction,Transform subsriber to dynamic,88.6561,86.3123,92.7333,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23017,Observable subscribe,Specific observable subscribe specific observer,128.829,123.405,138.198,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23018,Observable subscribe,Specific observable subscribe dynamic observer,145.914,138.197,168.995,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23019,Observable subscribe,Dynamic observable subscribe specific observer,255.049,240.408,284.214,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23020,Observable subscribe,Dynamic observable subscribe dynamic observer,204.875,200.667,215.861,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23021,Observable lift,Specific observable lift specific observer,157.262,149.768,168.122,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23022,Observable lift,Specific observable lift dynamic observer,200.306,191.197,220.531,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23023,Observable lift,Dynamic observable lift specific observer,323.67,302.818,352.557,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23024,Observable lift,Dynamic observable lift dynamic observer,248.48,237.088,265.324,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23025,Operators,map construction from observable via dot + subscribe,115.192,104.111,151.854,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23026,Subscription,composite_subscription create,116.804,108.373,128.319,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23027,Subscription,composite_subscription add,86.7473,82.6137,93.722,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23028,Subscription,composite_subscription unsubscribe,6.11182,5.85626,6.45485,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23029,foundamental sources,empty,18.5595,18.193,19.3673,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23030,foundamental sources,error,62.168,58.5193,67.471,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23031,foundamental sources,never,17.3509,16.9302,18.1053,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23032,just,just send int,24.372,22.9019,26.5665,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23033,just,just send variadic,26.6969,25.21,28.994,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23034,from,from vector with int,118.38,109.302,134.213,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23035,merge,merge,644.76,606.22,698.08,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23036,merge,merge_with,643.39,629.195,671.122,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23037,publish_subject callbacks,on_next,46.3903,43.9153,51.9778,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23038,publish_subject callbacks,on_error,1.87482,1.78389,2.08807,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23039,publish_subject callbacks,on_completed,2.42807,2.39672,2.50677,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23040,publish_subject routines,construct,332.375,310.518,370.554,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23041,publish_subject routines,get_observable,34.0747,33.3682,35.4606,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23042,publish_subject routines,get_subscriber,53.8915,49.9871,71.5866,0.95,Windows MSVC,With latest from (#1... (a048c388),rpp
+23043,Observable construction,Specific observable construction,0.612043,0.58817,0.660992,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23044,Observable construction,Dynamic observable construction,117.43,112.121,131.22,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23045,Observable construction,Specific observable construction + as_dynamic,123.801,117.043,138.414,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23046,Observable subscribe #2,Specific observable subscribe lambda,1130.86,1088,1190.45,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23047,Observable subscribe #2,Dynamic observable subscribe lambda,1709.45,1581.2,2031.5,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23048,Observable subscribe #2,Specific observable subscribe lambda without subscription,1136.08,1073.96,1281.08,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23049,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1387.1,1288.85,1627,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23050,Observable subscribe #2,Specific observable subscribe specific subscriber,1049.17,981.931,1173.72,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23051,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1494.25,1342.95,1861.2,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23052,Observable subscribe #2,Specific observable subscribe dynamic observer,1187.96,1132.83,1256.67,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23053,Observable subscribe #2,Dynamic observable subscribe dynamic observer,1143.36,1109.14,1211.5,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23054,Observer construction,Specific observer construction,2.14479,2.03552,2.39037,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23055,Observer construction,Dynamic observer construction,153.283,146.5,162.174,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23056,Observer construction,Specific observer construction + as_dynamic,144.888,139.963,153.813,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23057,OnNext,Specific observer OnNext,0.780558,0.750826,0.827102,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23058,OnNext,Dynamic observer OnNext,3.19224,2.938,3.8124,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23059,Subscriber construction,Make subsriber,419.371,386.581,534.871,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23060,Subscriber construction,Make copy of subscriber,38.5832,38.2611,39.4214,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23061,Subscriber construction,Transform subsriber to dynamic,193.565,184.275,207.486,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23062,Observable subscribe,Specific observable subscribe specific observer,1532.43,1452.57,1675.71,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23063,Observable subscribe,Specific observable subscribe dynamic observer,1498.94,1458.59,1573.94,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23064,Observable subscribe,Dynamic observable subscribe specific observer,1598.43,1541.86,1691.36,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23065,Observable subscribe,Dynamic observable subscribe dynamic observer,1687.29,1449.24,2747.35,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23066,Observable lift,Specific observable lift specific observer,1532.94,1464.41,1682.53,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23067,Observable lift,Specific observable lift dynamic observer,1662.47,1578.6,1796.6,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23068,Observable lift,Dynamic observable lift specific observer,1806,1692.64,2010.64,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23069,Observable lift,Dynamic observable lift dynamic observer,1606.5,1557.75,1730,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23070,Operators,map construction from observable via dot + subscribe,1275.48,1221.1,1469.81,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23071,Subscription,composite_subscription create,414.935,401.774,434.452,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23072,Subscription,composite_subscription add,80.2738,77.5108,85.3046,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23073,Subscription,composite_subscription unsubscribe,33.012,29.1415,41.4951,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23074,foundamental sources,empty,229.695,216.695,277.504,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23075,foundamental sources,error,273.522,261.678,298.374,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23076,foundamental sources,never,1407.52,1220.76,1813.48,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23077,just,just send int,222.413,215.69,232.976,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23078,just,just send variadic,243.876,235.55,256.333,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23079,from,from vector with int,339.802,326.07,369.523,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23080,merge,merge,835.542,796.063,903,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23081,merge,merge_with,1677.64,1632.45,1764.82,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23082,publish_subject callbacks,on_next,29.4276,28.6279,30.9188,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23083,publish_subject callbacks,on_error,21.9493,20.6117,24.3308,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23084,publish_subject callbacks,on_completed,0.777186,0.733322,0.834507,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23085,publish_subject routines,construct,785.429,720.321,913.25,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23086,publish_subject routines,get_observable,161.131,157.524,167.966,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23087,publish_subject routines,get_subscriber,115.587,107.25,130.091,0.95,Windows MSVC,With latest from (#1... (a048c388),rxcpp
+23088,Observable construction,Specific observable construction,0.80385,0.802798,0.808816,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23089,Observable construction,Dynamic observable construction,35.1246,34.6441,36.006,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23090,Observable construction,Specific observable construction + as_dynamic,33.4206,33.0627,34.0912,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23091,Observable subscribe #2,Specific observable subscribe lambda,70.2392,70.1834,70.4485,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23092,Observable subscribe #2,Dynamic observable subscribe lambda,145.517,144.148,148.305,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23093,Observable subscribe #2,Specific observable subscribe lambda without subscription,68.6507,67.9103,70.056,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23094,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,146.689,146.429,147.702,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23095,Observable subscribe #2,Specific observable subscribe specific subscriber,20.0409,19.7455,20.5307,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23096,Observable subscribe #2,Dynamic observable subscribe specific subscriber,93.7232,93.483,94.805,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23097,Observable subscribe #2,Specific observable subscribe dynamic observer,19.9683,19.7782,20.334,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23098,Observable subscribe #2,Dynamic observable subscribe dynamic observer,76.2975,76.1934,76.79,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23099,Observer construction,Specific observer construction,0.804563,0.803183,0.809586,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23100,Observer construction,Dynamic observer construction,32.8461,32.483,33.5324,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23101,Observer construction,Specific observer construction + as_dynamic,31.6201,31.5716,31.842,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23102,OnNext,Specific observer OnNext,0.74306,0.742833,0.743243,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23103,OnNext,Dynamic observer OnNext,2.41873,2.40092,2.46411,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23104,Subscriber construction,Make subsriber,49.402,49.384,49.4423,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23105,Subscriber construction,Make copy of subscriber,19.2561,19.1006,19.526,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23106,Subscriber construction,Transform subsriber to dynamic,51.5321,51.0886,52.6208,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23107,Observable subscribe,Specific observable subscribe specific observer,70.5328,69.6693,72.0558,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23108,Observable subscribe,Specific observable subscribe dynamic observer,84.1847,83.4038,85.7243,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23109,Observable subscribe,Dynamic observable subscribe specific observer,147.085,145.718,149.882,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23110,Observable subscribe,Dynamic observable subscribe dynamic observer,141.798,139.756,145.227,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23111,Observable lift,Specific observable lift specific observer,99.7095,98.5442,101.804,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23112,Observable lift,Specific observable lift dynamic observer,129.774,128.5,132.282,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23113,Observable lift,Dynamic observable lift specific observer,200.712,197.95,205.385,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23114,Observable lift,Dynamic observable lift dynamic observer,216.098,215.467,218.837,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23115,Operators,map construction from observable via dot + subscribe,93.6182,93.4823,94.1703,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23116,Subscription,composite_subscription create,38.1717,37.769,38.9066,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23117,Subscription,composite_subscription add,73.1409,72.8062,73.9974,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23118,Subscription,composite_subscription unsubscribe,7.18825,7.11303,7.31785,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23119,foundamental sources,empty,21.0263,20.8164,21.6634,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23120,foundamental sources,error,57.9145,57.5817,58.8968,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23121,foundamental sources,never,20.1114,19.926,20.467,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23122,just,just send int,21.2318,21.048,21.6166,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23123,just,just send variadic,23.9181,23.6728,24.3932,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23124,from,from vector with int,35.3476,34.7557,36.4381,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23125,merge,merge,373.388,370.902,379.061,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23126,merge,merge_with,442.038,437.55,450.465,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23127,publish_subject callbacks,on_next,41.8728,41.3865,42.7569,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23128,publish_subject callbacks,on_error,2.49342,2.45653,2.54843,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23129,publish_subject callbacks,on_completed,3.24392,3.21882,3.30241,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23130,publish_subject routines,construct,218.566,212.225,227.917,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23131,publish_subject routines,get_observable,49.0828,48.5915,50.16,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23132,publish_subject routines,get_subscriber,80.8015,79.8313,82.3719,0.95,Linux CLANG,With latest from (#1... (a048c388),rpp
+23133,Observable construction,Specific observable construction,0.375385,0.370145,0.384481,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23134,Observable construction,Dynamic observable construction,27.2069,27.1615,27.3833,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23135,Observable construction,Specific observable construction + as_dynamic,28.072,27.6524,28.7027,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23136,Observable subscribe #2,Specific observable subscribe lambda,352.176,350.127,357.662,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23137,Observable subscribe #2,Dynamic observable subscribe lambda,406.558,402.421,415.104,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23138,Observable subscribe #2,Specific observable subscribe lambda without subscription,352.652,352.05,354.885,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23139,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,391.349,387.146,398.944,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23140,Observable subscribe #2,Specific observable subscribe specific subscriber,276.559,273.892,281.722,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23141,Observable subscribe #2,Dynamic observable subscribe specific subscriber,334.212,331.717,340.497,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23142,Observable subscribe #2,Specific observable subscribe dynamic observer,286.076,283.496,289.782,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23143,Observable subscribe #2,Dynamic observable subscribe dynamic observer,313.16,308.178,321.399,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23144,Observer construction,Specific observer construction,0.398903,0.393089,0.40857,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23145,Observer construction,Dynamic observer construction,25.7026,25.3967,26.2068,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23146,Observer construction,Specific observer construction + as_dynamic,23.4375,23.3851,23.5667,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23147,OnNext,Specific observer OnNext,0.804027,0.802701,0.810031,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23148,OnNext,Dynamic observer OnNext,3.02081,2.99875,3.08131,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23149,Subscriber construction,Make subsriber,74.9957,74.2268,76.4322,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23150,Subscriber construction,Make copy of subscriber,5.56941,5.52932,5.63801,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23151,Subscriber construction,Transform subsriber to dynamic,32.797,32.4455,33.4145,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23152,Observable subscribe,Specific observable subscribe specific observer,346.951,344.334,350.374,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23153,Observable subscribe,Specific observable subscribe dynamic observer,338.454,338.131,339.545,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23154,Observable subscribe,Dynamic observable subscribe specific observer,424.248,423.437,426.648,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23155,Observable subscribe,Dynamic observable subscribe dynamic observer,384.468,379.033,393.849,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23156,Observable lift,Specific observable lift specific observer,354.199,353.575,356.407,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23157,Observable lift,Specific observable lift dynamic observer,374.654,369.759,382.907,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23158,Observable lift,Dynamic observable lift specific observer,410.349,405.745,418.304,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23159,Observable lift,Dynamic observable lift dynamic observer,394.843,391.057,401.923,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23160,Operators,map construction from observable via dot + subscribe,307.126,303.991,313.433,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23161,Subscription,composite_subscription create,60.8875,60.5928,61.8125,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23162,Subscription,composite_subscription add,23.612,23.3737,24.0715,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23163,Subscription,composite_subscription unsubscribe,11.6078,11.4231,11.8987,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23164,foundamental sources,empty,43.6359,43.2465,44.4181,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23165,foundamental sources,error,92.059,90.6711,94.2555,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23166,foundamental sources,never,279.906,275.237,289.057,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23167,just,just send int,51.3934,50.5244,52.8914,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23168,just,just send variadic,51.2766,50.8818,52.0407,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23169,from,from vector with int,68.4929,68.0206,69.5872,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23170,merge,merge,145.47,143.748,148.302,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23171,merge,merge_with,347.722,344.23,353.073,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23172,publish_subject callbacks,on_next,11.7319,11.7048,11.7909,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23173,publish_subject callbacks,on_error,22.9577,22.775,23.3494,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23174,publish_subject callbacks,on_completed,0.7749,0.76548,0.799197,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23175,publish_subject routines,construct,214.337,213.013,219.436,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23176,publish_subject routines,get_observable,58.7905,58.0529,60.0513,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
+23177,publish_subject routines,get_subscriber,16.8855,16.6929,17.1808,0.95,Linux CLANG,With latest from (#1... (a048c388),rxcpp
