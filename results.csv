@@ -23271,7 +23271,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 23269,Observable construction,Dynamic observable construction,104.366,98.5993,127.251,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rpp
 23270,Observable construction,Specific observable construction + as_dynamic,98.848,96.3986,103.757,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rpp
 23271,Observable subscribe #2,Specific observable subscribe lambda,143.199,141.124,151.687,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rpp
-23272,Observable subscribe #2,Dynamic observable subscribe lambda,366.788,315.455,464,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rpp
+23272,Observable subscribe #2,Dynamic observable subscribe lambda,366.788,315.455,464.0,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rpp
 23273,Observable subscribe #2,Specific observable subscribe lambda without subscription,141.598,140.66,144.608,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rpp
 23274,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,280.472,279.038,284.406,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rpp
 23275,Observable subscribe #2,Specific observable subscribe specific subscriber,20.9195,20.87,21.0294,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rpp
@@ -23335,12 +23335,12 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 23333,Observable subscribe,Specific observable subscribe dynamic observer,1522.8,1479.1,1605.55,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rxcpp
 23334,Observable subscribe,Dynamic observable subscribe specific observer,1653.06,1634.33,1725.61,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rxcpp
 23335,Observable subscribe,Dynamic observable subscribe dynamic observer,1514.95,1497.11,1585.21,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rxcpp
-23336,Observable lift,Specific observable lift specific observer,1474.25,1446,1535.4,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rxcpp
+23336,Observable lift,Specific observable lift specific observer,1474.25,1446.0,1535.4,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rxcpp
 23337,Observable lift,Specific observable lift dynamic observer,1548.53,1509.21,1615.21,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rxcpp
 23338,Observable lift,Dynamic observable lift specific observer,1825.24,1692.12,2374.12,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rxcpp
-23339,Observable lift,Dynamic observable lift dynamic observer,1705,1628.11,1820.17,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rxcpp
+23339,Observable lift,Dynamic observable lift dynamic observer,1705.0,1628.11,1820.17,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rxcpp
 23340,Operators,map construction from observable via dot + subscribe,1218.08,1206.46,1246.46,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rxcpp
-23341,Subscription,composite_subscription create,411,407.414,421.214,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rxcpp
+23341,Subscription,composite_subscription create,411.0,407.414,421.214,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rxcpp
 23342,Subscription,composite_subscription add,85.6491,82.2032,91.0607,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rxcpp
 23343,Subscription,composite_subscription unsubscribe,29.0691,28.3016,30.2265,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rxcpp
 23344,foundamental sources,empty,309.623,230.703,693.833,0.95,Windows MSVC,Bump submodules/Catc... (f7960da5),rxcpp
@@ -23447,3 +23447,273 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 23445,publish_subject routines,construct,183.245,181.888,189.273,0.95,Linux CLANG,Bump submodules/Catc... (f7960da5),rxcpp
 23446,publish_subject routines,get_observable,50.6874,50.5216,51.0811,0.95,Linux CLANG,Bump submodules/Catc... (f7960da5),rxcpp
 23447,publish_subject routines,get_subscriber,14.2595,14.1763,14.3722,0.95,Linux CLANG,Bump submodules/Catc... (f7960da5),rxcpp
+23448,Observable construction,Specific observable construction,0.33508,0.334586,0.337213,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23449,Observable construction,Dynamic observable construction,19.0895,19.0612,19.2046,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23450,Observable construction,Specific observable construction + as_dynamic,19.3344,19.273,19.4464,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23451,Observable subscribe #2,Specific observable subscribe lambda,30.8699,30.8192,31.0591,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23452,Observable subscribe #2,Dynamic observable subscribe lambda,61.0003,60.8724,61.3133,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23453,Observable subscribe #2,Specific observable subscribe lambda without subscription,31.0147,30.9627,31.2028,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23454,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,61.7967,61.6704,62.0778,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23455,Observable subscribe #2,Specific observable subscribe specific subscriber,3.64125,3.63514,3.66261,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23456,Observable subscribe #2,Dynamic observable subscribe specific subscriber,41.2008,41.133,41.4609,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23457,Observable subscribe #2,Specific observable subscribe dynamic observer,3.7794,3.75804,3.80128,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23458,Observable subscribe #2,Dynamic observable subscribe dynamic observer,16.1921,16.166,16.288,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23459,Observer construction,Specific observer construction,0.335102,0.334597,0.337078,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23460,Observer construction,Dynamic observer construction,19.6719,19.6413,19.7912,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23461,Observer construction,Specific observer construction + as_dynamic,18.9649,18.91,19.1056,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23462,OnNext,Specific observer OnNext,0.334499,0.33442,0.334601,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23463,OnNext,Dynamic observer OnNext,2.00655,2.00628,2.00695,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23464,Subscriber construction,Make subsriber,35.3577,35.34,35.385,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23465,Subscriber construction,Make copy of subscriber,3.73062,3.72261,3.76054,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23466,Subscriber construction,Transform subsriber to dynamic,21.6128,21.553,21.7923,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23467,Observable subscribe,Specific observable subscribe specific observer,30.6554,30.151,33.0134,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23468,Observable subscribe,Specific observable subscribe dynamic observer,31.4145,31.3535,31.6049,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23469,Observable subscribe,Dynamic observable subscribe specific observer,59.2514,59.1357,59.6122,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23470,Observable subscribe,Dynamic observable subscribe dynamic observer,53.354,53.1709,53.5766,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23471,Observable lift,Specific observable lift specific observer,34.9998,34.9306,35.2038,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23472,Observable lift,Specific observable lift dynamic observer,40.4648,40.395,40.7476,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23473,Observable lift,Dynamic observable lift specific observer,67.4252,67.3681,67.5005,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23474,Observable lift,Dynamic observable lift dynamic observer,64.4588,64.3513,64.8645,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23475,Operators,map construction from observable via dot + subscribe,21.8341,21.7998,21.9629,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23476,Subscription,composite_subscription create,21.8564,21.8312,21.8808,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23477,Subscription,composite_subscription add,23.4381,23.2487,24.3415,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23478,Subscription,composite_subscription unsubscribe,6.89792,6.88198,6.97094,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23479,foundamental sources,empty,4.60436,4.59678,4.63268,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23480,foundamental sources,error,37.5525,37.4984,37.7952,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23481,foundamental sources,never,3.58356,3.58176,3.58501,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23482,just,just send int,3.98068,3.97868,3.98228,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23483,just,just send variadic,4.70442,4.6975,4.73209,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23484,from,from vector with int,23.5912,23.5423,23.7339,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23485,merge,merge,161.453,161.113,162.256,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23486,merge,merge_with,215.179,214.583,216.803,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23487,publish_subject callbacks,on_next,9.42868,9.36845,9.49593,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23488,publish_subject callbacks,on_error,0.672653,0.671283,0.678221,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23489,publish_subject callbacks,on_completed,0.671666,0.671397,0.672251,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23490,publish_subject routines,construct,116.016,114.316,122.363,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23491,publish_subject routines,get_observable,8.13648,8.12202,8.18587,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23492,publish_subject routines,get_subscriber,13.1506,13.1018,13.3776,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rpp
+23493,Observable construction,Specific observable construction,0.335055,0.33455,0.337051,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23494,Observable construction,Dynamic observable construction,23.5281,23.4825,23.5762,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23495,Observable construction,Specific observable construction + as_dynamic,22.449,22.3986,22.6333,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23496,Observable subscribe #2,Specific observable subscribe lambda,333.196,332.571,335.594,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23497,Observable subscribe #2,Dynamic observable subscribe lambda,406.154,405.742,407.099,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23498,Observable subscribe #2,Specific observable subscribe lambda without subscription,335.925,335.714,336.269,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23499,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,395.74,395.332,396.595,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23500,Observable subscribe #2,Specific observable subscribe specific subscriber,281.964,281.446,283.7,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23501,Observable subscribe #2,Dynamic observable subscribe specific subscriber,330.156,329.507,332.584,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23502,Observable subscribe #2,Specific observable subscribe dynamic observer,287.627,287.396,288.05,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23503,Observable subscribe #2,Dynamic observable subscribe dynamic observer,309.653,308.694,313.097,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23504,Observer construction,Specific observer construction,0.335225,0.334495,0.338668,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23505,Observer construction,Dynamic observer construction,20.7334,20.6771,20.8953,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23506,Observer construction,Specific observer construction + as_dynamic,20.7696,20.726,20.8825,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23507,OnNext,Specific observer OnNext,0.335386,0.334802,0.337451,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23508,OnNext,Dynamic observer OnNext,2.01085,2.00796,2.02229,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23509,Subscriber construction,Make subsriber,60.653,60.5201,61.1235,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23510,Subscriber construction,Make copy of subscriber,4.49925,4.49232,4.52637,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23511,Subscriber construction,Transform subsriber to dynamic,29.0141,28.9579,29.2394,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23512,Observable subscribe,Specific observable subscribe specific observer,335.703,335.017,337.781,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23513,Observable subscribe,Specific observable subscribe dynamic observer,356.391,355.638,359.25,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23514,Observable subscribe,Dynamic observable subscribe specific observer,400.803,399.777,403.576,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23515,Observable subscribe,Dynamic observable subscribe dynamic observer,361.93,361.328,364.087,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23516,Observable lift,Specific observable lift specific observer,343.646,342.98,345.807,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23517,Observable lift,Specific observable lift dynamic observer,361.834,361.039,363.763,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23518,Observable lift,Dynamic observable lift specific observer,403.003,402.284,405.524,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23519,Observable lift,Dynamic observable lift dynamic observer,380.231,379.94,380.838,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23520,Operators,map construction from observable via dot + subscribe,349.48,349.247,349.979,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23521,Subscription,composite_subscription create,56.2919,56.2406,56.4005,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23522,Subscription,composite_subscription add,17.6284,17.5704,17.6948,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23523,Subscription,composite_subscription unsubscribe,10.0455,10.0314,10.1013,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23524,foundamental sources,empty,46.6067,46.5034,46.9163,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23525,foundamental sources,error,82.1323,82.0974,82.2318,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23526,foundamental sources,never,281.553,281.086,283.264,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23527,just,just send int,50.7401,50.5967,51.1288,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23528,just,just send variadic,46.786,46.7247,46.8716,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23529,from,from vector with int,66.6371,66.4005,67.1295,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23530,merge,merge,146.913,146.501,147.953,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23531,merge,merge_with,354.273,352.805,358.024,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23532,publish_subject callbacks,on_next,11.0273,11.0117,11.044,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23533,publish_subject callbacks,on_error,16.8292,16.7989,16.9429,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23534,publish_subject callbacks,on_completed,1.00835,1.00663,1.01619,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23535,publish_subject routines,construct,175.155,173.604,182.014,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23536,publish_subject routines,get_observable,45.1991,45.1286,45.4697,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23537,publish_subject routines,get_subscriber,22.2579,22.2256,22.2917,0.95,Linux GCC,run_loop scheduler (... (2c109e9e),rxcpp
+23538,Observable construction,Specific observable construction,0.670711,0.66907,0.674473,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23539,Observable construction,Dynamic observable construction,82.4903,82.2208,83.0357,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23540,Observable construction,Specific observable construction + as_dynamic,82.7267,82.3473,83.6109,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23541,Observable subscribe #2,Specific observable subscribe lambda,120.293,119.674,121.475,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23542,Observable subscribe #2,Dynamic observable subscribe lambda,240.101,235.835,247.908,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23543,Observable subscribe #2,Specific observable subscribe lambda without subscription,118.802,118.336,119.959,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23544,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,234.664,233.355,237.764,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23545,Observable subscribe #2,Specific observable subscribe specific subscriber,16.7439,16.7085,16.8332,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23546,Observable subscribe #2,Dynamic observable subscribe specific subscriber,133.263,132.498,134.705,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23547,Observable subscribe #2,Specific observable subscribe dynamic observer,16.7811,16.7272,16.9353,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23548,Observable subscribe #2,Dynamic observable subscribe dynamic observer,67.3895,66.9544,68.3554,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23549,Observer construction,Specific observer construction,0.671399,0.668706,0.678222,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23550,Observer construction,Dynamic observer construction,81.5815,81.3323,82.0671,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23551,Observer construction,Specific observer construction + as_dynamic,81.5524,81.219,82.4095,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23552,OnNext,Specific observer OnNext,0.669963,0.668438,0.673724,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23553,OnNext,Dynamic observer OnNext,2.01203,2.00754,2.02205,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23554,Subscriber construction,Make subsriber,101.243,100.765,102.345,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23555,Subscriber construction,Make copy of subscriber,16.7583,16.7237,16.8393,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23556,Subscriber construction,Transform subsriber to dynamic,96.2022,95.9438,96.809,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23557,Observable subscribe,Specific observable subscribe specific observer,120.729,119.991,122.168,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23558,Observable subscribe,Specific observable subscribe dynamic observer,133.495,132.68,135.093,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23559,Observable subscribe,Dynamic observable subscribe specific observer,237.312,236.248,240.229,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23560,Observable subscribe,Dynamic observable subscribe dynamic observer,181.679,180.786,183.679,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23561,Observable lift,Specific observable lift specific observer,156.732,156.274,157.659,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23562,Observable lift,Specific observable lift dynamic observer,181.75,181.079,183.55,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23563,Observable lift,Dynamic observable lift specific observer,250.304,248.728,254.261,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23564,Observable lift,Dynamic observable lift dynamic observer,242.487,241.521,244.761,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23565,Operators,map construction from observable via dot + subscribe,91.1844,90.8437,91.9156,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23566,Subscription,composite_subscription create,87.388,86.8896,88.3378,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23567,Subscription,composite_subscription add,80.9937,79.7746,86.5111,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23568,Subscription,composite_subscription unsubscribe,7.39227,7.31324,7.58869,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23569,foundamental sources,empty,16.4143,16.3198,16.5863,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23570,foundamental sources,error,44.8678,44.7217,45.12,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23571,foundamental sources,never,14.8736,14.8055,14.9919,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23572,just,just send int,20.4514,20.4029,20.5494,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23573,just,just send variadic,24.6191,24.5141,24.8531,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23574,from,from vector with int,86.4096,86.0683,87.2833,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23575,merge,merge,515.34,511.094,525.736,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23576,merge,merge_with,723.105,720.447,730.053,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23577,publish_subject callbacks,on_next,37.6667,37.3845,38.0132,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23578,publish_subject callbacks,on_error,2.09536,2.08681,2.11507,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23579,publish_subject callbacks,on_completed,2.42005,2.39775,2.44809,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23580,publish_subject routines,construct,283.786,276.268,317.679,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23581,publish_subject routines,get_observable,32.0419,31.7213,33.1998,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23582,publish_subject routines,get_subscriber,51.2395,51.1517,51.4152,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rpp
+23583,Observable construction,Specific observable construction,0.671136,0.669444,0.675052,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23584,Observable construction,Dynamic observable construction,124.463,124.049,125.345,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23585,Observable construction,Specific observable construction + as_dynamic,109.853,109.49,110.789,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23586,Observable subscribe #2,Specific observable subscribe lambda,1170.65,1158.17,1213.87,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23587,Observable subscribe #2,Dynamic observable subscribe lambda,1353.32,1338.79,1416.11,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23588,Observable subscribe #2,Specific observable subscribe lambda without subscription,1029.57,1019.74,1067.04,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23589,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1341.84,1336.16,1358.05,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23590,Observable subscribe #2,Specific observable subscribe specific subscriber,844.194,839.774,859.258,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23591,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1028.8,1019.56,1049.04,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23592,Observable subscribe #2,Specific observable subscribe dynamic observer,775.7,769.667,799.7,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23593,Observable subscribe #2,Dynamic observable subscribe dynamic observer,940.375,935.75,955.125,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23594,Observer construction,Specific observer construction,1.50776,1.50477,1.51419,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23595,Observer construction,Dynamic observer construction,101.855,101.3,102.968,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23596,Observer construction,Specific observer construction + as_dynamic,101.492,100.996,102.504,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23597,OnNext,Specific observer OnNext,0.670909,0.669413,0.674114,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23598,OnNext,Dynamic observer OnNext,2.01207,2.00807,2.02091,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23599,Subscriber construction,Make subsriber,347.43,345.43,354.494,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23600,Subscriber construction,Make copy of subscriber,31.4969,31.4398,31.6422,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23601,Subscriber construction,Transform subsriber to dynamic,153.848,153.171,155.762,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23602,Observable subscribe,Specific observable subscribe specific observer,1171.59,1159.95,1216.91,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23603,Observable subscribe,Specific observable subscribe dynamic observer,1208.14,1197.23,1240.23,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23604,Observable subscribe,Dynamic observable subscribe specific observer,1351.84,1339.68,1403.68,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23605,Observable subscribe,Dynamic observable subscribe dynamic observer,1240.76,1226.81,1300.05,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23606,Observable lift,Specific observable lift specific observer,1208.91,1196.86,1261.41,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23607,Observable lift,Specific observable lift dynamic observer,1251,1245.81,1267.76,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23608,Observable lift,Dynamic observable lift specific observer,1403.95,1387.89,1465.84,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23609,Observable lift,Dynamic observable lift dynamic observer,1289.75,1285.5,1298.6,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23610,Operators,map construction from observable via dot + subscribe,1146.93,1140.56,1167.96,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23611,Subscription,composite_subscription create,300.282,299.188,302.941,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23612,Subscription,composite_subscription add,63.6998,63.351,64.3487,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23613,Subscription,composite_subscription unsubscribe,23.2226,23.1779,23.3239,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23614,foundamental sources,empty,190.166,189.352,192.283,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23615,foundamental sources,error,208.585,207.262,212.477,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23616,foundamental sources,never,846.161,839.839,861.032,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23617,just,just send int,170.292,168.792,175.819,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23618,just,just send variadic,192.656,191.494,196.856,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23619,from,from vector with int,263.317,260.942,269.952,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23620,merge,merge,662.158,656.386,686.246,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23621,merge,merge_with,1214.9,1205.69,1244.31,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23622,publish_subject callbacks,on_next,32.7925,32.6355,33.0285,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23623,publish_subject callbacks,on_error,17.3695,17.3324,17.4525,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23624,publish_subject callbacks,on_completed,1.36329,1.35661,1.37798,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23625,publish_subject routines,construct,625.303,612.848,664.182,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23626,publish_subject routines,get_observable,158.503,157.981,159.541,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23627,publish_subject routines,get_subscriber,92.5821,92.2799,93.0821,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23628,Observable construction,Specific observable construction,0.765192,0.749809,0.809875,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23629,Observable construction,Dynamic observable construction,35.2337,32.0197,50.6356,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23630,Observable construction,Specific observable construction + as_dynamic,32.4518,32.0005,34.1333,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23631,Observable subscribe #2,Specific observable subscribe lambda,67.9798,66.7357,71.466,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23632,Observable subscribe #2,Dynamic observable subscribe lambda,137.11,136.136,139.612,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23633,Observable subscribe #2,Specific observable subscribe lambda without subscription,66.8527,66.7708,67.0659,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23634,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,151.793,136.981,225.064,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23635,Observable subscribe #2,Specific observable subscribe specific subscriber,19.3603,19.2944,19.6263,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23636,Observable subscribe #2,Dynamic observable subscribe specific subscriber,86.7469,86.45,87.9597,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23637,Observable subscribe #2,Specific observable subscribe dynamic observer,19.4053,18.945,20.1289,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23638,Observable subscribe #2,Dynamic observable subscribe dynamic observer,73.2586,73.11,73.7258,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23639,Observer construction,Specific observer construction,0.848654,0.74933,1.26574,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23640,Observer construction,Dynamic observer construction,31.2849,31.2018,31.5546,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23641,Observer construction,Specific observer construction + as_dynamic,32.0069,31.9367,32.253,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23642,OnNext,Specific observer OnNext,0.882916,0.751934,1.5064,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23643,OnNext,Dynamic observer OnNext,2.23677,2.2315,2.25366,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23644,Subscriber construction,Make subsriber,51.8366,50.3141,58.4192,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23645,Subscriber construction,Make copy of subscriber,20.103,19.4332,21.7698,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23646,Subscriber construction,Transform subsriber to dynamic,52.8774,51.4994,55.8407,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23647,Observable subscribe,Specific observable subscribe specific observer,78.3483,66.9663,133.498,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23648,Observable subscribe,Specific observable subscribe dynamic observer,82.507,81.5199,84.9862,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23649,Observable subscribe,Dynamic observable subscribe specific observer,143.332,142.762,145.387,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23650,Observable subscribe,Dynamic observable subscribe dynamic observer,158.053,141.282,236.067,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23651,Observable lift,Specific observable lift specific observer,97.1484,96.4415,100.351,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23652,Observable lift,Specific observable lift dynamic observer,130.588,129.896,133.678,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23653,Observable lift,Dynamic observable lift specific observer,200.677,195.468,213.214,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23654,Observable lift,Dynamic observable lift dynamic observer,255.061,222.184,333.566,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23655,Operators,map construction from observable via dot + subscribe,98.1389,97.2695,100.219,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23656,Subscription,composite_subscription create,36.0795,35.2568,38.177,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23657,Subscription,composite_subscription add,73.4045,70.56,81.9459,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23658,Subscription,composite_subscription unsubscribe,6.80864,6.71476,6.99684,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23659,foundamental sources,empty,21.5157,21.2085,22.0046,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23660,foundamental sources,error,51.6484,50.7183,53.0505,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23661,foundamental sources,never,19.3101,19.2801,19.4266,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23662,just,just send int,21.1232,20.5396,22.7672,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23663,just,just send variadic,22.8261,22.5834,23.2838,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23664,from,from vector with int,33.0981,32.6187,33.9674,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23665,merge,merge,344.26,339.491,360.25,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23666,merge,merge_with,429.931,422.957,456.682,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23667,publish_subject callbacks,on_next,41.8156,40.3978,44.2481,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23668,publish_subject callbacks,on_error,2.26903,2.25755,2.30929,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23669,publish_subject callbacks,on_completed,2.76227,2.67167,2.94131,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23670,publish_subject routines,construct,204.791,199.219,218.792,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23671,publish_subject routines,get_observable,48.7773,47.5824,52.3818,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23672,publish_subject routines,get_subscriber,70.7617,69.8415,72.8647,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rpp
+23673,Observable construction,Specific observable construction,0.383165,0.373147,0.405968,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23674,Observable construction,Dynamic observable construction,27.9245,27.2279,30.8556,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23675,Observable construction,Specific observable construction + as_dynamic,27.23,26.9469,28.2051,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23676,Observable subscribe #2,Specific observable subscribe lambda,318.423,312.86,326.902,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23677,Observable subscribe #2,Dynamic observable subscribe lambda,382.314,371.172,428.588,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23678,Observable subscribe #2,Specific observable subscribe lambda without subscription,328.32,324.371,335.06,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23679,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,396.78,387.623,418.612,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23680,Observable subscribe #2,Specific observable subscribe specific subscriber,241.878,241.319,244.113,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23681,Observable subscribe #2,Dynamic observable subscribe specific subscriber,314.36,307.222,346.695,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23682,Observable subscribe #2,Specific observable subscribe dynamic observer,300.393,290.226,348.984,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23683,Observable subscribe #2,Dynamic observable subscribe dynamic observer,311.603,304.304,328.864,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23684,Observer construction,Specific observer construction,0.457403,0.385994,0.771644,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23685,Observer construction,Dynamic observer construction,23.192,22.7817,23.818,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23686,Observer construction,Specific observer construction + as_dynamic,27.5151,25.2256,36.1832,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23687,OnNext,Specific observer OnNext,0.909622,0.793101,1.14746,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23688,OnNext,Dynamic observer OnNext,2.64058,2.60529,2.77136,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23689,Subscriber construction,Make subsriber,81.0019,76.3411,95.2918,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23690,Subscriber construction,Make copy of subscriber,5.43542,5.41293,5.51832,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23691,Subscriber construction,Transform subsriber to dynamic,30.6446,30.568,30.8726,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23692,Observable subscribe,Specific observable subscribe specific observer,389.536,332.203,668.724,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23693,Observable subscribe,Specific observable subscribe dynamic observer,469.056,385.869,677.239,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23694,Observable subscribe,Dynamic observable subscribe specific observer,394.97,389.325,415.059,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23695,Observable subscribe,Dynamic observable subscribe dynamic observer,415.763,384.856,519.027,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23696,Observable lift,Specific observable lift specific observer,347.8,339.196,366.092,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23697,Observable lift,Specific observable lift dynamic observer,353.142,350.277,358.895,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23698,Observable lift,Dynamic observable lift specific observer,392.921,390.021,400.633,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23699,Observable lift,Dynamic observable lift dynamic observer,402.084,395.646,424.26,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23700,Operators,map construction from observable via dot + subscribe,285.615,284.942,288.243,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23701,Subscription,composite_subscription create,60.4826,59.4728,65.3088,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23702,Subscription,composite_subscription add,24.8557,24.3301,27.0314,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23703,Subscription,composite_subscription unsubscribe,11.1931,11.1446,11.4252,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23704,foundamental sources,empty,44.2601,38.196,73.3769,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23705,foundamental sources,error,80.2977,78.7209,82.5732,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23706,foundamental sources,never,272.559,270.907,277.889,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23707,just,just send int,37.3469,37.1166,38.0181,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23708,just,just send variadic,50.1071,49.6503,51.3728,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23709,from,from vector with int,67.1329,65.3691,74.2481,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23710,merge,merge,226.71,157.142,563.619,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23711,merge,merge_with,345.149,338.522,360.139,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23712,publish_subject callbacks,on_next,11.4312,11.3135,11.6458,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23713,publish_subject callbacks,on_error,19.384,19.153,19.778,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23714,publish_subject callbacks,on_completed,1.148,0.830021,1.7066,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23715,publish_subject routines,construct,248.474,208.241,426.268,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23716,publish_subject routines,get_observable,55.0177,54.7207,56.1977,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23717,publish_subject routines,get_subscriber,14.4034,14.1247,14.9054,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
