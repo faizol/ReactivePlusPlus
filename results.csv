@@ -23966,7 +23966,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 23964,Observable subscribe,Dynamic observable subscribe specific observer,1506.4,1494.45,1528.35,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
 23965,Observable subscribe,Dynamic observable subscribe dynamic observer,1430.95,1401.95,1484.05,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
 23966,Observable lift,Specific observable lift specific observer,1346.41,1317.59,1402.77,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
-23967,Observable lift,Specific observable lift dynamic observer,1524.2,1492,1576.05,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23967,Observable lift,Specific observable lift dynamic observer,1524.2,1492.0,1576.05,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
 23968,Observable lift,Dynamic observable lift specific observer,1648.74,1622.05,1705.89,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
 23969,Observable lift,Dynamic observable lift dynamic observer,1528.8,1509.2,1566.15,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
 23970,Operators,map construction from observable via dot + subscribe,1179.93,1169.15,1203.04,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
@@ -23987,3 +23987,273 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 23985,publish_subject routines,construct,705.029,700.412,721.618,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
 23986,publish_subject routines,get_observable,182.037,178.665,185.472,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
 23987,publish_subject routines,get_subscriber,110.283,108.554,113.502,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23988,Observable construction,Specific observable construction,0.376268,0.371539,0.396821,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+23989,Observable construction,Dynamic observable construction,22.6004,21.919,23.7018,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+23990,Observable construction,Specific observable construction + as_dynamic,20.4826,20.1684,21.2827,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+23991,Observable subscribe #2,Specific observable subscribe lambda,29.8088,28.8545,33.9621,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+23992,Observable subscribe #2,Dynamic observable subscribe lambda,65.2644,65.0648,65.7729,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+23993,Observable subscribe #2,Specific observable subscribe lambda without subscription,29.445,28.9755,30.8555,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+23994,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,67.4464,65.764,71.095,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+23995,Observable subscribe #2,Specific observable subscribe specific subscriber,5.31299,5.17433,5.63321,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+23996,Observable subscribe #2,Dynamic observable subscribe specific subscriber,32.6644,32.1835,34.5958,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+23997,Observable subscribe #2,Specific observable subscribe dynamic observer,5.23176,5.19775,5.2836,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+23998,Observable subscribe #2,Dynamic observable subscribe dynamic observer,16.6234,16.2774,18.1299,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+23999,Observer construction,Specific observer construction,0.37389,0.371463,0.38573,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24000,Observer construction,Dynamic observer construction,20.8867,20.8254,21.0408,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24001,Observer construction,Specific observer construction + as_dynamic,20.2538,20.0979,20.6521,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24002,OnNext,Specific observer OnNext,0.374814,0.370591,0.382884,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24003,OnNext,Dynamic observer OnNext,2.25123,2.23426,2.29035,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24004,Subscriber construction,Make subsriber,35.5499,34.7277,39.2853,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24005,Subscriber construction,Make copy of subscriber,5.48955,5.40325,5.62225,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24006,Subscriber construction,Transform subsriber to dynamic,24.3267,24.1406,24.8022,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24007,Observable subscribe,Specific observable subscribe specific observer,29.2902,28.6352,31.4584,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24008,Observable subscribe,Specific observable subscribe dynamic observer,30.5186,30.3648,31.153,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24009,Observable subscribe,Dynamic observable subscribe specific observer,68.6936,65.8503,76.2153,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24010,Observable subscribe,Dynamic observable subscribe dynamic observer,50.4845,50.2341,51.5029,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24011,Observable lift,Specific observable lift specific observer,38.3484,37.376,40.184,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24012,Observable lift,Specific observable lift dynamic observer,41.6191,41.4604,42.028,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24013,Observable lift,Dynamic observable lift specific observer,76.5919,75.9093,78.0643,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24014,Observable lift,Dynamic observable lift dynamic observer,76.3331,72.2568,88.1991,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24015,Operators,map construction from observable via dot + subscribe,25.1284,25.0316,25.591,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24016,Subscription,composite_subscription create,22.5893,22.5031,22.9088,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24017,Subscription,composite_subscription add,30.6564,30.1303,32.0659,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24018,Subscription,composite_subscription unsubscribe,7.22809,7.12751,7.43297,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24019,foundamental sources,empty,6.29344,5.35441,10.983,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24020,foundamental sources,error,40.6495,40.5415,41.0233,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24021,foundamental sources,never,4.49127,4.48117,4.52219,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24022,just,just send int,4.643,4.54296,4.80932,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24023,just,just send variadic,5.06805,4.97187,5.20456,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24024,from,from vector with int,26.8915,25.211,34.6061,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24025,merge,merge,160.767,158.256,167.624,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24026,merge,merge_with,207.571,206.286,211.021,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24027,publish_subject callbacks,on_next,11.636,11.3739,12.2558,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24028,publish_subject callbacks,on_error,3.04695,3.00287,3.13942,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24029,publish_subject callbacks,on_completed,2.67,2.62949,2.75308,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24030,publish_subject routines,construct,127.025,124.711,135.323,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24031,publish_subject routines,get_observable,10.0592,9.89196,10.5522,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24032,publish_subject routines,get_subscriber,17.3072,17.2924,17.3546,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rpp
+24033,Observable construction,Specific observable construction,0.397305,0.375286,0.490742,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24034,Observable construction,Dynamic observable construction,26.8655,26.7762,27.2163,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24035,Observable construction,Specific observable construction + as_dynamic,27.1459,26.5632,28.1167,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24036,Observable subscribe #2,Specific observable subscribe lambda,439.47,395.483,623.901,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24037,Observable subscribe #2,Dynamic observable subscribe lambda,474.179,456.031,524.017,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24038,Observable subscribe #2,Specific observable subscribe lambda without subscription,419.559,401.421,451.953,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24039,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,480.332,469.66,517.614,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24040,Observable subscribe #2,Specific observable subscribe specific subscriber,338.385,328.354,385.141,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24041,Observable subscribe #2,Dynamic observable subscribe specific subscriber,385.528,380.602,397.929,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24042,Observable subscribe #2,Specific observable subscribe dynamic observer,348.459,334.98,411.068,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24043,Observable subscribe #2,Dynamic observable subscribe dynamic observer,383.217,370.562,415.24,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24044,Observer construction,Specific observer construction,0.387684,0.377523,0.410701,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24045,Observer construction,Dynamic observer construction,22.8352,22.4343,23.7752,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24046,Observer construction,Specific observer construction + as_dynamic,23.1191,22.4684,24.6909,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24047,OnNext,Specific observer OnNext,0.379353,0.373719,0.391651,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24048,OnNext,Dynamic observer OnNext,2.33206,2.27846,2.41311,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24049,Subscriber construction,Make subsriber,67.0532,65.4583,70.3402,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24050,Subscriber construction,Make copy of subscriber,5.6203,5.53293,5.98809,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24051,Subscriber construction,Transform subsriber to dynamic,32.5448,32.4146,32.8219,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24052,Observable subscribe,Specific observable subscribe specific observer,397.81,391.734,409.746,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24053,Observable subscribe,Specific observable subscribe dynamic observer,400.301,399.171,404.744,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24054,Observable subscribe,Dynamic observable subscribe specific observer,485.003,480.327,493.819,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24055,Observable subscribe,Dynamic observable subscribe dynamic observer,429.651,427.863,434.383,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24056,Observable lift,Specific observable lift specific observer,411.437,405.661,435.082,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24057,Observable lift,Specific observable lift dynamic observer,428.62,423.838,441.141,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24058,Observable lift,Dynamic observable lift specific observer,471.973,467.761,480.898,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24059,Observable lift,Dynamic observable lift dynamic observer,459.121,450.916,484.445,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24060,Operators,map construction from observable via dot + subscribe,431.414,414.03,512.072,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24061,Subscription,composite_subscription create,63.0622,61.16,67.6042,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24062,Subscription,composite_subscription add,17.8839,17.8604,17.9755,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24063,Subscription,composite_subscription unsubscribe,12.3739,11.9148,14.5788,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24064,foundamental sources,empty,54.0977,52.6497,57.4671,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24065,foundamental sources,error,98.1306,95.5931,103.925,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24066,foundamental sources,never,335.375,329.088,357.045,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24067,just,just send int,56.6359,56.4529,57.3686,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24068,just,just send variadic,52.8213,52.4017,53.9273,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24069,from,from vector with int,77.2384,76.5637,78.6826,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24070,merge,merge,168.684,165.28,178.352,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24071,merge,merge_with,420.874,412.261,438.944,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24072,publish_subject callbacks,on_next,12.7812,12.5878,13.1673,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24073,publish_subject callbacks,on_error,19.0807,18.4136,19.9894,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24074,publish_subject callbacks,on_completed,0.771853,0.747313,0.880754,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24075,publish_subject routines,construct,213.33,209.002,233.824,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24076,publish_subject routines,get_observable,56.3107,54.8806,61.5451,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24077,publish_subject routines,get_subscriber,27.5408,27.1501,28.6757,0.95,Linux GCC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24078,Observable construction,Specific observable construction,0.654826,0.647194,0.673959,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24079,Observable construction,Dynamic observable construction,35.1647,33.3555,37.7765,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24080,Observable construction,Specific observable construction + as_dynamic,34.9802,33.1206,37.7056,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24081,Observable subscribe #2,Specific observable subscribe lambda,70.9803,67.2849,76.9075,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24082,Observable subscribe #2,Dynamic observable subscribe lambda,159.371,152.658,177.482,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24083,Observable subscribe #2,Specific observable subscribe lambda without subscription,68.4247,65.6335,72.4583,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24084,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,159.022,150.726,180.797,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24085,Observable subscribe #2,Specific observable subscribe specific subscriber,22.5327,21.067,25.8168,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24086,Observable subscribe #2,Dynamic observable subscribe specific subscriber,108.236,102.139,119.338,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24087,Observable subscribe #2,Specific observable subscribe dynamic observer,21.8944,20.9967,23.3527,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24088,Observable subscribe #2,Dynamic observable subscribe dynamic observer,78.226,75.4369,84.3853,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24089,Observer construction,Specific observer construction,0.819151,0.788952,0.865179,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24090,Observer construction,Dynamic observer construction,34.7878,33.812,36.5308,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24091,Observer construction,Specific observer construction + as_dynamic,34.1332,32.2243,38.0866,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24092,OnNext,Specific observer OnNext,0.752908,0.726274,0.797343,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24093,OnNext,Dynamic observer OnNext,2.65124,2.51956,2.88348,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24094,Subscriber construction,Make subsriber,53.9906,51.5912,58.9219,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24095,Subscriber construction,Make copy of subscriber,21.1246,20.4813,22.2871,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24096,Subscriber construction,Transform subsriber to dynamic,53.111,51.7583,55.3579,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24097,Observable subscribe,Specific observable subscribe specific observer,73.8828,69.209,84.8721,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24098,Observable subscribe,Specific observable subscribe dynamic observer,92.5654,88.7432,98.0395,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24099,Observable subscribe,Dynamic observable subscribe specific observer,153.196,147.946,166.11,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24100,Observable subscribe,Dynamic observable subscribe dynamic observer,155.42,147.655,167.873,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24101,Observable lift,Specific observable lift specific observer,113.919,105.624,135.215,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24102,Observable lift,Specific observable lift dynamic observer,132.92,128.712,139.434,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24103,Observable lift,Dynamic observable lift specific observer,206.056,199.842,216.192,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24104,Observable lift,Dynamic observable lift dynamic observer,218.18,211.125,230.616,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24105,Operators,map construction from observable via dot + subscribe,104.314,99.4914,112.471,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24106,Subscription,composite_subscription create,44.6703,40.8093,53.2535,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24107,Subscription,composite_subscription add,80.2888,77.1493,85.0247,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24108,Subscription,composite_subscription unsubscribe,8.49207,7.93392,9.42537,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24109,foundamental sources,empty,25.2261,23.1064,30.1675,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24110,foundamental sources,error,52.1789,51.15,54.1106,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24111,foundamental sources,never,30.8273,20.7424,78.7097,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24112,just,just send int,21.6707,21.0915,22.6344,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24113,just,just send variadic,26.8413,25.6818,28.6011,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24114,from,from vector with int,39.9425,37.7838,45.706,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24115,merge,merge,401.476,389.914,417.768,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24116,merge,merge_with,497.071,474.218,541.644,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24117,publish_subject callbacks,on_next,51.9027,48.299,57.7181,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24118,publish_subject callbacks,on_error,2.96347,2.7891,3.5641,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24119,publish_subject callbacks,on_completed,3.03123,2.88394,3.25889,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24120,publish_subject routines,construct,426.242,289.494,871.149,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24121,publish_subject routines,get_observable,52.835,49.9723,58.1474,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24122,publish_subject routines,get_subscriber,75.4416,73.2132,78.9785,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rpp
+24123,Observable construction,Specific observable construction,0.39858,0.374892,0.455242,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24124,Observable construction,Dynamic observable construction,29.9929,28.8925,31.4338,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24125,Observable construction,Specific observable construction + as_dynamic,32.3794,30.3126,35.6141,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24126,Observable subscribe #2,Specific observable subscribe lambda,346.973,343.355,355.301,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24127,Observable subscribe #2,Dynamic observable subscribe lambda,413.113,397.523,442.799,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24128,Observable subscribe #2,Specific observable subscribe lambda without subscription,358.463,345.27,378.39,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24129,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,420.911,403.994,443.695,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24130,Observable subscribe #2,Specific observable subscribe specific subscriber,298.216,280.899,327.619,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24131,Observable subscribe #2,Dynamic observable subscribe specific subscriber,323.936,308.304,369.878,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24132,Observable subscribe #2,Specific observable subscribe dynamic observer,296.346,289.55,307.494,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24133,Observable subscribe #2,Dynamic observable subscribe dynamic observer,319.131,313.717,342.729,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24134,Observer construction,Specific observer construction,0.402472,0.385035,0.4392,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24135,Observer construction,Dynamic observer construction,26.2067,25.1549,29.0922,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24136,Observer construction,Specific observer construction + as_dynamic,24.7804,23.8068,26.2535,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24137,OnNext,Specific observer OnNext,0.832116,0.783125,0.916135,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24138,OnNext,Dynamic observer OnNext,3.07388,2.86722,3.47038,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24139,Subscriber construction,Make subsriber,76.2199,73.5654,82.7842,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24140,Subscriber construction,Make copy of subscriber,5.73502,5.55127,5.98285,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24141,Subscriber construction,Transform subsriber to dynamic,31.7279,30.7898,33.3096,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24142,Observable subscribe,Specific observable subscribe specific observer,364.319,351.993,384.117,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24143,Observable subscribe,Specific observable subscribe dynamic observer,377.993,365.717,408.681,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24144,Observable subscribe,Dynamic observable subscribe specific observer,434.836,391.473,627.716,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24145,Observable subscribe,Dynamic observable subscribe dynamic observer,393.457,388.937,410.359,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24146,Observable lift,Specific observable lift specific observer,345.743,331.088,371.623,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24147,Observable lift,Specific observable lift dynamic observer,365.198,357.523,379.679,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24148,Observable lift,Dynamic observable lift specific observer,541.483,474.374,696.987,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24149,Observable lift,Dynamic observable lift dynamic observer,427.561,405.233,459.283,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24150,Operators,map construction from observable via dot + subscribe,288.862,279.077,302.811,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24151,Subscription,composite_subscription create,81.0122,76.3724,94.1597,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24152,Subscription,composite_subscription add,31.323,29.5369,33.6063,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24153,Subscription,composite_subscription unsubscribe,12.6981,12.1585,13.5389,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24154,foundamental sources,empty,43.4389,40.608,49.5271,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24155,foundamental sources,error,99.6799,92.7256,113.714,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24156,foundamental sources,never,290.58,282.292,305.211,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24157,just,just send int,40.6865,38.9326,43.6042,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24158,just,just send variadic,54.7846,50.1522,70.9787,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24159,from,from vector with int,70.759,67.8543,80.0996,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24160,merge,merge,160.869,153.928,172.211,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24161,merge,merge_with,364.014,351.807,383.787,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24162,publish_subject callbacks,on_next,13.2038,12.4919,14.6331,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24163,publish_subject callbacks,on_error,20.9387,20.192,22.0149,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24164,publish_subject callbacks,on_completed,0.616905,0.585646,0.713174,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24165,publish_subject routines,construct,216.196,206.233,236.342,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24166,publish_subject routines,get_observable,66.2866,64.0429,70.7049,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24167,publish_subject routines,get_subscriber,15.6743,15.2729,16.4514,0.95,Linux CLANG,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24168,Observable construction,Specific observable construction,0.790556,0.774406,0.844697,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24169,Observable construction,Dynamic observable construction,99,96.9935,104.212,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24170,Observable construction,Specific observable construction + as_dynamic,96.5875,95.1782,99.198,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24171,Observable subscribe #2,Specific observable subscribe lambda,140.702,138.949,143.902,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24172,Observable subscribe #2,Dynamic observable subscribe lambda,284.413,283.321,288.706,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24173,Observable subscribe #2,Specific observable subscribe lambda without subscription,145.192,144.653,146.423,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24174,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,283.027,281.127,286.873,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24175,Observable subscribe #2,Specific observable subscribe specific subscriber,20.6652,20.1025,23.3868,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24176,Observable subscribe #2,Dynamic observable subscribe specific subscriber,159.699,158.114,163,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24177,Observable subscribe #2,Specific observable subscribe dynamic observer,19.7174,19.4258,20.2748,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24178,Observable subscribe #2,Dynamic observable subscribe dynamic observer,80.4356,80.2964,80.6881,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24179,Observer construction,Specific observer construction,0.781455,0.773998,0.795424,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24180,Observer construction,Dynamic observer construction,102.309,101.845,103.249,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24181,Observer construction,Specific observer construction + as_dynamic,95.3684,93.8019,98.2012,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24182,OnNext,Specific observer OnNext,0.804424,0.803169,0.807257,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24183,OnNext,Dynamic observer OnNext,2.21728,2.20773,2.23989,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24184,Subscriber construction,Make subsriber,118.579,116.921,121.583,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24185,Subscriber construction,Make copy of subscriber,19.9256,19.7122,20.5052,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24186,Subscriber construction,Transform subsriber to dynamic,110.936,109.918,112.618,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24187,Observable subscribe,Specific observable subscribe specific observer,141.603,140.07,144.808,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24188,Observable subscribe,Specific observable subscribe dynamic observer,154.146,151.673,157.769,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24189,Observable subscribe,Dynamic observable subscribe specific observer,273.348,268.714,281.295,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24190,Observable subscribe,Dynamic observable subscribe dynamic observer,221.07,218.5,225.859,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24191,Observable lift,Specific observable lift specific observer,187.766,185.671,192.006,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24192,Observable lift,Specific observable lift dynamic observer,218.66,218.062,220.25,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24193,Observable lift,Dynamic observable lift specific observer,344.124,342.472,348.899,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24194,Observable lift,Dynamic observable lift dynamic observer,294.34,291.717,300.679,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24195,Operators,map construction from observable via dot + subscribe,109.861,109.094,111.99,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24196,Subscription,composite_subscription create,106.925,106.003,109.71,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24197,Subscription,composite_subscription add,99.8808,98.4536,105.325,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24198,Subscription,composite_subscription unsubscribe,10.0035,9.90792,10.2291,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24199,foundamental sources,empty,22.2589,22.1719,22.4087,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24200,foundamental sources,error,59.1832,58.6257,60.4113,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24201,foundamental sources,never,20.2251,20.0632,20.6307,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24202,just,just send int,27.815,27.7587,27.9276,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24203,just,just send variadic,29.2679,29.102,29.5415,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24204,from,from vector with int,103.983,103.502,105.017,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24205,merge,merge,696.837,650.653,837.98,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24206,merge,merge_with,894.639,888.056,922.972,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24207,publish_subject callbacks,on_next,48.1705,47.6477,49.1737,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24208,publish_subject callbacks,on_error,2.92754,2.85028,3.16157,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24209,publish_subject callbacks,on_completed,3.03933,2.99559,3.0917,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24210,publish_subject routines,construct,386.827,377.308,430.654,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24211,publish_subject routines,get_observable,45.9838,45.8618,46.175,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24212,publish_subject routines,get_subscriber,70.5678,69.9172,71.6391,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rpp
+24213,Observable construction,Specific observable construction,0.809014,0.805479,0.817484,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24214,Observable construction,Dynamic observable construction,148.204,147.431,149.649,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24215,Observable construction,Specific observable construction + as_dynamic,157.318,149.182,178.112,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24216,Observable subscribe #2,Specific observable subscribe lambda,1414.1,1399.43,1480.29,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24217,Observable subscribe #2,Dynamic observable subscribe lambda,1720.25,1659.7,1905.65,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24218,Observable subscribe #2,Specific observable subscribe lambda without subscription,1414.68,1401.09,1475.05,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24219,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1644.2,1628.6,1703.85,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24220,Observable subscribe #2,Specific observable subscribe specific subscriber,1031.45,1023.29,1053.35,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24221,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1244.2,1234.64,1284.84,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24222,Observable subscribe #2,Specific observable subscribe dynamic observer,1082.57,1075.3,1109.4,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24223,Observable subscribe #2,Dynamic observable subscribe dynamic observer,1166.34,1139.31,1227,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24224,Observer construction,Specific observer construction,1.8095,1.80684,1.81466,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24225,Observer construction,Dynamic observer construction,138.775,137.944,140.29,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24226,Observer construction,Specific observer construction + as_dynamic,211.336,199.013,228.293,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24227,OnNext,Specific observer OnNext,0.807332,0.80419,0.814831,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24228,OnNext,Dynamic observer OnNext,2.42359,2.4131,2.44926,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24229,Subscriber construction,Make subsriber,420.211,416.711,429.25,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24230,Subscriber construction,Make copy of subscriber,37.9168,37.6745,38.7863,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24231,Subscriber construction,Transform subsriber to dynamic,185.948,184.965,187.844,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24232,Observable subscribe,Specific observable subscribe specific observer,1362.61,1339.09,1407.13,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24233,Observable subscribe,Specific observable subscribe dynamic observer,1457.52,1447.35,1495.13,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24234,Observable subscribe,Dynamic observable subscribe specific observer,1638.55,1622.8,1706.35,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24235,Observable subscribe,Dynamic observable subscribe dynamic observer,1781.73,1760.36,1830.82,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24236,Observable lift,Specific observable lift specific observer,1570.27,1481.32,1790.5,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24237,Observable lift,Specific observable lift dynamic observer,1546.45,1512.86,1603.32,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24238,Observable lift,Dynamic observable lift specific observer,1766.75,1724.05,1839.3,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24239,Observable lift,Dynamic observable lift dynamic observer,1567.05,1536.86,1624,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24240,Operators,map construction from observable via dot + subscribe,1202.37,1194.89,1228.96,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24241,Subscription,composite_subscription create,418.378,411.865,429.514,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24242,Subscription,composite_subscription add,77.9714,77.1909,79.9284,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24243,Subscription,composite_subscription unsubscribe,27.885,27.7653,28.0594,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24244,foundamental sources,empty,229.091,227.741,233.832,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24245,foundamental sources,error,267.829,254.798,296.853,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24246,foundamental sources,never,1029.38,1015.78,1068.28,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24247,just,just send int,229.73,228.197,233.684,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24248,just,just send variadic,227.086,223.576,232.642,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24249,from,from vector with int,312.607,308.17,321.08,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24250,merge,merge,776.643,766.839,794.429,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24251,merge,merge_with,1646.89,1624.11,1692.63,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24252,publish_subject callbacks,on_next,39.0504,38.9964,39.1621,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24253,publish_subject callbacks,on_error,51.6015,20.9251,204.077,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24254,publish_subject callbacks,on_completed,1.66176,1.63802,1.70304,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24255,publish_subject routines,construct,709.829,702.886,726.886,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24256,publish_subject routines,get_observable,191.696,190.667,193.756,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
+24257,publish_subject routines,get_subscriber,110.106,108.908,112.443,0.95,Windows MSVC,Bump actions/setup-p... (8a2eb0aa),rxcpp
