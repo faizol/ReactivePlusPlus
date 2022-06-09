@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['subjects_0',['Subjects',['../group__subjects.html',1,'']]]
+  ['filtering_20operators_226',['Filtering Operators',['../group__filtering__operators.html',1,'']]]
 ];

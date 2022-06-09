@@ -1,7 +1,13 @@
-\hypertarget{classrpp_1_1schedulers_1_1worker}{}\doxysection{rpp\+::schedulers\+::worker\texorpdfstring{$<$}{<} Strategy \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{classrpp_1_1schedulers_1_1worker}{}\doxysection{rpp\+::schedulers\+::worker$<$ Strategy $>$ Class Template Reference}
 \label{classrpp_1_1schedulers_1_1worker}\index{rpp::schedulers::worker$<$ Strategy $>$@{rpp::schedulers::worker$<$ Strategy $>$}}
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classrpp_1_1schedulers_1_1worker_a3fafb316a2164c8cd4276e1e67d69401}\label{classrpp_1_1schedulers_1_1worker_a3fafb316a2164c8cd4276e1e67d69401}} 
+{\footnotesize template$<$typename ... Args$>$ }\\{\bfseries requires} (!rpp\+::constraint\+::variadic\+\_\+is\+\_\+same\+\_\+type$<$ \mbox{\hyperlink{classrpp_1_1schedulers_1_1worker}{worker}}$<$ Strategy $>$, Args... $>$) \mbox{\hyperlink{classrpp_1_1schedulers_1_1worker}{worker}}(Args \&\&...args)
+\item 
+\mbox{\Hypertarget{classrpp_1_1schedulers_1_1worker_aa16a6a8ce8c2c9d1074a11855f32aca4}\label{classrpp_1_1schedulers_1_1worker_aa16a6a8ce8c2c9d1074a11855f32aca4}} 
+{\bfseries worker} (const \mbox{\hyperlink{classrpp_1_1schedulers_1_1worker}{worker}} \&)=default
 \item 
 \mbox{\Hypertarget{classrpp_1_1schedulers_1_1worker_a30a71f1071b31090f2c71d7524c49770}\label{classrpp_1_1schedulers_1_1worker_a30a71f1071b31090f2c71d7524c49770}} 
 {\bfseries worker} (\mbox{\hyperlink{classrpp_1_1schedulers_1_1worker}{worker}} \&\&) noexcept=default
@@ -11,12 +17,6 @@ void {\bfseries schedule} (constraint\+::schedulable\+\_\+fn auto \&\&fn) const
 \item 
 \mbox{\Hypertarget{classrpp_1_1schedulers_1_1worker_a33d7fe32869f2456b3bf7f577b53f8ea}\label{classrpp_1_1schedulers_1_1worker_a33d7fe32869f2456b3bf7f577b53f8ea}} 
 void {\bfseries schedule} (time\+\_\+point time\+\_\+point, constraint\+::schedulable\+\_\+fn auto \&\&fn) const
-\end{DoxyCompactItemize}
-\doxysubsection*{Public Attributes}
-\begin{DoxyCompactItemize}
-\item 
-\mbox{\Hypertarget{classrpp_1_1schedulers_1_1worker_abf38922e1a4d7cde79f28bc35e7cea69}\label{classrpp_1_1schedulers_1_1worker_abf38922e1a4d7cde79f28bc35e7cea69}} 
-{\footnotesize template$<$typename ... Args$>$ }\\{\bfseries \+\_\+\+\_\+pad0\+\_\+\+\_\+}\+: m\+\_\+strategy\{std\+::forward$<$Args$>$(args)...\} \{\} \mbox{\hyperlink{classrpp_1_1schedulers_1_1worker}{worker}}(const \mbox{\hyperlink{classrpp_1_1schedulers_1_1worker}{worker}}\&) = default
 \end{DoxyCompactItemize}
 
 

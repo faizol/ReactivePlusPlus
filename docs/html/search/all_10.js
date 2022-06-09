@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['take_0',['take',['../group__operators.html#ga0dcb41decfa8d5ded95f828a7e65ffee',1,'rpp::details::member_overload&lt; Type, SpecificObservable, take_tag &gt;']]],
-  ['take_5fwhile_1',['take_while',['../group__operators.html#ga47773bfb0298bba2ec71502c1984cc95',1,'rpp::details::member_overload&lt; Type, SpecificObservable, take_while_tag &gt;']]]
+  ['unsubscribe_112',['unsubscribe',['../classrpp_1_1subscription__base.html#af07ca7cdfb9758441c0729cbe3e6d19d',1,'rpp::subscription_base']]],
+  ['unsubscribed_113',['unsubscribed',['../structrpp_1_1subjects_1_1details_1_1unsubscribed.html',1,'rpp::subjects::details']]],
+  ['utility_20operators_114',['Utility Operators',['../group__utility__operators.html',1,'']]]
 ];

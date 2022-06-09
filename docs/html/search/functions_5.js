@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['just_0',['just',['../group__observables.html#ga819797b9fb7452311dedc62aa94d1f7b',1,'rpp::observable::just(const schedulers::constraint::scheduler auto &amp;scheduler, T &amp;&amp;item, Ts &amp;&amp;...items)'],['../group__observables.html#ga9b6fdbec2962d28ae4284811e6971f27',1,'rpp::observable::just(T &amp;&amp;item, Ts &amp;&amp;...items)']]]
+  ['map_203',['map',['../group__transforming__operators.html#ga2215c20ce73e16977568e7db1900ce65',1,'rpp::details::member_overload&lt; Type, SpecificObservable, map_tag &gt;']]],
+  ['merge_204',['merge',['../group__combining__operators.html#gaa02153df55aab3d790a7102a245dfd2f',1,'rpp::details::member_overload&lt; Type, SpecificObservable, merge_tag &gt;']]],
+  ['merge_5fwith_205',['merge_with',['../group__combining__operators.html#ga3341a36b0971c0cf59001fa65aeb36a4',1,'rpp::details::member_overload&lt; Type, SpecificObservable, merge_tag &gt;']]],
+  ['multicast_206',['multicast',['../group__connectable__operators.html#ga5b9bbad79c751b61e3f8ed9cebb636bb',1,'rpp::details::member_overload&lt; Type, SpecificObservable, multicast_tag &gt;']]]
 ];

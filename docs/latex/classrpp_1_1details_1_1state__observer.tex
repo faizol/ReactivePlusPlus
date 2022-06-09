@@ -1,4 +1,4 @@
-\hypertarget{classrpp_1_1details_1_1state__observer}{}\doxysection{rpp\+::details\+::state\+\_\+observer\texorpdfstring{$<$}{<} T, State, On\+Next, On\+Error, On\+Completed \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{classrpp_1_1details_1_1state__observer}{}\doxysection{rpp\+::details\+::state\+\_\+observer$<$ T, State, On\+Next, On\+Error, On\+Completed $>$ Class Template Reference}
 \label{classrpp_1_1details_1_1state__observer}\index{rpp::details::state\_observer$<$ T, State, OnNext, OnError, OnCompleted $>$@{rpp::details::state\_observer$<$ T, State, OnNext, OnError, OnCompleted $>$}}
 
 
@@ -9,24 +9,10 @@ Special type of \mbox{\hyperlink{classrpp_1_1specific__observer}{specific\+\_\+o
 
 {\ttfamily \#include $<$state\+\_\+observer.\+hpp$>$}
 
-
-
-Inheritance diagram for rpp\+::details\+::state\+\_\+observer\texorpdfstring{$<$}{<} T, State, On\+Next, On\+Error, On\+Completed \texorpdfstring{$>$}{>}\+:
-\nopagebreak
-\begin{figure}[H]
+Inheritance diagram for rpp\+::details\+::state\+\_\+observer$<$ T, State, On\+Next, On\+Error, On\+Completed $>$\+:\begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=243pt]{classrpp_1_1details_1_1state__observer__inherit__graph}
-\end{center}
-\end{figure}
-
-
-Collaboration diagram for rpp\+::details\+::state\+\_\+observer\texorpdfstring{$<$}{<} T, State, On\+Next, On\+Error, On\+Completed \texorpdfstring{$>$}{>}\+:
-\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=243pt]{classrpp_1_1details_1_1state__observer__coll__graph}
+\includegraphics[height=2.000000cm]{classrpp_1_1details_1_1state__observer}
 \end{center}
 \end{figure}
 \doxysubsection*{Public Member Functions}
@@ -54,6 +40,7 @@ void \mbox{\hyperlink{classrpp_1_1details_1_1state__observer_a7d24b5c70f82c0a4c1
 \doxysubsection{Detailed Description}
 \subsubsection*{template$<$constraint\+::decayed\+\_\+type T, constraint\+::decayed\+\_\+type State, std\+::invocable$<$ T, State $>$ On\+Next = forwarding\+\_\+on\+\_\+next, std\+::invocable$<$ std\+::exception\+\_\+ptr, State $>$ On\+Error = forwarding\+\_\+on\+\_\+error, std\+::invocable$<$ State $>$ On\+Completed = forwarding\+\_\+on\+\_\+completed$>$\newline
 class rpp\+::details\+::state\+\_\+observer$<$ T, State, On\+Next, On\+Error, On\+Completed $>$}
+
 Special type of \mbox{\hyperlink{classrpp_1_1specific__observer}{specific\+\_\+observer}} which has some state which this observer stores and pass to each callback. Used for storing subscriber without extra copies. 
 
 \doxysubsection{Member Function Documentation}

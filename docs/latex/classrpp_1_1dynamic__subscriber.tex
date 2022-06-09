@@ -1,4 +1,4 @@
-\hypertarget{classrpp_1_1dynamic__subscriber}{}\doxysection{rpp\+::dynamic\+\_\+subscriber\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{classrpp_1_1dynamic__subscriber}{}\doxysection{rpp\+::dynamic\+\_\+subscriber$<$ T $>$ Class Template Reference}
 \label{classrpp_1_1dynamic__subscriber}\index{rpp::dynamic\_subscriber$<$ T $>$@{rpp::dynamic\_subscriber$<$ T $>$}}
 
 
@@ -9,31 +9,17 @@ subscriber which uses dynamic\+\_\+observer$<$\+T$>$ to hide original callbacks
 
 {\ttfamily \#include $<$dynamic\+\_\+subscriber.\+hpp$>$}
 
-
-
-Inheritance diagram for rpp\+::dynamic\+\_\+subscriber\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>}\+:
-\nopagebreak
-\begin{figure}[H]
+Inheritance diagram for rpp\+::dynamic\+\_\+subscriber$<$ T $>$\+:\begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=349pt]{classrpp_1_1dynamic__subscriber__inherit__graph}
+\includegraphics[height=2.000000cm]{classrpp_1_1dynamic__subscriber}
 \end{center}
 \end{figure}
-
-
-Collaboration diagram for rpp\+::dynamic\+\_\+subscriber\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>}\+:
-\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=349pt]{classrpp_1_1dynamic__subscriber__coll__graph}
-\end{center}
-\end{figure}
-\doxysubsection*{Public Attributes}
+\doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{classrpp_1_1dynamic__subscriber_a782ee8e78ea31221f18c1a327475cc01}\label{classrpp_1_1dynamic__subscriber_a782ee8e78ea31221f18c1a327475cc01}} 
-{\footnotesize template$<$constraint\+::subscriber\+\_\+of\+\_\+type$<$ T $>$ TSub$>$ }\\{\bfseries \+\_\+\+\_\+pad0\+\_\+\+\_\+}\+: \mbox{\hyperlink{classrpp_1_1specific__subscriber}{specific\+\_\+subscriber}}$<$T
+\mbox{\Hypertarget{classrpp_1_1dynamic__subscriber_aff888946a73cbfb98a741735de74ce0a}\label{classrpp_1_1dynamic__subscriber_aff888946a73cbfb98a741735de74ce0a}} 
+{\footnotesize template$<$constraint\+::subscriber\+\_\+of\+\_\+type$<$ T $>$ T\+Sub$>$ }\\{\bfseries requires} (!std\+::is\+\_\+same\+\_\+v$<$ std\+::decay\+\_\+t$<$ T\+Sub $>$, \mbox{\hyperlink{classrpp_1_1dynamic__subscriber}{dynamic\+\_\+subscriber}}$<$ T $>$$>$) \mbox{\hyperlink{classrpp_1_1dynamic__subscriber}{dynamic\+\_\+subscriber}}(const T\+Sub \&subscriber)
 \end{DoxyCompactItemize}
 \doxysubsection*{Additional Inherited Members}
 
@@ -41,6 +27,7 @@ Collaboration diagram for rpp\+::dynamic\+\_\+subscriber\texorpdfstring{$<$}{<} 
 \doxysubsection{Detailed Description}
 \subsubsection*{template$<$constraint\+::decayed\+\_\+type T$>$\newline
 class rpp\+::dynamic\+\_\+subscriber$<$ T $>$}
+
 subscriber which uses dynamic\+\_\+observer$<$\+T$>$ to hide original callbacks 
 
 

@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['filter_0',['filter',['../group__operators.html#gae2695326a24fb8534f17f0d228d3b7f2',1,'rpp::details::member_overload&lt; Type, SpecificObservable, filter_tag &gt;']]],
-  ['from_5fcallable_1',['from_callable',['../group__observables.html#gaf574d9dd582ee9b59553e3705e8793cd',1,'rpp::observable']]],
-  ['from_5fiterable_2',['from_iterable',['../group__observables.html#ga688c67a9b816125b0e69a663c528f836',1,'rpp::observable']]]
+  ['just_201',['just',['../group__creational__operators.html#gabc5067fa9aefaa803f6e329b75faa00c',1,'rpp::observable::just(const schedulers::constraint::scheduler auto &amp;scheduler, T &amp;&amp;item, Ts &amp;&amp;...items) requires(rpp'],['../group__creational__operators.html#ga3dbc86391138a75da37b119ab4b785d2',1,'rpp::observable::just(T &amp;&amp;item, Ts &amp;&amp;...items) requires(rpp']]]
 ];
