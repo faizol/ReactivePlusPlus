@@ -23606,7 +23606,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 23604,Observable subscribe,Dynamic observable subscribe specific observer,1351.84,1339.68,1403.68,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
 23605,Observable subscribe,Dynamic observable subscribe dynamic observer,1240.76,1226.81,1300.05,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
 23606,Observable lift,Specific observable lift specific observer,1208.91,1196.86,1261.41,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
-23607,Observable lift,Specific observable lift dynamic observer,1251,1245.81,1267.76,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
+23607,Observable lift,Specific observable lift dynamic observer,1251.0,1245.81,1267.76,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
 23608,Observable lift,Dynamic observable lift specific observer,1403.95,1387.89,1465.84,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
 23609,Observable lift,Dynamic observable lift dynamic observer,1289.75,1285.5,1298.6,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
 23610,Operators,map construction from observable via dot + subscribe,1146.93,1140.56,1167.96,0.95,Windows MSVC,run_loop scheduler (... (2c109e9e),rxcpp
@@ -23717,3 +23717,273 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 23715,publish_subject routines,construct,248.474,208.241,426.268,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
 23716,publish_subject routines,get_observable,55.0177,54.7207,56.1977,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
 23717,publish_subject routines,get_subscriber,14.4034,14.1247,14.9054,0.95,Linux CLANG,run_loop scheduler (... (2c109e9e),rxcpp
+23718,Observable construction,Specific observable construction,0.427075,0.426065,0.431164,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23719,Observable construction,Dynamic observable construction,18.1929,18.0787,18.317,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23720,Observable construction,Specific observable construction + as_dynamic,18.018,17.9673,18.0988,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23721,Observable subscribe #2,Specific observable subscribe lambda,22.7432,22.6366,22.9405,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23722,Observable subscribe #2,Dynamic observable subscribe lambda,56.6098,56.4992,56.7145,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23723,Observable subscribe #2,Specific observable subscribe lambda without subscription,25.8703,25.7556,26.1255,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23724,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,58.7806,58.6363,59.2335,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23725,Observable subscribe #2,Specific observable subscribe specific subscriber,6.00943,5.9997,6.04419,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23726,Observable subscribe #2,Dynamic observable subscribe specific subscriber,26.2993,26.2791,26.3368,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23727,Observable subscribe #2,Specific observable subscribe dynamic observer,6.02301,6.01229,6.06222,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23728,Observable subscribe #2,Dynamic observable subscribe dynamic observer,17.2509,17.2121,17.3668,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23729,Observer construction,Specific observer construction,0.426454,0.425765,0.429648,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23730,Observer construction,Dynamic observer construction,17.3103,17.2763,17.4256,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23731,Observer construction,Specific observer construction + as_dynamic,17.2501,17.2447,17.2554,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23732,OnNext,Specific observer OnNext,0.435263,0.433835,0.436909,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23733,OnNext,Dynamic observer OnNext,1.60799,1.60407,1.62328,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23734,Subscriber construction,Make subsriber,32.3684,32.3254,32.4123,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23735,Subscriber construction,Make copy of subscriber,5.63064,5.54049,5.71217,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23736,Subscriber construction,Transform subsriber to dynamic,23.7164,23.7019,23.7301,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23737,Observable subscribe,Specific observable subscribe specific observer,25.2285,25.1645,25.3958,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23738,Observable subscribe,Specific observable subscribe dynamic observer,24.7053,24.6266,24.997,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23739,Observable subscribe,Dynamic observable subscribe specific observer,56.2806,56.0325,57.446,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23740,Observable subscribe,Dynamic observable subscribe dynamic observer,49.7986,49.5943,50.5507,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23741,Observable lift,Specific observable lift specific observer,32.9608,32.8856,33.1544,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23742,Observable lift,Specific observable lift dynamic observer,36.8961,36.7475,37.192,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23743,Observable lift,Dynamic observable lift specific observer,64.803,64.6626,65.3399,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23744,Observable lift,Dynamic observable lift dynamic observer,60.1473,60.0011,60.6316,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23745,Operators,map construction from observable via dot + subscribe,28.5025,28.4497,28.7041,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23746,Subscription,composite_subscription create,18.8681,18.862,18.8761,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23747,Subscription,composite_subscription add,30.4687,30.3167,30.8893,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23748,Subscription,composite_subscription unsubscribe,8.02747,8.02527,8.0316,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23749,foundamental sources,empty,6.02203,6.01272,6.05903,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23750,foundamental sources,error,41.0662,40.9823,41.3963,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23751,foundamental sources,never,6.01084,5.98384,6.05434,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23752,just,just send int,5.9881,5.93261,6.02207,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23753,just,just send variadic,6.01957,6.00508,6.05663,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23754,from,from vector with int,22.0801,22.0697,22.1123,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23755,merge,merge,143.798,143.549,144.734,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23756,merge,merge_with,193.005,192.499,194.33,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23757,publish_subject callbacks,on_next,8.77199,8.74237,8.81721,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23758,publish_subject callbacks,on_error,2.61423,2.57699,2.65553,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23759,publish_subject callbacks,on_completed,2.12028,2.087,2.1665,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23760,publish_subject routines,construct,112.019,110.875,114.236,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23761,publish_subject routines,get_observable,12.0301,12.0091,12.1085,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23762,publish_subject routines,get_subscriber,16.2671,16.2363,16.3825,0.95,Linux GCC,Update with_latest_f... (dc697287),rpp
+23763,Observable construction,Specific observable construction,0.402036,0.401345,0.404812,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23764,Observable construction,Dynamic observable construction,21.5825,21.578,21.5906,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23765,Observable construction,Specific observable construction + as_dynamic,22.0496,21.9676,22.1852,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23766,Observable subscribe #2,Specific observable subscribe lambda,321.837,321.364,322.31,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23767,Observable subscribe #2,Dynamic observable subscribe lambda,402.34,401.909,402.882,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23768,Observable subscribe #2,Specific observable subscribe lambda without subscription,316.886,315.941,320.092,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23769,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,435.801,434.506,441.257,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23770,Observable subscribe #2,Specific observable subscribe specific subscriber,267.177,266.86,267.741,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23771,Observable subscribe #2,Dynamic observable subscribe specific subscriber,322.195,321.831,322.601,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23772,Observable subscribe #2,Specific observable subscribe dynamic observer,280.276,279.633,282.334,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23773,Observable subscribe #2,Dynamic observable subscribe dynamic observer,299.348,298.368,302.812,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23774,Observer construction,Specific observer construction,0.401303,0.401166,0.401415,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23775,Observer construction,Dynamic observer construction,18.7408,18.7051,18.861,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23776,Observer construction,Specific observer construction + as_dynamic,19.3024,19.2726,19.4225,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23777,OnNext,Specific observer OnNext,0.424631,0.421314,0.428423,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23778,OnNext,Dynamic observer OnNext,1.60641,1.60315,1.61951,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23779,Subscriber construction,Make subsriber,55.234,55.1438,55.3202,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23780,Subscriber construction,Make copy of subscriber,5.87657,5.84608,5.90828,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23781,Subscriber construction,Transform subsriber to dynamic,28.3832,28.3337,28.5396,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23782,Observable subscribe,Specific observable subscribe specific observer,324.763,324.296,325.218,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23783,Observable subscribe,Specific observable subscribe dynamic observer,337.717,337.311,338.205,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23784,Observable subscribe,Dynamic observable subscribe specific observer,371.325,370.401,374.02,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23785,Observable subscribe,Dynamic observable subscribe dynamic observer,355.839,355.044,358.61,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23786,Observable lift,Specific observable lift specific observer,342.438,341.554,345.439,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23787,Observable lift,Specific observable lift dynamic observer,348.508,347.996,349.376,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23788,Observable lift,Dynamic observable lift specific observer,393.49,392.036,399.156,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23789,Observable lift,Dynamic observable lift dynamic observer,364.985,363.972,368.01,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23790,Operators,map construction from observable via dot + subscribe,349.39,348.962,349.938,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23791,Subscription,composite_subscription create,50.6616,50.5319,51.1468,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23792,Subscription,composite_subscription add,14.4115,14.3345,14.504,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23793,Subscription,composite_subscription unsubscribe,10.8567,10.8384,10.9276,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23794,foundamental sources,empty,45.6097,45.4307,45.8743,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23795,foundamental sources,error,84.005,83.8445,84.5741,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23796,foundamental sources,never,296.906,296.269,298.664,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23797,just,just send int,48.3676,48.2486,48.7084,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23798,just,just send variadic,46.9979,46.8259,47.2802,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23799,from,from vector with int,60.3638,60.1907,60.6366,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23800,merge,merge,132.852,132.375,133.756,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23801,merge,merge_with,336.866,335.976,338.966,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23802,publish_subject callbacks,on_next,10.7322,10.6602,10.8272,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23803,publish_subject callbacks,on_error,16.1392,16.1347,16.1442,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23804,publish_subject callbacks,on_completed,0.806065,0.804794,0.811177,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23805,publish_subject routines,construct,148.819,147.767,151.896,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23806,publish_subject routines,get_observable,45.5383,45.3165,45.8181,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23807,publish_subject routines,get_subscriber,23.8751,23.772,24.0006,0.95,Linux GCC,Update with_latest_f... (dc697287),rxcpp
+23808,Observable construction,Specific observable construction,0.83069,0.796119,0.894458,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23809,Observable construction,Dynamic observable construction,35.6855,33.7732,39.3649,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23810,Observable construction,Specific observable construction + as_dynamic,31.1328,30.2408,32.661,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23811,Observable subscribe #2,Specific observable subscribe lambda,78.2319,74.8701,83.5254,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23812,Observable subscribe #2,Dynamic observable subscribe lambda,136.043,130.539,144.639,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23813,Observable subscribe #2,Specific observable subscribe lambda without subscription,74.2546,70.6045,80.8716,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23814,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,199.478,157.931,389.995,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23815,Observable subscribe #2,Specific observable subscribe specific subscriber,24.4214,23.2115,27.0811,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23816,Observable subscribe #2,Dynamic observable subscribe specific subscriber,84.804,81.4947,93.0694,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23817,Observable subscribe #2,Specific observable subscribe dynamic observer,18.7327,17.9134,20.4506,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23818,Observable subscribe #2,Dynamic observable subscribe dynamic observer,80.0136,77.2814,86.4575,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23819,Observer construction,Specific observer construction,0.806998,0.773207,0.863442,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23820,Observer construction,Dynamic observer construction,32.3855,30.7638,37.6185,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23821,Observer construction,Specific observer construction + as_dynamic,30.1656,29.8098,31.0357,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23822,OnNext,Specific observer OnNext,0.68463,0.676527,0.703584,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23823,OnNext,Dynamic observer OnNext,2.45501,2.32566,2.73227,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23824,Subscriber construction,Make subsriber,52.0398,49.7139,55.5319,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23825,Subscriber construction,Make copy of subscriber,19.8682,19.407,20.7854,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23826,Subscriber construction,Transform subsriber to dynamic,49.1059,46.9556,54.011,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23827,Observable subscribe,Specific observable subscribe specific observer,63.5482,62.0664,65.9111,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23828,Observable subscribe,Specific observable subscribe dynamic observer,88.0639,82.1923,97.9735,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23829,Observable subscribe,Dynamic observable subscribe specific observer,139.477,133.472,152.247,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23830,Observable subscribe,Dynamic observable subscribe dynamic observer,158.47,143.617,199.419,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23831,Observable lift,Specific observable lift specific observer,106.784,102.745,113.374,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23832,Observable lift,Specific observable lift dynamic observer,197.54,139.447,472.831,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23833,Observable lift,Dynamic observable lift specific observer,214.048,206.02,231.315,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23834,Observable lift,Dynamic observable lift dynamic observer,216.338,210.066,229.529,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23835,Operators,map construction from observable via dot + subscribe,144.214,103.816,339.265,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23836,Subscription,composite_subscription create,38.4822,37.0713,40.7648,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23837,Subscription,composite_subscription add,74.2191,69.9597,82.806,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23838,Subscription,composite_subscription unsubscribe,6.84997,6.65124,7.40207,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23839,foundamental sources,empty,22.4196,20.6174,26.8016,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23840,foundamental sources,error,60.9007,59.5356,62.9534,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23841,foundamental sources,never,18.924,18.4564,19.8692,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23842,just,just send int,22.6882,22.2795,23.36,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23843,just,just send variadic,30.1928,28.6808,32.488,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23844,from,from vector with int,44.8823,43.4922,48.7411,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23845,merge,merge,410.519,386.952,445.085,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23846,merge,merge_with,426.026,412.52,448.117,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23847,publish_subject callbacks,on_next,40.4032,38.5436,43.7244,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23848,publish_subject callbacks,on_error,2.51029,2.41682,2.64918,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23849,publish_subject callbacks,on_completed,3.32488,3.10031,3.66467,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23850,publish_subject routines,construct,227.527,208.85,253.85,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23851,publish_subject routines,get_observable,69.8287,54.7952,137.031,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23852,publish_subject routines,get_subscriber,65.2893,64.6314,67.0243,0.95,Linux CLANG,Update with_latest_f... (dc697287),rpp
+23853,Observable construction,Specific observable construction,0.34098,0.327865,0.359343,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23854,Observable construction,Dynamic observable construction,28.8144,27.622,31.1925,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23855,Observable construction,Specific observable construction + as_dynamic,31.3351,29.7966,33.5809,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23856,Observable subscribe #2,Specific observable subscribe lambda,362.556,346.697,386.344,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23857,Observable subscribe #2,Dynamic observable subscribe lambda,382.859,368.353,402.565,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23858,Observable subscribe #2,Specific observable subscribe lambda without subscription,360.455,339.677,399.556,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23859,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,339.361,328.384,355.5,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23860,Observable subscribe #2,Specific observable subscribe specific subscriber,259.685,247.89,276.181,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23861,Observable subscribe #2,Dynamic observable subscribe specific subscriber,275.318,267.452,287.597,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23862,Observable subscribe #2,Specific observable subscribe dynamic observer,291.55,282.388,312.505,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23863,Observable subscribe #2,Dynamic observable subscribe dynamic observer,321.676,306.917,340.63,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23864,Observer construction,Specific observer construction,0.38298,0.369773,0.402891,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23865,Observer construction,Dynamic observer construction,25.855,24.6372,27.6534,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23866,Observer construction,Specific observer construction + as_dynamic,24.728,23.5107,27.1574,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23867,OnNext,Specific observer OnNext,0.832065,0.775808,0.918632,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23868,OnNext,Dynamic observer OnNext,2.59161,2.45092,2.87157,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23869,Subscriber construction,Make subsriber,79.8341,74.797,86.7446,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23870,Subscriber construction,Make copy of subscriber,7.42146,5.23232,17.7817,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23871,Subscriber construction,Transform subsriber to dynamic,30.5578,28.6339,33.1166,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23872,Observable subscribe,Specific observable subscribe specific observer,354.779,328.429,392.329,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23873,Observable subscribe,Specific observable subscribe dynamic observer,362.069,337.579,398.849,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23874,Observable subscribe,Dynamic observable subscribe specific observer,521.389,386.16,1152.17,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23875,Observable subscribe,Dynamic observable subscribe dynamic observer,516.325,387.423,1105.59,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23876,Observable lift,Specific observable lift specific observer,348.907,331.336,372.05,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23877,Observable lift,Specific observable lift dynamic observer,360.369,341.221,384.495,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23878,Observable lift,Dynamic observable lift specific observer,337.013,327.076,354.734,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23879,Observable lift,Dynamic observable lift dynamic observer,384.966,352.242,446.46,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23880,Operators,map construction from observable via dot + subscribe,297.309,282.035,327.044,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23881,Subscription,composite_subscription create,59.439,56.0405,64.0626,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23882,Subscription,composite_subscription add,24.9936,23.1314,28.9219,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23883,Subscription,composite_subscription unsubscribe,11.6707,11.1859,12.3612,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23884,foundamental sources,empty,36.1934,34.8631,39.8665,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23885,foundamental sources,error,79.2715,77.9517,81.6634,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23886,foundamental sources,never,299.787,283.035,342.301,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23887,just,just send int,62.4001,42.1782,158.076,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23888,just,just send variadic,53.405,51.4108,56.2304,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23889,from,from vector with int,65.6244,63.8099,68.578,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23890,merge,merge,172.193,163.181,183.509,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23891,merge,merge_with,360.302,340.154,394.857,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23892,publish_subject callbacks,on_next,11.5312,10.7887,12.5945,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23893,publish_subject callbacks,on_error,21.6387,20.2629,23.5038,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23894,publish_subject callbacks,on_completed,0.548964,0.519656,0.590692,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23895,publish_subject routines,construct,210.388,193.507,243.701,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23896,publish_subject routines,get_observable,52.8821,50.704,56.3181,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23897,publish_subject routines,get_subscriber,16.2654,15.1958,18.3346,0.95,Linux CLANG,Update with_latest_f... (dc697287),rxcpp
+23898,Observable construction,Specific observable construction,0.74561,0.742701,0.752922,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23899,Observable construction,Dynamic observable construction,91.0545,89.1795,93.7788,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23900,Observable construction,Specific observable construction + as_dynamic,98.7806,98.5935,99.1258,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23901,Observable subscribe #2,Specific observable subscribe lambda,136.577,134.586,140.032,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23902,Observable subscribe #2,Dynamic observable subscribe lambda,266.222,260.898,277.435,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23903,Observable subscribe #2,Specific observable subscribe lambda without subscription,143.525,142.673,145.163,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23904,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,272.193,267.954,280.018,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23905,Observable subscribe #2,Specific observable subscribe specific subscriber,20.0876,20.0622,20.1417,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23906,Observable subscribe #2,Dynamic observable subscribe specific subscriber,160.066,158.056,163.837,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23907,Observable subscribe #2,Specific observable subscribe dynamic observer,20.1131,20.0698,20.2107,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23908,Observable subscribe #2,Dynamic observable subscribe dynamic observer,79.5745,78.5824,81.3218,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23909,Observer construction,Specific observer construction,0.770357,0.759459,0.79175,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23910,Observer construction,Dynamic observer construction,91.2692,89.4583,93.9295,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23911,Observer construction,Specific observer construction + as_dynamic,98.1071,97.2662,100.273,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23912,OnNext,Specific observer OnNext,0.737772,0.729385,0.753034,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23913,OnNext,Dynamic observer OnNext,2.10984,2.08623,2.16056,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23914,Subscriber construction,Make subsriber,121.968,120.637,124.685,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23915,Subscriber construction,Make copy of subscriber,19.8298,19.6247,20.2309,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23916,Subscriber construction,Transform subsriber to dynamic,112.526,110.368,115.11,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23917,Observable subscribe,Specific observable subscribe specific observer,144.386,141.457,149.752,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23918,Observable subscribe,Specific observable subscribe dynamic observer,160.059,159.61,161.219,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23919,Observable subscribe,Dynamic observable subscribe specific observer,289.761,283.385,303.367,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23920,Observable subscribe,Dynamic observable subscribe dynamic observer,221.348,220.177,223.574,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23921,Observable lift,Specific observable lift specific observer,177.311,175.647,181.359,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23922,Observable lift,Specific observable lift dynamic observer,215.615,215.056,217.231,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23923,Observable lift,Dynamic observable lift specific observer,326.099,319.198,334.989,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23924,Observable lift,Dynamic observable lift dynamic observer,284.762,282.124,288.933,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23925,Operators,map construction from observable via dot + subscribe,110.356,108.944,112.93,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23926,Subscription,composite_subscription create,106.344,104.663,110.24,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23927,Subscription,composite_subscription add,98.2088,95.9125,103.276,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23928,Subscription,composite_subscription unsubscribe,8.86468,8.68657,9.10746,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23929,foundamental sources,empty,29.9266,29.0082,31.6574,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23930,foundamental sources,error,62.7505,61.8628,64.2931,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23931,foundamental sources,never,20.0869,20.0624,20.138,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23932,just,just send int,27.5496,26.9752,28.7133,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23933,just,just send variadic,38.2528,37.8731,38.9225,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23934,from,from vector with int,104.139,102.373,106.959,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23935,merge,merge,586.604,565.625,609.896,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23936,merge,merge_with,889.974,880.105,909.605,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23937,publish_subject callbacks,on_next,50.3418,49.7817,51.5516,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23938,publish_subject callbacks,on_error,2.8534,2.83981,2.88402,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23939,publish_subject callbacks,on_completed,2.97546,2.91963,3.06896,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23940,publish_subject routines,construct,383.222,372.056,413.685,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23941,publish_subject routines,get_observable,46.2232,45.9668,46.6817,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23942,publish_subject routines,get_subscriber,86.6136,82.0304,91.9625,0.95,Windows MSVC,Update with_latest_f... (dc697287),rpp
+23943,Observable construction,Specific observable construction,0.694655,0.682991,0.715613,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23944,Observable construction,Dynamic observable construction,148.08,146.797,150.943,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23945,Observable construction,Specific observable construction + as_dynamic,163.417,158.729,169.101,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23946,Observable subscribe #2,Specific observable subscribe lambda,1401.5,1387.36,1446.23,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23947,Observable subscribe #2,Dynamic observable subscribe lambda,1618.05,1601.45,1674.05,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23948,Observable subscribe #2,Specific observable subscribe lambda without subscription,1394.91,1383.22,1448.26,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23949,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1597.11,1572.68,1644.21,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23950,Observable subscribe #2,Specific observable subscribe specific subscriber,990.871,975.226,1016.61,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23951,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1225.24,1216.16,1265.12,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23952,Observable subscribe #2,Specific observable subscribe dynamic observer,1040.8,1029.4,1065.03,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23953,Observable subscribe #2,Dynamic observable subscribe dynamic observer,1088.79,1082.62,1115.48,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23954,Observer construction,Specific observer construction,1.82327,1.78589,1.88195,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23955,Observer construction,Dynamic observer construction,135.397,135.013,136.114,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23956,Observer construction,Specific observer construction + as_dynamic,138.838,135.596,150.37,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23957,OnNext,Specific observer OnNext,0.773239,0.764617,0.791039,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23958,OnNext,Dynamic observer OnNext,2.44244,2.41378,2.55534,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23959,Subscriber construction,Make subsriber,422.329,416.562,433.315,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23960,Subscriber construction,Make copy of subscriber,37.9135,37.7625,38.2765,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23961,Subscriber construction,Transform subsriber to dynamic,181.225,180.763,182.627,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23962,Observable subscribe,Specific observable subscribe specific observer,1331.59,1298.64,1380.18,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23963,Observable subscribe,Specific observable subscribe dynamic observer,1490.27,1455.82,1564.77,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23964,Observable subscribe,Dynamic observable subscribe specific observer,1506.4,1494.45,1528.35,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23965,Observable subscribe,Dynamic observable subscribe dynamic observer,1430.95,1401.95,1484.05,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23966,Observable lift,Specific observable lift specific observer,1346.41,1317.59,1402.77,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23967,Observable lift,Specific observable lift dynamic observer,1524.2,1492,1576.05,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23968,Observable lift,Dynamic observable lift specific observer,1648.74,1622.05,1705.89,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23969,Observable lift,Dynamic observable lift dynamic observer,1528.8,1509.2,1566.15,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23970,Operators,map construction from observable via dot + subscribe,1179.93,1169.15,1203.04,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23971,Subscription,composite_subscription create,334.28,324.12,348.307,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23972,Subscription,composite_subscription add,75.9025,75.3875,76.935,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23973,Subscription,composite_subscription unsubscribe,27.5959,27.2349,28.2601,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23974,foundamental sources,empty,227.844,225.279,233.177,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23975,foundamental sources,error,258.492,256.833,262.921,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23976,foundamental sources,never,1032.48,1018.23,1057.26,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23977,just,just send int,221.593,218.287,226.793,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23978,just,just send variadic,216.156,212.34,221.721,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23979,from,from vector with int,316.33,312.783,323.094,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23980,merge,merge,800.073,784.709,828.545,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23981,merge,merge_with,1721.77,1690.77,1779.23,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23982,publish_subject callbacks,on_next,39.9963,39.5995,40.7438,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23983,publish_subject callbacks,on_error,21.0748,20.8069,21.605,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23984,publish_subject callbacks,on_completed,1.60262,1.57966,1.64063,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23985,publish_subject routines,construct,705.029,700.412,721.618,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23986,publish_subject routines,get_observable,182.037,178.665,185.472,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
+23987,publish_subject routines,get_subscriber,110.283,108.554,113.502,0.95,Windows MSVC,Update with_latest_f... (dc697287),rxcpp
