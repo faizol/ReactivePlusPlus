@@ -24576,13 +24576,13 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 24574,Observable construction,Dynamic observable construction,123.123,122.768,124.166,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24575,Observable construction,Specific observable construction + as_dynamic,123.283,122.811,124.448,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24576,Observable subscribe #2,Specific observable subscribe lambda,1170.52,1157.74,1223.74,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
-24577,Observable subscribe #2,Dynamic observable subscribe lambda,1346.55,1333.75,1405,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
+24577,Observable subscribe #2,Dynamic observable subscribe lambda,1346.55,1333.75,1405.0,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24578,Observable subscribe #2,Specific observable subscribe lambda without subscription,1167.78,1155.74,1210.87,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
-24579,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1349.85,1336,1405.55,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
+24579,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1349.85,1336.0,1405.55,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24580,Observable subscribe #2,Specific observable subscribe specific subscriber,853.935,848.871,873.806,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
-24581,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1034.31,1030.46,1044,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
+24581,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1034.31,1030.46,1044.0,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24582,Observable subscribe #2,Specific observable subscribe dynamic observer,886.733,880.033,917.233,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
-24583,Observable subscribe #2,Dynamic observable subscribe dynamic observer,913,909.966,920.552,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
+24583,Observable subscribe #2,Dynamic observable subscribe dynamic observer,913.0,909.966,920.552,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24584,Observer construction,Specific observer construction,1.50604,1.50441,1.50976,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24585,Observer construction,Dynamic observer construction,115.553,114.929,116.783,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24586,Observer construction,Specific observer construction + as_dynamic,114.996,114.597,116.54,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
@@ -24592,13 +24592,13 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 24590,Subscriber construction,Make copy of subscriber,31.6795,31.4913,32.1498,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24591,Subscriber construction,Transform subsriber to dynamic,154.125,153.667,155.5,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24592,Observable subscribe,Specific observable subscribe specific observer,1165.04,1158.74,1180.57,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
-24593,Observable subscribe,Specific observable subscribe dynamic observer,1202,1190.55,1242.36,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
+24593,Observable subscribe,Specific observable subscribe dynamic observer,1202.0,1190.55,1242.36,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24594,Observable subscribe,Dynamic observable subscribe specific observer,1355.5,1342.3,1396.6,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24595,Observable subscribe,Dynamic observable subscribe dynamic observer,1239.09,1225.09,1287.68,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
-24596,Observable lift,Specific observable lift specific observer,1212.73,1197.64,1269,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
+24596,Observable lift,Specific observable lift specific observer,1212.73,1197.64,1269.0,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24597,Observable lift,Specific observable lift dynamic observer,1264.9,1248.9,1325.95,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24598,Observable lift,Dynamic observable lift specific observer,1397.05,1382.16,1459.58,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
-24599,Observable lift,Dynamic observable lift dynamic observer,1295.9,1284,1347.1,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
+24599,Observable lift,Dynamic observable lift dynamic observer,1295.9,1284.0,1347.1,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24600,Operators,map construction from observable via dot + subscribe,996.259,987.741,1022.59,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24601,Subscription,composite_subscription create,340.455,338.143,346.649,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24602,Subscription,composite_subscription add,63.2868,63.1495,63.5319,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
@@ -24609,7 +24609,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 24607,just,just send int,192.386,190.697,198.938,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24608,just,just send variadic,194.233,192.788,200.178,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24609,from,from vector with int,263.346,260.449,274.393,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
-24610,merge,merge,675,668.182,700.273,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
+24610,merge,merge,675.0,668.182,700.273,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24611,merge,merge_with,1427.31,1412.58,1478.88,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24612,publish_subject callbacks,on_next,32.6198,32.4842,33.1179,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
 24613,publish_subject callbacks,on_error,17.378,17.3433,17.4473,0.95,Windows MSVC,Bump submodules/Catc... (91121c18),rxcpp
@@ -24797,3 +24797,273 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 24795,publish_subject routines,construct,225.641,224.316,231.374,0.95,Linux CLANG,Bump submodules/Catc... (91121c18),rxcpp
 24796,publish_subject routines,get_observable,62.5725,62.3551,62.8933,0.95,Linux CLANG,Bump submodules/Catc... (91121c18),rxcpp
 24797,publish_subject routines,get_subscriber,17.9044,17.8005,18.0398,0.95,Linux CLANG,Bump submodules/Catc... (91121c18),rxcpp
+24798,Observable construction,Specific observable construction,3.30606,1.8056,10.7455,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24799,Observable construction,Dynamic observable construction,98.4723,98.0163,99.3616,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24800,Observable construction,Specific observable construction + as_dynamic,98.8433,98.2665,99.9655,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24801,Observable subscribe #2,Specific observable subscribe lambda,126.921,126.203,128.328,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24802,Observable subscribe #2,Dynamic observable subscribe lambda,271.274,269.487,274.973,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24803,Observable subscribe #2,Specific observable subscribe lambda without subscription,133.522,127.788,147.858,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24804,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,270.083,268.138,274.78,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24805,Observable subscribe #2,Specific observable subscribe specific subscriber,20.1179,20.0767,20.2091,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24806,Observable subscribe #2,Dynamic observable subscribe specific subscriber,162.778,159.041,172.902,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24807,Observable subscribe #2,Specific observable subscribe dynamic observer,23.8491,23.3836,24.7606,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24808,Observable subscribe #2,Dynamic observable subscribe dynamic observer,76.8165,75.9548,78.7021,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24809,Observer construction,Specific observer construction,0.80727,0.79008,0.868168,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24810,Observer construction,Dynamic observer construction,126.796,100.362,249.964,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24811,Observer construction,Specific observer construction + as_dynamic,97.6401,96.6465,99.5318,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24812,OnNext,Specific observer OnNext,0.800769,0.788503,0.82016,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24813,OnNext,Dynamic observer OnNext,2.42545,2.41458,2.45133,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24814,Subscriber construction,Make subsriber,110.282,107.13,122.415,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24815,Subscriber construction,Make copy of subscriber,19.3466,19.1086,19.7927,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24816,Subscriber construction,Transform subsriber to dynamic,116.724,116.28,118.07,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24817,Observable subscribe,Specific observable subscribe specific observer,133.745,131.227,145.004,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24818,Observable subscribe,Specific observable subscribe dynamic observer,147.203,144.558,152.608,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24819,Observable subscribe,Dynamic observable subscribe specific observer,239.4,235.892,244.617,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24820,Observable subscribe,Dynamic observable subscribe dynamic observer,204.56,201.698,209.358,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24821,Observable lift,Specific observable lift specific observer,170.644,168.864,173.864,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24822,Observable lift,Specific observable lift dynamic observer,206.651,204.134,211.087,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24823,Observable lift,Dynamic observable lift specific observer,320.531,314.906,327.687,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24824,Observable lift,Dynamic observable lift dynamic observer,282.839,272.712,328.788,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24825,Operators,map construction from observable via dot + subscribe,97.4084,95.2733,107.327,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24826,Subscription,composite_subscription create,106.083,105.28,107.761,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24827,Subscription,composite_subscription add,286.737,74.9194,1338.86,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24828,Subscription,composite_subscription unsubscribe,10.0673,10.0381,10.14,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24829,foundamental sources,empty,21.025,20.7189,21.6598,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24830,foundamental sources,error,60.6407,60.3555,61.5475,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24831,foundamental sources,never,24.473,21.0968,38.3491,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24832,just,just send int,29.5,29.1969,30.0935,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24833,just,just send variadic,31.7502,30.4127,34.0588,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24834,from,from vector with int,107.424,103.807,123.117,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24835,merge,merge,479.268,462.465,543.141,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24836,merge,merge_with,789.78,780.22,818.22,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24837,publish_subject callbacks,on_next,56.178,52.8398,67.1699,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24838,publish_subject callbacks,on_error,2.92276,2.85395,3.17431,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24839,publish_subject callbacks,on_completed,3.03476,2.93048,3.44109,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24840,publish_subject routines,construct,340.203,330.71,371.333,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24841,publish_subject routines,get_observable,31.1331,31.021,31.3373,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24842,publish_subject routines,get_subscriber,60.5583,60.3136,61.2409,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rpp
+24843,Observable construction,Specific observable construction,0.809348,0.800363,0.828254,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24844,Observable construction,Dynamic observable construction,148.29,147.763,149.372,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24845,Observable construction,Specific observable construction + as_dynamic,148.483,147.773,150.059,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24846,Observable subscribe #2,Specific observable subscribe lambda,1371.48,1350.96,1414.7,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24847,Observable subscribe #2,Dynamic observable subscribe lambda,1501.8,1455.3,1555.55,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24848,Observable subscribe #2,Specific observable subscribe lambda without subscription,1620.14,1402.5,2645.41,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24849,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1627.06,1603.06,1729.11,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24850,Observable subscribe #2,Specific observable subscribe specific subscriber,1016.21,1008.93,1039.9,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24851,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1231.25,1221.5,1268.33,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24852,Observable subscribe #2,Specific observable subscribe dynamic observer,1028.81,1007.04,1065.56,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24853,Observable subscribe #2,Dynamic observable subscribe dynamic observer,1107.7,1094.15,1136,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24854,Observer construction,Specific observer construction,1.81751,1.80713,1.84502,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24855,Observer construction,Dynamic observer construction,137.923,135.802,141.707,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24856,Observer construction,Specific observer construction + as_dynamic,132.845,130.409,136.6,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24857,OnNext,Specific observer OnNext,0.773138,0.761144,0.792793,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24858,OnNext,Dynamic observer OnNext,2.33104,2.29687,2.39377,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24859,Subscriber construction,Make subsriber,417.884,414.58,426.507,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24860,Subscriber construction,Make copy of subscriber,38.8983,37.1419,45.012,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24861,Subscriber construction,Transform subsriber to dynamic,185.226,184.049,187.543,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24862,Observable subscribe,Specific observable subscribe specific observer,1407.43,1392.48,1455.52,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24863,Observable subscribe,Specific observable subscribe dynamic observer,1455.1,1436.24,1507.9,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24864,Observable subscribe,Dynamic observable subscribe specific observer,1698,1579.47,2050.37,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24865,Observable subscribe,Dynamic observable subscribe dynamic observer,1447.57,1425.67,1494.71,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24866,Observable lift,Specific observable lift specific observer,1341.9,1327.8,1396.1,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24867,Observable lift,Specific observable lift dynamic observer,1570.48,1507.62,1744.43,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24868,Observable lift,Dynamic observable lift specific observer,1579.78,1557.06,1637.33,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24869,Observable lift,Dynamic observable lift dynamic observer,1562.79,1544.74,1616.68,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24870,Operators,map construction from observable via dot + subscribe,1195.46,1185.31,1220.19,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24871,Subscription,composite_subscription create,424.187,409.52,473.947,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24872,Subscription,composite_subscription add,77.7608,76.6022,80.1855,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24873,Subscription,composite_subscription unsubscribe,29.1174,27.9343,34.7934,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24874,foundamental sources,empty,231.791,228.496,238.171,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24875,foundamental sources,error,248.346,243.075,255.917,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24876,foundamental sources,never,1014.59,1006.04,1035.7,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24877,just,just send int,231.072,228.971,235.525,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24878,just,just send variadic,236.022,233.351,242.045,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24879,from,from vector with int,296.648,292.038,304.838,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24880,merge,merge,876.867,843.444,966.8,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24881,merge,merge_with,1708.54,1688.58,1759.54,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24882,publish_subject callbacks,on_next,38.5413,37.9793,39.6102,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24883,publish_subject callbacks,on_error,19.2796,19.0294,19.7747,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24884,publish_subject callbacks,on_completed,1.62047,1.60209,1.65861,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24885,publish_subject routines,construct,843.242,707.03,1494.91,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24886,publish_subject routines,get_observable,193.095,191.222,200.019,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24887,publish_subject routines,get_subscriber,116.364,111.885,128.758,0.95,Windows MSVC,Empty base optimizat... (085d6a91),rxcpp
+24888,Observable construction,Specific observable construction,0.335061,0.334512,0.337584,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24889,Observable construction,Dynamic observable construction,19.4891,19.4306,19.6246,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24890,Observable construction,Specific observable construction + as_dynamic,18.74,18.6983,18.8553,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24891,Observable subscribe #2,Specific observable subscribe lambda,21.8157,21.7692,21.9471,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24892,Observable subscribe #2,Dynamic observable subscribe lambda,55.3299,55.1561,55.9917,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24893,Observable subscribe #2,Specific observable subscribe lambda without subscription,22.7695,22.7338,22.9116,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24894,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,55.3108,55.1992,55.6169,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24895,Observable subscribe #2,Specific observable subscribe specific subscriber,3.62447,3.61902,3.64808,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24896,Observable subscribe #2,Dynamic observable subscribe specific subscriber,30.5516,30.502,30.7312,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24897,Observable subscribe #2,Specific observable subscribe dynamic observer,3.78649,3.7667,3.80988,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24898,Observable subscribe #2,Dynamic observable subscribe dynamic observer,14.1282,14.1041,14.2237,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24899,Observer construction,Specific observer construction,0.335315,0.334676,0.337815,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24900,Observer construction,Dynamic observer construction,19.7637,19.7294,19.8899,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24901,Observer construction,Specific observer construction + as_dynamic,19.333,19.2974,19.4518,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24902,OnNext,Specific observer OnNext,0.33477,0.33459,0.335396,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24903,OnNext,Dynamic observer OnNext,1.6771,1.67334,1.69217,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24904,Subscriber construction,Make subsriber,23.0473,22.978,23.1505,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24905,Subscriber construction,Make copy of subscriber,3.72126,3.71591,3.7418,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24906,Subscriber construction,Transform subsriber to dynamic,23.4115,23.3611,23.5496,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24907,Observable subscribe,Specific observable subscribe specific observer,21.8761,21.8321,21.9989,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24908,Observable subscribe,Specific observable subscribe dynamic observer,24.6012,24.5506,24.7334,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24909,Observable subscribe,Dynamic observable subscribe specific observer,55.7333,55.5561,55.9731,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24910,Observable subscribe,Dynamic observable subscribe dynamic observer,40.9952,40.9569,41.0511,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24911,Observable lift,Specific observable lift specific observer,27.0157,26.9547,27.1556,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24912,Observable lift,Specific observable lift dynamic observer,32.8227,32.7161,33.0793,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24913,Observable lift,Dynamic observable lift specific observer,63.5445,63.3661,63.8226,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24914,Observable lift,Dynamic observable lift dynamic observer,56.5514,56.4467,56.9372,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24915,Operators,map construction from observable via dot + subscribe,15.0567,15.0435,15.0692,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24916,Subscription,composite_subscription create,22.0288,21.9603,22.1673,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24917,Subscription,composite_subscription add,21.9044,21.6862,22.7197,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24918,Subscription,composite_subscription unsubscribe,6.92379,6.86867,7.00587,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24919,foundamental sources,empty,3.55708,3.55115,3.57904,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24920,foundamental sources,error,35.8627,35.8039,36.082,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24921,foundamental sources,never,3.53461,3.53093,3.53878,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24922,just,just send int,3.63787,3.63012,3.6546,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24923,just,just send variadic,4.36813,4.36041,4.39843,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24924,from,from vector with int,24.4996,24.4464,24.6807,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24925,merge,merge,117.998,117.947,118.131,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24926,merge,merge_with,163.946,163.635,164.973,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24927,publish_subject callbacks,on_next,9.05258,9.0267,9.11983,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24928,publish_subject callbacks,on_error,0.672536,0.671571,0.676953,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24929,publish_subject callbacks,on_completed,1.00869,1.00648,1.01741,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24930,publish_subject routines,construct,116.716,114.767,123.659,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24931,publish_subject routines,get_observable,4.79228,4.78363,4.82721,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24932,publish_subject routines,get_subscriber,12.4682,12.4157,12.7061,0.95,Linux GCC,Empty base optimizat... (085d6a91),rpp
+24933,Observable construction,Specific observable construction,0.334522,0.33441,0.334635,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24934,Observable construction,Dynamic observable construction,23.1407,23.0833,23.2709,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24935,Observable construction,Specific observable construction + as_dynamic,23.3455,23.2691,23.4753,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24936,Observable subscribe #2,Specific observable subscribe lambda,334.14,333.477,336.781,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24937,Observable subscribe #2,Dynamic observable subscribe lambda,398.233,397.939,398.646,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24938,Observable subscribe #2,Specific observable subscribe lambda without subscription,335.578,334.916,337.713,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24939,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,405.115,404.264,407.899,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24940,Observable subscribe #2,Specific observable subscribe specific subscriber,277.264,276.504,280.236,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24941,Observable subscribe #2,Dynamic observable subscribe specific subscriber,322.704,322.425,323.413,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24942,Observable subscribe #2,Specific observable subscribe dynamic observer,282.797,282.211,284.986,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24943,Observable subscribe #2,Dynamic observable subscribe dynamic observer,304.025,303.731,304.541,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24944,Observer construction,Specific observer construction,0.335591,0.335075,0.337633,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24945,Observer construction,Dynamic observer construction,20.6897,20.6801,20.7083,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24946,Observer construction,Specific observer construction + as_dynamic,21.3213,21.2705,21.3671,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24947,OnNext,Specific observer OnNext,0.33531,0.334738,0.337846,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24948,OnNext,Dynamic observer OnNext,1.75022,1.74238,1.76403,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24949,Subscriber construction,Make subsriber,58.3066,58.1636,58.6122,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24950,Subscriber construction,Make copy of subscriber,4.50777,4.49962,4.53766,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24951,Subscriber construction,Transform subsriber to dynamic,29.0615,29.0206,29.2424,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24952,Observable subscribe,Specific observable subscribe specific observer,335.478,335.264,336.017,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24953,Observable subscribe,Specific observable subscribe dynamic observer,340.753,339.983,343.558,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24954,Observable subscribe,Dynamic observable subscribe specific observer,390.345,389.566,393.539,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24955,Observable subscribe,Dynamic observable subscribe dynamic observer,364.945,364.324,367.042,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24956,Observable lift,Specific observable lift specific observer,345.431,344.546,347.869,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24957,Observable lift,Specific observable lift dynamic observer,361.451,360.693,363.74,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24958,Observable lift,Dynamic observable lift specific observer,401.633,400.566,405.993,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24959,Observable lift,Dynamic observable lift dynamic observer,380.803,380.538,381.309,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24960,Operators,map construction from observable via dot + subscribe,347.912,347.075,351.098,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24961,Subscription,composite_subscription create,54.8717,54.7628,55.2388,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24962,Subscription,composite_subscription add,17.4323,17.3199,17.5333,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24963,Subscription,composite_subscription unsubscribe,10.0325,10.0275,10.0527,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24964,foundamental sources,empty,46.6274,46.5803,46.6915,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24965,foundamental sources,error,82.3994,82.3377,82.5499,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24966,foundamental sources,never,285.729,285.262,287.491,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24967,just,just send int,50.8515,50.7235,51.2021,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24968,just,just send variadic,47.5078,47.3772,47.7643,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24969,from,from vector with int,69.7056,69.4888,70.1346,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24970,merge,merge,145.911,145.581,146.711,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24971,merge,merge_with,352.839,352.047,354.911,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24972,publish_subject callbacks,on_next,11.7384,11.7112,11.7664,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24973,publish_subject callbacks,on_error,16.8212,16.792,16.9363,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24974,publish_subject callbacks,on_completed,1.34398,1.34196,1.35282,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24975,publish_subject routines,construct,171.708,169.747,176.747,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24976,publish_subject routines,get_observable,46.0363,45.9097,46.3343,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24977,publish_subject routines,get_subscriber,22.3844,22.3432,22.5326,0.95,Linux GCC,Empty base optimizat... (085d6a91),rxcpp
+24978,Observable construction,Specific observable construction,0.402032,0.401217,0.405844,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24979,Observable construction,Dynamic observable construction,28.5551,28.5068,28.7604,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24980,Observable construction,Specific observable construction + as_dynamic,32.0802,31.8671,32.4963,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24981,Observable subscribe #2,Specific observable subscribe lambda,48.6838,48.5813,49.0592,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24982,Observable subscribe #2,Dynamic observable subscribe lambda,114.142,113.972,114.82,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24983,Observable subscribe #2,Specific observable subscribe lambda without subscription,49.3991,49.2103,49.649,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24984,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,113.507,113.487,113.534,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24985,Observable subscribe #2,Specific observable subscribe specific subscriber,16.0465,16.0403,16.0566,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24986,Observable subscribe #2,Dynamic observable subscribe specific subscriber,81.1752,81.018,81.5818,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24987,Observable subscribe #2,Specific observable subscribe dynamic observer,16.0685,16.042,16.1878,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24988,Observable subscribe #2,Dynamic observable subscribe dynamic observer,67.9059,67.7744,68.5016,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24989,Observer construction,Specific observer construction,0.803318,0.802163,0.806232,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24990,Observer construction,Dynamic observer construction,28.8761,28.7933,29.0869,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24991,Observer construction,Specific observer construction + as_dynamic,31.3906,31.3289,31.6428,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24992,OnNext,Specific observer OnNext,0.444818,0.442312,0.456614,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24993,OnNext,Dynamic observer OnNext,1.60849,1.60489,1.62533,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24994,Subscriber construction,Make subsriber,32.534,32.5203,32.5488,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24995,Subscriber construction,Make copy of subscriber,18.8986,18.8543,19.1043,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24996,Subscriber construction,Transform subsriber to dynamic,47.067,46.9386,47.6782,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24997,Observable subscribe,Specific observable subscribe specific observer,48.8938,48.7507,49.2584,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24998,Observable subscribe,Specific observable subscribe dynamic observer,61.2666,61.1266,61.7729,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+24999,Observable subscribe,Dynamic observable subscribe specific observer,116.73,116.695,116.785,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25000,Observable subscribe,Dynamic observable subscribe dynamic observer,116.251,115.979,117.251,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25001,Observable lift,Specific observable lift specific observer,77.882,77.8601,77.9064,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25002,Observable lift,Specific observable lift dynamic observer,105.172,105.113,105.375,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25003,Observable lift,Dynamic observable lift specific observer,165.674,165.613,165.736,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25004,Observable lift,Dynamic observable lift dynamic observer,179.677,179.381,180.795,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25005,Operators,map construction from observable via dot + subscribe,75.9542,75.8112,76.6182,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25006,Subscription,composite_subscription create,33.0159,32.9369,33.2299,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25007,Subscription,composite_subscription add,46.6197,46.4895,47.1995,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25008,Subscription,composite_subscription unsubscribe,8.02861,8.02552,8.03171,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25009,foundamental sources,empty,18.9045,18.894,18.9409,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25010,foundamental sources,error,49.8148,49.8025,49.8304,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25011,foundamental sources,never,16.0578,16.0487,16.0871,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25012,just,just send int,18.8868,18.8749,18.9185,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25013,just,just send variadic,18.9139,18.9072,18.9224,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25014,from,from vector with int,28.0602,27.9123,28.2668,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25015,merge,merge,259.183,258.705,261.067,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25016,merge,merge_with,319.824,319.297,321.856,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25017,publish_subject callbacks,on_next,37.8382,37.702,38.481,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25018,publish_subject callbacks,on_error,2.022,2.01784,2.04085,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25019,publish_subject callbacks,on_completed,1.62673,1.62256,1.63219,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25020,publish_subject routines,construct,160.166,158.41,165.477,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25021,publish_subject routines,get_observable,33.7883,33.7045,34.1082,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25022,publish_subject routines,get_subscriber,67.0134,66.9921,67.037,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rpp
+25023,Observable construction,Specific observable construction,0.401963,0.401314,0.404504,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25024,Observable construction,Dynamic observable construction,25.7443,25.697,25.9274,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25025,Observable construction,Specific observable construction + as_dynamic,25.6033,25.5345,25.7605,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25026,Observable subscribe #2,Specific observable subscribe lambda,286.677,286.296,287.348,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25027,Observable subscribe #2,Dynamic observable subscribe lambda,332.679,331.879,335.408,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25028,Observable subscribe #2,Specific observable subscribe lambda without subscription,284.724,284.077,286.492,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25029,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,334.043,333.15,336.258,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25030,Observable subscribe #2,Specific observable subscribe specific subscriber,221.076,220.604,222.548,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25031,Observable subscribe #2,Dynamic observable subscribe specific subscriber,271.511,270.988,273.404,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25032,Observable subscribe #2,Specific observable subscribe dynamic observer,239.476,238.824,241.757,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25033,Observable subscribe #2,Dynamic observable subscribe dynamic observer,264.636,264.105,266.411,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25034,Observer construction,Specific observer construction,0.402021,0.401302,0.405208,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25035,Observer construction,Dynamic observer construction,19.8089,19.7785,19.855,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25036,Observer construction,Specific observer construction + as_dynamic,20.7655,20.6915,20.8795,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25037,OnNext,Specific observer OnNext,0.44251,0.441827,0.445195,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25038,OnNext,Dynamic observer OnNext,1.60618,1.60499,1.60973,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25039,Subscriber construction,Make subsriber,68.8574,68.7032,69.0192,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25040,Subscriber construction,Make copy of subscriber,4.91763,4.8723,5.00716,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25041,Subscriber construction,Transform subsriber to dynamic,23.9547,23.8906,24.1036,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25042,Observable subscribe,Specific observable subscribe specific observer,288.148,287.624,290.006,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25043,Observable subscribe,Specific observable subscribe dynamic observer,297.986,297.435,299.902,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25044,Observable subscribe,Dynamic observable subscribe specific observer,332.798,332.089,334.961,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25045,Observable subscribe,Dynamic observable subscribe dynamic observer,316.671,316.334,317.032,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25046,Observable lift,Specific observable lift specific observer,287.492,287.209,287.866,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25047,Observable lift,Specific observable lift dynamic observer,304.773,304.433,305.23,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25048,Observable lift,Dynamic observable lift specific observer,341.508,341.187,342.234,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25049,Observable lift,Dynamic observable lift dynamic observer,327.916,327.224,330.281,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25050,Operators,map construction from observable via dot + subscribe,238.147,237.589,239.705,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25051,Subscription,composite_subscription create,54.5348,54.3962,54.6874,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25052,Subscription,composite_subscription add,20.0871,20.0789,20.0954,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25053,Subscription,composite_subscription unsubscribe,10.8314,10.8279,10.8352,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25054,foundamental sources,empty,31.4497,31.2788,31.6917,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25055,foundamental sources,error,73.396,73.1797,74.1237,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25056,foundamental sources,never,232.525,232.085,234.07,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25057,just,just send int,31.3326,31.1992,31.6325,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25058,just,just send variadic,38.5692,38.4428,38.9242,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25059,from,from vector with int,54.575,54.1873,55.5675,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25060,merge,merge,125.685,125.325,126.234,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25061,merge,merge_with,296.987,296.015,299.354,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25062,publish_subject callbacks,on_next,8.89776,8.88017,8.9603,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25063,publish_subject callbacks,on_error,18.9693,18.9579,19.0091,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25064,publish_subject callbacks,on_completed,0.805949,0.804596,0.812183,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25065,publish_subject routines,construct,153.907,152.104,158.21,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25066,publish_subject routines,get_observable,47.1159,47.0713,47.1606,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
+25067,publish_subject routines,get_subscriber,13.9485,13.9179,14.029,0.95,Linux CLANG,Empty base optimizat... (085d6a91),rxcpp
