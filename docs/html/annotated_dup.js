@@ -20,6 +20,7 @@ var annotated_dup =
         [ "member_overload< Type, SpecificObservable, ref_count_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01ref__count__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01ref__count__tag_01_4" ],
         [ "member_overload< Type, SpecificObservable, repeat_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01repeat__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01repeat__tag_01_4" ],
         [ "member_overload< Type, SpecificObservable, subscribe_on_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01subscribe__on__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01subscribe__on__tag_01_4" ],
+        [ "member_overload< Type, SpecificObservable, subscribe_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01subscribe__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01subscribe__tag_01_4" ],
         [ "member_overload< Type, SpecificObservable, switch_on_next_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01switch__on__next__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01switch__on__next__tag_01_4" ],
         [ "member_overload< Type, SpecificObservable, take_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01take__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01take__tag_01_4" ],
         [ "member_overload< Type, SpecificObservable, take_while_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01take__while__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01take__while__tag_01_4" ],
@@ -93,6 +94,6 @@ var annotated_dup =
       [ "specific_subscriber", "classrpp_1_1specific__subscriber.html", "classrpp_1_1specific__subscriber" ],
       [ "subscription_base", "classrpp_1_1subscription__base.html", "classrpp_1_1subscription__base" ],
       [ "subscription_guard", "classrpp_1_1subscription__guard.html", "classrpp_1_1subscription__guard" ],
-      [ "virtual_observable", "structrpp_1_1virtual__observable.html", "structrpp_1_1virtual__observable" ]
+      [ "virtual_observable", "structrpp_1_1virtual__observable.html", null ]
     ] ]
 ];
