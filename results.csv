@@ -25206,9 +25206,9 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 25204,Observable construction,Dynamic observable construction,156.928,151.908,165.375,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
 25205,Observable construction,Specific observable construction + as_dynamic,133.094,129.475,141.16,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
 25206,Observable subscribe #2,Specific observable subscribe lambda,1314.25,1248.15,1406.65,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
-25207,Observable subscribe #2,Dynamic observable subscribe lambda,1886,1674.82,2378.53,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
+25207,Observable subscribe #2,Dynamic observable subscribe lambda,1886.0,1674.82,2378.53,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
 25208,Observable subscribe #2,Specific observable subscribe lambda without subscription,1255.5,1233.06,1308.78,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
-25209,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1794.85,1666,1977.62,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
+25209,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1794.85,1666.0,1977.62,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
 25210,Observable subscribe #2,Specific observable subscribe specific subscriber,996.448,960.138,1065.62,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
 25211,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1187.14,1152.86,1263.43,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
 25212,Observable subscribe #2,Specific observable subscribe dynamic observer,1208.56,1131.37,1319.37,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
@@ -25223,11 +25223,11 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 25221,Subscriber construction,Transform subsriber to dynamic,286.171,186.076,760.804,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
 25222,Observable subscribe,Specific observable subscribe specific observer,2596.05,1322.53,6305.58,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
 25223,Observable subscribe,Specific observable subscribe dynamic observer,1513.25,1398.3,1752.5,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
-25224,Observable subscribe,Dynamic observable subscribe specific observer,2725.27,1631,7834.07,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
+25224,Observable subscribe,Dynamic observable subscribe specific observer,2725.27,1631.0,7834.07,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
 25225,Observable subscribe,Dynamic observable subscribe dynamic observer,1682.47,1561.58,1888.26,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
-25226,Observable lift,Specific observable lift specific observer,1411,1339,1558.32,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
+25226,Observable lift,Specific observable lift specific observer,1411.0,1339.0,1558.32,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
 25227,Observable lift,Specific observable lift dynamic observer,1405.71,1319.36,1557.79,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
-25228,Observable lift,Dynamic observable lift specific observer,3280,1895.31,7979,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
+25228,Observable lift,Dynamic observable lift specific observer,3280.0,1895.31,7979.0,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
 25229,Observable lift,Dynamic observable lift dynamic observer,1581.86,1506.43,1715.86,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
 25230,Operators,map construction from observable via dot + subscribe,1072.48,1013.07,1157.33,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
 25231,Subscription,composite_subscription create,470.974,420.143,561.506,0.95,Windows MSVC,Bump submodules/Catc... (caa41dd8),rxcpp
@@ -25337,3 +25337,273 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 25335,publish_subject routines,construct,154.599,153.045,159.676,0.95,Linux CLANG,Bump submodules/Catc... (caa41dd8),rxcpp
 25336,publish_subject routines,get_observable,45.3403,45.2251,45.6209,0.95,Linux CLANG,Bump submodules/Catc... (caa41dd8),rxcpp
 25337,publish_subject routines,get_subscriber,12.9567,12.9128,13.0385,0.95,Linux CLANG,Bump submodules/Catc... (caa41dd8),rxcpp
+25338,Observable construction,Specific observable construction,0.334707,0.334539,0.335278,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25339,Observable construction,Dynamic observable construction,18.6299,18.5387,18.9388,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25340,Observable construction,Specific observable construction + as_dynamic,18.4032,18.3479,18.5792,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25341,Observable subscribe #2,Specific observable subscribe lambda,21.7926,21.7545,21.9417,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25342,Observable subscribe #2,Dynamic observable subscribe lambda,55.0504,54.9938,55.1855,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25343,Observable subscribe #2,Specific observable subscribe lambda without subscription,22.7573,22.6664,22.934,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25344,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,55.1648,55.0249,55.7246,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25345,Observable subscribe #2,Specific observable subscribe specific subscriber,3.65564,3.6464,3.68816,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25346,Observable subscribe #2,Dynamic observable subscribe specific subscriber,28.4785,28.392,28.7013,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25347,Observable subscribe #2,Specific observable subscribe dynamic observer,3.67696,3.66762,3.71282,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25348,Observable subscribe #2,Dynamic observable subscribe dynamic observer,13.9415,13.9112,14.0589,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25349,Observer construction,Specific observer construction,0.335157,0.334631,0.33751,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25350,Observer construction,Dynamic observer construction,18.7914,18.7496,18.8591,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25351,Observer construction,Specific observer construction + as_dynamic,19.3275,19.2912,19.4632,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25352,OnNext,Specific observer OnNext,0.335219,0.334669,0.337414,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25353,OnNext,Dynamic observer OnNext,2.00992,2.00696,2.02356,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25354,Subscriber construction,Make subsriber,23.3128,23.2552,23.3703,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25355,Subscriber construction,Make copy of subscriber,3.72075,3.71689,3.72672,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25356,Subscriber construction,Transform subsriber to dynamic,21.9055,21.843,22.1233,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25357,Observable subscribe,Specific observable subscribe specific observer,21.8928,21.8066,22.0653,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25358,Observable subscribe,Specific observable subscribe dynamic observer,24.2814,24.2106,24.6104,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25359,Observable subscribe,Dynamic observable subscribe specific observer,55.5747,55.4705,55.8651,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25360,Observable subscribe,Dynamic observable subscribe dynamic observer,41.0857,41.0103,41.3529,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25361,Observable lift,Specific observable lift specific observer,26.5916,26.5455,26.7641,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25362,Observable lift,Specific observable lift dynamic observer,34.0993,34.0859,34.1229,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25363,Observable lift,Dynamic observable lift specific observer,63.1247,62.861,63.5179,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25364,Observable lift,Dynamic observable lift dynamic observer,56.4514,56.3613,56.763,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25365,Operators,map construction from observable via dot + subscribe,14.9733,14.9462,15.0773,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25366,Subscription,composite_subscription create,21.4662,21.3905,21.5838,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25367,Subscription,composite_subscription add,22.1475,21.9552,23.0531,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25368,Subscription,composite_subscription unsubscribe,6.81755,6.75831,6.87242,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25369,foundamental sources,empty,3.53397,3.52747,3.55371,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25370,foundamental sources,error,41.2156,41.1481,41.5421,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25371,foundamental sources,never,3.54472,3.53797,3.56437,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25372,just,just send int,3.77937,3.7635,3.80564,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25373,just,just send variadic,4.37039,4.36003,4.4148,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25374,from,from vector with int,23.9429,23.9248,24.0152,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25375,merge,merge,118.656,118.424,119.349,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25376,merge,merge_with,166.123,165.819,167.031,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25377,publish_subject callbacks,on_next,17.0786,17.0494,17.1922,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25378,publish_subject callbacks,on_error,1.34296,1.34072,1.35309,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25379,publish_subject callbacks,on_completed,0.670871,0.670669,0.671073,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25380,publish_subject routines,construct,117.492,115.807,122.367,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25381,publish_subject routines,get_observable,5.78973,5.77484,5.81621,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25382,publish_subject routines,get_subscriber,12.1876,12.1689,12.2629,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rpp
+25383,Observable construction,Specific observable construction,0.334501,0.334423,0.334557,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25384,Observable construction,Dynamic observable construction,22.9457,22.9018,23.0731,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25385,Observable construction,Specific observable construction + as_dynamic,23.4705,23.4145,23.5794,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25386,Observable subscribe #2,Specific observable subscribe lambda,333.455,332.557,335.658,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25387,Observable subscribe #2,Dynamic observable subscribe lambda,401.061,400.412,402.993,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25388,Observable subscribe #2,Specific observable subscribe lambda without subscription,333.905,333.636,334.265,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25389,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,408.391,408.09,408.939,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25390,Observable subscribe #2,Specific observable subscribe specific subscriber,286.938,286.265,288.622,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25391,Observable subscribe #2,Dynamic observable subscribe specific subscriber,334.373,333.417,336.806,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25392,Observable subscribe #2,Specific observable subscribe dynamic observer,284.515,283.515,287.071,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25393,Observable subscribe #2,Dynamic observable subscribe dynamic observer,322.171,321.677,322.742,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25394,Observer construction,Specific observer construction,0.334575,0.334474,0.334698,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25395,Observer construction,Dynamic observer construction,20.7945,20.7426,20.9963,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25396,Observer construction,Specific observer construction + as_dynamic,21.5303,21.4197,21.6152,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25397,OnNext,Specific observer OnNext,0.335153,0.334636,0.337591,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25398,OnNext,Dynamic observer OnNext,1.74445,1.73807,1.75494,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25399,Subscriber construction,Make subsriber,58.4078,58.2861,58.8813,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25400,Subscriber construction,Make copy of subscriber,4.51044,4.50153,4.54461,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25401,Subscriber construction,Transform subsriber to dynamic,29.022,28.9752,29.2389,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25402,Observable subscribe,Specific observable subscribe specific observer,339.928,338.086,347.916,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25403,Observable subscribe,Specific observable subscribe dynamic observer,343.472,342.438,347.757,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25404,Observable subscribe,Dynamic observable subscribe specific observer,391.085,390.201,394.669,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25405,Observable subscribe,Dynamic observable subscribe dynamic observer,366.93,366.226,369.469,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25406,Observable lift,Specific observable lift specific observer,345.582,345.225,346.559,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25407,Observable lift,Specific observable lift dynamic observer,361.031,360.175,363.309,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25408,Observable lift,Dynamic observable lift specific observer,411.351,410.008,414.735,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25409,Observable lift,Dynamic observable lift dynamic observer,392.644,390.514,402.528,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25410,Operators,map construction from observable via dot + subscribe,355.471,354.674,358.71,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25411,Subscription,composite_subscription create,53.7346,53.6061,54.0998,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25412,Subscription,composite_subscription add,16.8862,16.7751,17.012,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25413,Subscription,composite_subscription unsubscribe,10.053,10.0348,10.1159,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25414,foundamental sources,empty,46.4854,46.3608,46.9185,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25415,foundamental sources,error,82.3305,82.2926,82.4412,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25416,foundamental sources,never,281.6,281.383,282.072,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25417,just,just send int,51.1306,51.0243,51.3779,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25418,just,just send variadic,47.1249,46.9581,47.4726,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25419,from,from vector with int,69.8407,69.5669,70.2749,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25420,merge,merge,147.708,147.281,148.884,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25421,merge,merge_with,359.432,358.507,361.932,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25422,publish_subject callbacks,on_next,11.7082,11.6888,11.7383,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25423,publish_subject callbacks,on_error,16.837,16.8062,16.9482,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25424,publish_subject callbacks,on_completed,1.34409,1.34212,1.35307,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25425,publish_subject routines,construct,169.901,168.616,174.822,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25426,publish_subject routines,get_observable,45.7763,45.7039,45.8579,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25427,publish_subject routines,get_subscriber,22.3468,22.3341,22.3587,0.95,Linux GCC,Update CMakeLists.tx... (ab810b08),rxcpp
+25428,Observable construction,Specific observable construction,2.04894,1.9948,2.1341,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25429,Observable construction,Dynamic observable construction,94.2658,91.7076,98.8439,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25430,Observable construction,Specific observable construction + as_dynamic,90.3388,86.8355,100.908,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25431,Observable subscribe #2,Specific observable subscribe lambda,120.624,120.227,121.856,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25432,Observable subscribe #2,Dynamic observable subscribe lambda,255.339,249.848,262.884,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25433,Observable subscribe #2,Specific observable subscribe lambda without subscription,119.978,115.491,132.276,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25434,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,277.524,257.874,321.068,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25435,Observable subscribe #2,Specific observable subscribe specific subscriber,19.6756,19.4026,20.2055,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25436,Observable subscribe #2,Dynamic observable subscribe specific subscriber,167.023,153.006,205.77,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25437,Observable subscribe #2,Specific observable subscribe dynamic observer,20.2458,19.6807,21.2423,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25438,Observable subscribe #2,Dynamic observable subscribe dynamic observer,81.892,78.2778,87.3735,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25439,Observer construction,Specific observer construction,0.792608,0.765006,0.840974,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25440,Observer construction,Dynamic observer construction,91.8388,89.602,98.5789,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25441,Observer construction,Specific observer construction + as_dynamic,97.9542,93.7418,106.131,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25442,OnNext,Specific observer OnNext,0.770676,0.75478,0.800788,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25443,OnNext,Dynamic observer OnNext,2.39012,2.31331,2.51658,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25444,Subscriber construction,Make subsriber,98.6064,95.3227,104.145,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25445,Subscriber construction,Make copy of subscriber,17.7848,17.1581,19.2365,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25446,Subscriber construction,Transform subsriber to dynamic,107.671,106.616,109.919,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25447,Observable subscribe,Specific observable subscribe specific observer,125.242,121.075,140.661,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25448,Observable subscribe,Specific observable subscribe dynamic observer,137.767,135.569,142.639,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25449,Observable subscribe,Dynamic observable subscribe specific observer,247.9,239.082,260.8,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25450,Observable subscribe,Dynamic observable subscribe dynamic observer,198.514,194.222,212.056,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25451,Observable lift,Specific observable lift specific observer,167.168,166.503,168.994,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25452,Observable lift,Specific observable lift dynamic observer,202.859,198.627,210.852,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25453,Observable lift,Dynamic observable lift specific observer,312.233,304.167,345.156,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25454,Observable lift,Dynamic observable lift dynamic observer,281.265,269.892,300.882,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25455,Operators,map construction from observable via dot + subscribe,96.7252,93.2649,104.444,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25456,Subscription,composite_subscription create,104.406,101.051,111.33,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25457,Subscription,composite_subscription add,70.9046,66.6316,80.7368,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25458,Subscription,composite_subscription unsubscribe,8.54414,7.42169,13.6521,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25459,foundamental sources,empty,22.322,21.3778,23.5558,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25460,foundamental sources,error,58.5574,58.1489,59.5043,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25461,foundamental sources,never,20.529,19.7808,21.537,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25462,just,just send int,28.9055,28.206,30.0693,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25463,just,just send variadic,29.4954,28.3913,31.0667,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25464,from,from vector with int,101.043,99.5907,104.004,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25465,merge,merge,465.766,451.469,493.281,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25466,merge,merge_with,762.333,750.897,796.718,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25467,publish_subject callbacks,on_next,30.5113,25.7715,48.3288,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25468,publish_subject callbacks,on_error,5.73027,2.30534,22.7495,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25469,publish_subject callbacks,on_completed,2.36772,2.28166,2.49206,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25470,publish_subject routines,construct,357.719,342.105,391.702,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25471,publish_subject routines,get_observable,34.8295,33.1597,41.3625,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25472,publish_subject routines,get_subscriber,63.1878,61.3668,67.4913,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rpp
+25473,Observable construction,Specific observable construction,0.748008,0.744063,0.759302,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25474,Observable construction,Dynamic observable construction,141.323,140.554,143.369,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25475,Observable construction,Specific observable construction + as_dynamic,142.109,137.945,151.602,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25476,Observable subscribe #2,Specific observable subscribe lambda,1350.14,1327.36,1406.82,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25477,Observable subscribe #2,Dynamic observable subscribe lambda,1553.79,1532.42,1623.89,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25478,Observable subscribe #2,Specific observable subscribe lambda without subscription,4771.05,1370.33,21671.7,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25479,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1539.32,1521,1608.84,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25480,Observable subscribe #2,Specific observable subscribe specific subscriber,930.419,905.871,963.355,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25481,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1183.17,1160.42,1226.92,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25482,Observable subscribe #2,Specific observable subscribe dynamic observer,1014.62,996.828,1054.45,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25483,Observable subscribe #2,Dynamic observable subscribe dynamic observer,1077.96,1050.57,1122.89,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25484,Observer construction,Specific observer construction,2.02155,1.97231,2.1311,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25485,Observer construction,Dynamic observer construction,171.51,141.779,315.417,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25486,Observer construction,Specific observer construction + as_dynamic,138.043,134.232,147.218,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25487,OnNext,Specific observer OnNext,0.744761,0.743317,0.747676,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25488,OnNext,Dynamic observer OnNext,2.66031,2.60622,2.78938,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25489,Subscriber construction,Make subsriber,407.901,397.268,423.324,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25490,Subscriber construction,Make copy of subscriber,37.4916,36.8443,40.2458,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25491,Subscriber construction,Transform subsriber to dynamic,170.724,169.835,172.635,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25492,Observable subscribe,Specific observable subscribe specific observer,1383,1337,1461.68,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25493,Observable subscribe,Specific observable subscribe dynamic observer,1476.15,1405.6,1718.85,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25494,Observable subscribe,Dynamic observable subscribe specific observer,1522.47,1486.84,1587.89,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25495,Observable subscribe,Dynamic observable subscribe dynamic observer,1573.14,1497.14,1732.29,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25496,Observable lift,Specific observable lift specific observer,1462.9,1404,1573,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25497,Observable lift,Specific observable lift dynamic observer,1531.9,1479.62,1622.24,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25498,Observable lift,Dynamic observable lift specific observer,1660.53,1607.84,1799.21,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25499,Observable lift,Dynamic observable lift dynamic observer,1507.85,1468.15,1575.75,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25500,Operators,map construction from observable via dot + subscribe,1152.42,1126.42,1245.19,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25501,Subscription,composite_subscription create,400.838,387.581,426.946,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25502,Subscription,composite_subscription add,77.3434,73.4737,94.6165,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25503,Subscription,composite_subscription unsubscribe,26.9888,26.5564,27.8854,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25504,foundamental sources,empty,223.496,219.424,233.856,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25505,foundamental sources,error,235.141,228.489,243.6,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25506,foundamental sources,never,964.5,957.893,988.179,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25507,just,just send int,242.282,230.972,265.613,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25508,just,just send variadic,236.435,226.962,259.031,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25509,from,from vector with int,310.914,300.305,357.933,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25510,merge,merge,936.283,845.811,1134.38,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25511,merge,merge_with,1872.72,1738.16,2342.32,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25512,publish_subject callbacks,on_next,35.8029,34.5158,37.7981,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25513,publish_subject callbacks,on_error,38.527,21.8762,84.8201,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25514,publish_subject callbacks,on_completed,0.782277,0.765664,0.806634,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25515,publish_subject routines,construct,710.903,691.161,754.839,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25516,publish_subject routines,get_observable,191.744,184.615,204.237,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25517,publish_subject routines,get_subscriber,109.303,108.667,110.951,0.95,Windows MSVC,Update CMakeLists.tx... (ab810b08),rxcpp
+25518,Observable construction,Specific observable construction,0.33541,0.334768,0.337949,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25519,Observable construction,Dynamic observable construction,28.4855,28.4244,28.7626,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25520,Observable construction,Specific observable construction + as_dynamic,28.5037,28.4923,28.5172,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25521,Observable subscribe #2,Specific observable subscribe lambda,44.4797,44.4587,44.5573,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25522,Observable subscribe #2,Dynamic observable subscribe lambda,110.223,109.942,111.552,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25523,Observable subscribe #2,Specific observable subscribe lambda without subscription,44.576,44.4625,45.0692,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25524,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,110.134,109.976,110.846,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25525,Observable subscribe #2,Specific observable subscribe specific subscriber,16.7384,16.7114,16.8587,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25526,Observable subscribe #2,Dynamic observable subscribe specific subscriber,77.8334,77.807,77.8678,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25527,Observable subscribe #2,Specific observable subscribe dynamic observer,16.7137,16.7041,16.7457,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25528,Observable subscribe #2,Dynamic observable subscribe dynamic observer,62.9383,62.8332,63.4047,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25529,Observer construction,Specific observer construction,0.670069,0.668967,0.674184,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25530,Observer construction,Dynamic observer construction,28.4681,28.4109,28.6968,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25531,Observer construction,Specific observer construction + as_dynamic,28.4526,28.4353,28.4984,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25532,OnNext,Specific observer OnNext,0.671122,0.669299,0.679829,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25533,OnNext,Dynamic observer OnNext,1.67457,1.67221,1.68519,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25534,Subscriber construction,Make subsriber,32.471,32.4209,32.677,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25535,Subscriber construction,Make copy of subscriber,16.7192,16.7096,16.75,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25536,Subscriber construction,Transform subsriber to dynamic,45.8817,45.7878,46.2571,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25537,Observable subscribe,Specific observable subscribe specific observer,44.5517,44.4426,45.066,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25538,Observable subscribe,Specific observable subscribe dynamic observer,58.8059,58.6858,59.3611,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25539,Observable subscribe,Dynamic observable subscribe specific observer,115.154,114.949,116.076,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25540,Observable subscribe,Dynamic observable subscribe dynamic observer,108.514,108.336,109.169,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25541,Observable lift,Specific observable lift specific observer,70.6289,70.5247,71.0436,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25542,Observable lift,Specific observable lift dynamic observer,96.7025,96.6474,96.8972,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25543,Observable lift,Dynamic observable lift specific observer,160.965,160.729,162.023,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25544,Observable lift,Dynamic observable lift dynamic observer,164.643,164.411,165.561,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25545,Operators,map construction from observable via dot + subscribe,71.3025,71.1947,71.7093,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25546,Subscription,composite_subscription create,32.5168,32.4504,32.7837,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25547,Subscription,composite_subscription add,47.1795,46.9095,48.0119,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25548,Subscription,composite_subscription unsubscribe,6.0189,6.01707,6.02115,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25549,foundamental sources,empty,18.0919,18.0664,18.2157,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25550,foundamental sources,error,50.2398,50.1706,50.5176,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25551,foundamental sources,never,16.7373,16.7126,16.8457,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25552,just,just send int,17.0707,17.0673,17.0754,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25553,just,just send variadic,19.1271,19.0977,19.2431,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25554,from,from vector with int,29.8952,29.8451,30.1086,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25555,merge,merge,231.92,231.587,232.322,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25556,merge,merge_with,294.742,294.062,297.306,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25557,publish_subject callbacks,on_next,24.4392,24.3933,24.6313,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25558,publish_subject callbacks,on_error,2.5541,2.52152,2.58463,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25559,publish_subject callbacks,on_completed,2.0177,2.01696,2.01911,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25560,publish_subject routines,construct,163.793,162.041,170.078,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25561,publish_subject routines,get_observable,26.4467,26.405,26.6127,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25562,publish_subject routines,get_subscriber,61.9052,61.8076,62.2836,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rpp
+25563,Observable construction,Specific observable construction,0.335156,0.334662,0.337327,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25564,Observable construction,Dynamic observable construction,25.1081,25.0533,25.2587,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25565,Observable construction,Specific observable construction + as_dynamic,24.6217,24.5549,24.7718,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25566,Observable subscribe #2,Specific observable subscribe lambda,291.178,290.722,292.976,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25567,Observable subscribe #2,Dynamic observable subscribe lambda,330.839,330.312,332.851,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25568,Observable subscribe #2,Specific observable subscribe lambda without subscription,289.441,289.285,289.663,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25569,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,332.815,332.259,334.593,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25570,Observable subscribe #2,Specific observable subscribe specific subscriber,225.595,225.213,226.907,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25571,Observable subscribe #2,Dynamic observable subscribe specific subscriber,269.729,269.251,271.612,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25572,Observable subscribe #2,Specific observable subscribe dynamic observer,238.8,238.678,239.084,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25573,Observable subscribe #2,Dynamic observable subscribe dynamic observer,257.655,257.524,257.976,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25574,Observer construction,Specific observer construction,0.334841,0.33465,0.335448,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25575,Observer construction,Dynamic observer construction,21.3331,21.2922,21.4776,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25576,Observer construction,Specific observer construction + as_dynamic,21.5948,21.56,21.6925,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25577,OnNext,Specific observer OnNext,0.670471,0.66913,0.676609,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25578,OnNext,Dynamic observer OnNext,2.34598,2.34172,2.36254,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25579,Subscriber construction,Make subsriber,64.4866,64.383,64.8948,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25580,Subscriber construction,Make copy of subscriber,4.68938,4.68685,4.69252,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25581,Subscriber construction,Transform subsriber to dynamic,26.2269,26.126,26.5819,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25582,Observable subscribe,Specific observable subscribe specific observer,287.634,287.479,287.935,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25583,Observable subscribe,Specific observable subscribe dynamic observer,296.083,295.612,297.953,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25584,Observable subscribe,Dynamic observable subscribe specific observer,331.215,330.903,331.87,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25585,Observable subscribe,Dynamic observable subscribe dynamic observer,314.27,313.748,316.229,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25586,Observable lift,Specific observable lift specific observer,289.696,289.273,291.379,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25587,Observable lift,Specific observable lift dynamic observer,305.586,305.044,307.647,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25588,Observable lift,Dynamic observable lift specific observer,336.452,335.777,338.429,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25589,Observable lift,Dynamic observable lift dynamic observer,325.23,324.86,326.339,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25590,Operators,map construction from observable via dot + subscribe,251.784,251.227,253.332,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25591,Subscription,composite_subscription create,52.1993,52.1175,52.4922,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25592,Subscription,composite_subscription add,20.9153,20.8787,21.0602,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25593,Subscription,composite_subscription unsubscribe,9.69194,9.68868,9.69518,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25594,foundamental sources,empty,35.4655,35.3023,35.7138,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25595,foundamental sources,error,77.0466,76.902,77.4856,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25596,foundamental sources,never,237.419,237.019,238.995,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25597,just,just send int,36.3925,36.261,36.6422,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25598,just,just send variadic,42.5306,42.4025,42.788,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25599,from,from vector with int,58.5757,58.4502,58.7417,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25600,merge,merge,124.986,124.57,125.66,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25601,merge,merge_with,297.372,296.206,300.373,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25602,publish_subject callbacks,on_next,10.3839,10.34,10.4416,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25603,publish_subject callbacks,on_error,19.1412,19.1349,19.1528,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25604,publish_subject callbacks,on_completed,0.672576,0.671292,0.678154,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25605,publish_subject routines,construct,234.438,233.114,240.356,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25606,publish_subject routines,get_observable,49.945,49.7835,50.3826,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
+25607,publish_subject routines,get_subscriber,14.224,14.1596,14.3427,0.95,Linux CLANG,Update CMakeLists.tx... (ab810b08),rxcpp
