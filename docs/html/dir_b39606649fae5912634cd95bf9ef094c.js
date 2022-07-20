@@ -1,5 +1,6 @@
 var dir_b39606649fae5912634cd95bf9ef094c =
 [
+    [ "concat.hpp", "fwd_2concat_8hpp_source.html", null ],
     [ "filter.hpp", "fwd_2filter_8hpp_source.html", null ],
     [ "flat_map.hpp", "fwd_2flat__map_8hpp_source.html", null ],
     [ "group_by.hpp", "fwd_2group__by_8hpp_source.html", null ],
@@ -10,8 +11,11 @@ var dir_b39606649fae5912634cd95bf9ef094c =
     [ "publish.hpp", "fwd_2publish_8hpp_source.html", null ],
     [ "ref_count.hpp", "fwd_2ref__count_8hpp_source.html", null ],
     [ "repeat.hpp", "fwd_2repeat_8hpp_source.html", null ],
+    [ "scan.hpp", "fwd_2scan_8hpp_source.html", null ],
+    [ "start_with.hpp", "fwd_2start__with_8hpp_source.html", null ],
     [ "subscribe.hpp", "subscribe_8hpp_source.html", null ],
     [ "subscribe_on.hpp", "fwd_2subscribe__on_8hpp_source.html", null ],
+    [ "switch_map.hpp", "fwd_2switch__map_8hpp_source.html", null ],
     [ "switch_on_next.hpp", "fwd_2switch__on__next_8hpp_source.html", null ],
     [ "take.hpp", "fwd_2take_8hpp_source.html", null ],
     [ "take_while.hpp", "fwd_2take__while_8hpp_source.html", null ],

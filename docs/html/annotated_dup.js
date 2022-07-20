@@ -2,6 +2,8 @@ var annotated_dup =
 [
     [ "rpp", null, [
       [ "details", null, [
+        [ "concat_impl", "structrpp_1_1details_1_1concat__impl.html", "structrpp_1_1details_1_1concat__impl" ],
+        [ "concat_state_t", "structrpp_1_1details_1_1concat__state__t.html", "structrpp_1_1details_1_1concat__state__t" ],
         [ "dynamic_observable_state", "classrpp_1_1details_1_1dynamic__observable__state.html", "classrpp_1_1details_1_1dynamic__observable__state" ],
         [ "filter_impl", "structrpp_1_1details_1_1filter__impl.html", "structrpp_1_1details_1_1filter__impl" ],
         [ "forwarding_on_completed", "structrpp_1_1details_1_1forwarding__on__completed.html", "structrpp_1_1details_1_1forwarding__on__completed" ],
@@ -14,6 +16,7 @@ var annotated_dup =
         [ "lift_action_by_callbacks", "structrpp_1_1details_1_1lift__action__by__callbacks.html", "structrpp_1_1details_1_1lift__action__by__callbacks" ],
         [ "map_impl", "structrpp_1_1details_1_1map__impl.html", "structrpp_1_1details_1_1map__impl" ],
         [ "member_overload", "structrpp_1_1details_1_1member__overload.html", null ],
+        [ "member_overload< Type, SpecificObservable, concat_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01concat__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01concat__tag_01_4" ],
         [ "member_overload< Type, SpecificObservable, filter_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01filter__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01filter__tag_01_4" ],
         [ "member_overload< Type, SpecificObservable, flat_map_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01flat__map__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01flat__map__tag_01_4" ],
         [ "member_overload< Type, SpecificObservable, group_by_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01group__by__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01group__by__tag_01_4" ],
@@ -25,8 +28,11 @@ var annotated_dup =
         [ "member_overload< Type, SpecificObservable, publish_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01publish__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01publish__tag_01_4" ],
         [ "member_overload< Type, SpecificObservable, ref_count_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01ref__count__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01ref__count__tag_01_4" ],
         [ "member_overload< Type, SpecificObservable, repeat_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01repeat__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01repeat__tag_01_4" ],
+        [ "member_overload< Type, SpecificObservable, scan_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01scan__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01scan__tag_01_4" ],
+        [ "member_overload< Type, SpecificObservable, start_with_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01start__with__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01start__with__tag_01_4" ],
         [ "member_overload< Type, SpecificObservable, subscribe_on_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01subscribe__on__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01subscribe__on__tag_01_4" ],
         [ "member_overload< Type, SpecificObservable, subscribe_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01subscribe__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01subscribe__tag_01_4" ],
+        [ "member_overload< Type, SpecificObservable, switch_map_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01switch__map__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01switch__map__tag_01_4" ],
         [ "member_overload< Type, SpecificObservable, switch_on_next_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01switch__on__next__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01switch__on__next__tag_01_4" ],
         [ "member_overload< Type, SpecificObservable, take_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01take__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01take__tag_01_4" ],
         [ "member_overload< Type, SpecificObservable, take_while_tag >", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01take__while__tag_01_4.html", "structrpp_1_1details_1_1member__overload_3_01_type_00_01_specific_observable_00_01take__while__tag_01_4" ],
@@ -38,6 +44,7 @@ var annotated_dup =
         [ "observer_tag", "structrpp_1_1details_1_1observer__tag.html", null ],
         [ "ref_count_state_t", "structrpp_1_1details_1_1ref__count__state__t.html", "structrpp_1_1details_1_1ref__count__state__t" ],
         [ "repeat_on_completed", "classrpp_1_1details_1_1repeat__on__completed.html", "classrpp_1_1details_1_1repeat__on__completed" ],
+        [ "scan_impl", "structrpp_1_1details_1_1scan__impl.html", "structrpp_1_1details_1_1scan__impl" ],
         [ "state_observer", "classrpp_1_1details_1_1state__observer.html", "classrpp_1_1details_1_1state__observer" ],
         [ "subscriber_base", "classrpp_1_1details_1_1subscriber__base.html", "classrpp_1_1details_1_1subscriber__base" ],
         [ "subscriber_tag", "structrpp_1_1details_1_1subscriber__tag.html", null ],
