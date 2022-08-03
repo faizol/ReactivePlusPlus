@@ -25747,11 +25747,11 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 25745,Observable construction,Specific observable construction + as_dynamic,149.953,149.386,151.079,0.95,Windows MSVC,start_with (#181) (724ba8ad),rxcpp
 25746,Observable subscribe #2,Specific observable subscribe lambda,1408.13,1396.22,1451.61,0.95,Windows MSVC,start_with (#181) (724ba8ad),rxcpp
 25747,Observable subscribe #2,Dynamic observable subscribe lambda,1625.9,1609.76,1692.95,0.95,Windows MSVC,start_with (#181) (724ba8ad),rxcpp
-25748,Observable subscribe #2,Specific observable subscribe lambda without subscription,1412.46,1399.92,1444,0.95,Windows MSVC,start_with (#181) (724ba8ad),rxcpp
+25748,Observable subscribe #2,Specific observable subscribe lambda without subscription,1412.46,1399.92,1444.0,0.95,Windows MSVC,start_with (#181) (724ba8ad),rxcpp
 25749,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1624.9,1610.4,1681.4,0.95,Windows MSVC,start_with (#181) (724ba8ad),rxcpp
 25750,Observable subscribe #2,Specific observable subscribe specific subscriber,1004.21,994.848,1024.76,0.95,Windows MSVC,start_with (#181) (724ba8ad),rxcpp
-25751,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1226,1217.68,1259.14,0.95,Windows MSVC,start_with (#181) (724ba8ad),rxcpp
-25752,Observable subscribe #2,Specific observable subscribe dynamic observer,1475.23,1463.97,1497,0.95,Windows MSVC,start_with (#181) (724ba8ad),rxcpp
+25751,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1226.0,1217.68,1259.14,0.95,Windows MSVC,start_with (#181) (724ba8ad),rxcpp
+25752,Observable subscribe #2,Specific observable subscribe dynamic observer,1475.23,1463.97,1497.0,0.95,Windows MSVC,start_with (#181) (724ba8ad),rxcpp
 25753,Observable subscribe #2,Dynamic observable subscribe dynamic observer,1122.81,1092.97,1215.31,0.95,Windows MSVC,start_with (#181) (724ba8ad),rxcpp
 25754,Observer construction,Specific observer construction,1.80997,1.80481,1.82285,0.95,Windows MSVC,start_with (#181) (724ba8ad),rxcpp
 25755,Observer construction,Dynamic observer construction,138.157,137.707,139.128,0.95,Windows MSVC,start_with (#181) (724ba8ad),rxcpp
@@ -25877,3 +25877,423 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 25875,publish_subject routines,construct,182.264,180.018,188.28,0.95,Linux CLANG,start_with (#181) (724ba8ad),rxcpp
 25876,publish_subject routines,get_observable,50.0949,49.8397,50.4053,0.95,Linux CLANG,start_with (#181) (724ba8ad),rxcpp
 25877,publish_subject routines,get_subscriber,14.091,14.0612,14.1162,0.95,Linux CLANG,start_with (#181) (724ba8ad),rxcpp
+25878,Observable construction,Specific observable construction,0.335149,0.334542,0.338013,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25879,Observable construction,Dynamic observable construction,31.5777,31.5278,31.8011,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25880,Observable construction,Specific observable construction + as_dynamic,31.5787,31.5352,31.7705,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25881,Observable subscribe #2,Specific observable subscribe lambda,45.2156,45.1474,45.5037,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25882,Observable subscribe #2,Dynamic observable subscribe lambda,112.87,112.546,113.685,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25883,Observable subscribe #2,Specific observable subscribe lambda without subscription,45.263,45.1704,45.6014,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25884,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,113.092,112.907,113.865,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25885,Observable subscribe #2,Specific observable subscribe specific subscriber,16.7358,16.7094,16.8399,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25886,Observable subscribe #2,Dynamic observable subscribe specific subscriber,80.6657,80.5386,81.2469,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25887,Observable subscribe #2,Specific observable subscribe dynamic observer,16.7283,16.7215,16.7406,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25888,Observable subscribe #2,Dynamic observable subscribe dynamic observer,64.352,64.1859,64.7787,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25889,Observer construction,Specific observer construction,0.335048,0.334542,0.337441,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25890,Observer construction,Dynamic observer construction,31.62,31.5364,32.0099,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25891,Observer construction,Specific observer construction + as_dynamic,31.5374,31.5279,31.5478,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25892,OnNext,Specific observer OnNext,0.335078,0.334573,0.337437,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25893,OnNext,Dynamic observer OnNext,2.00676,2.00622,2.00757,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25894,Subscriber construction,Make subsriber,31.27,31.2197,31.4852,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25895,Subscriber construction,Make copy of subscriber,16.7498,16.7082,16.944,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25896,Subscriber construction,Transform subsriber to dynamic,44.3407,44.2679,44.6677,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25897,Observable subscribe,Specific observable subscribe specific observer,48.4747,47.3157,49.9642,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25898,Observable subscribe,Specific observable subscribe dynamic observer,58.5127,58.4077,58.8735,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25899,Observable subscribe,Dynamic observable subscribe specific observer,112.805,112.616,113.575,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25900,Observable subscribe,Dynamic observable subscribe dynamic observer,109.034,108.838,109.698,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25901,Observable lift,Specific observable lift specific observer,76.8049,76.6014,77.6475,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25902,Observable lift,Specific observable lift dynamic observer,108.284,108.084,109.055,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25903,Observable lift,Dynamic observable lift specific observer,160.754,160.2,163.228,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25904,Observable lift,Dynamic observable lift dynamic observer,173.421,173.318,173.507,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25905,Subscription,composite_subscription create,31.1579,31.1026,31.3469,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25906,Subscription,composite_subscription add,40.15,39.8618,41.068,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25907,Subscription,composite_subscription unsubscribe,8.37694,8.35757,8.45192,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25908,Subscription,composite_subscription unsubscribe only subscribed,6.95895,6.94531,7.00803,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25909,foundamental sources,empty,49.8706,49.7839,50.0856,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25910,foundamental sources,error,103.963,103.266,106.792,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25911,foundamental sources,never,16.7061,16.6146,16.8389,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25912,map,map construction from observable via dot + subscribe,64.7799,64.5029,66.1153,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25913,map,sending of values from observable via map to subscriber,1.67483,1.67202,1.68595,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25914,scan,scan construction from observable via dot + subscribe,116.254,115.986,117.472,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25915,scan,sending of values from observable via scan to subscriber,4.01756,4.01459,4.03064,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25916,distinct_until_changed,distinct_until_changed construction from observable via dot + subscribe,124.139,124.109,124.18,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25917,distinct_until_changed,sending of values from observable via distinct_until_changed to subscriber,4.8538,4.85249,4.85542,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25918,with_latest_from,with_latest_from construction from observable via dot + subscribe,770.74,765.202,777.96,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25919,with_latest_from,sending of values from observable via with_latest_from to subscriber,18.0961,18.0615,18.2095,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25920,switch_on_next,switch_on_next construction from observable via dot + subscribe,18170.2,2512.02,96296,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25921,switch_on_next,sending of values from observable via switch_on_next to subscriber,1631.62,592.606,6791.07,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25922,observe_on,observe_on construction from observable via dot + subscribe,798.808,795.064,805.553,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25923,observe_on,sending of values from observable via observe_on to subscriber,139.411,138.941,140.648,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25924,repeat,repeat construction from observable via dot + subscribe,3856.04,3837.67,3903.16,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25925,just,just send int,53.043,52.8441,53.7191,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25926,just,just send variadic,89.5931,89.1884,90.7743,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25927,from,from vector with int,69.3553,69.2726,69.6629,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25928,merge,merge,1426.87,1423.3,1441.25,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25929,merge,merge_with,1793.07,1785.01,1813.83,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25930,concat,concat,1363.06,1356.37,1379.97,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25931,concat,concat_with,1652.52,1645.57,1673.79,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25932,buffer,buffer,261.257,260.616,263.88,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25933,buffer,sending of values from observable via buffer to subscriber,6.51374,6.46217,6.54577,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25934,window,window,2010.55,2002.35,2032.75,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25935,window,sending of values from observable via window to subscriber,550.715,548.97,555.933,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25936,take,take construction from observable via dot + subscribe,175.749,175.502,176.339,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25937,take,sending of values from observable via take to subscriber,6.24121,6.1935,6.27932,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25938,skip,skip construction from observable via dot + subscribe,114.729,114.618,115.02,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25939,skip,sending of values from observable via skip to subscriber,5.09508,5.06772,5.13295,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25940,chains creation test,long non-state chain creation + subscribe,266.363,266.256,266.471,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25941,chains creation test,long stateful chain creation + subscribe,489.185,487.759,493.546,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25942,publish_subject callbacks,on_next,22.4299,22.384,22.6452,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25943,publish_subject callbacks,on_error,1.34464,1.34401,1.34667,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25944,publish_subject callbacks,on_completed,0.674093,0.672698,0.679848,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25945,publish_subject routines,construct,175.155,174.142,178.508,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25946,publish_subject routines,get_observable,29.4677,29.4103,29.6653,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25947,publish_subject routines,get_subscriber,57.3756,57.2831,57.8122,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25948,Observable construction,Specific observable construction,0.334593,0.33447,0.334705,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25949,Observable construction,Dynamic observable construction,28.1024,28.0885,28.1108,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25950,Observable construction,Specific observable construction + as_dynamic,41.3852,40.7193,42.0866,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25951,Observable subscribe #2,Specific observable subscribe lambda,326.753,326.21,328.959,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25952,Observable subscribe #2,Dynamic observable subscribe lambda,369.769,368.782,372.448,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25953,Observable subscribe #2,Specific observable subscribe lambda without subscription,326.188,325.601,328.384,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25954,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,368.633,368.399,369.04,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25955,Observable subscribe #2,Specific observable subscribe specific subscriber,273.803,273.048,276.293,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25956,Observable subscribe #2,Dynamic observable subscribe specific subscriber,317.466,316.161,322.288,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25957,Observable subscribe #2,Specific observable subscribe dynamic observer,279.012,278.429,281.031,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25958,Observable subscribe #2,Dynamic observable subscribe dynamic observer,302.163,301.273,306.162,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25959,Observer construction,Specific observer construction,0.334702,0.334499,0.335386,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25960,Observer construction,Dynamic observer construction,21.3204,21.2882,21.4587,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25961,Observer construction,Specific observer construction + as_dynamic,20.4594,20.4048,20.7028,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25962,OnNext,Specific observer OnNext,0.33488,0.334634,0.335575,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25963,OnNext,Dynamic observer OnNext,2.00728,2.00648,2.00836,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25964,Subscriber construction,Make subsriber,59.5087,59.4156,59.6686,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25965,Subscriber construction,Make copy of subscriber,4.4938,4.48416,4.52632,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25966,Subscriber construction,Transform subsriber to dynamic,25.914,25.8623,26.1176,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25967,Observable subscribe,Specific observable subscribe specific observer,330.872,330.652,331.465,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25968,Observable subscribe,Specific observable subscribe dynamic observer,361.871,361.161,364.354,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25969,Observable subscribe,Dynamic observable subscribe specific observer,391.186,390.433,393.744,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25970,Observable subscribe,Dynamic observable subscribe dynamic observer,356.611,355.814,359.111,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25971,Observable lift,Specific observable lift specific observer,338.936,338.071,341.342,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25972,Observable lift,Specific observable lift dynamic observer,354.604,353.805,357.734,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25973,Observable lift,Dynamic observable lift specific observer,386.709,385.99,389.133,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25974,Observable lift,Dynamic observable lift dynamic observer,385.132,384.377,387.413,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25975,Subscription,composite_subscription create,55.4058,55.2664,55.8539,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25976,Subscription,composite_subscription add,16.5267,16.4825,16.5951,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25977,Subscription,composite_subscription unsubscribe,11.0653,11.046,11.139,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25978,Subscription,composite_subscription unsubscribe only subscribed,11.1661,11.142,11.2473,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25979,foundamental sources,empty,750.558,747.856,757.232,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25980,foundamental sources,error,841.093,837.065,852.148,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25981,foundamental sources,never,281.926,281.489,283.383,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25982,map,map construction from observable via dot + subscribe,341.856,341.572,342.628,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25983,map,sending of values from observable via map to subscriber,2.6814,2.67629,2.70014,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25984,scan,scan construction from observable via dot + subscribe,384.709,383.825,388.71,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25985,scan,sending of values from observable via scan to subscriber,1.59337,1.58938,1.61067,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25986,distinct_until_changed,distinct_until_changed construction from observable via dot + subscribe,357.254,356.551,359.659,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25987,distinct_until_changed,sending of values from observable via distinct_until_changed to subscriber,2.34565,2.34173,2.36378,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25988,with_latest_from,with_latest_from construction from observable via dot + subscribe,1437.91,1421.65,1492.66,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25989,with_latest_from,sending of values from observable via with_latest_from to subscriber,5.0358,5.0092,5.06359,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25990,switch_on_next,switch_on_next construction from observable via dot + subscribe,4259.19,4220.9,4401.48,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25991,switch_on_next,sending of values from observable via switch_on_next to subscriber,1058.48,1056.19,1061.26,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25992,observe_on,observe_on construction from observable via dot + subscribe,2908.53,2869.32,2956.03,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25993,observe_on,sending of values from observable via observe_on to subscriber,238.541,237.862,239.831,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25994,repeat,repeat construction from observable via dot + subscribe,3207.23,3195.03,3239.33,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25995,just,just send int,768.085,764.701,777.162,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25996,just,just send variadic,829.497,826.223,838.064,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25997,from,from vector with int,770.264,766.495,781.8,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25998,merge,merge,3842.67,3812.66,3958.04,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+25999,merge,merge_with,4240.67,4211.42,4354.04,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26000,concat,concat,3653.7,3628.93,3768.15,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26001,concat,concat_with,3985.66,3954.54,4105.79,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26002,buffer,buffer,1917.71,1906.21,1949.34,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26003,buffer,sending of values from observable via buffer to subscriber,31.1908,31.1153,31.4092,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26004,window,window,3234.43,3215.13,3322.84,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26005,window,sending of values from observable via window to subscriber,433.899,432.733,437.913,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26006,take,take construction from observable via dot + subscribe,602.606,599.845,609.586,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26007,take,sending of values from observable via take to subscriber,4.03138,4.02923,4.03892,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26008,skip,skip construction from observable via dot + subscribe,544.722,540.113,554.615,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26009,skip,sending of values from observable via skip to subscriber,2.34578,2.34146,2.3629,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26010,chains creation test,long non-state chain creation + subscribe,718.817,717.344,724.554,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26011,chains creation test,long stateful chain creation + subscribe,1043.89,1033.57,1077.73,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26012,publish_subject callbacks,on_next,11.2751,11.2234,11.3553,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26013,publish_subject callbacks,on_error,17.1517,17.1403,17.1928,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26014,publish_subject callbacks,on_completed,1.00667,1.00627,1.00714,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26015,publish_subject routines,construct,170.215,168.201,175.722,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26016,publish_subject routines,get_observable,48.8379,48.7209,48.9841,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26017,publish_subject routines,get_subscriber,23.1734,23.1013,23.3153,0.95,Linux GCC,Try to improve atomi... (35856a12),rxcpp
+26018,Observable construction,Specific observable construction,2.0167,2.00499,2.04548,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26019,Observable construction,Dynamic observable construction,68.1484,67.9588,68.6126,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26020,Observable construction,Specific observable construction + as_dynamic,68.7438,68.3444,69.7328,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26021,Observable subscribe #2,Specific observable subscribe lambda,91.9478,91.6157,92.7724,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26022,Observable subscribe #2,Dynamic observable subscribe lambda,195.559,194.378,198.268,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26023,Observable subscribe #2,Specific observable subscribe lambda without subscription,92.9074,92.2296,94.6889,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26024,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,196.457,194.772,199.724,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26025,Observable subscribe #2,Specific observable subscribe specific subscriber,16.1786,16.061,16.4704,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26026,Observable subscribe #2,Dynamic observable subscribe specific subscriber,120.092,119.781,120.811,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26027,Observable subscribe #2,Specific observable subscribe dynamic observer,16.109,16.0718,16.1935,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26028,Observable subscribe #2,Dynamic observable subscribe dynamic observer,67.9259,67.4302,69.2906,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26029,Observer construction,Specific observer construction,2.01005,2.00463,2.02325,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26030,Observer construction,Dynamic observer construction,74.2778,71.475,78.6889,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26031,Observer construction,Specific observer construction + as_dynamic,68.5279,68.3464,68.8575,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26032,OnNext,Specific observer OnNext,0.803907,0.8024,0.807185,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26033,OnNext,Dynamic observer OnNext,1.65302,1.63536,1.7269,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26034,Subscriber construction,Make subsriber,72.2434,71.8915,73.0587,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26035,Subscriber construction,Make copy of subscriber,16.0844,16.0458,16.1818,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26036,Subscriber construction,Transform subsriber to dynamic,86.9263,86.6,87.5368,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26037,Observable subscribe,Specific observable subscribe specific observer,90.4029,90.1465,91.1319,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26038,Observable subscribe,Specific observable subscribe dynamic observer,108.886,108.206,110.338,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26039,Observable subscribe,Dynamic observable subscribe specific observer,195.26,194.48,197.89,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26040,Observable subscribe,Dynamic observable subscribe dynamic observer,162.599,161.934,164.105,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26041,Observable lift,Specific observable lift specific observer,125.645,125.391,126.132,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26042,Observable lift,Specific observable lift dynamic observer,160.696,159.541,162.905,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26043,Observable lift,Dynamic observable lift specific observer,244.713,243.792,248.02,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26044,Observable lift,Dynamic observable lift dynamic observer,236.518,225.009,265.42,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26045,Subscription,composite_subscription create,72.8521,72.4941,74.0089,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26046,Subscription,composite_subscription add,56.0159,55.258,58.5159,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26047,Subscription,composite_subscription unsubscribe,8.04352,8.03305,8.06741,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26048,Subscription,composite_subscription unsubscribe only subscribed,8.13847,8.08141,8.24925,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26049,foundamental sources,empty,54.1061,52.5778,61.4623,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26050,foundamental sources,error,110.476,110.286,110.852,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26051,foundamental sources,never,17.1567,17.1455,17.1687,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26052,map,map construction from observable via dot + subscribe,77.4486,76.9221,78.2866,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26053,map,sending of values from observable via map to subscriber,3.56659,3.54831,3.61066,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26054,scan,scan construction from observable via dot + subscribe,174.893,173.436,177.7,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26055,scan,sending of values from observable via scan to subscriber,5.3697,5.33188,5.44642,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26056,distinct_until_changed,distinct_until_changed construction from observable via dot + subscribe,182.647,181.287,185.507,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26057,distinct_until_changed,sending of values from observable via distinct_until_changed to subscriber,3.22824,3.21804,3.24967,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26058,with_latest_from,with_latest_from construction from observable via dot + subscribe,1257.62,1140.1,1468.33,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26059,with_latest_from,sending of values from observable via with_latest_from to subscriber,27.5099,27.1397,28.0396,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26060,switch_on_next,switch_on_next construction from observable via dot + subscribe,2956.5,2894.5,3156.5,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26061,switch_on_next,sending of values from observable via switch_on_next to subscriber,740.882,736.118,750.382,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26062,observe_on,observe_on construction from observable via dot + subscribe,1257.71,1181,1431.25,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26063,observe_on,sending of values from observable via observe_on to subscriber,136.404,135.685,137.444,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26064,repeat,repeat construction from observable via dot + subscribe,5605.4,5548.6,5796.8,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26065,just,just send int,62.703,62.4959,63.0381,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26066,just,just send variadic,88.6085,88.4511,88.9574,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26067,from,from vector with int,113.017,112.461,114.461,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26068,merge,merge,2022.15,2011,2058.69,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26069,merge,merge_with,2829.7,2710.4,3180.6,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26070,concat,concat,1925.38,1908.38,1962.15,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26071,concat,concat_with,2508.7,2483.9,2573.9,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26072,buffer,buffer,382.754,380.197,387.984,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26073,buffer,sending of values from observable via buffer to subscriber,6.46809,6.42891,6.54255,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26074,window,window,2811.33,2786,2875,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26075,window,sending of values from observable via window to subscriber,795.562,789.438,807.969,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26076,take,take construction from observable via dot + subscribe,225.62,224.72,227.57,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26077,take,sending of values from observable via take to subscriber,6.11819,6.10749,6.1376,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26078,skip,skip construction from observable via dot + subscribe,165.813,165.147,167.48,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26079,skip,sending of values from observable via skip to subscriber,3.22315,3.2136,3.24565,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26080,chains creation test,long non-state chain creation + subscribe,276.58,275.955,277.761,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26081,chains creation test,long stateful chain creation + subscribe,688.139,684.417,696.5,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26082,publish_subject callbacks,on_next,23.0092,22.8083,23.3521,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26083,publish_subject callbacks,on_error,2.57822,2.55211,2.61119,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26084,publish_subject callbacks,on_completed,2.92672,2.88233,2.96659,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26085,publish_subject routines,construct,266.5,261.931,282.792,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26086,publish_subject routines,get_observable,31.3887,31.0327,32.3937,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26087,publish_subject routines,get_subscriber,61.7794,61.5013,62.4912,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26088,Observable construction,Specific observable construction,0.414865,0.414221,0.416237,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26089,Observable construction,Dynamic observable construction,127.732,127.232,128.784,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26090,Observable construction,Specific observable construction + as_dynamic,128.036,127.632,129.093,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26091,Observable subscribe #2,Specific observable subscribe lambda,1160.86,1149.59,1202.73,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26092,Observable subscribe #2,Dynamic observable subscribe lambda,1327.32,1319.84,1348.84,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26093,Observable subscribe #2,Specific observable subscribe lambda without subscription,1156.77,1147.36,1193.18,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26094,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1346.68,1330.74,1396.53,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26095,Observable subscribe #2,Specific observable subscribe specific subscriber,864.586,860.034,881.517,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26096,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1044.29,1029.92,1110.21,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26097,Observable subscribe #2,Specific observable subscribe dynamic observer,883.714,876.964,907.75,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26098,Observable subscribe #2,Dynamic observable subscribe dynamic observer,951.444,930.074,1019.93,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26099,Observer construction,Specific observer construction,2.02506,2.01137,2.05683,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26100,Observer construction,Dynamic observer construction,111.161,110.789,111.937,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26101,Observer construction,Specific observer construction + as_dynamic,111.157,110.596,112.973,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26102,OnNext,Specific observer OnNext,0.431903,0.429364,0.434738,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26103,OnNext,Dynamic observer OnNext,1.60979,1.60576,1.61989,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26104,Subscriber construction,Make subsriber,331.905,326.014,355.905,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26105,Subscriber construction,Make copy of subscriber,34.343,34.1625,34.8044,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26106,Subscriber construction,Transform subsriber to dynamic,149.88,149.265,151.271,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26107,Observable subscribe,Specific observable subscribe specific observer,1177.14,1166.77,1213.59,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26108,Observable subscribe,Specific observable subscribe dynamic observer,1185.1,1176,1225,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26109,Observable subscribe,Dynamic observable subscribe specific observer,1332.37,1319.68,1386.47,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26110,Observable subscribe,Dynamic observable subscribe dynamic observer,1231.57,1216.67,1284.52,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26111,Observable lift,Specific observable lift specific observer,1206.48,1196,1245.52,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26112,Observable lift,Specific observable lift dynamic observer,1243.43,1231.14,1282.33,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26113,Observable lift,Dynamic observable lift specific observer,1457.33,1375.94,1820.56,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26114,Observable lift,Dynamic observable lift dynamic observer,1274.4,1270.95,1282.45,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26115,Subscription,composite_subscription create,317.474,316.09,322.051,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26116,Subscription,composite_subscription add,64.3229,63.8151,65.2448,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26117,Subscription,composite_subscription unsubscribe,26.3457,26.2312,26.6352,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26118,Subscription,composite_subscription unsubscribe only subscribed,23.6192,23.4922,23.9147,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26119,foundamental sources,empty,2407.18,2377.73,2503.91,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26120,foundamental sources,error,2546,2528.6,2618.3,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26121,foundamental sources,never,894.889,886.889,912.704,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26122,map,map construction from observable via dot + subscribe,1002.28,998.88,1011.92,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26123,map,sending of values from observable via map to subscriber,7.04848,7.01191,7.13241,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26124,scan,scan construction from observable via dot + subscribe,1310.95,1279.05,1370.35,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26125,scan,sending of values from observable via scan to subscriber,8.65937,8.5968,8.75982,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26126,distinct_until_changed,distinct_until_changed construction from observable via dot + subscribe,1047.29,1037.71,1070.71,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26127,distinct_until_changed,sending of values from observable via distinct_until_changed to subscriber,3.09778,3.07289,3.13912,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26128,with_latest_from,with_latest_from construction from observable via dot + subscribe,3905.17,3838.5,4126.67,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26129,with_latest_from,sending of values from observable via with_latest_from to subscriber,6.41553,6.38991,6.46182,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26130,switch_on_next,switch_on_next construction from observable via dot + subscribe,12380.5,12206,13015.5,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26131,switch_on_next,sending of values from observable via switch_on_next to subscriber,3058.56,3038.78,3119.11,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26132,observe_on,observe_on construction from observable via dot + subscribe,5632.8,5202.8,6595.2,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26133,observe_on,sending of values from observable via observe_on to subscriber,850.667,793.061,1119.64,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26134,repeat,repeat construction from observable via dot + subscribe,11297.5,11166,11827.5,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26135,just,just send int,2494,2427.55,2713.45,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26136,just,just send variadic,2471.6,2451.6,2551.7,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26137,from,from vector with int,2470.5,2444,2551.8,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26138,merge,merge,10973,10839,11446,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26139,merge,merge_with,11752.3,11596.3,12396,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26140,concat,concat,11565.7,11014.7,12597.3,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26141,concat,concat_with,11668.3,11538.3,12237.7,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26142,buffer,buffer,4435,4382,4593,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26143,buffer,sending of values from observable via buffer to subscriber,84.2699,83.9862,84.7093,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26144,window,window,9546.33,9436.67,9996.67,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26145,window,sending of values from observable via window to subscriber,1614.19,1597.69,1645.25,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26146,take,take construction from observable via dot + subscribe,2161,2131.73,2233.55,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26147,take,sending of values from observable via take to subscriber,6.1338,5.8378,6.96047,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26148,skip,skip construction from observable via dot + subscribe,1567.93,1554.47,1624.07,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26149,skip,sending of values from observable via skip to subscriber,3.63725,3.62116,3.67486,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26150,chains creation test,long non-state chain creation + subscribe,1704.87,1694.33,1744,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26151,chains creation test,long stateful chain creation + subscribe,3297.57,3267,3416.14,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26152,publish_subject callbacks,on_next,28.6156,28.322,29.0941,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26153,publish_subject callbacks,on_error,19.4958,19.251,20.4667,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26154,publish_subject callbacks,on_completed,0.816458,0.813568,0.821946,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26155,publish_subject routines,construct,594.812,589.375,607.25,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26156,publish_subject routines,get_observable,157.51,156.611,159.376,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26157,publish_subject routines,get_subscriber,99.5737,99.0956,101.096,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26158,Observable construction,Specific observable construction,0.402082,0.401263,0.405331,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26159,Observable construction,Dynamic observable construction,31.6081,31.5587,31.7961,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26160,Observable construction,Specific observable construction + as_dynamic,32.5657,32.4676,32.7243,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26161,Observable subscribe #2,Specific observable subscribe lambda,48.7863,48.6483,49.3796,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26162,Observable subscribe #2,Dynamic observable subscribe lambda,111.595,111.339,112.599,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26163,Observable subscribe #2,Specific observable subscribe lambda without subscription,48.8048,48.6921,49.3375,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26164,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,110.443,110.219,111.454,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26165,Observable subscribe #2,Specific observable subscribe specific subscriber,16.0893,16.051,16.2669,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26166,Observable subscribe #2,Dynamic observable subscribe specific subscriber,77.4091,77.3851,77.441,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26167,Observable subscribe #2,Specific observable subscribe dynamic observer,16.0577,16.0521,16.0632,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26168,Observable subscribe #2,Dynamic observable subscribe dynamic observer,67.0436,66.9395,67.4441,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26169,Observer construction,Specific observer construction,0.402304,0.40136,0.406163,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26170,Observer construction,Dynamic observer construction,31.8224,31.7702,32.0218,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26171,Observer construction,Specific observer construction + as_dynamic,31.5875,31.5737,31.6014,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26172,OnNext,Specific observer OnNext,0.802853,0.802104,0.805682,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26173,OnNext,Dynamic observer OnNext,1.60838,1.60498,1.62167,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26174,Subscriber construction,Make subsriber,32.6217,32.567,32.8184,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26175,Subscriber construction,Make copy of subscriber,16.0433,16.0389,16.0494,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26176,Subscriber construction,Transform subsriber to dynamic,44.5712,44.5464,44.6053,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26177,Observable subscribe,Specific observable subscribe specific observer,48.6286,48.6068,48.6572,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26178,Observable subscribe,Specific observable subscribe dynamic observer,61.3694,61.2505,61.8174,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26179,Observable subscribe,Dynamic observable subscribe specific observer,111.328,111.042,112.489,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26180,Observable subscribe,Dynamic observable subscribe dynamic observer,113.767,113.413,115.312,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26181,Observable lift,Specific observable lift specific observer,77.984,77.949,78.0272,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26182,Observable lift,Specific observable lift dynamic observer,105.418,105.193,106.458,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26183,Observable lift,Dynamic observable lift specific observer,161.177,160.697,163.393,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26184,Observable lift,Dynamic observable lift dynamic observer,175.234,174.689,177.569,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26185,Subscription,composite_subscription create,32.5771,32.5474,32.6523,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26186,Subscription,composite_subscription add,41.3095,41.0846,41.9931,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26187,Subscription,composite_subscription unsubscribe,8.03749,8.02085,8.11466,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26188,Subscription,composite_subscription unsubscribe only subscribed,8.10715,8.05985,8.23138,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26189,foundamental sources,empty,52.2166,52.145,52.4954,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26190,foundamental sources,error,101.817,101.761,102.007,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26191,foundamental sources,never,17.6182,17.5685,17.8101,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26192,map,map construction from observable via dot + subscribe,64.4378,64.22,65.4357,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26193,map,sending of values from observable via map to subscriber,0.886991,0.868313,0.907028,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26194,scan,scan construction from observable via dot + subscribe,113.121,112.781,114.625,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26195,scan,sending of values from observable via scan to subscriber,2.81506,2.81389,2.81622,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26196,distinct_until_changed,distinct_until_changed construction from observable via dot + subscribe,117.133,117.032,117.306,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26197,distinct_until_changed,sending of values from observable via distinct_until_changed to subscriber,3.21781,3.20947,3.25091,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26198,with_latest_from,with_latest_from construction from observable via dot + subscribe,708.423,704.19,716.845,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26199,with_latest_from,sending of values from observable via with_latest_from to subscriber,22.4928,22.45,22.6955,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26200,switch_on_next,switch_on_next construction from observable via dot + subscribe,1964.01,1941,2043.5,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26201,switch_on_next,sending of values from observable via switch_on_next to subscriber,516.986,515.917,518.382,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26202,observe_on,observe_on construction from observable via dot + subscribe,789.947,787.404,794.32,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26203,observe_on,sending of values from observable via observe_on to subscriber,140.381,139.99,141.019,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26204,repeat,repeat construction from observable via dot + subscribe,3872.62,3849.5,3930.37,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26205,just,just send int,54.3491,54.2277,54.8861,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26206,just,just send variadic,76.7994,76.6657,77.0347,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26207,from,from vector with int,64.8344,64.5994,65.9104,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26208,merge,merge,1436,1433.9,1440,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26209,merge,merge_with,1783.06,1778.23,1797.88,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26210,concat,concat,1353.14,1350.14,1362,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26211,concat,concat_with,1629.39,1623.33,1645.5,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26212,buffer,buffer,266.85,266.359,268.619,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26213,buffer,sending of values from observable via buffer to subscriber,3.13368,3.1257,3.16555,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26214,window,window,2070.26,2064.93,2081.66,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26215,window,sending of values from observable via window to subscriber,547.867,546.924,551.942,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26216,take,take construction from observable via dot + subscribe,189.362,188.38,194.055,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26217,take,sending of values from observable via take to subscriber,3.20819,3.19997,3.22868,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26218,skip,skip construction from observable via dot + subscribe,112.05,112.004,112.12,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26219,skip,sending of values from observable via skip to subscriber,2.81234,2.81145,2.81333,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26220,chains creation test,long non-state chain creation + subscribe,257.603,257.072,259.351,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26221,chains creation test,long stateful chain creation + subscribe,493.016,492.643,494.389,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26222,publish_subject callbacks,on_next,29.6271,29.5423,29.9244,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26223,publish_subject callbacks,on_error,2.00811,1.99065,2.0196,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26224,publish_subject callbacks,on_completed,2.02672,2.02047,2.03845,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26225,publish_subject routines,construct,166.902,165.937,169.125,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26226,publish_subject routines,get_observable,33.7668,33.7028,34.0174,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26227,publish_subject routines,get_subscriber,66.6865,66.5804,67.1727,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26228,Observable construction,Specific observable construction,0.401208,0.401081,0.401349,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26229,Observable construction,Dynamic observable construction,25.712,25.6881,25.7276,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26230,Observable construction,Specific observable construction + as_dynamic,25.431,25.3854,25.6018,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26231,Observable subscribe #2,Specific observable subscribe lambda,294.353,293.676,296.767,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26232,Observable subscribe #2,Dynamic observable subscribe lambda,332.724,331.781,335.735,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26233,Observable subscribe #2,Specific observable subscribe lambda without subscription,295.908,294.091,304.244,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26234,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,331.517,330.597,334.942,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26235,Observable subscribe #2,Specific observable subscribe specific subscriber,222.702,222.336,223.32,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26236,Observable subscribe #2,Dynamic observable subscribe specific subscriber,267.481,266.749,270.074,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26237,Observable subscribe #2,Specific observable subscribe dynamic observer,238.786,238.13,240.475,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26238,Observable subscribe #2,Dynamic observable subscribe dynamic observer,255.185,254.468,258.053,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26239,Observer construction,Specific observer construction,0.401916,0.401182,0.404387,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26240,Observer construction,Dynamic observer construction,20.4482,20.2815,20.591,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26241,Observer construction,Specific observer construction + as_dynamic,18.9137,18.8732,19.067,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26242,OnNext,Specific observer OnNext,0.443844,0.441838,0.451948,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26243,OnNext,Dynamic observer OnNext,2.0115,2.00621,2.03359,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26244,Subscriber construction,Make subsriber,72.2524,71.9924,73.1173,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26245,Subscriber construction,Make copy of subscriber,4.93338,4.88098,5.02375,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26246,Subscriber construction,Transform subsriber to dynamic,24.2605,24.1628,24.5595,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26247,Observable subscribe,Specific observable subscribe specific observer,287.63,287.209,288.409,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26248,Observable subscribe,Specific observable subscribe dynamic observer,294.173,293.601,296.071,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26249,Observable subscribe,Dynamic observable subscribe specific observer,334.453,334.046,335.208,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26250,Observable subscribe,Dynamic observable subscribe dynamic observer,320.855,320.11,323.144,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26251,Observable lift,Specific observable lift specific observer,293.111,292.737,293.999,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26252,Observable lift,Specific observable lift dynamic observer,314.709,313.763,318.312,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26253,Observable lift,Dynamic observable lift specific observer,338.729,337.682,341.834,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26254,Observable lift,Dynamic observable lift dynamic observer,326.298,325.919,326.747,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26255,Subscription,composite_subscription create,52.2763,52.1213,52.6989,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26256,Subscription,composite_subscription add,21.0288,20.9794,21.1459,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26257,Subscription,composite_subscription unsubscribe,10.8473,10.8309,10.9275,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26258,Subscription,composite_subscription unsubscribe only subscribed,10.8581,10.8503,10.883,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26259,foundamental sources,empty,665.885,662.203,676.431,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26260,foundamental sources,error,785.215,782.404,792.107,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26261,foundamental sources,never,242.296,241.245,246.076,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26262,map,map construction from observable via dot + subscribe,235.958,235.199,238.808,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26263,map,sending of values from observable via map to subscriber,1.60558,1.60501,1.60614,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26264,scan,scan construction from observable via dot + subscribe,297.291,296.968,297.656,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26265,scan,sending of values from observable via scan to subscriber,1.60468,1.60412,1.60525,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26266,distinct_until_changed,distinct_until_changed construction from observable via dot + subscribe,245.678,245.035,247.643,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26267,distinct_until_changed,sending of values from observable via distinct_until_changed to subscriber,1.45345,1.41369,1.49024,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26268,with_latest_from,with_latest_from construction from observable via dot + subscribe,1108.62,1098,1139.06,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26269,with_latest_from,sending of values from observable via with_latest_from to subscriber,2.46523,2.45959,2.47121,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26270,switch_on_next,switch_on_next construction from observable via dot + subscribe,3265.49,3199.5,3517.12,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26271,switch_on_next,sending of values from observable via switch_on_next to subscriber,708.975,705.904,713.452,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26272,observe_on,observe_on construction from observable via dot + subscribe,2972.72,2777.36,3268.54,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26273,observe_on,sending of values from observable via observe_on to subscriber,191.986,191.644,192.409,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26274,repeat,repeat construction from observable via dot + subscribe,3160.6,3145.1,3198.59,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26275,just,just send int,667.181,665.272,674.363,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26276,just,just send variadic,772.656,768.63,785.131,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26277,from,from vector with int,693.38,690.332,701.189,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26278,merge,merge,3603.66,3579.66,3690.44,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26279,merge,merge_with,3971.87,3945.99,4089.74,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26280,concat,concat,3719.99,3694.62,3801.12,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26281,concat,concat_with,4186.14,4145.42,4314.28,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26282,buffer,buffer,1899.25,1890.31,1922.93,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26283,buffer,sending of values from observable via buffer to subscriber,23.2691,23.1741,23.365,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26284,window,window,3308.88,3282.55,3382.44,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26285,window,sending of values from observable via window to subscriber,381.947,380.986,384.341,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26286,take,take construction from observable via dot + subscribe,504.448,503.172,508.879,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26287,take,sending of values from observable via take to subscriber,2.44037,2.42479,2.46644,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26288,skip,skip construction from observable via dot + subscribe,486.886,482.453,496.931,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26289,skip,sending of values from observable via skip to subscriber,2.55072,2.51513,2.60143,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26290,chains creation test,long non-state chain creation + subscribe,508.245,507.508,510.876,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26291,chains creation test,long stateful chain creation + subscribe,870.584,861.068,907.378,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26292,publish_subject callbacks,on_next,8.90382,8.89381,8.91912,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26293,publish_subject callbacks,on_error,19.0225,18.9681,19.2788,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26294,publish_subject callbacks,on_completed,0.605246,0.603636,0.611958,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26295,publish_subject routines,construct,149.164,147.369,153.616,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26296,publish_subject routines,get_observable,45.8683,45.5709,47.0478,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26297,publish_subject routines,get_subscriber,13.5756,13.168,14.2102,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
