@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['with_5flatest_5ffrom_314',['with_latest_from',['../group__combining__operators.html#ga3881bcfd0f283b89e20dcb3b48c08fe4',1,'rpp::details::member_overload&lt; Type, SpecificObservable, with_latest_from_tag &gt;::with_latest_from(TSelector &amp;&amp;selector, TObservables &amp;&amp;...observables) const &amp;requires is_header_included&lt; with_latest_from_tag'],['../group__combining__operators.html#ga41f62df9b82778838be353be69981f82',1,'rpp::details::member_overload&lt; Type, SpecificObservable, with_latest_from_tag &gt;::with_latest_from(TObservables &amp;&amp;...observables) const &amp;requires is_header_included&lt; with_latest_from_tag']]]
+  ['take_364',['take',['../group__filtering__operators.html#gaef1d69d29be545c479d3126993eed494',1,'rpp::details::member_overload&lt; Type, SpecificObservable, take_tag &gt;']]],
+  ['take_5fwhile_365',['take_while',['../group__conditional__operators.html#ga68ea040e75df34c47cdffd164d2a7c3d',1,'rpp::details::member_overload&lt; Type, SpecificObservable, take_while_tag &gt;']]]
 ];

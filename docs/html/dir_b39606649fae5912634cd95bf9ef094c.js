@@ -1,6 +1,8 @@
 var dir_b39606649fae5912634cd95bf9ef094c =
 [
+    [ "buffer.hpp", "fwd_2buffer_8hpp_source.html", null ],
     [ "concat.hpp", "fwd_2concat_8hpp_source.html", null ],
+    [ "distinct_until_changed.hpp", "fwd_2distinct__until__changed_8hpp_source.html", null ],
     [ "filter.hpp", "fwd_2filter_8hpp_source.html", null ],
     [ "flat_map.hpp", "fwd_2flat__map_8hpp_source.html", null ],
     [ "group_by.hpp", "fwd_2group__by_8hpp_source.html", null ],
@@ -12,6 +14,7 @@ var dir_b39606649fae5912634cd95bf9ef094c =
     [ "ref_count.hpp", "fwd_2ref__count_8hpp_source.html", null ],
     [ "repeat.hpp", "fwd_2repeat_8hpp_source.html", null ],
     [ "scan.hpp", "fwd_2scan_8hpp_source.html", null ],
+    [ "skip.hpp", "fwd_2skip_8hpp_source.html", null ],
     [ "start_with.hpp", "fwd_2start__with_8hpp_source.html", null ],
     [ "subscribe.hpp", "subscribe_8hpp_source.html", null ],
     [ "subscribe_on.hpp", "fwd_2subscribe__on_8hpp_source.html", null ],
@@ -19,5 +22,6 @@ var dir_b39606649fae5912634cd95bf9ef094c =
     [ "switch_on_next.hpp", "fwd_2switch__on__next_8hpp_source.html", null ],
     [ "take.hpp", "fwd_2take_8hpp_source.html", null ],
     [ "take_while.hpp", "fwd_2take__while_8hpp_source.html", null ],
+    [ "window.hpp", "fwd_2window_8hpp_source.html", null ],
     [ "with_latest_from.hpp", "fwd_2with__latest__from_8hpp_source.html", null ]
 ];

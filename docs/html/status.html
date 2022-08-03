@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('status.html',''); initResizable(); });
 <div class="title">Implementation status </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md5"></a>
+<div class="textblock"><h1><a class="anchor" id="autotoc_md6"></a>
 Foundamentals</h1>
 <ul>
 <li>[x] Observables<ul>
@@ -130,7 +130,7 @@ Foundamentals</h1>
 </ul>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md6"></a>
+<h1><a class="anchor" id="autotoc_md7"></a>
 Creating Observables</h1>
 <ul>
 <li>[x] Create</li>
@@ -148,40 +148,60 @@ Creating Observables</h1>
 </ul>
 </li>
 <li>[ ] defer</li>
-<li>[ ] interval</li>
+<li>[x] interval</li>
 <li>[ ] range</li>
 <li>[ ] repeat</li>
 <li>[ ] timer</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md7"></a>
+<h1><a class="anchor" id="autotoc_md8"></a>
 Operators</h1>
-<h2><a class="anchor" id="autotoc_md8"></a>
+<h2><a class="anchor" id="autotoc_md9"></a>
 Transforming</h2>
 <ul>
 <li>[x] map</li>
 <li>[x] group_by</li>
 <li>[x] flat_map</li>
 <li>[x] scan</li>
-<li>[ ] buffer</li>
-<li>[ ] window</li>
+<li>[ ] buffer<ul>
+<li>[x] count<ul>
+<li>[ ] skip</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md9"></a>
+</li>
+<li>[ ] time</li>
+<li>[ ] time_or_count</li>
+</ul>
+</li>
+<li>[ ] window<ul>
+<li>[x] count<ul>
+<li>[ ] skip</li>
+</ul>
+</li>
+<li>[ ] time</li>
+<li>[ ] time_or_count</li>
+</ul>
+</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md10"></a>
 Filtering</h2>
 <ul>
 <li>[x] filter</li>
 <li>[x] take</li>
 <li>[ ] debounce</li>
+<li>[ ] distinct<ul>
 <li>[ ] distinct</li>
+<li>[x] distinct_until_changed</li>
+</ul>
+</li>
 <li>[ ] element_at</li>
 <li>[ ] first</li>
 <li>[ ] ignore_elements</li>
 <li>[ ] last</li>
 <li>[ ] sample</li>
-<li>[ ] skip</li>
+<li>[x] skip</li>
 <li>[ ] skip_last</li>
 <li>[ ] take_last</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md10"></a>
+<h2><a class="anchor" id="autotoc_md11"></a>
 Conditional</h2>
 <ul>
 <li>[x] take_while</li>
@@ -194,7 +214,7 @@ Conditional</h2>
 <li>[ ] skip_while</li>
 <li>[ ] take_until </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md11"></a>
+<h2><a class="anchor" id="autotoc_md12"></a>
 Combining</h2>
 <ul>
 <li>[x] merge<ul>
@@ -214,7 +234,7 @@ Combining</h2>
 <li>[ ] combine_latest</li>
 <li>[ ] zip</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md12"></a>
+<h2><a class="anchor" id="autotoc_md13"></a>
 Aggregate</h2>
 <ul>
 <li>[ ] average</li>
@@ -225,18 +245,18 @@ Aggregate</h2>
 <li>[ ] reduce</li>
 <li>[ ] sum</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md13"></a>
+<h2><a class="anchor" id="autotoc_md14"></a>
 Backpressure</h2>
 <ul>
 <li>[ ] backpressure ???</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md14"></a>
+<h2><a class="anchor" id="autotoc_md15"></a>
 Error handling</h2>
 <ul>
 <li>[ ] catch</li>
 <li>[ ] retry</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md15"></a>
+<h2><a class="anchor" id="autotoc_md16"></a>
 Utility</h2>
 <ul>
 <li>[x] observe_on</li>
@@ -250,7 +270,7 @@ Utility</h2>
 <li>[ ] timeout</li>
 <li>[ ] </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md16"></a>
+<h2><a class="anchor" id="autotoc_md17"></a>
 Connectable</h2>
 <ul>
 <li>[x] publish</li>
@@ -259,7 +279,7 @@ Connectable</h2>
 <li>[x] ref_count</li>
 <li>[ ] replay</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md17"></a>
+<h1><a class="anchor" id="autotoc_md18"></a>
 Subjects</h1>
 <ul>
 <li>[x] publish_subject</li>

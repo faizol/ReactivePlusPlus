@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['group_5fby_288',['group_by',['../group__transforming__operators.html#gaf3399da92ac6a0a4c392107b5b405a60',1,'rpp::details::member_overload&lt; Type, SpecificObservable, group_by_tag &gt;']]]
+  ['distinct_5funtil_5fchanged_338',['distinct_until_changed',['../group__filtering__operators.html#ga8bd33ef33a0bb57103781ddeef82fd92',1,'rpp::details::member_overload&lt; Type, SpecificObservable, distinct_until_changed_tag &gt;']]]
 ];

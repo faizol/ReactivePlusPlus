@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['ref_5fcount_303',['ref_count',['../group__connectable__operators.html#ga37ff1997452889d3aa64ea732564a89f',1,'rpp::details::member_overload&lt; Type, SpecificObservable, ref_count_tag &gt;']]],
-  ['repeat_304',['repeat',['../group__utility__operators.html#gaf8859f765d0f97e28957f3416e688f7a',1,'rpp::details::member_overload&lt; Type, SpecificObservable, repeat_tag &gt;::repeat(size_t count) const &amp;requires is_header_included&lt; repeat_tag'],['../group__utility__operators.html#ga0a1b02a8b65c4413bdda609683e63417',1,'rpp::details::member_overload&lt; Type, SpecificObservable, repeat_tag &gt;::repeat() const &amp;requires is_header_included&lt; repeat_tag']]]
+  ['observe_5fon_351',['observe_on',['../group__utility__operators.html#ga0cacdca66e79d7d6de87fa5aacc6c972',1,'rpp::details::member_overload&lt; Type, SpecificObservable, observe_on_tag &gt;']]],
+  ['on_5funsubscribe_352',['on_unsubscribe',['../classrpp_1_1details_1_1subscription__state.html#acf1b3cfd8da3fa473aaed0df6e18d86a',1,'rpp::details::subscription_state']]],
+  ['op_353',['op',['../group__operators.html#ga381218c46daf100859858d88743d058d',1,'rpp::interface_observable']]]
 ];
