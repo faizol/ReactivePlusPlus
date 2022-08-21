@@ -12,6 +12,7 @@ var annotated_dup =
         [ "dynamic_observable_state", "classrpp_1_1details_1_1dynamic__observable__state.html", "classrpp_1_1details_1_1dynamic__observable__state" ],
         [ "dynamic_observer_state", "classrpp_1_1details_1_1dynamic__observer__state.html", "classrpp_1_1details_1_1dynamic__observer__state" ],
         [ "dynamic_observer_state_base", "structrpp_1_1details_1_1dynamic__observer__state__base.html", "structrpp_1_1details_1_1dynamic__observer__state__base" ],
+        [ "dynamic_state_observer", "classrpp_1_1details_1_1dynamic__state__observer.html", "classrpp_1_1details_1_1dynamic__state__observer" ],
         [ "filter_impl", "structrpp_1_1details_1_1filter__impl.html", "structrpp_1_1details_1_1filter__impl" ],
         [ "group_by_lift_impl", "structrpp_1_1details_1_1group__by__lift__impl.html", "structrpp_1_1details_1_1group__by__lift__impl" ],
         [ "group_by_on_subscribe", "structrpp_1_1details_1_1group__by__on__subscribe.html", "structrpp_1_1details_1_1group__by__on__subscribe" ],
@@ -83,12 +84,15 @@ var annotated_dup =
       [ "schedulers", null, [
         [ "details", null, [
           [ "queue_worker_state", "classrpp_1_1schedulers_1_1details_1_1queue__worker__state.html", "classrpp_1_1schedulers_1_1details_1_1queue__worker__state" ],
+          [ "schedulable", "classrpp_1_1schedulers_1_1details_1_1schedulable.html", "classrpp_1_1schedulers_1_1details_1_1schedulable" ],
           [ "scheduler_tag", "structrpp_1_1schedulers_1_1details_1_1scheduler__tag.html", null ],
           [ "worker_tag", "structrpp_1_1schedulers_1_1details_1_1worker__tag.html", null ]
         ] ],
         [ "immediate", "classrpp_1_1schedulers_1_1immediate.html", "classrpp_1_1schedulers_1_1immediate" ],
         [ "new_thread", "classrpp_1_1schedulers_1_1new__thread.html", "classrpp_1_1schedulers_1_1new__thread" ],
         [ "run_loop", "classrpp_1_1schedulers_1_1run__loop.html", "classrpp_1_1schedulers_1_1run__loop" ],
+        [ "schedulable_wrapper", "classrpp_1_1schedulers_1_1schedulable__wrapper.html", "classrpp_1_1schedulers_1_1schedulable__wrapper" ],
+        [ "trampoline", "classrpp_1_1schedulers_1_1trampoline.html", null ],
         [ "worker", "classrpp_1_1schedulers_1_1worker.html", "classrpp_1_1schedulers_1_1worker" ]
       ] ],
       [ "subjects", null, [
