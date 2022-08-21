@@ -25919,7 +25919,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 25917,distinct_until_changed,sending of values from observable via distinct_until_changed to subscriber,4.8538,4.85249,4.85542,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
 25918,with_latest_from,with_latest_from construction from observable via dot + subscribe,770.74,765.202,777.96,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
 25919,with_latest_from,sending of values from observable via with_latest_from to subscriber,18.0961,18.0615,18.2095,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
-25920,switch_on_next,switch_on_next construction from observable via dot + subscribe,18170.2,2512.02,96296,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
+25920,switch_on_next,switch_on_next construction from observable via dot + subscribe,18170.2,2512.02,96296.0,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
 25921,switch_on_next,sending of values from observable via switch_on_next to subscriber,1631.62,592.606,6791.07,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
 25922,observe_on,observe_on construction from observable via dot + subscribe,798.808,795.064,805.553,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
 25923,observe_on,sending of values from observable via observe_on to subscriber,139.411,138.941,140.648,0.95,Linux GCC,Try to improve atomi... (35856a12),rpp
@@ -26061,19 +26061,19 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 26059,with_latest_from,sending of values from observable via with_latest_from to subscriber,27.5099,27.1397,28.0396,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
 26060,switch_on_next,switch_on_next construction from observable via dot + subscribe,2956.5,2894.5,3156.5,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
 26061,switch_on_next,sending of values from observable via switch_on_next to subscriber,740.882,736.118,750.382,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
-26062,observe_on,observe_on construction from observable via dot + subscribe,1257.71,1181,1431.25,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26062,observe_on,observe_on construction from observable via dot + subscribe,1257.71,1181.0,1431.25,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
 26063,observe_on,sending of values from observable via observe_on to subscriber,136.404,135.685,137.444,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
 26064,repeat,repeat construction from observable via dot + subscribe,5605.4,5548.6,5796.8,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
 26065,just,just send int,62.703,62.4959,63.0381,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
 26066,just,just send variadic,88.6085,88.4511,88.9574,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
 26067,from,from vector with int,113.017,112.461,114.461,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
-26068,merge,merge,2022.15,2011,2058.69,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26068,merge,merge,2022.15,2011.0,2058.69,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
 26069,merge,merge_with,2829.7,2710.4,3180.6,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
 26070,concat,concat,1925.38,1908.38,1962.15,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
 26071,concat,concat_with,2508.7,2483.9,2573.9,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
 26072,buffer,buffer,382.754,380.197,387.984,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
 26073,buffer,sending of values from observable via buffer to subscriber,6.46809,6.42891,6.54255,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
-26074,window,window,2811.33,2786,2875,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
+26074,window,window,2811.33,2786.0,2875.0,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
 26075,window,sending of values from observable via window to subscriber,795.562,789.438,807.969,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
 26076,take,take construction from observable via dot + subscribe,225.62,224.72,227.57,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
 26077,take,sending of values from observable via take to subscriber,6.11819,6.10749,6.1376,0.95,Windows MSVC,Try to improve atomi... (35856a12),rpp
@@ -26107,10 +26107,10 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 26105,Subscriber construction,Make copy of subscriber,34.343,34.1625,34.8044,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26106,Subscriber construction,Transform subsriber to dynamic,149.88,149.265,151.271,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26107,Observable subscribe,Specific observable subscribe specific observer,1177.14,1166.77,1213.59,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
-26108,Observable subscribe,Specific observable subscribe dynamic observer,1185.1,1176,1225,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26108,Observable subscribe,Specific observable subscribe dynamic observer,1185.1,1176.0,1225.0,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26109,Observable subscribe,Dynamic observable subscribe specific observer,1332.37,1319.68,1386.47,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26110,Observable subscribe,Dynamic observable subscribe dynamic observer,1231.57,1216.67,1284.52,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
-26111,Observable lift,Specific observable lift specific observer,1206.48,1196,1245.52,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26111,Observable lift,Specific observable lift specific observer,1206.48,1196.0,1245.52,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26112,Observable lift,Specific observable lift dynamic observer,1243.43,1231.14,1282.33,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26113,Observable lift,Dynamic observable lift specific observer,1457.33,1375.94,1820.56,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26114,Observable lift,Dynamic observable lift dynamic observer,1274.4,1270.95,1282.45,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
@@ -26119,7 +26119,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 26117,Subscription,composite_subscription unsubscribe,26.3457,26.2312,26.6352,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26118,Subscription,composite_subscription unsubscribe only subscribed,23.6192,23.4922,23.9147,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26119,foundamental sources,empty,2407.18,2377.73,2503.91,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
-26120,foundamental sources,error,2546,2528.6,2618.3,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26120,foundamental sources,error,2546.0,2528.6,2618.3,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26121,foundamental sources,never,894.889,886.889,912.704,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26122,map,map construction from observable via dot + subscribe,1002.28,998.88,1011.92,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26123,map,sending of values from observable via map to subscriber,7.04848,7.01191,7.13241,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
@@ -26129,28 +26129,28 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 26127,distinct_until_changed,sending of values from observable via distinct_until_changed to subscriber,3.09778,3.07289,3.13912,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26128,with_latest_from,with_latest_from construction from observable via dot + subscribe,3905.17,3838.5,4126.67,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26129,with_latest_from,sending of values from observable via with_latest_from to subscriber,6.41553,6.38991,6.46182,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
-26130,switch_on_next,switch_on_next construction from observable via dot + subscribe,12380.5,12206,13015.5,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26130,switch_on_next,switch_on_next construction from observable via dot + subscribe,12380.5,12206.0,13015.5,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26131,switch_on_next,sending of values from observable via switch_on_next to subscriber,3058.56,3038.78,3119.11,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26132,observe_on,observe_on construction from observable via dot + subscribe,5632.8,5202.8,6595.2,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26133,observe_on,sending of values from observable via observe_on to subscriber,850.667,793.061,1119.64,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
-26134,repeat,repeat construction from observable via dot + subscribe,11297.5,11166,11827.5,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
-26135,just,just send int,2494,2427.55,2713.45,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26134,repeat,repeat construction from observable via dot + subscribe,11297.5,11166.0,11827.5,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26135,just,just send int,2494.0,2427.55,2713.45,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26136,just,just send variadic,2471.6,2451.6,2551.7,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
-26137,from,from vector with int,2470.5,2444,2551.8,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
-26138,merge,merge,10973,10839,11446,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
-26139,merge,merge_with,11752.3,11596.3,12396,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26137,from,from vector with int,2470.5,2444.0,2551.8,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26138,merge,merge,10973.0,10839.0,11446.0,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26139,merge,merge_with,11752.3,11596.3,12396.0,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26140,concat,concat,11565.7,11014.7,12597.3,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26141,concat,concat_with,11668.3,11538.3,12237.7,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
-26142,buffer,buffer,4435,4382,4593,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26142,buffer,buffer,4435.0,4382.0,4593.0,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26143,buffer,sending of values from observable via buffer to subscriber,84.2699,83.9862,84.7093,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26144,window,window,9546.33,9436.67,9996.67,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26145,window,sending of values from observable via window to subscriber,1614.19,1597.69,1645.25,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
-26146,take,take construction from observable via dot + subscribe,2161,2131.73,2233.55,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26146,take,take construction from observable via dot + subscribe,2161.0,2131.73,2233.55,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26147,take,sending of values from observable via take to subscriber,6.1338,5.8378,6.96047,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26148,skip,skip construction from observable via dot + subscribe,1567.93,1554.47,1624.07,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26149,skip,sending of values from observable via skip to subscriber,3.63725,3.62116,3.67486,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
-26150,chains creation test,long non-state chain creation + subscribe,1704.87,1694.33,1744,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
-26151,chains creation test,long stateful chain creation + subscribe,3297.57,3267,3416.14,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26150,chains creation test,long non-state chain creation + subscribe,1704.87,1694.33,1744.0,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
+26151,chains creation test,long stateful chain creation + subscribe,3297.57,3267.0,3416.14,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26152,publish_subject callbacks,on_next,28.6156,28.322,29.0941,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26153,publish_subject callbacks,on_error,19.4958,19.251,20.4667,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
 26154,publish_subject callbacks,on_completed,0.816458,0.813568,0.821946,0.95,Windows MSVC,Try to improve atomi... (35856a12),rxcpp
@@ -26199,7 +26199,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 26197,distinct_until_changed,sending of values from observable via distinct_until_changed to subscriber,3.21781,3.20947,3.25091,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
 26198,with_latest_from,with_latest_from construction from observable via dot + subscribe,708.423,704.19,716.845,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
 26199,with_latest_from,sending of values from observable via with_latest_from to subscriber,22.4928,22.45,22.6955,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
-26200,switch_on_next,switch_on_next construction from observable via dot + subscribe,1964.01,1941,2043.5,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26200,switch_on_next,switch_on_next construction from observable via dot + subscribe,1964.01,1941.0,2043.5,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
 26201,switch_on_next,sending of values from observable via switch_on_next to subscriber,516.986,515.917,518.382,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
 26202,observe_on,observe_on construction from observable via dot + subscribe,789.947,787.404,794.32,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
 26203,observe_on,sending of values from observable via observe_on to subscriber,140.381,139.99,141.019,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
@@ -26207,9 +26207,9 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 26205,just,just send int,54.3491,54.2277,54.8861,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
 26206,just,just send variadic,76.7994,76.6657,77.0347,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
 26207,from,from vector with int,64.8344,64.5994,65.9104,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
-26208,merge,merge,1436,1433.9,1440,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26208,merge,merge,1436.0,1433.9,1440.0,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
 26209,merge,merge_with,1783.06,1778.23,1797.88,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
-26210,concat,concat,1353.14,1350.14,1362,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
+26210,concat,concat,1353.14,1350.14,1362.0,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
 26211,concat,concat_with,1629.39,1623.33,1645.5,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
 26212,buffer,buffer,266.85,266.359,268.619,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
 26213,buffer,sending of values from observable via buffer to subscriber,3.13368,3.1257,3.16555,0.95,Linux CLANG,Try to improve atomi... (35856a12),rpp
@@ -26267,7 +26267,7 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 26265,scan,sending of values from observable via scan to subscriber,1.60468,1.60412,1.60525,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
 26266,distinct_until_changed,distinct_until_changed construction from observable via dot + subscribe,245.678,245.035,247.643,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
 26267,distinct_until_changed,sending of values from observable via distinct_until_changed to subscriber,1.45345,1.41369,1.49024,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
-26268,with_latest_from,with_latest_from construction from observable via dot + subscribe,1108.62,1098,1139.06,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26268,with_latest_from,with_latest_from construction from observable via dot + subscribe,1108.62,1098.0,1139.06,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
 26269,with_latest_from,sending of values from observable via with_latest_from to subscriber,2.46523,2.45959,2.47121,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
 26270,switch_on_next,switch_on_next construction from observable via dot + subscribe,3265.49,3199.5,3517.12,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
 26271,switch_on_next,sending of values from observable via switch_on_next to subscriber,708.975,705.904,713.452,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
@@ -26297,3 +26297,453 @@ id,benchmark_name,test_case,value,lowerBound,upperBound,ci,platform,commit,sourc
 26295,publish_subject routines,construct,149.164,147.369,153.616,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
 26296,publish_subject routines,get_observable,45.8683,45.5709,47.0478,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
 26297,publish_subject routines,get_subscriber,13.5756,13.168,14.2102,0.95,Linux CLANG,Try to improve atomi... (35856a12),rxcpp
+26298,Observable construction,Specific observable construction,0.335681,0.334557,0.340967,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26299,Observable construction,Dynamic observable construction,31.4755,31.4205,31.7151,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26300,Observable construction,Specific observable construction + as_dynamic,31.5903,31.5215,31.8361,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26301,Observable subscribe #2,Specific observable subscribe lambda,136.955,136.84,137.162,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26302,Observable subscribe #2,Dynamic observable subscribe lambda,203.682,203.369,204.989,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26303,Observable subscribe #2,Specific observable subscribe lambda without subscription,138.167,137.9,139.149,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26304,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,203.744,203.424,205.083,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26305,Observable subscribe #2,Specific observable subscribe specific subscriber,103.129,103.056,103.332,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26306,Observable subscribe #2,Dynamic observable subscribe specific subscriber,168.26,167.839,169.94,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26307,Observable subscribe #2,Specific observable subscribe dynamic observer,103.532,103.332,104.246,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26308,Observable subscribe #2,Dynamic observable subscribe dynamic observer,153.507,153.45,153.574,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26309,Observer construction,Specific observer construction,0.334622,0.334442,0.335251,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26310,Observer construction,Dynamic observer construction,33.1582,33.1022,33.3784,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26311,Observer construction,Specific observer construction + as_dynamic,31.5131,31.4993,31.53,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26312,OnNext,Specific observer OnNext,0.335484,0.334743,0.338372,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26313,OnNext,Dynamic observer OnNext,2.00717,2.00656,2.00778,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26314,Subscriber construction,Make subsriber,31.2317,31.1784,31.4401,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26315,Subscriber construction,Make copy of subscriber,19.7507,19.7169,19.9014,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26316,Subscriber construction,Transform subsriber to dynamic,46.3582,46.2695,46.6925,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26317,Observable subscribe,Specific observable subscribe specific observer,137.731,137.493,138.621,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26318,Observable subscribe,Specific observable subscribe dynamic observer,147.551,147.269,148.809,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26319,Observable subscribe,Dynamic observable subscribe specific observer,203.458,203.023,205.173,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26320,Observable subscribe,Dynamic observable subscribe dynamic observer,200.87,200.175,202.665,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26321,Observable lift,Specific observable lift specific observer,176.126,175.838,177.232,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26322,Observable lift,Specific observable lift dynamic observer,197.486,197.115,198.751,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26323,Observable lift,Dynamic observable lift specific observer,251.465,250.994,253.281,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26324,Observable lift,Dynamic observable lift dynamic observer,258.951,258.516,260.638,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26325,Subscription,composite_subscription create,31.1811,31.1184,31.434,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26326,Subscription,composite_subscription add,39.0633,38.8993,39.8523,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26327,Subscription,composite_subscription unsubscribe,6.89465,6.83105,6.98021,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26328,Subscription,composite_subscription unsubscribe only subscribed,8.30506,8.20634,8.33053,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26329,foundamental sources,empty,141.473,140.788,143.949,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26330,foundamental sources,error,190.009,189.874,190.412,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26331,foundamental sources,never,104.261,103.752,105.94,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26332,map,map construction from observable via dot + subscribe,156.489,156.421,156.599,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26333,map,sending of values from observable via map to subscriber,0.83758,0.83626,0.842892,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26334,scan,scan construction from observable via dot + subscribe,189.353,189.062,190.524,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26335,scan,sending of values from observable via scan to subscriber,3.01481,3.00954,3.03898,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26336,distinct_until_changed,distinct_until_changed construction from observable via dot + subscribe,193.204,193.132,193.301,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26337,distinct_until_changed,sending of values from observable via distinct_until_changed to subscriber,3.78692,3.70038,4.07336,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26338,with_latest_from,with_latest_from construction from observable via dot + subscribe,840.177,836.044,849.611,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26339,with_latest_from,sending of values from observable via with_latest_from to subscriber,18.0809,18.0469,18.2381,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26340,switch_on_next,switch_on_next construction from observable via dot + subscribe,14814.2,2250,77552,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26341,switch_on_next,sending of values from observable via switch_on_next to subscriber,567.006,548.6,634.204,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26342,observe_on,observe_on construction from observable via dot + subscribe,755.712,752.306,762.603,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26343,observe_on,sending of values from observable via observe_on to subscriber,90.1813,89.8268,91.1723,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26344,repeat,repeat construction from observable via dot + subscribe,3962.93,3946.79,4004.31,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26345,just,just send int,143.597,143.397,144.456,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26346,just,just send variadic,186.302,185.434,189.384,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26347,from,from vector with int,161.161,160.363,164.232,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26348,merge,merge,1533.23,1526.76,1550.17,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26349,merge,merge_with,1892.9,1883.33,1917.22,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26350,concat,concat,1464.92,1458.87,1481.32,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26351,concat,concat_with,1769.73,1764.96,1791.67,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26352,buffer,buffer,372.056,371.181,374.394,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26353,buffer,sending of values from observable via buffer to subscriber,6.3711,6.35807,6.41598,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26354,window,window,2102.57,2095.16,2121.57,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26355,window,sending of values from observable via window to subscriber,548.299,547.153,553.044,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26356,take,take construction from observable via dot + subscribe,245.651,245.07,247.43,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26357,take,sending of values from observable via take to subscriber,3.69746,3.68844,3.73925,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26358,skip,skip construction from observable via dot + subscribe,187.839,187.424,189.425,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26359,skip,sending of values from observable via skip to subscriber,3.01552,3.00976,3.03859,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26360,chains creation test,long non-state chain creation + subscribe,352.695,351.802,355.029,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26361,chains creation test,long stateful chain creation + subscribe,487.58,486.334,491.087,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26362,publish_subject callbacks,on_next,22.77,22.7241,22.92,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26363,publish_subject callbacks,on_error,2.84437,2.79652,2.89697,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26364,publish_subject callbacks,on_completed,0.674192,0.673,0.679522,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26365,publish_subject routines,construct,170.105,168.459,174.329,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26366,publish_subject routines,get_observable,29.4519,29.4056,29.6674,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26367,publish_subject routines,get_subscriber,57.3359,57.232,57.81,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26368,immediate scheduler,no any re-schedule,27.7548,27.7408,27.7754,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26369,immediate scheduler,re-schedule 10 times,608.477,607.07,614.354,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26370,trampoline scheduler,no any re-schedule,40.3469,40.2819,40.5973,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26371,trampoline scheduler,re-schedule 10 times,650.03,649.813,650.312,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26372,trampoline scheduler,recursively schedule 10 times,1754.61,1750.38,1766.43,0.95,Linux GCC,Sort operator regist... (225c458d),rpp
+26373,Observable construction,Specific observable construction,0.335168,0.334595,0.337363,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26374,Observable construction,Dynamic observable construction,23.1278,23.0301,23.2277,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26375,Observable construction,Specific observable construction + as_dynamic,22.5147,22.4776,22.5586,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26376,Observable subscribe #2,Specific observable subscribe lambda,327.653,327.004,329.796,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26377,Observable subscribe #2,Dynamic observable subscribe lambda,375.705,373.73,380.779,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26378,Observable subscribe #2,Specific observable subscribe lambda without subscription,329.4,328.378,331.972,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26379,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,369.634,368.881,372.288,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26380,Observable subscribe #2,Specific observable subscribe specific subscriber,271.513,271.003,273.504,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26381,Observable subscribe #2,Dynamic observable subscribe specific subscriber,311.806,311.107,314.379,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26382,Observable subscribe #2,Specific observable subscribe dynamic observer,272.285,271.703,274.54,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26383,Observable subscribe #2,Dynamic observable subscribe dynamic observer,285.907,285.196,288.937,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26384,Observer construction,Specific observer construction,0.335397,0.334745,0.337896,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26385,Observer construction,Dynamic observer construction,21.0181,20.9767,21.1443,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26386,Observer construction,Specific observer construction + as_dynamic,20.813,20.7478,20.8769,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26387,OnNext,Specific observer OnNext,0.33584,0.334929,0.339814,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26388,OnNext,Dynamic observer OnNext,2.00624,2.00563,2.00691,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26389,Subscriber construction,Make subsriber,59.7612,59.6155,60.2204,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26390,Subscriber construction,Make copy of subscriber,4.4665,4.45855,4.49744,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26391,Subscriber construction,Transform subsriber to dynamic,25.9924,25.9449,26.2044,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26392,Observable subscribe,Specific observable subscribe specific observer,331.749,331.016,334.538,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26393,Observable subscribe,Specific observable subscribe dynamic observer,337.982,335.982,346.937,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26394,Observable subscribe,Dynamic observable subscribe specific observer,368.651,367.055,373.53,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26395,Observable subscribe,Dynamic observable subscribe dynamic observer,342.63,341.414,347.869,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26396,Observable lift,Specific observable lift specific observer,336.241,335.409,338.488,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26397,Observable lift,Specific observable lift dynamic observer,349.33,349.096,349.877,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26398,Observable lift,Dynamic observable lift specific observer,386.62,386.377,387.171,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26399,Observable lift,Dynamic observable lift dynamic observer,368.412,367.56,371.426,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26400,Subscription,composite_subscription create,55.1917,55.0757,55.5775,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26401,Subscription,composite_subscription add,17.3922,17.3118,17.4856,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26402,Subscription,composite_subscription unsubscribe,11.0656,11.0418,11.1771,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26403,Subscription,composite_subscription unsubscribe only subscribed,11.1964,11.1732,11.3055,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26404,foundamental sources,empty,774.601,771.678,782.01,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26405,foundamental sources,error,858.44,855.439,866.066,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26406,foundamental sources,never,279.184,278.612,280.47,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26407,map,map construction from observable via dot + subscribe,341.9,341.279,344.072,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26408,map,sending of values from observable via map to subscriber,2.68054,2.67595,2.70162,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26409,scan,scan construction from observable via dot + subscribe,385.222,382.915,396.286,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26410,scan,sending of values from observable via scan to subscriber,2.34197,2.34055,2.34694,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26411,distinct_until_changed,distinct_until_changed construction from observable via dot + subscribe,354.24,353.464,356.958,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26412,distinct_until_changed,sending of values from observable via distinct_until_changed to subscriber,2.34578,2.34161,2.36476,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26413,with_latest_from,with_latest_from construction from observable via dot + subscribe,1425.75,1404.68,1483.42,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26414,with_latest_from,sending of values from observable via with_latest_from to subscriber,3.98046,3.94259,4.02473,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26415,switch_on_next,switch_on_next construction from observable via dot + subscribe,4780.39,4744.72,4904.23,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26416,switch_on_next,sending of values from observable via switch_on_next to subscriber,1080.55,1078.48,1088.19,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26417,observe_on,observe_on construction from observable via dot + subscribe,2847.84,2814.14,2891.64,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26418,observe_on,sending of values from observable via observe_on to subscriber,234.612,234.081,236.058,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26419,repeat,repeat construction from observable via dot + subscribe,3194.04,3182.04,3225.14,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26420,just,just send int,781.779,777.651,792.854,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26421,just,just send variadic,821.847,818.659,829.768,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26422,from,from vector with int,786.266,782.983,794.394,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26423,merge,merge,3799.42,3779.8,3893.31,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26424,merge,merge_with,4079.17,4039.93,4183.17,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26425,concat,concat,3698.71,3675.27,3783.17,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26426,concat,concat_with,4075.93,4046.3,4191.19,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26427,buffer,buffer,1925.77,1915.58,1951.7,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26428,buffer,sending of values from observable via buffer to subscriber,31.5052,31.4374,31.5666,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26429,window,window,3192.54,3171.33,3260.34,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26430,window,sending of values from observable via window to subscriber,421.189,420.245,424.582,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26431,take,take construction from observable via dot + subscribe,589.929,587.125,596.615,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26432,take,sending of values from observable via take to subscriber,4.04071,4.0322,4.07854,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26433,skip,skip construction from observable via dot + subscribe,526.885,522.787,536.325,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26434,skip,sending of values from observable via skip to subscriber,2.34747,2.34297,2.3682,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26435,chains creation test,long non-state chain creation + subscribe,678.167,676.256,683.145,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26436,chains creation test,long stateful chain creation + subscribe,1052.77,1041.73,1091.61,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26437,publish_subject callbacks,on_next,12.433,12.3153,12.5516,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26438,publish_subject callbacks,on_error,16.8411,16.8091,16.9693,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26439,publish_subject callbacks,on_completed,1.00903,1.00744,1.01528,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26440,publish_subject routines,construct,171.194,170.323,174.847,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26441,publish_subject routines,get_observable,49.7246,49.6949,49.7561,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26442,publish_subject routines,get_subscriber,23.419,23.332,23.6631,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26443,immediate scheduler,no any re-schedule,133.248,133.082,133.459,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26444,immediate scheduler,re-schedule 10 times,161.076,160.752,162.093,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26445,trampoline scheduler,no any re-schedule,186.164,185.965,186.382,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26446,trampoline scheduler,re-schedule 10 times,223.359,221.832,227.3,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26447,trampoline scheduler,recursively schedule 10 times,6344.49,6329.3,6399.29,0.95,Linux GCC,Sort operator regist... (225c458d),rxcpp
+26448,Observable construction,Specific observable construction,0.393664,0.354668,0.506903,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26449,Observable construction,Dynamic observable construction,32.5286,31.6786,34.1186,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26450,Observable construction,Specific observable construction + as_dynamic,34.5121,33.8064,36.0495,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26451,Observable subscribe #2,Specific observable subscribe lambda,143.343,140.503,148.164,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26452,Observable subscribe #2,Dynamic observable subscribe lambda,251.515,235.818,272.432,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26453,Observable subscribe #2,Specific observable subscribe lambda without subscription,156.333,150.668,166.257,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26454,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,235.564,222.676,252.914,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26455,Observable subscribe #2,Specific observable subscribe specific subscriber,112.01,107.052,120.013,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26456,Observable subscribe #2,Dynamic observable subscribe specific subscriber,187.077,182.73,196.053,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26457,Observable subscribe #2,Specific observable subscribe dynamic observer,115.525,109.262,126.981,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26458,Observable subscribe #2,Dynamic observable subscribe dynamic observer,172.019,167.108,179.748,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26459,Observer construction,Specific observer construction,0.426752,0.395187,0.496426,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26460,Observer construction,Dynamic observer construction,38.5704,35.9942,46.3488,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26461,Observer construction,Specific observer construction + as_dynamic,34.9692,33.2373,37.5538,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26462,OnNext,Specific observer OnNext,0.800644,0.771742,0.866189,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26463,OnNext,Dynamic observer OnNext,2.45922,2.3124,2.80104,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26464,Subscriber construction,Make subsriber,37.7569,36.4021,39.6272,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26465,Subscriber construction,Make copy of subscriber,22.5573,21.506,24.2807,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26466,Subscriber construction,Transform subsriber to dynamic,50.7821,48.2077,56.8329,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26467,Observable subscribe,Specific observable subscribe specific observer,152.757,148.634,159.013,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26468,Observable subscribe,Specific observable subscribe dynamic observer,161.587,159.993,165.66,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26469,Observable subscribe,Dynamic observable subscribe specific observer,229.976,223.854,242.306,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26470,Observable subscribe,Dynamic observable subscribe dynamic observer,232.746,222.66,272.904,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26471,Observable lift,Specific observable lift specific observer,192.955,187.176,202.315,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26472,Observable lift,Specific observable lift dynamic observer,221.935,213.907,236.491,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26473,Observable lift,Dynamic observable lift specific observer,285.106,273.643,311.888,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26474,Observable lift,Dynamic observable lift dynamic observer,305.189,288.979,342.122,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26475,Subscription,composite_subscription create,44.4472,41.9658,50.5771,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26476,Subscription,composite_subscription add,48.9932,46.2943,54.5384,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26477,Subscription,composite_subscription unsubscribe,7.38987,7.03542,7.90812,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26478,Subscription,composite_subscription unsubscribe only subscribed,7.96902,7.55759,8.61452,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26479,foundamental sources,empty,155.038,149.48,164.669,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26480,foundamental sources,error,212.124,206.369,220.687,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26481,foundamental sources,never,115.159,112.397,120.155,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26482,map,map construction from observable via dot + subscribe,178.49,169.765,196.961,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26483,map,sending of values from observable via map to subscriber,1.08553,1.03866,1.18128,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26484,scan,scan construction from observable via dot + subscribe,205.289,198.83,215.371,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26485,scan,sending of values from observable via scan to subscriber,2.28099,2.2353,2.35969,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26486,distinct_until_changed,distinct_until_changed construction from observable via dot + subscribe,216.773,209.652,226.448,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26487,distinct_until_changed,sending of values from observable via distinct_until_changed to subscriber,3.43902,3.23393,3.93405,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26488,with_latest_from,with_latest_from construction from observable via dot + subscribe,882.957,866.853,913.89,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26489,with_latest_from,sending of values from observable via with_latest_from to subscriber,23.5531,21.6117,31.2587,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26490,switch_on_next,switch_on_next construction from observable via dot + subscribe,2678.65,2396.32,3656.63,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26491,switch_on_next,sending of values from observable via switch_on_next to subscriber,590.221,574.505,617.202,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26492,observe_on,observe_on construction from observable via dot + subscribe,919.852,886.799,969.074,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26493,observe_on,sending of values from observable via observe_on to subscriber,95.9748,94.27,99.218,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26494,repeat,repeat construction from observable via dot + subscribe,4294.25,4246.54,4400.23,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26495,just,just send int,146.818,140.851,155.444,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26496,just,just send variadic,176.029,169.361,194.759,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26497,from,from vector with int,178.303,170.042,198.576,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26498,merge,merge,1732.82,1625.32,2114.15,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26499,merge,merge_with,1949.25,1876.65,2092.38,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26500,concat,concat,1627.98,1580.28,1791.19,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26501,concat,concat_with,2139.79,2024.61,2308.67,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26502,buffer,buffer,401.363,381.465,429.882,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26503,buffer,sending of values from observable via buffer to subscriber,4.73154,4.51905,5.26383,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26504,window,window,2327.69,2223.55,2551.77,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26505,window,sending of values from observable via window to subscriber,596.846,564.494,638.514,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26506,take,take construction from observable via dot + subscribe,242.911,232.72,262.738,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26507,take,sending of values from observable via take to subscriber,2.88382,2.76186,3.07421,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26508,skip,skip construction from observable via dot + subscribe,198.698,188.953,213.749,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26509,skip,sending of values from observable via skip to subscriber,2.76348,2.67454,2.9165,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26510,chains creation test,long non-state chain creation + subscribe,372.274,355.503,409.117,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26511,chains creation test,long stateful chain creation + subscribe,542.722,509.741,617.486,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26512,publish_subject callbacks,on_next,29.095,27.7564,32.6222,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26513,publish_subject callbacks,on_error,2.1821,2.0963,2.31653,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26514,publish_subject callbacks,on_completed,2.40764,2.36146,2.4915,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26515,publish_subject routines,construct,172.576,160.472,201.153,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26516,publish_subject routines,get_observable,36.0245,33.3864,41.0523,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26517,publish_subject routines,get_subscriber,67.3515,65.5341,70.7038,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26518,immediate scheduler,no any re-schedule,29.9499,28.493,32.6127,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26519,immediate scheduler,re-schedule 10 times,641.79,619.79,691.036,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26520,trampoline scheduler,no any re-schedule,36.7532,34.2946,44.407,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26521,trampoline scheduler,re-schedule 10 times,1026.58,692.949,2542.7,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26522,trampoline scheduler,recursively schedule 10 times,2105.04,2005.86,2334.29,0.95,Linux CLANG,Sort operator regist... (225c458d),rpp
+26523,Observable construction,Specific observable construction,0.401712,0.386494,0.465283,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26524,Observable construction,Dynamic observable construction,27.4891,26.3476,30.1216,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26525,Observable construction,Specific observable construction + as_dynamic,26.7118,25.7428,28.9307,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26526,Observable subscribe #2,Specific observable subscribe lambda,488.384,366.796,1016.63,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26527,Observable subscribe #2,Dynamic observable subscribe lambda,335.292,322.971,358.01,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26528,Observable subscribe #2,Specific observable subscribe lambda without subscription,318.051,301.072,346.458,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26529,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,435.142,413.532,462.556,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26530,Observable subscribe #2,Specific observable subscribe specific subscriber,295.824,274.706,340.831,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26531,Observable subscribe #2,Dynamic observable subscribe specific subscriber,329.977,316.007,363.017,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26532,Observable subscribe #2,Specific observable subscribe dynamic observer,269.322,264.052,281.826,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26533,Observable subscribe #2,Dynamic observable subscribe dynamic observer,287.151,280.844,298.334,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26534,Observer construction,Specific observer construction,0.395476,0.382984,0.414455,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26535,Observer construction,Dynamic observer construction,23.9505,22.6709,25.9645,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26536,Observer construction,Specific observer construction + as_dynamic,23.829,22.7692,25.339,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26537,OnNext,Specific observer OnNext,0.793025,0.763878,0.853523,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26538,OnNext,Dynamic observer OnNext,2.73497,2.66865,2.85206,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26539,Subscriber construction,Make subsriber,81.4813,73.0876,106.985,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26540,Subscriber construction,Make copy of subscriber,5.47566,5.21259,5.90193,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26541,Subscriber construction,Transform subsriber to dynamic,31.7391,30.2249,34.174,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26542,Observable subscribe,Specific observable subscribe specific observer,383.072,360.986,427.834,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26543,Observable subscribe,Specific observable subscribe dynamic observer,347.941,335.614,390.031,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26544,Observable subscribe,Dynamic observable subscribe specific observer,401.83,376.882,439.484,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26545,Observable subscribe,Dynamic observable subscribe dynamic observer,423.22,400.326,460.265,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26546,Observable lift,Specific observable lift specific observer,385.406,364.513,420.08,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26547,Observable lift,Specific observable lift dynamic observer,434.02,390.435,579.677,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26548,Observable lift,Dynamic observable lift specific observer,427.338,410.035,455.483,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26549,Observable lift,Dynamic observable lift dynamic observer,379.334,366.59,412.997,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26550,Subscription,composite_subscription create,72.0867,68.4733,81.791,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26551,Subscription,composite_subscription add,27.43,25.0128,33.8693,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26552,Subscription,composite_subscription unsubscribe,11.2828,10.9295,11.8971,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26553,Subscription,composite_subscription unsubscribe only subscribed,11.9416,11.6627,12.3853,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26554,foundamental sources,empty,842.541,800.375,912.66,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26555,foundamental sources,error,998.258,986.188,1023.16,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26556,foundamental sources,never,331.488,312.575,360.282,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26557,map,map construction from observable via dot + subscribe,341.617,324.599,362.451,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26558,map,sending of values from observable via map to subscriber,1.99699,1.93674,2.0888,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26559,scan,scan construction from observable via dot + subscribe,336.773,324.103,379.113,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26560,scan,sending of values from observable via scan to subscriber,1.9763,1.9188,2.05784,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26561,distinct_until_changed,distinct_until_changed construction from observable via dot + subscribe,323.109,312.109,337.268,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26562,distinct_until_changed,sending of values from observable via distinct_until_changed to subscriber,1.42533,1.37891,1.51097,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26563,with_latest_from,with_latest_from construction from observable via dot + subscribe,1498.98,1402.11,1698.73,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26564,with_latest_from,sending of values from observable via with_latest_from to subscriber,3.22726,3.10718,3.41595,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26565,switch_on_next,switch_on_next construction from observable via dot + subscribe,3717.97,3528.59,4069.45,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26566,switch_on_next,sending of values from observable via switch_on_next to subscriber,813.676,774.091,895.796,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26567,observe_on,observe_on construction from observable via dot + subscribe,3018.53,2936.75,3159.52,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26568,observe_on,sending of values from observable via observe_on to subscriber,242.519,234.526,258.947,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26569,repeat,repeat construction from observable via dot + subscribe,3957.41,3755.42,4299.18,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26570,just,just send int,725.968,702.066,769.114,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26571,just,just send variadic,780.379,771.799,803.348,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26572,from,from vector with int,863.895,809.751,973.063,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26573,merge,merge,4038.09,3925.59,4229.33,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26574,merge,merge_with,4595.33,4405.33,4947.83,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26575,concat,concat,4433.46,4182.34,4847.33,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26576,concat,concat_with,4744.21,4509.45,5386.45,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26577,buffer,buffer,2356.85,2280.38,2501.3,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26578,buffer,sending of values from observable via buffer to subscriber,31.9913,30.6648,33.8955,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26579,window,window,4281.56,4019.86,4748.05,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26580,window,sending of values from observable via window to subscriber,446.454,432.01,468.065,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26581,take,take construction from observable via dot + subscribe,730.223,682.141,828.954,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26582,take,sending of values from observable via take to subscriber,3.00487,2.85213,3.26563,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26583,skip,skip construction from observable via dot + subscribe,597.174,571.378,651.583,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26584,skip,sending of values from observable via skip to subscriber,2.33904,2.25601,2.47038,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26585,chains creation test,long non-state chain creation + subscribe,669.394,634.273,734.535,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26586,chains creation test,long stateful chain creation + subscribe,1106.43,1040.07,1216.03,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26587,publish_subject callbacks,on_next,12.1973,11.8641,13.6317,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26588,publish_subject callbacks,on_error,20.823,20.2159,21.7523,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26589,publish_subject callbacks,on_completed,0.604097,0.574238,0.66162,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26590,publish_subject routines,construct,228.312,216.17,247.683,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26591,publish_subject routines,get_observable,60.8629,59.0345,64.3278,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26592,publish_subject routines,get_subscriber,13.3675,12.9496,13.9919,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26593,immediate scheduler,no any re-schedule,134.096,130.137,140.703,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26594,immediate scheduler,re-schedule 10 times,180.271,172.559,197.626,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26595,trampoline scheduler,no any re-schedule,214.451,202.892,234.601,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26596,trampoline scheduler,re-schedule 10 times,215.525,209.448,226.525,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26597,trampoline scheduler,recursively schedule 10 times,6380.74,6221.94,6690.14,0.95,Linux CLANG,Sort operator regist... (225c458d),rxcpp
+26598,Observable construction,Specific observable construction,1.77811,1.67831,1.92302,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26599,Observable construction,Dynamic observable construction,81.283,77.5691,87.0611,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26600,Observable construction,Specific observable construction + as_dynamic,87.5613,83.3968,93.4258,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26601,Observable subscribe #2,Specific observable subscribe lambda,278.931,256.046,315.252,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26602,Observable subscribe #2,Dynamic observable subscribe lambda,286.157,277.651,301.06,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26603,Observable subscribe #2,Specific observable subscribe lambda without subscription,185.5,175.386,204.65,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26604,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,318.976,305.75,339.429,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26605,Observable subscribe #2,Specific observable subscribe specific subscriber,122.918,116.188,132.078,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26606,Observable subscribe #2,Dynamic observable subscribe specific subscriber,223.395,220.974,229.798,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26607,Observable subscribe #2,Specific observable subscribe dynamic observer,111.249,106.618,120.876,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26608,Observable subscribe #2,Dynamic observable subscribe dynamic observer,164.422,158.639,183.961,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26609,Observer construction,Specific observer construction,1.6009,1.51523,1.76894,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26610,Observer construction,Dynamic observer construction,94.3918,92.3229,98.2696,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26611,Observer construction,Specific observer construction + as_dynamic,87.1273,82.9491,92.7127,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26612,OnNext,Specific observer OnNext,0.765831,0.732619,0.813085,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26613,OnNext,Dynamic observer OnNext,1.79029,1.73689,1.88203,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26614,Subscriber construction,Make subsriber,110.979,100.74,136.997,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26615,Subscriber construction,Make copy of subscriber,13.3883,13.0449,14.0337,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26616,Subscriber construction,Transform subsriber to dynamic,113.368,106.329,123.339,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26617,Observable subscribe,Specific observable subscribe specific observer,191.007,187.036,198.007,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26618,Observable subscribe,Specific observable subscribe dynamic observer,205.38,202.917,211.636,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26619,Observable subscribe,Dynamic observable subscribe specific observer,322.16,308.543,344.506,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26620,Observable subscribe,Dynamic observable subscribe dynamic observer,356.074,297.426,603.415,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26621,Observable lift,Specific observable lift specific observer,233.764,222.236,248.896,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26622,Observable lift,Specific observable lift dynamic observer,230.23,217.48,275.83,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26623,Observable lift,Dynamic observable lift specific observer,367.072,350.246,391.391,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26624,Observable lift,Dynamic observable lift dynamic observer,320.911,307.81,349.392,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26625,Subscription,composite_subscription create,111.51,104.494,125.232,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26626,Subscription,composite_subscription add,75.8646,70.6285,83.1944,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26627,Subscription,composite_subscription unsubscribe,5.42215,5.34245,5.62234,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26628,Subscription,composite_subscription unsubscribe only subscribed,6.33183,6.00575,6.95727,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26629,foundamental sources,empty,129.918,123.433,141.06,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26630,foundamental sources,error,167.72,161.645,188.561,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26631,foundamental sources,never,120.278,110.795,135.053,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26632,map,map construction from observable via dot + subscribe,198.975,183.019,228.944,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26633,map,sending of values from observable via map to subscriber,4.23735,3.98178,4.9468,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26634,scan,scan construction from observable via dot + subscribe,346.719,321.385,377.615,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26635,scan,sending of values from observable via scan to subscriber,6.27768,6.17488,6.60596,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26636,distinct_until_changed,distinct_until_changed construction from observable via dot + subscribe,302.358,285.33,327.734,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26637,distinct_until_changed,sending of values from observable via distinct_until_changed to subscriber,3.78138,3.57223,4.30417,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26638,with_latest_from,with_latest_from construction from observable via dot + subscribe,1671.56,1491.56,1993.78,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26639,with_latest_from,sending of values from observable via with_latest_from to subscriber,27.2246,26.0756,28.8841,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26640,switch_on_next,switch_on_next construction from observable via dot + subscribe,3128.5,2923,3581,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26641,switch_on_next,sending of values from observable via switch_on_next to subscriber,1075.79,998.676,1187.53,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26642,observe_on,observe_on construction from observable via dot + subscribe,1233.52,1088.59,1473,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26643,observe_on,sending of values from observable via observe_on to subscriber,84.9625,77.9513,101.581,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26644,repeat,repeat construction from observable via dot + subscribe,5967.75,5669.25,6421.5,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26645,just,just send int,182.644,169.57,200.681,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26646,just,just send variadic,185.556,177.597,212.927,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26647,from,from vector with int,219.38,209.13,237.87,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26648,merge,merge,2476.64,2320,2718.09,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26649,merge,merge_with,3682.88,3426.38,4071.62,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26650,concat,concat,2380.55,2099.64,3601.45,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26651,concat,concat_with,3814.8,3333.2,4772.8,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26652,buffer,buffer,486.488,467.651,516.047,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26653,buffer,sending of values from observable via buffer to subscriber,6.88345,6.57386,7.34317,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26654,window,window,3398.12,3301.12,3598.75,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26655,window,sending of values from observable via window to subscriber,850.414,823.966,896.931,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26656,take,take construction from observable via dot + subscribe,346.403,328.833,372.264,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26657,take,sending of values from observable via take to subscriber,6.46194,6.12886,6.91642,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26658,skip,skip construction from observable via dot + subscribe,284.813,268.85,303.897,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26659,skip,sending of values from observable via skip to subscriber,5.95449,4.89535,8.65172,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26660,chains creation test,long non-state chain creation + subscribe,336.774,327.258,354.065,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26661,chains creation test,long stateful chain creation + subscribe,749.433,714.233,804.5,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26662,publish_subject callbacks,on_next,32.0815,21.6807,80.9691,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26663,publish_subject callbacks,on_error,2.50947,2.36633,2.77756,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26664,publish_subject callbacks,on_completed,2.30856,2.26595,2.41918,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26665,publish_subject routines,construct,288.824,270.985,327.221,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26666,publish_subject routines,get_observable,32.3317,29.7942,38.092,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26667,publish_subject routines,get_subscriber,47.4379,46.5799,49.288,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26668,immediate scheduler,no any re-schedule,24.6586,23.6545,27.0606,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26669,immediate scheduler,re-schedule 10 times,530.652,508.63,567.609,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26670,trampoline scheduler,no any re-schedule,44.1069,42.4083,47.5837,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26671,trampoline scheduler,re-schedule 10 times,655.66,616.766,735.574,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26672,trampoline scheduler,recursively schedule 10 times,3444.11,3244.11,3792.67,0.95,Windows MSVC,Sort operator regist... (225c458d),rpp
+26673,Observable construction,Specific observable construction,0.825395,0.775132,0.907997,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26674,Observable construction,Dynamic observable construction,117.723,112.897,126.728,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26675,Observable construction,Specific observable construction + as_dynamic,129.513,123.888,138.011,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26676,Observable subscribe #2,Specific observable subscribe lambda,1365.8,1285.8,1510.8,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26677,Observable subscribe #2,Dynamic observable subscribe lambda,1279.5,1237.64,1368.5,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26678,Observable subscribe #2,Specific observable subscribe lambda without subscription,1296.05,1226.05,1400.64,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26679,Observable subscribe #2,Dynamic observable subscribe lambda without subscription,1466.17,1369.5,1614.83,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26680,Observable subscribe #2,Specific observable subscribe specific subscriber,814.231,776.346,926.231,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26681,Observable subscribe #2,Dynamic observable subscribe specific subscriber,1060.05,1007.23,1134.95,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26682,Observable subscribe #2,Specific observable subscribe dynamic observer,776.571,766.321,809.643,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26683,Observable subscribe #2,Dynamic observable subscribe dynamic observer,1045,972.16,1139,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26684,Observer construction,Specific observer construction,1.50391,1.44232,1.63261,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26685,Observer construction,Dynamic observer construction,112.462,107.728,119.354,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26686,Observer construction,Specific observer construction + as_dynamic,104.237,100.844,109.905,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26687,OnNext,Specific observer OnNext,0.721983,0.702059,0.761997,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26688,OnNext,Dynamic observer OnNext,2.60157,2.46566,2.83198,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26689,Subscriber construction,Make subsriber,366.303,360.258,379.864,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26690,Subscriber construction,Make copy of subscriber,33.9888,32.2322,37.807,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26691,Subscriber construction,Transform subsriber to dynamic,146.156,139.605,157.476,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26692,Observable subscribe,Specific observable subscribe specific observer,1402.14,1303.67,1586.43,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26693,Observable subscribe,Specific observable subscribe dynamic observer,1183.53,1135.58,1328.05,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26694,Observable subscribe,Dynamic observable subscribe specific observer,1346.89,1259.06,1538.44,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26695,Observable subscribe,Dynamic observable subscribe dynamic observer,1173.53,1132.89,1248.89,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26696,Observable lift,Specific observable lift specific observer,1534.63,1427,1676.37,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26697,Observable lift,Specific observable lift dynamic observer,1243.1,1200.75,1312.65,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26698,Observable lift,Dynamic observable lift specific observer,1691.75,1613.56,1863.06,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26699,Observable lift,Dynamic observable lift dynamic observer,1940.89,1329.06,4742.06,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26700,Subscription,composite_subscription create,409.708,382.323,444.8,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26701,Subscription,composite_subscription add,86.2672,76.989,122.466,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26702,Subscription,composite_subscription unsubscribe,25.9789,24.4453,28.1143,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26703,Subscription,composite_subscription unsubscribe only subscribed,28.3399,27.1084,30.1856,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26704,foundamental sources,empty,2600.6,2419.2,3055.6,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26705,foundamental sources,error,2572.33,2524.33,2689,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26706,foundamental sources,never,1022.65,958.652,1119.26,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26707,map,map construction from observable via dot + subscribe,958.087,918.609,1031.3,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26708,map,sending of values from observable via map to subscriber,6.74864,6.36576,7.4,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26709,scan,scan construction from observable via dot + subscribe,1141.16,1117.58,1193.95,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26710,scan,sending of values from observable via scan to subscriber,11.3061,10.5666,12.3087,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26711,distinct_until_changed,distinct_until_changed construction from observable via dot + subscribe,1146.65,1061.3,1304.65,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26712,distinct_until_changed,sending of values from observable via distinct_until_changed to subscriber,4.3064,3.97742,4.90017,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26713,with_latest_from,with_latest_from construction from observable via dot + subscribe,4753.8,4408.8,5185.2,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26714,with_latest_from,sending of values from observable via with_latest_from to subscriber,7.35998,6.70368,9.45504,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26715,switch_on_next,switch_on_next construction from observable via dot + subscribe,13661.5,12690,15605,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26716,switch_on_next,sending of values from observable via switch_on_next to subscriber,2896.5,2791.25,3164.75,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26717,observe_on,observe_on construction from observable via dot + subscribe,5971.4,5413.2,6939.6,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26718,observe_on,sending of values from observable via observe_on to subscriber,705.032,690.161,740.29,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26719,repeat,repeat construction from observable via dot + subscribe,11609.5,11078.5,12731.5,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26720,just,just send int,2692.6,2523.8,2937.4,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26721,just,just send variadic,3089.44,2869.22,3695.56,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26722,from,from vector with int,3034,2760.33,3621.22,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26723,merge,merge,12704.5,11867.5,13938,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26724,merge,merge_with,11751,11258,12660.5,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26725,concat,concat,14500.7,13728.7,15613.3,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26726,concat,concat_with,11441.5,10927.5,12471.5,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26727,buffer,buffer,5112.2,4806.6,5673.8,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26728,buffer,sending of values from observable via buffer to subscriber,116.77,106.089,142.209,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26729,window,window,9530.67,9359.33,10081.3,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26730,window,sending of values from observable via window to subscriber,1569.8,1503.27,1675.27,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26731,take,take construction from observable via dot + subscribe,2166.2,2083.7,2307.9,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26732,take,sending of values from observable via take to subscriber,7.40811,7.12815,7.90836,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26733,skip,skip construction from observable via dot + subscribe,1563,1533,1642.86,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26734,skip,sending of values from observable via skip to subscriber,4.00681,3.8453,4.31791,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26735,chains creation test,long non-state chain creation + subscribe,1629.92,1573.54,1722.54,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26736,chains creation test,long stateful chain creation + subscribe,5630.33,3813.67,14093.5,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26737,publish_subject callbacks,on_next,36.6163,34.4544,39.5973,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26738,publish_subject callbacks,on_error,18.5678,17.6709,19.8509,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26739,publish_subject callbacks,on_completed,0.6582,0.627808,0.730215,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26740,publish_subject routines,construct,528.967,518.667,559.333,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26741,publish_subject routines,get_observable,171.199,160.774,189.651,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26742,publish_subject routines,get_subscriber,110.193,106.193,117.522,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26743,immediate scheduler,no any re-schedule,425.111,409.63,451.944,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26744,immediate scheduler,re-schedule 10 times,482.54,463.96,508.74,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26745,trampoline scheduler,no any re-schedule,544.2,535.65,566.2,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26746,trampoline scheduler,re-schedule 10 times,643.763,634.921,666.368,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
+26747,trampoline scheduler,recursively schedule 10 times,21011.5,19742,23660,0.95,Windows MSVC,Sort operator regist... (225c458d),rxcpp
