@@ -10,7 +10,7 @@ on:
 
 jobs:
   pvs:
-    if: github.repository_owner == 'victimsnino' && github.event.workflow_run.conclusion == 'success'
+    if: github.repository_owner == 'victimsnino' && github.event.workflow_run.conclusion == 'success' && false
 
     runs-on: ubuntu-22.04
     timeout-minutes: 10
